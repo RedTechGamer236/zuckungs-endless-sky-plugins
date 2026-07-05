@@ -11,6 +11,10 @@ To maximize compatibility with plugins and existing savegames, several hull-spec
 <br>
 <br>
 Changelog:<br>
+<br>
 2026-06-30<br>
 initial release<br>
+<br>
+2026-07-05<br>
+fixed core remove problem because of required crew (reported by ulyssessword)<br>
 

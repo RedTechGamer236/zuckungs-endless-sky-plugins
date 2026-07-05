@@ -100,13 +100,24 @@ def filter(objs, blacklist_attributes):
 						found = True
 				if found == True:
 					continue
-				# adjust price
+				# adjust price and requiired crew
+				crew = 0
 				if line.startswith('		cost') or line.startswith('		"cost"'):
 					attributes.append(line) # original attribute
 					costs = '		cost ' + str(int(line.strip().replace('cost', '').replace('"',''))/2) # string, 50% of cost
 					line = costs
 					relevantattributes.append(line) # for outfit
-					newattributes += line + '\n'
+					newattributes += line + '\n' # replace for hull
+				elif line.startswith('		"required crew"'):
+					attributes.append(line) # original attribute
+					crew = int(line.strip().replace('"required crew" ', ''))
+					if crew > 1:
+						reqcrew = '		"required crew" ' + str(int(line.strip().replace('"required crew" ', ''))-1) # string, required crew -1
+						line = reqcrew
+					else:
+						continue
+					relevantattributes.append(line) # for outfit
+					newattributes += '		"required crew" 1\n' # replace for hull
 				else:
 					attributes.append(line)
 					relevantattributes.append(line)
@@ -140,6 +151,8 @@ def filter(objs, blacklist_attributes):
 		for attribute in attributes:
 			attributereplace += attribute + '\n'
 		newattributes += '		"Core Slot" 1\n'
+		if crew == 0:
+			newattributes += '		"required crew" 1\n'
 		if outfitsreplace != '':
 			shiptxt = ship.replace(attributereplace, newattributes).replace(outfitsreplace, outfitsreplace + '		' + outfitname.replace('outfit ', ''))
 		else:

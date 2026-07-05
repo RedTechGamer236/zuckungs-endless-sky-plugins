@@ -9,7 +9,7 @@ outfit "Wardragon Core"
 	cost 2950000.0
 	"shields" 160000
 	"hull" 50000
-	"required crew" 160
+	"required crew" 159
 	"bunks" 185
 	"fuel capacity" 800
 	"hull repair rate" 5
@@ -24,6 +24,7 @@ ship "Wardragon"
 	attributes
 		category "Heavy Warship"
 		cost 2950000.0
+		"required crew" 1
 		"mass" 840
 		"drag" 14
 		"heat dissipation" .34
@@ -37,6 +38,7 @@ ship "Wardragon"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Quarg Skylance" 2
 		"Quarg Anti-Missile" 2
@@ -73,7 +75,6 @@ outfit "Marauder Fury Core"
 	cost 375000.0
 	"shields" 3000
 	"hull" 600
-	"required crew" 1
 	"bunks" 3
 	"fuel capacity" 500
 	"ramscoop" 2
@@ -100,6 +101,7 @@ ship "Marauder Fury"
 			"hull damage" 180
 			"hit force" 520
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Hai Tracker Pod" 2
 		"Meteor Missile Launcher" 4
@@ -141,7 +143,7 @@ outfit "Lampyrid-Class Transport Core"
 	cost 1380000.0
 	"shields" 5400
 	"hull" 4400
-	"required crew" 5
+	"required crew" 4
 	"bunks" 23
 	"fuel capacity" 700
 
@@ -153,6 +155,7 @@ ship "Lampyrid-Class Transport"
 	attributes
 		category "Heavy Freighter"
 		cost 1380000.0
+		"required crew" 1
 		"mass" 490
 		"drag" 12.75
 		"heat dissipation" .47
@@ -165,6 +168,7 @@ ship "Lampyrid-Class Transport"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"S3 Thermionic"
 		"LP036a Battery Pack"
@@ -207,7 +211,7 @@ outfit "Modified Osprey Core"
 	"shield generation" 10
 	"hull" 27500
 	"hull repair rate" 10
-	"required crew" 189
+	"required crew" 188
 	"bunks" 240
 	"fuel capacity" 625
 	"afterburner fuel" -.678
@@ -223,6 +227,7 @@ ship "Modified Osprey"
 	attributes
 		category "Heavy Warship"
 		cost 22000000.0
+		"required crew" 1
 		"mass" 1416
 		"drag" 22.65
 		"heat dissipation" .4
@@ -240,6 +245,7 @@ ship "Modified Osprey"
 			"disruption damage" 1200
 			"hit force" 30000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Nuclear Missile"
 		"Husk-Slice" 4
@@ -302,7 +308,7 @@ outfit "Ursa Polaris Core"
 	cost 71428.5
 	shields 39000
 	hull 27000
-	"required crew" 559
+	"required crew" 558
 	"bunks" 972
 	"fuel capacity" 600
 	"solar collection" 15
@@ -324,6 +330,7 @@ ship "Ursa Polaris"
 	attributes
 		category "Unclassified"
 		cost 71428.5
+		"required crew" 1
 		"mass" 2758.5
 		"drag" 18
 		"heat dissipation" .6
@@ -337,6 +344,7 @@ ship "Ursa Polaris"
 			"hull damage" 2000
 			"hit force" 6000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Quarg Skylance"
 		"LG Gridfire Turret" 3
@@ -426,6 +434,7 @@ ship "Shooting Star"
 			"piercing" 1
 			"hit force" -8200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Crystal Projector"
 		"Crystalline Formation"
@@ -454,7 +463,7 @@ outfit "Marauder Bactrian Core"
 	cost 8800000.0
 	"shields" 30000
 	"hull" 12000
-	"required crew" 70
+	"required crew" 69
 	"bunks" 93
 	"fuel capacity" 800
 
@@ -468,6 +477,7 @@ ship "Marauder Bactrian"
 			City-Ship
 		category "Transport"
 		cost 8800000.0
+		"required crew" 1
 		"mass" 1738
 		"drag" 22.5
 		"heat dissipation" 0.33
@@ -481,6 +491,7 @@ ship "Marauder Bactrian"
 			"hull damage" 1300
 			"hit force" 3900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Dual Sunbeam Turret" 7
 		"Point Defense Turret"
@@ -521,7 +532,6 @@ outfit "Modified Boxwing Core"
 	cost 1845000.0
 	"shields" 8000
 	"hull" 8000
-	"required crew" 1
 	"bunks" 3
 	"fuel capacity" 500
 
@@ -546,6 +556,7 @@ ship "Modified Boxwing"
 			"hull damage" 60
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Electron Beam" 2
 		"Heavy Laser" 2
@@ -613,7 +624,7 @@ outfit "Modified Battleship Core"
 	cost 17500000.0
 	"shields" 36000
 	"hull" 26000
-	"required crew" 160
+	"required crew" 159
 	"bunks" 212
 	"fuel capacity" 1000
 	"spinal mount" 1
@@ -626,6 +637,7 @@ ship "Modified Battleship"
 	attributes
 		category "Heavy Warship"
 		cost 17500000.0
+		"required crew" 1
 		"mass" 1515
 		"drag" 29.1
 		"heat dissipation" .24
@@ -639,6 +651,7 @@ ship "Modified Battleship"
 			"hull damage" 1700
 			"hit force" 5100
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Prototype Fusion Cannon"
 		"Quad Blaster Turret" 4
@@ -703,7 +716,7 @@ outfit "Modified Ladybug Core"
 	# Shaming the Solifuge
 	"shields" 38000
 	"hull" 20000
-	"required crew" 16
+	"required crew" 15
 	"bunks" 33
 	"fuel capacity" 900
 	# Features from original Ladybug:
@@ -722,6 +735,7 @@ ship "Modified Ladybug"
 	attributes
 		category "Medium Warship"
 		cost 4475000.0
+		"required crew" 1
 		"mass" 740
 		"drag" 8.1
 		"heat dissipation" .58
@@ -735,6 +749,7 @@ ship "Modified Ladybug"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		# Offensive turrets will be replaced with better pulse turrets in the future.
 		"Bombardment Turret"
@@ -797,7 +812,6 @@ outfit "Waverider Core"
 	cost 1500000.0
 	"shields" 10000
 	"hull" 7000
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 1000
 
@@ -821,6 +835,7 @@ ship "Waverider"
 			"hull damage" 1700
 			"hit force" 5000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Particle Cannon" 4
 		"S-970 Regenerator"
@@ -854,7 +869,7 @@ outfit "Modified Hauler VI Core"
 	"Core Slot" -1
 	"shields" 13200
 	"hull" 26800
-	"required crew" 3
+	"required crew" 2
 	"bunks" 12
 	"fuel capacity" 800
 
@@ -865,6 +880,7 @@ ship "Modified Hauler VI"
 	thumbnail "thumbnail/hauler vi"
 	attributes
 		category "Heavy Freighter"
+		"required crew" 1
 		"mass" 1240
 		"drag" 21.7
 		"heat dissipation" .43
@@ -878,6 +894,7 @@ ship "Modified Hauler VI"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sidewinder Missile Launcher" 4
 		"Sidewinder Missile" 180
@@ -926,7 +943,7 @@ outfit "Korath Dredger Core"
 	cost 14685000.0
 	"shields" 32500
 	"hull" 16500
-	"required crew" 137
+	"required crew" 136
 	"bunks" 357
 	"fuel capacity" 900
 
@@ -938,6 +955,7 @@ ship "Korath Dredger"
 	attributes
 		category "Heavy Freighter"
 		cost 14685000.0
+		"required crew" 1
 		"mass" 2636
 		"drag" 25.6
 		"heat dissipation" .3
@@ -951,6 +969,7 @@ ship "Korath Dredger"
 			"hull damage" 2300
 			"hit force" 5900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Grab-Strike Turret" 2
 		"Banisher Grav-Turret"
@@ -1010,7 +1029,7 @@ outfit "Korath Raider Core"
 	cost 8285000.0
 	"shields" 27000
 	"hull" 9000
-	"required crew" 145
+	"required crew" 144
 	"bunks" 250
 	"fuel capacity" 600
 
@@ -1022,6 +1041,7 @@ ship "Korath Raider"
 	attributes
 		category "Utility"
 		cost 8285000.0
+		"required crew" 1
 		"mass" 1468
 		"drag" 18
 		"heat dissipation" .33
@@ -1035,6 +1055,7 @@ ship "Korath Raider"
 			"hull damage" 1800
 			"hit force" 5400
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Grab-Strike Turret" 4
 		"Banisher Grav-Turret"
@@ -1089,7 +1110,6 @@ outfit "Korath Chaser Core"
 	cost 335500.0
 	"shields" 2300
 	"hull" 900
-	"required crew" 1
 	"bunks" 1
 
 
@@ -1112,6 +1132,7 @@ ship "Korath Chaser"
 			"hull damage" 160
 			"hit force" 480
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Korath Fire-Lance"
 		"Generator (Furnace Class)"
@@ -1135,7 +1156,7 @@ outfit "Korath World-Ship Core"
 	cost 13845000.0
 	shields 47000
 	hull 34000
-	"required crew" 794
+	"required crew" 793
 	"bunks" 1492
 	"fuel capacity" 1000
 
@@ -1147,6 +1168,7 @@ ship "Korath World-Ship"
 	attributes
 		category "Utility"
 		cost 13845000.0
+		"required crew" 1
 		"mass" 3022
 		"drag" 31.5
 		"heat dissipation" .27
@@ -1160,6 +1182,7 @@ ship "Korath World-Ship"
 			"hull damage" 4000
 			"hit force" 12000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Grab-Strike Turret" 2
 		"Banisher Grav-Turret" 3
@@ -1201,7 +1224,7 @@ outfit "Quarg Skylark Core"
 	cost 2950000.0
 	"shields" 120000
 	"hull" 70000
-	"required crew" 120
+	"required crew" 119
 	"bunks" 210
 	"fuel capacity" 1000
 	"hull repair rate" 5
@@ -1216,6 +1239,7 @@ ship "Quarg Skylark"
 	attributes
 		category "Heavy Warship"
 		cost 2950000.0
+		"required crew" 1
 		"mass" 990
 		"drag" 18.5
 		"heat dissipation" .47
@@ -1229,6 +1253,7 @@ ship "Quarg Skylark"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Quarg Skylance" 2
 		"Quarg Anti-Missile" 2
@@ -1261,7 +1286,7 @@ outfit "Koryfi Core"
 	cost 300000.0
 	"shields" 300
 	"hull" 1800
-	"required crew" 2
+	"required crew" 1
 	"bunks" 24
 	"fuel capacity" 900
 	"solar collection" 6
@@ -1277,6 +1302,7 @@ ship "Koryfi"
 	attributes
 		category "Transport"
 		cost 300000.0
+		"required crew" 1
 		"mass" 180
 		"drag" 3
 		"heat dissipation" 0.72
@@ -1290,6 +1316,7 @@ ship "Koryfi"
 			"hull damage" 240
 			"hit force" 240
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ultracapacitor Cell" 3
 		"Luxury Accommodations"
@@ -1374,7 +1401,7 @@ outfit "Melodikos Core"
 	cost 600000.0
 	"shields" 600
 	"hull" 2400
-	"required crew" 6
+	"required crew" 5
 	"bunks" 144
 	"fuel capacity" 1200
 	"solar collection" 15
@@ -1391,6 +1418,7 @@ ship "Melodikos"
 	attributes
 		category "Space Liner"
 		cost 600000.0
+		"required crew" 1
 		"mass" 360
 		"drag" 4.5
 		"heat dissipation" 0.72
@@ -1404,6 +1432,7 @@ ship "Melodikos"
 			"hull damage" 360
 			"hit force" 270
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Green Optical Laser" 2
 		"Ultracapacitor Bank"
@@ -1524,7 +1553,7 @@ outfit "Avlaki Core"
 	cost 225000.0
 	"shields" 300
 	"hull" 1800
-	"required crew" 2
+	"required crew" 1
 	"bunks" 6
 	"fuel capacity" 900
 	"solar collection" 6
@@ -1540,6 +1569,7 @@ ship "Avlaki"
 	attributes
 		category "Light Freighter"
 		cost 225000.0
+		"required crew" 1
 		"mass" 180
 		"drag" 3
 		"heat dissipation" 0.72
@@ -1553,6 +1583,7 @@ ship "Avlaki"
 			"hull damage" 240
 			"hit force" 240
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ultracapacitor Bank"
 		"Multispectral Scanner"
@@ -1636,7 +1667,7 @@ outfit "Harmonikos Core"
 	cost 450000.0
 	"shields" 600
 	"hull" 2400
-	"required crew" 6
+	"required crew" 5
 	"bunks" 12
 	"fuel capacity" 1200
 	"solar collection" 15
@@ -1653,6 +1684,7 @@ ship "Harmonikos"
 	attributes
 		category "Heavy Freighter"
 		cost 450000.0
+		"required crew" 1
 		"mass" 360
 		"drag" 4.5
 		"heat dissipation" 0.72
@@ -1666,6 +1698,7 @@ ship "Harmonikos"
 			"hull damage" 360
 			"hit force" 270
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Green Optical Laser" 2
 		"Ultracapacitor Bank"
@@ -1809,6 +1842,7 @@ ship "Phononos"
 			"hull damage" 360
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Concentrating Solar Array"
 		"Ultracapacitor Cell"
@@ -1854,7 +1888,7 @@ outfit "Frequentia Core"
 	cost 600000.0
 	"shields" 600
 	"hull"	1800
-	"required crew" 2
+	"required crew" 1
 	"bunks" 6
 	"solar heat" 2.7
 	"fuel capacity" 2400
@@ -1868,6 +1902,7 @@ ship "Frequentia"
 	attributes
 		category "Light Freighter"
 		cost 600000.0
+		"required crew" 1
 		"mass" 300
 		"drag" 4.5
 		"heat dissipation" 1.2
@@ -1880,6 +1915,7 @@ ship "Frequentia"
 			"hull damage" 1200
 			"hit force" 2400
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Lantern Fission Core"
 		"Ultracapacitor Cell" 3
@@ -1931,7 +1967,7 @@ outfit "Polari Core"
 	cost 900000.0
 	"shields" 600
 	"hull"	2100
-	"required crew" 6
+	"required crew" 5
 	"bunks" 12
 	"solar heat" 2.4
 	"fuel capacity" 1800
@@ -1947,6 +1983,7 @@ ship "Polari"
 	attributes
 		category "Utility"
 		cost 900000.0
+		"required crew" 1
 		"mass" 240
 		"drag" 3.6
 		"heat dissipation" 0.9
@@ -1960,6 +1997,7 @@ ship "Polari"
 			"hull damage" 360
 			"hit force" 480
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Green Optical Laser" 2
 		"Photoelectric Lamina"
@@ -2021,7 +2059,7 @@ outfit "Entasi Core"
 	cost 1200000.0
 	"shields" 1500
 	"hull" 3600
-	"required crew" 6
+	"required crew" 5
 	"bunks" 12
 	"fuel capacity" 1200
 	"solar collection" 18
@@ -2036,6 +2074,7 @@ ship "Entasi"
 	attributes
 		category "Utility"
 		cost 1200000.0
+		"required crew" 1
 		"mass" 720
 		"drag" 6
 		"heat dissipation" 0.72
@@ -2049,6 +2088,7 @@ ship "Entasi"
 			"hull damage" 1200
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Blue Optical Laser" 2
 		"Ultracapacitor Bank" 3
@@ -2164,7 +2204,7 @@ outfit "Undsyni Core"
 	cost 6000000.0
 	"shields" 2400
 	"hull" 15000
-	"required crew" 12
+	"required crew" 11
 	"bunks" 60
 	"solar heat" 21
 	"fuel capacity" 2400
@@ -2179,6 +2219,7 @@ ship "Undsyni"
 	attributes
 		category "Utility"
 		cost 6000000.0
+		"required crew" 1
 		"cargo space" 600
 		"mass" 2100
 		"drag" 15
@@ -2192,6 +2233,7 @@ ship "Undsyni"
 			"hull damage" 2400
 			"hit force" 4800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Green Optical Laser" 3
 		"Speckle Turret" 2
@@ -2275,7 +2317,7 @@ outfit "Modified Tachytia Core"
 	cost 49500000.0
 	"shields" 6000
 	"hull" 36000
-	"required crew" 600
+	"required crew" 599
 	"bunks" 900
 	"solar heat" 60
 	"fuel capacity" 60000
@@ -2294,6 +2336,7 @@ ship "Modified Tachytia"
 	attributes
 		category "Utility"
 		cost 49500000.0
+		"required crew" 1
 		"mass" 6000
 		"drag" 6
 		"heat dissipation" 0.66
@@ -2307,6 +2350,7 @@ ship "Modified Tachytia"
 			"hull damage" 24000
 			"hit force" 12000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Blue Optical Laser" 6
 		"Green Optical Laser" 3
@@ -2441,6 +2485,7 @@ ship "Tremoros"
 			"hull damage" 360
 			"hit force" 720
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Speckle Coilgun" 4
 		"Speck Round" 3600
@@ -2491,7 +2536,7 @@ outfit "Prismaios Core"
 	cost 1800000.0
 	"shields" 1800
 	"hull" 7200
-	"required crew" 2
+	"required crew" 1
 	"bunks" 6
 	"solar heat" 4.5
 	"fuel capacity" 1200
@@ -2509,6 +2554,7 @@ ship "Prismaios"
 			"Twilight Guard"
 			"Avgi Torch"
 		cost 1800000.0
+		"required crew" 1
 		"mass" 420
 		"drag" 2.4
 		"heat dissipation" 1.2
@@ -2522,6 +2568,7 @@ ship "Prismaios"
 			"hull damage" 900
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Speckle Turret" 2
 		"Speck Round" 4800
@@ -2613,6 +2660,7 @@ ship "Interferos"
 			"hull damage" 450
 			"hit force" 900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Green Optical Laser"
 		"Speckle Turret" 2
@@ -2676,7 +2724,7 @@ outfit "Diaspersi Core"
 	cost 2100000.0
 	"shields" 2400
 	"hull" 14400
-	"required crew" 15
+	"required crew" 14
 	"bunks" 36
 	"solar heat" 8.1
 	"fuel capacity" 2400
@@ -2693,6 +2741,7 @@ ship "Diaspersi"
 			"Twilight Guard"
 			"Avgi Torch"
 		cost 2100000.0
+		"required crew" 1
 		"mass" 810
 		"drag" 6
 		"heat dissipation" 1.2
@@ -2706,6 +2755,7 @@ ship "Diaspersi"
 			"hull damage" 1800
 			"hit force" 2400
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Green Optical Laser" 2
 		"Medium VLS" 2
@@ -2798,7 +2848,7 @@ outfit "Refraktos Core"
 	cost 2250000.0
 	"shields" 3600
 	"hull" 12600
-	"required crew" 12
+	"required crew" 11
 	"bunks" 24
 	"solar heat" 8.1
 	"fuel capacity" 1800
@@ -2816,6 +2866,7 @@ ship "Refraktos"
 			"Twilight Guard"
 			"Avgi Torch"
 		cost 2250000.0
+		"required crew" 1
 		"mass" 810
 		"drag" 6
 		"heat dissipation" 1.44
@@ -2829,6 +2880,7 @@ ship "Refraktos"
 			"hull damage" 440
 			"hit force" 1320
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Blue Optical Laser" 4
 		"Green Optical Laser" 3
@@ -2906,7 +2958,7 @@ outfit "Difraktos Core"
 	cost 3000000.0
 	"shields" 6000
 	"hull" 18000
-	"required crew" 15
+	"required crew" 14
 	"bunks" 42
 	"solar heat" 1.2
 	"fuel capacity" 1800
@@ -2924,6 +2976,7 @@ ship "Difraktos"
 			"Twilight Guard"
 			"Avgi Torch"
 		cost 3000000.0
+		"required crew" 1
 		"mass" 1200
 		"drag" 7.2
 		"heat dissipation" 1.2
@@ -2937,6 +2990,7 @@ ship "Difraktos"
 			"hull damage" 3600
 			"hit force" 3600
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Green Optical Laser" 2
 		"Speckle Turret" 4
@@ -3021,7 +3075,7 @@ outfit "Atenuatia Core"
 	cost 7200000.0
 	"shields" 4200
 	"hull" 30000
-	"required crew" 60
+	"required crew" 59
 	"bunks" 90
 	"solar heat" 2.7
 	"fuel capacity" 2400
@@ -3038,6 +3092,7 @@ ship "Atenuatia"
 			"Twilight Guard"
 			"Avgi Torch"
 		cost 7200000.0
+		"required crew" 1
 		"mass" 2700
 		"drag" 18
 		"heat dissipation" 1.2
@@ -3051,6 +3106,7 @@ ship "Atenuatia"
 			"hull damage" 4800
 			"hit force" 4200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Speckle Turret"
 		"Speck Round" 2400
@@ -3201,7 +3257,6 @@ outfit "Akoustiki Core"
 	cost 60000.0
 	"shields" 180
 	"hull" 1200
-	"required crew" 1
 	"bunks" 6
 	"fuel capacity" 120
 
@@ -3226,6 +3281,7 @@ ship "Akoustiki"
 			"hull damage" 180
 			"hit force" 120
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Speckle Coilgun"
 		"Speck Round" 900
@@ -3303,6 +3359,7 @@ ship "Photikon"
 			"hull damage" 360
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Speckle Turret"
 		"Speck Round" 4800
@@ -3383,6 +3440,7 @@ ship "Vibratia"
 			"hull damage" 150
 			"hit force" 120
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Speckle Coilgun"
 		"Speck Round" 900
@@ -3452,6 +3510,7 @@ ship "Undulon"
 			"hull damage" 120
 			"hit force" 90
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"External Launch Tube"
 		`"Orchid" Nuclear Missile` 6
@@ -3531,6 +3590,7 @@ ship "Optikon"
 			"hull damage" 90
 			"hit force" 60
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Concentrating Solar Cell" 3
 		"Ultracapacitor Cell" 3
@@ -3582,6 +3642,7 @@ ship "Sonikis"
 			"hull damage" 120
 			"hit force" 90
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Concentrating Solar Array"
 		"Ultracapacitor Cell" 2
@@ -3614,7 +3675,6 @@ outfit "Windjammer Core"
 	"Core Slot" -1
 	cost 555500.0
 	"hull" 6900
-	"required crew" 1
 	"bunks" 1
 	"cooling" 30
 	"overheat damage threshold" 0.66
@@ -3652,6 +3712,7 @@ ship "Windjammer"
 			"hull damage" 200
 			"hit force" 600
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Pinecone Launcher"
 		"Pollen" 120
@@ -3777,7 +3838,6 @@ outfit "Bluejacket Core"
 	"Core Slot" -1
 	cost 606050.0
 	"hull" 3200
-	"required crew" 1
 	"bunks" 1
 	"cooling" 30
 	"overheat damage threshold" 0.66
@@ -3816,6 +3876,7 @@ ship "Bluejacket"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Pinecone Launcher"
 		"Pollen" 90
@@ -3905,7 +3966,6 @@ outfit "Pollen Core"
 	"Core Slot" -1
 	cost 63000.0
 	"hull" 200
-	"required crew" 1
 	"bunks" 1
 	"cooling" 6
 	"overheat damage threshold" -0.33
@@ -3936,6 +3996,7 @@ ship "Pollen"
 			"hull damage" 60
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Pollen" 10
 		"Pollen Core"
@@ -3949,7 +4010,6 @@ outfit "Sprout Core"
 	"Core Slot" -1
 	cost 63000.0
 	"hull" 200
-	"required crew" 1
 	"bunks" 1
 	"cooling" 6
 	"overheat damage threshold" -0.33
@@ -3980,6 +4040,7 @@ ship "Sprout"
 			"hull damage" 60
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Pollen" 5
 		"Sprout Core"
@@ -3993,7 +4054,6 @@ outfit "Kaiken Core"
 	cost 599500.0
 	"shields" 3200
 	"hull" 800
-	"required crew" 1
 	"bunks" 1
 
 
@@ -4016,6 +4076,7 @@ ship "Kaiken"
 			"hull damage" 200
 			"hit force" 600
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Locust Blaster" 3
 		"Lasher Pistol"
@@ -4045,7 +4106,7 @@ outfit "Sasumata Core"
 	cost 6325000.0
 	"shields" 15500
 	"hull" 4200
-	"required crew" 10
+	"required crew" 9
 	"bunks" 72
 	"fuel capacity" 700
 	"cloak" .05
@@ -4062,6 +4123,7 @@ ship "Sasumata"
 	attributes
 		category "Transport"
 		cost 6325000.0
+		"required crew" 1
 		"mass" 710
 		"drag" 7.05
 		"heat dissipation" 0.54
@@ -4075,6 +4137,7 @@ ship "Sasumata"
 			"hull damage" 450
 			"hit force" 1350
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Swarm Pod" 2
 		"Swarm Missile" 1000
@@ -4119,7 +4182,7 @@ outfit "Tanto Core"
 	cost 2997500.0
 	"shields" 16200
 	"hull" 3600
-	"required crew" 3
+	"required crew" 2
 	"bunks" 7
 	"fuel capacity" 600
 
@@ -4131,6 +4194,7 @@ ship "Tanto"
 	attributes
 		category "Light Freighter"
 		cost 2997500.0
+		"required crew" 1
 		"mass" 247
 		"drag" 3.9
 		"heat dissipation" 0.7
@@ -4144,6 +4208,7 @@ ship "Tanto"
 			"hull damage" 600
 			"hit force" 1800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Buzzer Anti-Missile" 2
 		"Lasher Pistol" 5
@@ -4178,7 +4243,7 @@ outfit "Ararebo Core"
 	cost 8782500.0
 	"shields" 50300
 	"hull" 13600
-	"required crew" 15
+	"required crew" 14
 	"bunks" 43
 	"fuel capacity" 700
 
@@ -4190,6 +4255,7 @@ ship "Ararebo"
 	attributes
 		category "Utility"
 		cost 8782500.0
+		"required crew" 1
 		"mass" 1068
 		"drag" 19.7
 		"heat dissipation" 0.53
@@ -4203,6 +4269,7 @@ ship "Ararebo"
 			"hull damage" 1000
 			"hit force" 3000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Locust Turret" 2
 		"Buzzer Anti-Missile" 2
@@ -4252,7 +4319,7 @@ outfit "Tekkan Core"
 	cost 5059500.0
 	"shields" 18600
 	"hull" 5200
-	"required crew" 6
+	"required crew" 5
 	"bunks" 9
 	"fuel capacity" 700
 
@@ -4264,6 +4331,7 @@ ship "Tekkan"
 	attributes
 		category "Light Warship"
 		cost 5059500.0
+		"required crew" 1
 		"mass" 364
 		"drag" 4.0
 		"heat dissipation" 0.75
@@ -4277,6 +4345,7 @@ ship "Tekkan"
 			"hull damage" 700
 			"hit force" 2100
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Locust Blaster" 2
 		"Locust Turret"
@@ -4315,7 +4384,7 @@ outfit "Kunai Core"
 	cost 6222000.0
 	"shields" 21400
 	"hull" 5700
-	"required crew" 15
+	"required crew" 14
 	"bunks" 37
 	"fuel capacity" 700
 
@@ -4327,6 +4396,7 @@ ship "Kunai"
 	attributes
 		category "Light Warship"
 		cost 6222000.0
+		"required crew" 1
 		"mass" 603
 		"drag" 6.8
 		"heat dissipation" 0.66
@@ -4340,6 +4410,7 @@ ship "Kunai"
 			"hull damage" 1050
 			"hit force" 3150
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Mandible Cannon" 4
 		"Locust Blaster" 2
@@ -4380,7 +4451,7 @@ outfit "Kama Core"
 	cost 10290000.0
 	"shields" 43700
 	"hull" 11500
-	"required crew" 39
+	"required crew" 38
 	"bunks" 43
 	"fuel capacity" 800
 
@@ -4392,6 +4463,7 @@ ship "Kama"
 	attributes
 		category "Medium Warship"
 		cost 10290000.0
+		"required crew" 1
 		"mass" 1160
 		"drag" 12.6
 		"heat dissipation" 0.5
@@ -4405,6 +4477,7 @@ ship "Kama"
 			"hull damage" 1750
 			"hit force" 5250
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Mandible Cannon" 4
 		"Swarm Pod" 6
@@ -4454,7 +4527,7 @@ outfit "Chigiriki Core"
 	cost 15438000.0
 	"shields" 64200
 	"hull" 21000
-	"required crew" 49
+	"required crew" 48
 	"bunks" 69
 	"fuel capacity" 900
 
@@ -4466,6 +4539,7 @@ ship "Chigiriki"
 	attributes
 		category "Heavy Warship"
 		cost 15438000.0
+		"required crew" 1
 		"mass" 1698
 		"drag" 16.54
 		"heat dissipation" 0.4
@@ -4479,6 +4553,7 @@ ship "Chigiriki"
 			"hull damage" 2050
 			"hit force" 6600
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Thorax Cannon"
 		"Locust Blaster" 6
@@ -4537,7 +4612,6 @@ outfit "Arach Courier Core"
 	cost 361500.0
 	"shields" 1200
 	"hull" 2000
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 300
 
@@ -4564,6 +4638,7 @@ ship "Arach Courier"
 			"hull damage" 100
 			"hit force" 300
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Small Collector Module"
 		"Small Battery Module"
@@ -4592,7 +4667,7 @@ outfit "Arach Freighter Core"
 	cost 2290000.0
 	"shields" 3400
 	"hull" 8500
-	"required crew" 3
+	"required crew" 2
 	"bunks" 10
 	"fuel capacity" 500
 
@@ -4606,6 +4681,7 @@ ship "Arach Freighter"
 		licenses
 			Coalition
 		cost 2290000.0
+		"required crew" 1
 		"mass" 672
 		"drag" 14.8
 		"heat dissipation" .4
@@ -4619,6 +4695,7 @@ ship "Arach Freighter"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Small Collector Module" 3
 		"Small Battery Module" 2
@@ -4653,7 +4730,7 @@ outfit "Arach Hulk Core"
 	cost 4989000.0
 	"shields" 5700
 	"hull" 13800
-	"required crew" 8
+	"required crew" 7
 	"bunks" 14
 	"fuel capacity" 500
 
@@ -4667,6 +4744,7 @@ ship "Arach Hulk"
 		licenses
 			Coalition
 		cost 4989000.0
+		"required crew" 1
 		"mass" 1325
 		"drag" 29.3
 		"heat dissipation" .33
@@ -4680,6 +4758,7 @@ ship "Arach Hulk"
 			"hull damage" 600
 			"hit force" 1800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Large Collector Module"
 		"Large Battery Module"
@@ -4718,7 +4797,7 @@ outfit "Arach Spindle Core"
 	cost 3326000.0
 	"shields" 5000
 	"hull" 9700
-	"required crew" 4
+	"required crew" 3
 	"bunks" 14
 	"fuel capacity" 500
 
@@ -4732,6 +4811,7 @@ ship "Arach Spindle"
 		licenses
 			Coalition
 		cost 3326000.0
+		"required crew" 1
 		"mass" 766
 		"drag" 16.7
 		"heat dissipation" .36
@@ -4745,6 +4825,7 @@ ship "Arach Spindle"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Large Collector Module"
 		"Large Battery Module"
@@ -4781,7 +4862,7 @@ outfit "Arach Transport Core"
 	cost 1386000.0
 	"shields" 2300
 	"hull" 4800
-	"required crew" 2
+	"required crew" 1
 	"bunks" 5
 	"fuel capacity" 400
 
@@ -4795,6 +4876,7 @@ ship "Arach Transport"
 		licenses
 			Coalition
 		cost 1386000.0
+		"required crew" 1
 		"mass" 420
 		"drag" 9
 		"heat dissipation" .48
@@ -4808,6 +4890,7 @@ ship "Arach Transport"
 			"hull damage" 200
 			"hit force" 600
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Small Collector Module" 2
 		"Small Battery Module"
@@ -4840,7 +4923,7 @@ outfit "Heliarch Breacher Core"
 	cost 8829500.0
 	"shields" 24400
 	"hull" 21500
-	"required crew" 11
+	"required crew" 10
 	"bunks" 15
 	"ion protection" .1
 	"scramble protection" .1
@@ -4856,6 +4939,7 @@ ship "Heliarch Breacher"
 		licenses
 			Heliarch
 		cost 8829500.0
+		"required crew" 1
 		"mass" 343
 		"drag" 4.0
 		"heat dissipation" .62
@@ -4869,6 +4953,7 @@ ship "Heliarch Breacher"
 			"hull damage" 600
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Bombardment Cannon" 2
 		"Bombardment Turret"
@@ -4908,7 +4993,7 @@ outfit "Heliarch Hunter Core"
 	cost 16492500.0
 	"shields" 54900
 	"hull" 45300
-	"required crew" 26
+	"required crew" 25
 	"bunks" 41
 	"ion protection" .2
 	"scramble protection" .2
@@ -4924,6 +5009,7 @@ ship "Heliarch Hunter"
 		licenses
 			Heliarch
 		cost 16492500.0
+		"required crew" 1
 		"mass" 860
 		"drag" 7.7
 		"heat dissipation" .5
@@ -4937,6 +5023,7 @@ ship "Heliarch Hunter"
 			"hull damage" 1200
 			"hit force" 3000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Finisher Pod" 3
 		"Finisher Torpedo" 120
@@ -4981,7 +5068,7 @@ outfit "Heliarch Interdictor Core"
 	cost 17743500.0
 	"shields" 65300
 	"hull" 54600
-	"required crew" 42
+	"required crew" 41
 	"bunks" 70
 	"ion protection" .2
 	"scramble protection" .2
@@ -4997,6 +5084,7 @@ ship "Heliarch Interdictor"
 		licenses
 			Heliarch
 		cost 17743500.0
+		"required crew" 1
 		"mass" 1052
 		"drag" 11.1
 		"heat dissipation" .47
@@ -5010,6 +5098,7 @@ ship "Heliarch Interdictor"
 			"hull damage" 1500
 			"hit force" 3800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Finisher Pod" 2
 		"Finisher Storage Tube"
@@ -5053,7 +5142,7 @@ outfit "Heliarch Judicator Core"
 	cost 16976500.0
 	"shields" 47700
 	"hull" 41900
-	"required crew" 31
+	"required crew" 30
 	"bunks" 110
 	"ion protection" .2
 	"scramble protection" .2
@@ -5069,6 +5158,7 @@ ship "Heliarch Judicator"
 		licenses
 			Heliarch
 		cost 16976500.0
+		"required crew" 1
 		"mass" 982
 		"drag" 11.9
 		"heat dissipation" .45
@@ -5082,6 +5172,7 @@ ship "Heliarch Judicator"
 			"hull damage" 1400
 			"hit force" 3800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Finisher Pod" 2
 		"Finisher Torpedo" 140
@@ -5137,7 +5228,7 @@ outfit "Heliarch Neutralizer Core"
 	cost 9423500.0
 	"shields" 36400
 	"hull" 32800
-	"required crew" 17
+	"required crew" 16
 	"bunks" 24
 	"ion protection" .1
 	"scramble protection" .1
@@ -5153,6 +5244,7 @@ ship "Heliarch Neutralizer"
 		licenses
 			Heliarch
 		cost 9423500.0
+		"required crew" 1
 		"mass" 429
 		"drag" 5.1
 		"heat dissipation" .6
@@ -5166,6 +5258,7 @@ ship "Heliarch Neutralizer"
 			"hull damage" 900
 			"hit force" 2100
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ion Rain Gun" 4
 		"Small Reactor Module" 2
@@ -5204,7 +5297,7 @@ outfit "Heliarch Punisher Core"
 	cost 29243500.0
 	"shields" 108000
 	"hull" 85000
-	"required crew" 96
+	"required crew" 95
 	"bunks" 145
 	"ion protection" .3
 	"scramble protection" .3
@@ -5220,6 +5313,7 @@ ship "Heliarch Punisher"
 		licenses
 			Heliarch
 		cost 29243500.0
+		"required crew" 1
 		"mass" 2030
 		"drag" 21.3
 		"heat dissipation" .35
@@ -5233,6 +5327,7 @@ ship "Heliarch Punisher"
 			"hull damage" 2400
 			"hit force" 6000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ion Rain Gun" 4
 		"Finisher Pod" 2
@@ -5281,7 +5376,6 @@ outfit "Heliarch Pursuer Core"
 	cost 514500.0
 	"shields" 2200
 	"hull" 1600
-	"required crew" 1
 	"bunks" 1
 
 
@@ -5306,6 +5400,7 @@ ship "Heliarch Pursuer"
 			"hull damage" 200
 			"hit force" 350
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ion Rain Gun"
 		"Large Collector Module"
@@ -5334,7 +5429,6 @@ outfit "Heliarch Rover Core"
 	cost 619000.0
 	"shields" 3300
 	"hull" 3100
-	"required crew" 1
 	"bunks" 1
 
 
@@ -5359,6 +5453,7 @@ ship "Heliarch Rover"
 			"hull damage" 200
 			"hit force" 350
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Bombardment Cannon" 2
 		"Large Collector Module"
@@ -5386,7 +5481,6 @@ outfit "Heliarch Stalker Core"
 	cost 679000.0
 	"shields" 5700
 	"hull" 5200
-	"required crew" 1
 	"bunks" 2
 
 
@@ -5411,6 +5505,7 @@ ship "Heliarch Stalker"
 			"hull damage" 200
 			"hit force" 350
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ion Hail Turret"
 		"Large Collector Module"
@@ -5436,7 +5531,7 @@ outfit "Kimek Briar Core"
 	cost 766000.0
 	"shields" 3600
 	"hull" 1700
-	"required crew" 3
+	"required crew" 2
 	"bunks" 38
 	"fuel capacity" 700
 
@@ -5450,6 +5545,7 @@ ship "Kimek Briar"
 		licenses
 			Coalition
 		cost 766000.0
+		"required crew" 1
 		"mass" 286
 		"drag" 4.8
 		"heat dissipation" .6
@@ -5463,6 +5559,7 @@ ship "Kimek Briar"
 			"hull damage" 170
 			"hit force" 510
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Small Collector Module" 2
 		"Small Battery Module" 2
@@ -5492,7 +5589,7 @@ outfit "Kimek Spire Core"
 	cost 4687500.0
 	"shields" 14200
 	"hull" 4900
-	"required crew" 19
+	"required crew" 18
 	"bunks" 296
 	"fuel capacity" 800
 
@@ -5506,6 +5603,7 @@ ship "Kimek Spire"
 		licenses
 			Coalition
 		cost 4687500.0
+		"required crew" 1
 		"mass" 1152
 		"drag" 13
 		"heat dissipation" .39
@@ -5519,6 +5617,7 @@ ship "Kimek Spire"
 			"hull damage" 700
 			"hit force" 2100
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Large Collector Module"
 		"Small Collector Module"
@@ -5556,7 +5655,7 @@ outfit "Kimek Thistle Core"
 	cost 1452000.0
 	"shields" 7500
 	"hull" 2800
-	"required crew" 7
+	"required crew" 6
 	"bunks" 78
 	"fuel capacity" 700
 
@@ -5570,6 +5669,7 @@ ship "Kimek Thistle"
 		licenses
 			Coalition
 		cost 1452000.0
+		"required crew" 1
 		"mass" 506
 		"drag" 8.1
 		"heat dissipation" .5
@@ -5583,6 +5683,7 @@ ship "Kimek Thistle"
 			"hull damage" 300
 			"hit force" 900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Large Collector Module"
 		"Small Battery Module"
@@ -5616,7 +5717,6 @@ outfit "Kimek Thorn Core"
 	cost 220000.0
 	"shields" 1400
 	"hull" 800
-	"required crew" 1
 	"bunks" 10
 	"fuel capacity" 600
 
@@ -5643,6 +5743,7 @@ ship "Kimek Thorn"
 			"hull damage" 70
 			"hit force" 210
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Small Collector Module"
 		"Small Battery Module"
@@ -5670,7 +5771,7 @@ outfit "Saryd Runabout Core"
 	cost 471000.0
 	"shields" 2000
 	"hull" 1400
-	"required crew" 2
+	"required crew" 1
 	"bunks" 14
 	"fuel capacity" 400
 
@@ -5684,6 +5785,7 @@ ship "Saryd Runabout"
 		licenses
 			Coalition
 		cost 471000.0
+		"required crew" 1
 		"mass" 190
 		"drag" 3.2
 		"heat dissipation" .61
@@ -5697,6 +5799,7 @@ ship "Saryd Runabout"
 			"hull damage" 110
 			"hit force" 330
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Small Collector Module" 2
 		"Small Battery Module"
@@ -5723,7 +5826,7 @@ outfit "Saryd Sojourner Core"
 	cost 5537500.0
 	"shields" 13000
 	"hull" 7700
-	"required crew" 17
+	"required crew" 16
 	"bunks" 101
 	"fuel capacity" 800
 
@@ -5737,6 +5840,7 @@ ship "Saryd Sojourner"
 		licenses
 			Coalition
 		cost 5537500.0
+		"required crew" 1
 		"mass" 1304
 		"drag" 20
 		"heat dissipation" .33
@@ -5750,6 +5854,7 @@ ship "Saryd Sojourner"
 			"hull damage" 1000
 			"hit force" 3000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Large Collector Module"
 		"Small Collector Module" 3
@@ -5789,7 +5894,7 @@ outfit "Saryd Traveler Core"
 	cost 1692500.0
 	"shields" 6500
 	"hull" 4000
-	"required crew" 10
+	"required crew" 9
 	"bunks" 54
 	"fuel capacity" 600
 	"asteroid scan power" 36
@@ -5805,6 +5910,7 @@ ship "Saryd Traveler"
 		licenses
 			Coalition
 		cost 1692500.0
+		"required crew" 1
 		"mass" 676
 		"drag" 7.7
 		"heat dissipation" .43
@@ -5818,6 +5924,7 @@ ship "Saryd Traveler"
 			"hull damage" 360
 			"hit force" 1080
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Small Collector Module" 3
 		"Small Battery Module" 2
@@ -5855,7 +5962,7 @@ outfit "Saryd Visitor Core"
 	cost 991000.0
 	"shields" 4000
 	"hull" 2400
-	"required crew" 5
+	"required crew" 4
 	"bunks" 32
 	"fuel capacity" 400
 
@@ -5869,6 +5976,7 @@ ship "Saryd Visitor"
 		licenses
 			Coalition
 		cost 991000.0
+		"required crew" 1
 		"mass" 418
 		"drag" 5.5
 		"heat dissipation" .52
@@ -5882,6 +5990,7 @@ ship "Saryd Visitor"
 			"hull damage" 210
 			"hit force" 630
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Small Collector Module" 2
 		"Small Battery Module" 2
@@ -5913,7 +6022,6 @@ outfit "Archon Core"
 	cost 500000000.0
 	"shields" 4000000
 	"hull" 1000000
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 800
 	"energy capacity" 100000
@@ -5959,6 +6067,7 @@ ship "Archon"
 			"hull damage" 5000
 			"hit force" -10000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Drak Antimatter Cannon"
 		"Drak Antimatter Cannon (Augmented)"
@@ -6034,6 +6143,7 @@ ship "Subsidurial"
 		"drag" 12.3
 		"heat dissipation" .54
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		Mouthparts? 3
 		"Subsidurial Core"
@@ -6054,7 +6164,7 @@ outfit "Void Sprite Core"
 	category "Ship Cores"
 	"Core Slot" -1
 	"hull" 9600
-	"required crew" 4
+	"required crew" 3
 	"bunks" 4
 	"thrust" 30
 	"turn" 1350
@@ -6080,12 +6190,14 @@ ship "Void Sprite"
 	"never disabled"
 	attributes
 		category "Unclassified"
+		"required crew" 1
 		"mass" 700
 		"drag" 12.3
 		"heat dissipation" .54
 		"cargo space" 40
 		"outfit space" 20
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		Mouthparts? 2
 		"Void Sprite Parts" 20
@@ -6104,7 +6216,7 @@ outfit "Ember Waste Node Core"
 	"Core Slot" -1
 	"hull" 19600
 	"shields" 5000
-	"required crew" 5
+	"required crew" 4
 	"bunks" 5
 	"thrust" 120
 	"turn" 4750
@@ -6142,12 +6254,14 @@ ship "Ember Waste Node"
 	"never disabled"
 	attributes
 		category "Unclassified"
+		"required crew" 1
 		"mass" 1500
 		"drag" 12.3
 		"heat dissipation" .67
 		"cargo space" 39
 		"outfit space" 0
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		Mouthparts? 5
 		"Ember Waste Node Core"
@@ -6168,7 +6282,6 @@ outfit "Embershade Core"
 	category "Ship Cores"
 	"Core Slot" -1
 	"hull" 9600
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 100
 	"thrust" 30
@@ -6202,6 +6315,7 @@ ship "Embershade"
 		"heat dissipation" .54
 		"cargo space" 40
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		Mouthparts? 2
 		"Embershade Core"
@@ -6218,7 +6332,6 @@ outfit "Embersylph Core"
 	"Core Slot" -1
 	"shields" 4400
 	"hull" 900
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 100
 	"thrust" 15
@@ -6253,6 +6366,7 @@ ship "Embersylph"
 		"heat dissipation" .47
 		"cargo space" 0
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Absorption Organ" 1
 		"Embersylph Core"
@@ -6269,7 +6383,6 @@ outfit "Shale Core"
 	cost 74000.0
 	"shields" 0
 	"hull" 800
-	"required crew" 1
 	"bunks" 7
 	"fuel capacity" 400
 
@@ -6296,6 +6409,7 @@ ship "Shale"
 			"hull damage" 132
 			"hit force" 210
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"C3 Scrap Cell"
 		"R01 Skirmish Battery"
@@ -6317,7 +6431,7 @@ outfit "Dolomite Core"
 	cost 1384000.0
 	"shields" 0
 	"hull" 8200
-	"required crew" 9
+	"required crew" 8
 	"bunks" 79
 	"fuel capacity" 500
 
@@ -6331,6 +6445,7 @@ ship "Dolomite"
 		licenses
 			"Gegno Civilian"
 		cost 1384000.0
+		"required crew" 1
 		"mass" 850
 		"drag" 6.7
 		"heat dissipation" 0.42
@@ -6344,6 +6459,7 @@ ship "Dolomite"
 			"hull damage" 620
 			"hit force" 720
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"C7 Brawl Cell"
 		"R01 Skirmish Battery"
@@ -6370,7 +6486,7 @@ outfit "Conglomerate Core"
 	cost 2954500.0
 	"shields" 0
 	"hull" 10600
-	"required crew" 13
+	"required crew" 12
 	"bunks" 50
 	"fuel capacity" 500
 
@@ -6384,6 +6500,7 @@ ship "Conglomerate"
 		licenses
 			"Gegno Civilian"
 		cost 2954500.0
+		"required crew" 1
 		"mass" 1484
 		"drag" 20.9
 		"heat dissipation" 0.4
@@ -6397,6 +6514,7 @@ ship "Conglomerate"
 			"hull damage" 1160
 			"hit force" 1650
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"C7 Brawl Cell"
 		"C3 Scrap Cell"
@@ -6428,7 +6546,7 @@ outfit "Granofel Core"
 	cost 2575000.0
 	"shields" 0
 	"hull" 8800
-	"required crew" 10
+	"required crew" 9
 	"bunks" 15
 	"fuel capacity" 500
 
@@ -6442,6 +6560,7 @@ ship "Granofel"
 		licenses
 			"Gegno Civilian"
 		cost 2575000.0
+		"required crew" 1
 		"mass" 1367
 		"drag" 16.3
 		"heat dissipation" 0.39
@@ -6455,6 +6574,7 @@ ship "Granofel"
 			"hull damage" 860
 			"hit force" 970
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"C7 Brawl Cell"
 		"R02 Battlezone Battery"
@@ -6485,7 +6605,7 @@ outfit "Gypsum Core"
 	cost 846000.0
 	"shields" 0
 	"hull" 5500
-	"required crew" 5
+	"required crew" 4
 	"bunks" 9
 	"fuel capacity" 600
 	"drill port" 1
@@ -6502,6 +6622,7 @@ ship "Gypsum"
 			"Gegno Civilian"
 			"Gegno Driller"
 		cost 846000.0
+		"required crew" 1
 		"mass" 540
 		"drag" 3.9
 		"heat dissipation" 0.62
@@ -6515,6 +6636,7 @@ ship "Gypsum"
 			"hull damage" 620
 			"hit force" 720
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Excavator"
 		"C7 Brawl Cell"
@@ -6544,7 +6666,7 @@ outfit "Corundum Core"
 	cost 1232500.0
 	"shields" 0
 	"hull" 5400
-	"required crew" 6
+	"required crew" 5
 	"bunks" 9
 	"fuel capacity" 600
 	"drill spar" 2
@@ -6560,6 +6682,7 @@ ship "Corundum"
 			"Gegno Civilian"
 			"Gegno Driller"
 		cost 1232500.0
+		"required crew" 1
 		"mass" 630
 		"drag" 4.5
 		"heat dissipation" 0.64
@@ -6573,6 +6696,7 @@ ship "Corundum"
 			"hull damage" 710
 			"hit force" 800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Burrower" 2
 		"C3 Scrap Cell"
@@ -6612,7 +6736,7 @@ outfit "Protolith Core"
 	cost 57850000.0
 	"shields" 0
 	"hull" 48600
-	"required crew" 402
+	"required crew" 401
 	"bunks" 4040
 	"fuel capacity" 2100
 
@@ -6624,6 +6748,7 @@ ship "Protolith"
 	attributes
 		category "Heavy Freighter"
 		cost 57850000.0
+		"required crew" 1
 		"mass" 10885
 		"drag" 131
 		"heat dissipation" 0.18
@@ -6637,6 +6762,7 @@ ship "Protolith"
 			"hull damage" 2400
 			"hit force" 2720
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"C7 Brawl Cell" 2
 		"C3 Scrap Cell" 2
@@ -6678,7 +6804,6 @@ outfit "Dunite Core"
 	cost 25000.0
 	"shields" 0
 	"hull" 500
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 1
 	"cargo capacity" 1
@@ -6705,6 +6830,7 @@ ship "Dunite"
 			"hull damage" 100
 			"hit force" 100
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Irate Cannon"
 		"Savagery Bludgeon"
@@ -6731,7 +6857,7 @@ outfit "Augen Core"
 	cost 29400000.0
 	"shields" 0
 	"hull" 167000
-	"required crew" 280
+	"required crew" 279
 	"bunks" 360
 	"fuel capacity" 500
 
@@ -6745,6 +6871,7 @@ ship "Augen"
 		licenses
 			"Vi Lord"
 		cost 29400000.0
+		"required crew" 1
 		"mass" 14615
 		"drag" 120
 		"heat dissipation" 0.17
@@ -6758,6 +6885,7 @@ ship "Augen"
 			"hull damage" 2700
 			"hit force" 2100
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Choleric Cannon"
 		"Irate Cannon" 17
@@ -6875,7 +7003,6 @@ outfit "Slate Core"
 	cost 84500.0
 	"shields" 0
 	"hull" 1000
-	"required crew" 1
 	"bunks" 4
 	"fuel capacity" 400
 
@@ -6902,6 +7029,7 @@ ship "Slate"
 			"hull damage" 132
 			"hit force" 210
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"C3 Scrap Cell"
 		"R01 Skirmish Battery"
@@ -6924,7 +7052,7 @@ outfit "Schist Core"
 	cost 1868500.0
 	"shields" 0
 	"hull" 10700
-	"required crew" 23
+	"required crew" 22
 	"bunks" 73
 	"fuel capacity" 500
 
@@ -6938,6 +7066,7 @@ ship "Schist"
 		licenses
 			"Vi Evocati"
 		cost 1868500.0
+		"required crew" 1
 		"mass" 950
 		"drag" 8.5
 		"heat dissipation" 0.5
@@ -6951,6 +7080,7 @@ ship "Schist"
 			"hull damage" 660
 			"hit force" 700
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Irate Cannon" 6
 		"Irate Cannon Turret"
@@ -6996,7 +7126,7 @@ outfit "Rhyolite Core"
 	cost 582500.0
 	"shields" 0
 	"hull" 4000
-	"required crew" 5
+	"required crew" 4
 	"bunks" 9
 	"fuel capacity" 400
 
@@ -7010,6 +7140,7 @@ ship "Rhyolite"
 		licenses
 			"Vi Centurion"
 		cost 582500.0
+		"required crew" 1
 		"mass" 225
 		"drag" 4
 		"heat dissipation" 0.64
@@ -7023,6 +7154,7 @@ ship "Rhyolite"
 			"hull damage" 360
 			"hit force" 330
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Irate Cannon" 4
 		"C7 Brawl Cell"
@@ -7054,7 +7186,7 @@ outfit "Eclogite Core"
 	cost 1250000.0
 	"shields" 0
 	"hull" 6900
-	"required crew" 9
+	"required crew" 8
 	"bunks" 12
 	"fuel capacity" 400
 
@@ -7068,6 +7200,7 @@ ship "Eclogite"
 		licenses
 			"Vi Centurion"
 		cost 1250000.0
+		"required crew" 1
 		"mass" 415
 		"drag" 4.6
 		"heat dissipation" 0.56
@@ -7081,6 +7214,7 @@ ship "Eclogite"
 			"hull damage" 490
 			"hit force" 470
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Choleric Cannon"
 		"Irate Cannon" 4
@@ -7113,7 +7247,7 @@ outfit "Diorite Core"
 	cost 1675000.0
 	"shields" 0
 	"hull" 7900
-	"required crew" 14
+	"required crew" 13
 	"bunks" 29
 	"fuel capacity" 500
 
@@ -7127,6 +7261,7 @@ ship "Diorite"
 		licenses
 			"Vi Centurion"
 		cost 1675000.0
+		"required crew" 1
 		"mass" 549
 		"drag" 7.54
 		"heat dissipation" 0.56
@@ -7140,6 +7275,7 @@ ship "Diorite"
 			"hull damage" 770
 			"hit force" 810
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Choleric Cannon" 3
 		"Choleric Cannon Turret" 2
@@ -7177,7 +7313,7 @@ outfit "Hornfel Core"
 	cost 2526000.0
 	"shields" 0
 	"hull" 14600
-	"required crew" 32
+	"required crew" 31
 	"bunks" 48
 	"fuel capacity" 600
 
@@ -7191,6 +7327,7 @@ ship "Hornfel"
 		licenses
 			"Vi Centurion"
 		cost 2526000.0
+		"required crew" 1
 		"mass" 1489
 		"drag" 10.1
 		"heat dissipation" 0.38
@@ -7204,6 +7341,7 @@ ship "Hornfel"
 			"hull damage" 840
 			"hit force" 900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Irate Cannon" 10
 		"Choleric Cannon Turret" 2
@@ -7258,7 +7396,7 @@ outfit "Gneiss Core"
 	cost 7533000.0
 	"shields" 0
 	"hull" 26300
-	"required crew" 112
+	"required crew" 111
 	"bunks" 162
 	"fuel capacity" 500
 
@@ -7273,6 +7411,7 @@ ship "Gneiss"
 		licenses
 			"Vi Lord"
 		cost 7533000.0
+		"required crew" 1
 		"mass" 2718
 		"drag" 24.5
 		"heat dissipation" 0.22
@@ -7286,6 +7425,7 @@ ship "Gneiss"
 			"hull damage" 1570
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Irate Cannon" 12
 		"Ballistic Cannon Turret" 3
@@ -7348,7 +7488,7 @@ outfit "Granulite Core"
 	cost 8410000.0
 	"shields" 0
 	"hull" 21200
-	"required crew" 53
+	"required crew" 52
 	"bunks" 237
 	"fuel capacity" 900
 
@@ -7362,6 +7502,7 @@ ship "Granulite"
 		licenses
 			"Vi Lord"
 		cost 8410000.0
+		"required crew" 1
 		"mass" 2980
 		"drag" 44.7
 		"heat dissipation" 0.22
@@ -7375,6 +7516,7 @@ ship "Granulite"
 			"hull damage" 2050
 			"hit force" 3950
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Irate Cannon" 11
 		"Irate Cannon Turret"
@@ -7443,7 +7585,6 @@ outfit "Halite Core"
 	cost 35500.0
 	"shields" 300
 	"hull" 500
-	"required crew" 1
 	"bunks" 1
 
 
@@ -7469,6 +7610,7 @@ ship "Halite"
 			"hull damage" 85
 			"hit force" 160
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Guile Pulse Laser" 2
 		"I70 Ameliorate Cell"
@@ -7494,7 +7636,6 @@ outfit "Mica Core"
 	cost 100500.0
 	"shields" 0
 	"hull" 700
-	"required crew" 1
 	"bunks" 10
 	"fuel capacity" 400
 
@@ -7521,6 +7662,7 @@ ship "Mica"
 			"hull damage" 132
 			"hit force" 210
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"C3 Scrap Cell"
 		"R01 Skirmish Battery"
@@ -7543,7 +7685,7 @@ outfit "Coesite Core"
 	cost 936000.0
 	"shields" 0
 	"hull" 5600
-	"required crew" 8
+	"required crew" 7
 	"bunks" 14
 	"fuel capacity" 500
 
@@ -7557,6 +7699,7 @@ ship "Coesite"
 		licenses
 			"Scin Adjutant"
 		cost 936000.0
+		"required crew" 1
 		"mass" 305
 		"drag" 4.6
 		"heat dissipation" 0.61
@@ -7570,6 +7713,7 @@ ship "Coesite"
 			"hull damage" 460
 			"hit force" 440
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Astuit Battery" 2
 		"C7 Brawl Cell"
@@ -7605,7 +7749,7 @@ outfit "Tridymite Core"
 	cost 585000.0
 	"shields" 0
 	"hull" 4000
-	"required crew" 7
+	"required crew" 6
 	"bunks" 29
 	"fuel capacity" 800
 	"outfit scan power" 18
@@ -7624,6 +7768,7 @@ ship "Tridymite"
 			"Scin Architect"
 			"Scin Hoplologist"
 		cost 585000.0
+		"required crew" 1
 		"mass" 268
 		"drag" 4.2
 		"heat dissipation" 0.59
@@ -7637,6 +7782,7 @@ ship "Tridymite"
 			"hull damage" 430
 			"hit force" 410
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"C7 Brawl Cell"
 		"R02 Battlezone Battery"
@@ -7667,7 +7813,7 @@ outfit "Felsic Core"
 	cost 1977500.0
 	"shields" 0
 	"hull" 9100
-	"required crew" 18
+	"required crew" 17
 	"bunks" 53
 	"fuel capacity" 500
 
@@ -7682,6 +7828,7 @@ ship "Felsic"
 			"Scin Architect"
 			"Scin Hoplologist"
 		cost 1977500.0
+		"required crew" 1
 		"mass" 920
 		"drag" 8.3
 		"heat dissipation" 0.5
@@ -7695,6 +7842,7 @@ ship "Felsic"
 			"hull damage" 650
 			"hit force" 690
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Astuit Battery" 3
 		"C17 Warzone Core"
@@ -7728,7 +7876,7 @@ outfit "Feldspar Core"
 	cost 7380000.0
 	"shields" 0
 	"hull" 20700
-	"required crew" 133
+	"required crew" 132
 	"bunks" 192
 	"fuel capacity" 600
 
@@ -7743,6 +7891,7 @@ ship "Feldspar"
 			"Scin Architect"
 			"Scin Hoplologist"
 		cost 7380000.0
+		"required crew" 1
 		"mass" 2332
 		"drag" 26.2
 		"heat dissipation" 0.3
@@ -7756,6 +7905,7 @@ ship "Feldspar"
 			"hull damage" 1200
 			"hit force" 1000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Acuit Artillery" 2
 		"C27 Campaign Core"
@@ -7822,7 +7972,7 @@ outfit "Epidote Core"
 	cost 7227000.0
 	"shields" 0
 	"hull" 16900
-	"required crew" 102
+	"required crew" 101
 	"bunks" 170
 	"fuel capacity" 600
 
@@ -7837,6 +7987,7 @@ ship "Epidote"
 			"Scin Architect"
 			"Scin Hoplologist"
 		cost 7227000.0
+		"required crew" 1
 		"mass" 2420
 		"drag" 28.2
 		"heat dissipation" 0.32
@@ -7850,6 +8001,7 @@ ship "Epidote"
 			"hull damage" 1630
 			"hit force" 3200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Astuit Battery" 2
 		"Acuit Artillery"
@@ -7897,7 +8049,7 @@ outfit "Kyanite Core"
 	cost 14435000.0
 	"shields" 0
 	"hull" 13650
-	"required crew" 66
+	"required crew" 65
 	"bunks" 93
 	"fuel capacity" 400
 	"energy capacity" 21300
@@ -7916,6 +8068,7 @@ ship "Kyanite"
 	attributes
 		category "Utility"
 		cost 14435000.0
+		"required crew" 1
 		"mass" 1735
 		"drag" 22.6
 		"heat dissipation" 0.33
@@ -7929,6 +8082,7 @@ ship "Kyanite"
 			"hull damage" 1440
 			"hit force" 2800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Astuit Battery" 2
 		"Acuit Artillery"
@@ -7973,7 +8127,7 @@ outfit "Anomalocaris Core"
 	cost 3700000.0
 	"shields" 14200
 	"hull" 6800
-	"required crew" 20
+	"required crew" 19
 	"bunks" 26
 	"fuel capacity" 400
 
@@ -7986,6 +8140,7 @@ ship "Anomalocaris"
 	attributes
 		category "Medium Warship"
 		cost 3700000.0
+		"required crew" 1
 		"mass" 970
 		"drag" 9.3
 		"heat dissipation" .49
@@ -7999,6 +8154,7 @@ ship "Anomalocaris"
 			"hull damage" 1050
 			"hit force" 3150
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ion Cannon"
 		"Pulse Cannon"
@@ -8046,7 +8202,6 @@ outfit "Aphid Core"
 	cost 285000.0
 	"shields" 1700
 	"hull" 1400
-	"required crew" 1
 	"bunks" 5
 	"fuel capacity" 400
 
@@ -8071,6 +8226,7 @@ ship "Aphid"
 			"hull damage" 150
 			"hit force" 450
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Chameleon Anti-Missile"
 		"Sand Cell" 2
@@ -8097,7 +8253,7 @@ outfit "Centipede Core"
 	cost 3150000.0
 	"shields" 6600
 	"hull" 2400
-	"required crew" 35
+	"required crew" 34
 	"bunks" 131
 	"fuel capacity" 600
 
@@ -8109,6 +8265,7 @@ ship "Centipede"
 	attributes
 		category "Space Liner"
 		cost 3150000.0
+		"required crew" 1
 		"mass" 440
 		"drag" 5.7
 		"heat dissipation" .52
@@ -8122,6 +8279,7 @@ ship "Centipede"
 			"hull damage" 300
 			"hit force" 900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Hai Tracker Pod" 2
 		"Hai Tracker" 112
@@ -8163,7 +8321,7 @@ outfit "Cicada Core"
 	cost 1925000.0
 	"shields" 5400
 	"hull" 2000
-	"required crew" 8
+	"required crew" 7
 	"bunks" 51
 	"fuel capacity" 500
 
@@ -8175,6 +8333,7 @@ ship "Cicada"
 	attributes
 		category "Transport"
 		cost 1925000.0
+		"required crew" 1
 		"mass" 487
 		"drag" 6.1
 		"heat dissipation" .58
@@ -8188,6 +8347,7 @@ ship "Cicada"
 			"hull damage" 420
 			"hit force" 1280
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Hai Tracker Pod"
 		"Hai Tracker" 84
@@ -8250,6 +8410,7 @@ ship "Flea"
 			"hull damage" 30
 			"hit force" 80
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Railgun" 3
 		"Railgun Slug" 3000
@@ -8274,7 +8435,7 @@ outfit "Geocoris Core"
 	cost 6270000.0
 	"shields" 13300
 	"hull" 6200
-	"required crew" 15
+	"required crew" 14
 	"bunks" 56
 	"fuel capacity" 800
 
@@ -8287,6 +8448,7 @@ ship "Geocoris"
 	attributes
 		category "Heavy Freighter"
 		cost 6270000.0
+		"required crew" 1
 		"mass" 1576
 		"drag" 26.5
 		"heat dissipation" 0.3
@@ -8300,6 +8462,7 @@ ship "Geocoris"
 			"hull damage" 1500
 			"hit force" 4500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Pulse Cannon" 2
 		"Pulse Turret" 2
@@ -8342,7 +8505,6 @@ outfit "Grasshopper Core"
 	cost 342000.0
 	"shields" 3300
 	"hull" 600
-	"required crew" 1
 	"bunks" 5
 	"fuel capacity" 300
 
@@ -8367,6 +8529,7 @@ ship "Grasshopper"
 			"hull damage" 360
 			"hit force" 540
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Pulse Cannon" 2
 		"Sand Cell" 2
@@ -8397,7 +8560,7 @@ outfit "Lightning Bug Core"
 	cost 1600000.0
 	"shields" 6700
 	"hull" 1700
-	"required crew" 4
+	"required crew" 3
 	"bunks" 10
 	"fuel capacity" 600
 
@@ -8409,6 +8572,7 @@ ship "Lightning Bug"
 	attributes
 		category "Light Warship"
 		cost 1600000.0
+		"required crew" 1
 		"mass" 345
 		"drag" 4.8
 		"heat dissipation" .68
@@ -8422,6 +8586,7 @@ ship "Lightning Bug"
 			"hull damage" 420
 			"hit force" 1260
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ion Cannon"
 		"Bullfrog Anti-Missile" 2
@@ -8458,7 +8623,7 @@ outfit "Ladybug Core"
 	cost 4475000.0
 	"shields" 12300
 	"hull" 3600
-	"required crew" 9
+	"required crew" 8
 	"bunks" 33
 	"fuel capacity" 900
 	# Expensive features mentioned in description:
@@ -8479,6 +8644,7 @@ ship "Ladybug"
 	attributes
 		category "Medium Warship"
 		cost 4475000.0
+		"required crew" 1
 		"mass" 584
 		"drag" 7.8
 		"heat dissipation" .59
@@ -8492,6 +8658,7 @@ ship "Ladybug"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ion Cannon" 2
 		"Hai Tracker Pod" 1
@@ -8533,7 +8700,7 @@ outfit "Pond Strider Core"
 	cost 2625000.0
 	"shields" 10000
 	"hull" 3000
-	"required crew" 9
+	"required crew" 8
 	"bunks" 18
 	"hull repair rate" 1
 	"fuel capacity" 300
@@ -8546,6 +8713,7 @@ ship "Pond Strider"
 	attributes
 		category "Medium Warship"
 		cost 2625000.0
+		"required crew" 1
 		"mass" 429
 		"drag" 5.33
 		"heat dissipation" .34
@@ -8559,6 +8727,7 @@ ship "Pond Strider"
 			"hull damage" 750
 			"hit force" 1750
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Railgun"
 		"Ion Cannon" 2
@@ -8619,7 +8788,7 @@ outfit "Sea Scorpion Core"
 	cost 2725000.0
 	"shields" 15500
 	"hull" 4900
-	"required crew" 14
+	"required crew" 13
 	"bunks" 36
 	"fuel capacity" 500
 
@@ -8631,6 +8800,7 @@ ship "Sea Scorpion"
 	attributes
 		category "Medium Warship"
 		cost 2725000.0
+		"required crew" 1
 		"mass" 735
 		"drag" 7.8
 		"heat dissipation" .47
@@ -8644,6 +8814,7 @@ ship "Sea Scorpion"
 			"hull damage" 420
 			"hit force" 1260
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		`"Bondir" Atomic Steering`
 		`"Bondir" Atomic Thruster`
@@ -8688,7 +8859,7 @@ outfit "Scarab Core"
 	cost 810000.0
 	"shields" 4600
 	"hull" 1500
-	"required crew" 4
+	"required crew" 3
 	"bunks" 27
 	"fuel capacity" 400
 
@@ -8700,6 +8871,7 @@ ship "Scarab"
 	attributes
 		category "Transport"
 		cost 810000.0
+		"required crew" 1
 		"mass" 221
 		"drag" 4.6
 		"heat dissipation" .73
@@ -8713,6 +8885,7 @@ ship "Scarab"
 			"hull damage" 230
 			"hit force" 780
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Bullfrog Anti-Missile"
 		"Chameleon Anti-Missile"
@@ -8747,7 +8920,7 @@ outfit "Shield Beetle Core"
 	cost 8950000.0
 	"shields" 32000
 	"hull" 9800
-	"required crew" 47
+	"required crew" 46
 	"bunks" 95
 	"fuel capacity" 500
 
@@ -8759,6 +8932,7 @@ ship "Shield Beetle"
 	attributes
 		category "Heavy Warship"
 		cost 8950000.0
+		"required crew" 1
 		"mass" 1881
 		"drag" 16.3
 		"heat dissipation" .33
@@ -8772,6 +8946,7 @@ ship "Shield Beetle"
 			"hull damage" 2000
 			"hit force" 3000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ion Cannon" 4
 		"Hai Tracker Pod" 4
@@ -8823,7 +8998,7 @@ outfit "Emperor Beetle Core"
 	cost 17550000.0
 	"shields" 26700
 	"hull" 19600
-	"required crew" 83
+	"required crew" 82
 	"bunks" 91
 	# Expensive features inherited from Ladybug-era technology, with some fuel (and improved heat dissipation):
 	"tactical scan power" 30
@@ -8838,6 +9013,7 @@ ship "Emperor Beetle"
 	attributes
 		category "Heavy Warship"
 		cost 17550000.0
+		"required crew" 1
 		"mass" 2367
 		"drag" 18.1
 		"outfit space" 891
@@ -8853,6 +9029,7 @@ ship "Emperor Beetle"
 			"blast radius" 800
 			"hit force" 8000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Tripulse Shredder" 2
 		"Ionic Blaster Prototype" 4
@@ -8939,7 +9116,7 @@ outfit "Solifuge Core"
 	cost 11400000.0
 	"shields" 37800
 	"hull" 11000
-	"required crew" 62
+	"required crew" 61
 	"bunks" 118
 	"fuel capacity" 600
 
@@ -8953,6 +9130,7 @@ ship "Solifuge"
 		licenses
 			"Unfettered Militia"
 		cost 11400000.0
+		"required crew" 1
 		"mass" 2590
 		"drag" 30
 		"heat dissipation" .22
@@ -8966,6 +9144,7 @@ ship "Solifuge"
 			"hull damage" 2250
 			"hit force" 3500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Hai Tracker Pod"
 		"Hai Tracker" 56
@@ -9029,7 +9208,6 @@ outfit "Violin Spider Core"
 	cost 69500.0
 	"shields" 1400
 	"hull" 600
-	"required crew" 1
 	"bunks" 1
 
 
@@ -9052,6 +9230,7 @@ ship "Violin Spider"
 			"hull damage" 60
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Hai Tracker Pod"
 		"Hai Tracker" 56
@@ -9080,7 +9259,7 @@ outfit "Water Bug Core"
 	cost 3250000.0
 	"shields" 7900
 	"hull" 4500
-	"required crew" 5
+	"required crew" 4
 	"bunks" 29
 	"fuel capacity" 600
 
@@ -9092,6 +9271,7 @@ ship "Water Bug"
 	attributes
 		category "Light Freighter"
 		cost 3250000.0
+		"required crew" 1
 		"mass" 461
 		"drag" 7.7
 		"heat dissipation" .58
@@ -9105,6 +9285,7 @@ ship "Water Bug"
 			"hull damage" 620
 			"hit force" 1860
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Hai Tracker Pod" 2
 		"Hai Tracker" 168
@@ -9167,6 +9348,7 @@ ship "Hallucination"
 		"drag" 2.1
 		"heat dissipation" .7
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Imaginary Weapon" 1
 		"Hallucination Core"
@@ -9179,7 +9361,6 @@ outfit "Asteroid Core"
 	"Core Slot" -1
 	"fuel capacity" 1
 	"hull" 10000
-	"required crew" 0
 	"automaton" 1
 	"bunks" 0
 	"thrust" 10
@@ -9201,6 +9382,7 @@ ship "Asteroid"
 		"drag" 10
 		"heat dissipation" .1
 		"Core Slot" 1
+		"required crew" 1
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "large explosion" 45
@@ -9225,6 +9407,7 @@ ship "Science Drone"
 		category "Drone"
 		"heat dissipation" 1
 		"Core Slot" 1
+		"required crew" 1
 	explode "tiny explosion" 5
 	explode "small explosion" 2
 	outfits
@@ -9239,7 +9422,6 @@ outfit "Racing Flivver Core"
 	cost 2450000.0
 	"shields" 1100
 	"hull" 150
-	"required crew" 1
 	"bunks" 2
 	"fuel capacity" 600
 
@@ -9264,6 +9446,7 @@ ship "Racing Flivver"
 			"hull damage" 80
 			"hit force" 240
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ramscoop"
 		"Water Coolant System"
@@ -9303,7 +9486,6 @@ outfit "Emergency Shuttle Core"
 	cost 22500.0
 	"shields" 300
 	"hull" 600
-	"required crew" 1
 	"bunks" 10
 	"fuel capacity" 100
 
@@ -9327,6 +9509,7 @@ ship "Emergency Shuttle"
 			"hull damage" 45
 			"hit force" 135
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"KP-6 Photovoltaic Panel" 2
 		"LP036a Battery Pack"
@@ -9349,7 +9532,7 @@ outfit "Unknown Ship Type Core"
 	cost 7350000.0
 	"shields" 19400
 	"hull" 7200
-	"required crew" 64
+	"required crew" 63
 	"bunks" 128
 	"fuel capacity" 500
 
@@ -9361,6 +9544,7 @@ ship "Unknown Ship Type"
 	attributes
 		category "Heavy Warship"
 		cost 7350000.0
+		"required crew" 1
 		"mass" 2135
 		"drag" 20.9
 		"heat dissipation" .32
@@ -9374,6 +9558,7 @@ ship "Unknown Ship Type"
 			"hull damage" 1300
 			"hit force" 3900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Particle Cannon" 4
 		"Torpedo Launcher" 2
@@ -9414,7 +9599,7 @@ outfit "Kestrel Core"
 	cost 7350000.0
 	"shields" 19400
 	"hull" 7200
-	"required crew" 64
+	"required crew" 63
 	"bunks" 128
 	"fuel capacity" 500
 
@@ -9426,6 +9611,7 @@ ship "Kestrel"
 	attributes
 		category "Heavy Warship"
 		cost 7350000.0
+		"required crew" 1
 		"mass" 2135
 		"drag" 20.9
 		"heat dissipation" .32
@@ -9439,6 +9625,7 @@ ship "Kestrel"
 			"hull damage" 1300
 			"hit force" 3900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Particle Cannon" 4
 		"Torpedo Launcher" 2
@@ -9484,7 +9671,7 @@ outfit "Marauder Arrow Core"
 	cost 660000.0
 	"shields" 2300
 	"hull" 500
-	"required crew" 2
+	"required crew" 1
 	"bunks" 5
 	"fuel capacity" 600
 	"self destruct" .25
@@ -9497,6 +9684,7 @@ ship "Marauder Arrow"
 	attributes
 		category "Interceptor"
 		cost 660000.0
+		"required crew" 1
 		"mass" 200
 		"drag" 2.3
 		"heat dissipation" .74
@@ -9510,6 +9698,7 @@ ship "Marauder Arrow"
 			"hull damage" 135
 			"hit force" 400
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Heavy Laser" 2
 		"Quad Blaster Turret"
@@ -9541,7 +9730,7 @@ outfit "Marauder Bounder Core"
 	cost 625000.0
 	"shields" 2500
 	"hull" 700
-	"required crew" 2
+	"required crew" 1
 	"bunks" 18
 	"fuel capacity" 800
 	"self destruct" .25
@@ -9554,6 +9743,7 @@ ship "Marauder Bounder"
 	attributes
 		category "Interceptor"
 		cost 625000.0
+		"required crew" 1
 		"mass" 220
 		"drag" 4.4
 		"heat dissipation" .67
@@ -9567,6 +9757,7 @@ ship "Marauder Bounder"
 			"hull damage" 175
 			"hit force" 500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Particle Cannon"
 		"Quad Blaster Turret" 2
@@ -9601,7 +9792,7 @@ outfit "Marauder Falcon Core"
 	cost 6950000.0
 	"shields" 14100
 	"hull" 4100
-	"required crew" 57
+	"required crew" 56
 	"bunks" 96
 	"fuel capacity" 600
 	"self destruct" .15
@@ -9614,6 +9805,7 @@ ship "Marauder Falcon"
 	attributes
 		category "Heavy Warship"
 		cost 6950000.0
+		"required crew" 1
 		"mass" 1390
 		"drag" 11.4
 		"heat dissipation" .42
@@ -9627,6 +9819,7 @@ ship "Marauder Falcon"
 			"hull damage" 900
 			"hit force" 2750
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Plasma Cannon" 2
 		"Proton Gun" 2
@@ -9671,7 +9864,7 @@ outfit "Marauder Firebird Core"
 	cost 2050000.0
 	"shields" 6400
 	"hull" 3600
-	"required crew" 10
+	"required crew" 9
 	"bunks" 25
 	"fuel capacity" 400
 	"self destruct" .25
@@ -9684,6 +9877,7 @@ ship "Marauder Firebird"
 	attributes
 		category "Medium Warship"
 		cost 2050000.0
+		"required crew" 1
 		"mass" 750
 		"drag" 6.7
 		"heat dissipation" .4
@@ -9697,6 +9891,7 @@ ship "Marauder Firebird"
 			"hull damage" 550
 			"hit force" 1650
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Plasma Cannon" 4
 		"Heavy Laser Turret"
@@ -9735,7 +9930,7 @@ outfit "Marauder Leviathan Core"
 	cost 5400000.0
 	"shields" 16000
 	"hull" 5500
-	"required crew" 48
+	"required crew" 47
 	"bunks" 69
 	"fuel capacity" 500
 	"self destruct" .15
@@ -9748,6 +9943,7 @@ ship "Marauder Leviathan"
 	attributes
 		category "Heavy Warship"
 		cost 5400000.0
+		"required crew" 1
 		"mass" 1700
 		"drag" 14.2
 		"heat dissipation" .3
@@ -9761,6 +9957,7 @@ ship "Marauder Leviathan"
 			"hull damage" 450
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Particle Cannon" 4
 		"Quad Blaster Turret" 2
@@ -9804,7 +10001,7 @@ outfit "Marauder Manta Core"
 	cost 1870000.0
 	"shields" 6500
 	"hull" 1750
-	"required crew" 7
+	"required crew" 6
 	"bunks" 11
 	"fuel capacity" 400
 	"self destruct" .25
@@ -9817,6 +10014,7 @@ ship "Marauder Manta"
 	attributes
 		category "Medium Warship"
 		cost 1870000.0
+		"required crew" 1
 		"mass" 400
 		"drag" 6.3
 		"heat dissipation" .6
@@ -9830,6 +10028,7 @@ ship "Marauder Manta"
 			"hull damage" 450
 			"hit force" 1350
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Plasma Cannon" 4
 		"Meteor Missile Launcher" 2
@@ -9869,7 +10068,7 @@ outfit "Marauder Quicksilver Core"
 	cost 600000.0
 	"shields" 3500
 	"hull" 900
-	"required crew" 4
+	"required crew" 3
 	"bunks" 7
 	"fuel capacity" 400
 	"self destruct" .25
@@ -9882,6 +10081,7 @@ ship "Marauder Quicksilver"
 	attributes
 		category "Light Warship"
 		cost 600000.0
+		"required crew" 1
 		"mass" 220
 		"drag" 3.2
 		"heat dissipation" .67
@@ -9895,6 +10095,7 @@ ship "Marauder Quicksilver"
 			"hull damage" 225
 			"hit force" 650
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Heavy Laser" 2
 		"Heavy Anti-Missile Turret"
@@ -9926,7 +10127,7 @@ outfit "Marauder Raven Core"
 	cost 1375000.0
 	"shields" 5200
 	"hull" 1600
-	"required crew" 7
+	"required crew" 6
 	"bunks" 14
 	"fuel capacity" 500
 	"self destruct" .25
@@ -9939,6 +10140,7 @@ ship "Marauder Raven"
 	attributes
 		category "Light Warship"
 		cost 1375000.0
+		"required crew" 1
 		"mass" 280
 		"drag" 4.8
 		"heat dissipation" .62
@@ -9952,6 +10154,7 @@ ship "Marauder Raven"
 			"hull damage" 350
 			"hit force" 1000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Heavy Laser" 4
 		"Heavy Laser Turret"
@@ -9989,7 +10192,7 @@ outfit "Marauder Splinter Core"
 	cost 1700000.0
 	"shields" 5700
 	"hull" 1950
-	"required crew" 8
+	"required crew" 7
 	"bunks" 22
 	"fuel capacity" 600
 	"self destruct" .25
@@ -10002,6 +10205,7 @@ ship "Marauder Splinter"
 	attributes
 		category "Medium Warship"
 		cost 1700000.0
+		"required crew" 1
 		"mass" 565
 		"drag" 5.6
 		"heat dissipation" .5
@@ -10015,6 +10219,7 @@ ship "Marauder Splinter"
 			"hull damage" 300
 			"hit force" 900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Plasma Cannon" 2
 		"Heavy Laser Turret" 2
@@ -10051,7 +10256,7 @@ outfit "Aerie Core"
 	cost 1750000.0
 	"shields" 5700
 	"hull" 1900
-	"required crew" 10
+	"required crew" 9
 	"bunks" 28
 	"fuel capacity" 500
 
@@ -10063,6 +10268,7 @@ ship "Aerie"
 	attributes
 		category "Medium Warship"
 		cost 1750000.0
+		"required crew" 1
 		"mass" 390
 		"drag" 6.15
 		"heat dissipation" .47
@@ -10076,6 +10282,7 @@ ship "Aerie"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sidewinder Missile Launcher" 2
 		"Sidewinder Missile" 90
@@ -10124,7 +10331,7 @@ outfit "Argosy Core"
 	cost 980000.0
 	"shields" 4200
 	"hull" 2600
-	"required crew" 4
+	"required crew" 3
 	"bunks" 14
 	"fuel capacity" 400
 
@@ -10137,6 +10344,7 @@ ship "Argosy"
 	attributes
 		category "Light Freighter"
 		cost 980000.0
+		"required crew" 1
 		"mass" 480
 		"drag" 7.4
 		"heat dissipation" .56
@@ -10150,6 +10358,7 @@ ship "Argosy"
 			"hull damage" 300
 			"hit force" 900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Energy Blaster" 2
 		"Meteor Missile Launcher" 2
@@ -10192,7 +10401,6 @@ outfit "Arrow Core"
 	cost 600000.0
 	"shields" 2000
 	"hull" 400
-	"required crew" 1
 	"bunks" 5
 	"fuel capacity" 600
 
@@ -10217,6 +10425,7 @@ ship "Arrow"
 			"hull damage" 120
 			"hit force" 360
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sidewinder Missile Pod" 2
 		"Sidewinder Missile" 12
@@ -10250,7 +10459,7 @@ outfit "Auxiliary Core"
 	cost 6860000.0
 	"shields" 17100
 	"hull" 5900
-	"required crew" 87
+	"required crew" 86
 	"bunks" 250
 	"fuel capacity" 900
 
@@ -10265,6 +10474,7 @@ ship "Auxiliary"
 		licenses
 			"Navy Auxiliary"
 		cost 6860000.0
+		"required crew" 1
 		"mass" 1900
 		"drag" 22.6
 		"heat dissipation" .27
@@ -10278,6 +10488,7 @@ ship "Auxiliary"
 			"hull damage" 1400
 			"hit force" 4200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sidewinder Missile Launcher" 2
 		"Sidewinder Missile" 90
@@ -10331,7 +10542,7 @@ outfit "Bactrian Core"
 	cost 8800000.0
 	"shields" 17500
 	"hull" 8600
-	"required crew" 70
+	"required crew" 69
 	"bunks" 245
 	"fuel capacity" 700
 
@@ -10345,6 +10556,7 @@ ship "Bactrian"
 			City-Ship
 		category "Utility"
 		cost 8800000.0
+		"required crew" 1
 		"mass" 2450
 		"drag" 30.6
 		"heat dissipation" .22
@@ -10358,6 +10570,7 @@ ship "Bactrian"
 			"hull damage" 1300
 			"hit force" 3900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sidewinder Missile Launcher" 2
 		"Sidewinder Missile" 90
@@ -10412,7 +10625,6 @@ outfit "Barb Core"
 	cost 25000.0
 	"shields" 800
 	"hull" 200
-	"required crew" 1
 	"bunks" 2
 
 
@@ -10435,6 +10647,7 @@ ship "Barb"
 			"hull damage" 60
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Energy Blaster"
 		"Blaster Turret"
@@ -10462,7 +10675,7 @@ outfit "Bastion Core"
 	cost 1930000.0
 	"shields" 8600
 	"hull" 5300
-	"required crew" 17
+	"required crew" 16
 	"bunks" 40
 	"fuel capacity" 500
 
@@ -10474,6 +10687,7 @@ ship "Bastion"
 	attributes
 		category "Medium Warship"
 		cost 1930000.0
+		"required crew" 1
 		"mass" 1100
 		"drag" 15.5
 		"heat dissipation" .34
@@ -10487,6 +10701,7 @@ ship "Bastion"
 			"hull damage" 600
 			"hit force" 1800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Plasma Cannon" 2
 		"Heavy Rocket Launcher" 2
@@ -10532,7 +10747,7 @@ outfit "Behemoth Core"
 	cost 5400000.0
 	"shields" 7600
 	"hull" 6300
-	"required crew" 12
+	"required crew" 11
 	"bunks" 30
 	"fuel capacity" 600
 
@@ -10544,6 +10759,7 @@ ship "Behemoth"
 	attributes
 		category "Heavy Freighter"
 		cost 5400000.0
+		"required crew" 1
 		"mass" 1120
 		"drag" 14.6
 		"heat dissipation" .26
@@ -10557,6 +10773,7 @@ ship "Behemoth"
 			"hull damage" 700
 			"hit force" 2100
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Heavy Laser Turret" 4
 		"Heavy Anti-Missile Turret" 2
@@ -10600,7 +10817,6 @@ outfit "Berserker Core"
 	cost 260000.0
 	"shields" 2200
 	"hull" 500
-	"required crew" 1
 	"bunks" 2
 	"fuel capacity" 400
 
@@ -10625,6 +10841,7 @@ ship "Berserker"
 			"hull damage" 150
 			"hit force" 450
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Energy Blaster" 2
 		"Javelin Mini Pod" 2
@@ -10657,7 +10874,7 @@ outfit "Blackbird Core"
 	cost 1115000.0
 	"shields" 4400
 	"hull" 900
-	"required crew" 3
+	"required crew" 2
 	"bunks" 28
 	"fuel capacity" 700
 
@@ -10669,6 +10886,7 @@ ship "Blackbird"
 	attributes
 		category "Transport"
 		cost 1115000.0
+		"required crew" 1
 		"mass" 360
 		"drag" 6.2
 		"heat dissipation" .56
@@ -10682,6 +10900,7 @@ ship "Blackbird"
 			"hull damage" 300
 			"hit force" 900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Heavy Laser Turret"
 		"Heavy Anti-Missile Turret"
@@ -10716,7 +10935,6 @@ outfit "Bounder Core"
 	cost 570000.0
 	"shields" 2200
 	"hull" 700
-	"required crew" 1
 	"bunks" 17
 	"fuel capacity" 800
 
@@ -10741,6 +10959,7 @@ ship "Bounder"
 			"hull damage" 150
 			"hit force" 450
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Anti-Missile Turret" 2
 		"nGVF-CC Fuel Cell"
@@ -10770,7 +10989,6 @@ outfit "Boxwing Core"
 	cost 184500.0
 	"shields" 400
 	"hull" 800
-	"required crew" 1
 	"bunks" 1
 
 
@@ -10793,6 +11011,7 @@ ship "Boxwing"
 			"hull damage" 60
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"nGVF-AA Fuel Cell"
 		"X1050 Ion Engines"
@@ -10816,7 +11035,7 @@ outfit "Bulk Freighter Core"
 	cost 5550000.0
 	"shields" 4000
 	"hull" 7600
-	"required crew" 12
+	"required crew" 11
 	"bunks" 21
 	"fuel capacity" 900
 
@@ -10828,6 +11047,7 @@ ship "Bulk Freighter"
 	attributes
 		category "Heavy Freighter"
 		cost 5550000.0
+		"required crew" 1
 		"mass" 1510
 		"drag" 16.8
 		"heat dissipation" .27
@@ -10841,6 +11061,7 @@ ship "Bulk Freighter"
 			"hull damage" 600
 			"hit force" 1800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sidewinder Missile Launcher"
 		"Sidewinder Missile" 45
@@ -10883,7 +11104,7 @@ outfit "Bulwark Core"
 	cost 2180000.0
 	"shields" 8000
 	"hull" 6500
-	"required crew" 19
+	"required crew" 18
 	"bunks" 31
 	"fuel capacity" 500
 	"threshold percentage" .08
@@ -10896,6 +11117,7 @@ ship "Bulwark"
 	attributes
 		category "Medium Warship"
 		cost 2180000.0
+		"required crew" 1
 		"mass" 1582
 		"drag" 20.1
 		"heat dissipation" .28
@@ -10909,6 +11131,7 @@ ship "Bulwark"
 			"hull damage" 725
 			"hit force" 2175
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Plasma Cannon" 2
 		"Heavy Rocket Launcher" 2
@@ -10953,7 +11176,7 @@ outfit "Carrier Core"
 	cost 7600000.0
 	"shields" 21400
 	"hull" 8300
-	"required crew" 111
+	"required crew" 110
 	"bunks" 184
 	"fuel capacity" 700
 
@@ -10967,6 +11190,7 @@ ship "Carrier"
 		licenses
 			"Navy Carrier"
 		cost 7600000.0
+		"required crew" 1
 		"mass" 2640
 		"drag" 35.4
 		"heat dissipation" .23
@@ -10980,6 +11204,7 @@ ship "Carrier"
 			"hull damage" 1500
 			"hit force" 4500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Meteor Missile Launcher" 2
 		"Meteor Missile" 60
@@ -11059,7 +11284,7 @@ outfit "Class C Freighter Core"
 	cost 6700000.0
 	"shields" 13500
 	"hull" 7600
-	"required crew" 18
+	"required crew" 17
 	"bunks" 43
 	"fuel capacity" 900
 
@@ -11071,6 +11296,7 @@ ship "Class C Freighter"
 	attributes
 		category "Heavy Warship"
 		cost 6700000.0
+		"required crew" 1
 		"mass" 1525
 		"drag" 16.8
 		"heat dissipation" .27
@@ -11084,6 +11310,7 @@ ship "Class C Freighter"
 			"hull damage" 1000
 			"hit force" 3000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Proton Turret"
 		"Quad Blaster Turret" 2
@@ -11156,7 +11383,7 @@ outfit "Clipper Core"
 	cost 450000.0
 	"shields" 2700
 	"hull" 800
-	"required crew" 3
+	"required crew" 2
 	"bunks" 9
 	"fuel capacity" 500
 
@@ -11168,6 +11395,7 @@ ship "Clipper"
 	attributes
 		category "Light Freighter"
 		cost 450000.0
+		"required crew" 1
 		"mass" 210
 		"drag" 4.3
 		"heat dissipation" .7
@@ -11181,6 +11409,7 @@ ship "Clipper"
 			"hull damage" 180
 			"hit force" 540
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Beam Laser" 2
 		"Javelin Mini Pod" 2
@@ -11237,6 +11466,7 @@ ship "Combat Drone"
 			"hull damage" 25
 			"hit force" 75
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Beam Laser"
 		"nGVF-AA Fuel Cell"
@@ -11259,7 +11489,7 @@ outfit "Container Transport Core"
 	cost 4600000.0
 	"shields" 3500
 	"hull" 8000
-	"required crew" 6
+	"required crew" 5
 	"bunks" 18
 	"fuel capacity" 600
 
@@ -11271,6 +11501,7 @@ ship "Container Transport"
 	attributes
 		category "Heavy Freighter"
 		cost 4600000.0
+		"required crew" 1
 		"mass" 1525
 		"drag" 21.1
 		"heat dissipation" .4
@@ -11284,6 +11515,7 @@ ship "Container Transport"
 			"hull damage" 600
 			"hit force" 1800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sidewinder Missile Launcher"
 		"Sidewinder Missile" 45
@@ -11326,7 +11558,7 @@ outfit "Corvette Core"
 	cost 2200000.0
 	"shields" 6800
 	"hull" 800
-	"required crew" 8
+	"required crew" 7
 	"bunks" 32
 	"fuel capacity" 500
 
@@ -11338,6 +11570,7 @@ ship "Corvette"
 	attributes
 		category "Medium Warship"
 		cost 2200000.0
+		"required crew" 1
 		"mass" 380
 		"drag" 4.9
 		"heat dissipation" .5
@@ -11351,6 +11584,7 @@ ship "Corvette"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Heavy Laser" 2
 		"Sidewinder Missile Launcher" 2
@@ -11394,7 +11628,7 @@ outfit "Cruiser Core"
 	cost 5600000.0
 	"shields" 19600
 	"hull" 6400
-	"required crew" 81
+	"required crew" 80
 	"bunks" 136
 	"fuel capacity" 600
 
@@ -11408,6 +11642,7 @@ ship "Cruiser"
 		licenses
 			"Navy Cruiser"
 		cost 5600000.0
+		"required crew" 1
 		"mass" 1910
 		"drag" 18.7
 		"heat dissipation" .25
@@ -11421,6 +11656,7 @@ ship "Cruiser"
 			"hull damage" 1300
 			"hit force" 3900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Particle Cannon" 4
 		"Sidewinder Missile Launcher" 2
@@ -11481,7 +11717,7 @@ outfit "Cutthroat Core"
 	cost 550000.0
 	"shields" 3000
 	"hull" 1000
-	"required crew" 3
+	"required crew" 2
 	"bunks" 5
 	"fuel capacity" 800
 
@@ -11493,6 +11729,7 @@ ship "Cutthroat"
 	attributes
 		category "Light Warship"
 		cost 550000.0
+		"required crew" 1
 		"mass" 202
 		"drag" 3.9
 		"heat dissipation" .7
@@ -11506,6 +11743,7 @@ ship "Cutthroat"
 			"hull damage" 200
 			"hit force" 600
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Gatling Gun" 4
 		"Gatling Gun Ammo" 12000
@@ -11542,7 +11780,6 @@ outfit "Dagger Core"
 	cost 64500.0
 	"shields" 1000
 	"hull" 300
-	"required crew" 1
 	"bunks" 1
 
 
@@ -11565,6 +11802,7 @@ ship "Dagger"
 			"hull damage" 60
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Beam Laser"
 		"Javelin Mini Pod" 2
@@ -11595,7 +11833,7 @@ outfit "Dreadnought Core"
 	cost 5950000.0
 	"shields" 18100
 	"hull" 7300
-	"required crew" 84
+	"required crew" 83
 	"bunks" 147
 	"fuel capacity" 600
 
@@ -11609,6 +11847,7 @@ ship "Dreadnought"
 		licenses
 			"Militia"
 		cost 5950000.0
+		"required crew" 1
 		"mass" 1840
 		"drag" 18.7
 		"heat dissipation" .36
@@ -11622,6 +11861,7 @@ ship "Dreadnought"
 			"hull damage" 1300
 			"hit force" 3900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Torpedo Launcher" 4
 		"Torpedo" 120
@@ -11669,7 +11909,6 @@ outfit "Dropship Core"
 	cost 45500.0
 	"shields" 600
 	"hull" 200
-	"required crew" 1
 	"bunks" 9
 
 
@@ -11695,6 +11934,7 @@ ship "Dropship"
 			"hull damage" 60
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Beam Laser" 2
 		"nGVF-BB Fuel Cell"
@@ -11722,7 +11962,7 @@ outfit "Enforcer Core"
 	cost 245000.0
 	"shields" 2300
 	"hull" 1100
-	"required crew" 3
+	"required crew" 2
 	"bunks" 5
 	"fuel capacity" 400
 
@@ -11734,6 +11974,7 @@ ship "Enforcer"
 	attributes
 		category "Light Warship"
 		cost 245000.0
+		"required crew" 1
 		"mass" 180
 		"drag" 3.3
 		"heat dissipation" .61
@@ -11747,6 +11988,7 @@ ship "Enforcer"
 			"hull damage" 170
 			"hit force" 510
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Energy Blaster" 4
 		"Laser Turret"
@@ -11779,7 +12021,7 @@ outfit "Falcon Core"
 	cost 5450000.0
 	"shields" 12800
 	"hull" 3700
-	"required crew" 52
+	"required crew" 51
 	"bunks" 91
 	"fuel capacity" 600
 
@@ -11791,6 +12033,7 @@ ship "Falcon"
 	attributes
 		category "Heavy Warship"
 		cost 5450000.0
+		"required crew" 1
 		"mass" 1260
 		"drag" 11.4
 		"heat dissipation" .42
@@ -11804,6 +12047,7 @@ ship "Falcon"
 			"hull damage" 800
 			"hit force" 2400
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Plasma Cannon" 2
 		"Torpedo Launcher" 2
@@ -11850,7 +12094,6 @@ outfit "Finch Core"
 	cost 63000.0
 	"shields" 1100
 	"hull" 200
-	"required crew" 1
 	"bunks" 1
 
 
@@ -11874,6 +12117,7 @@ ship "Finch"
 			"hull damage" 60
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Beam Laser"
 		"Javelin Mini Pod" 2
@@ -11904,7 +12148,7 @@ outfit "Firebird Core"
 	cost 1850000.0
 	"shields" 5800
 	"hull" 3400
-	"required crew" 7
+	"required crew" 6
 	"bunks" 22
 	"fuel capacity" 400
 
@@ -11916,6 +12160,7 @@ ship "Firebird"
 	attributes
 		category "Medium Warship"
 		cost 1850000.0
+		"required crew" 1
 		"mass" 630
 		"drag" 6.75
 		"heat dissipation" .4
@@ -11929,6 +12174,7 @@ ship "Firebird"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Particle Cannon" 2
 		"Meteor Missile Launcher" 2
@@ -11969,7 +12215,6 @@ outfit "Flivver Core"
 	cost 90000.0
 	"shields" 1400
 	"hull" 200
-	"required crew" 1
 	"bunks" 3
 	"fuel capacity" 500
 
@@ -11994,6 +12239,7 @@ ship "Flivver"
 			"hull damage" 80
 			"hit force" 240
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"nGVF-BB Fuel Cell"
 		"KP-6 Photovoltaic Panel" 3
@@ -12021,7 +12267,7 @@ outfit "Freighter Core"
 	cost 365000.0
 	"shields" 2000
 	"hull" 2000
-	"required crew" 2
+	"required crew" 1
 	"bunks" 7
 	"fuel capacity" 600
 
@@ -12033,6 +12279,7 @@ ship "Freighter"
 	attributes
 		category "Light Freighter"
 		cost 365000.0
+		"required crew" 1
 		"mass" 410
 		"drag" 7.6
 		"heat dissipation" .45
@@ -12046,6 +12293,7 @@ ship "Freighter"
 			"hull damage" 200
 			"hit force" 600
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Blaster Turret" 2
 		"Heavy Anti-Missile Turret"
@@ -12079,7 +12327,7 @@ outfit "Frigate Core"
 	cost 2600000.0
 	"shields" 8000
 	"hull" 2500
-	"required crew" 21
+	"required crew" 20
 	"bunks" 44
 	"fuel capacity" 500
 
@@ -12093,6 +12341,7 @@ ship "Frigate"
 		licenses
 			Navy
 		cost 2600000.0
+		"required crew" 1
 		"mass" 710
 		"drag" 8.1
 		"heat dissipation" .46
@@ -12106,6 +12355,7 @@ ship "Frigate"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Particle Cannon" 2
 		"Torpedo Launcher" 2
@@ -12151,7 +12401,6 @@ outfit "Fury Core"
 	cost 245000.0
 	"shields" 2000
 	"hull" 400
-	"required crew" 1
 	"bunks" 3
 	"fuel capacity" 600
 
@@ -12177,6 +12426,7 @@ ship "Fury"
 			"hull damage" 120
 			"hit force" 360
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Energy Blaster" 4
 		"nGVF-CC Fuel Cell"
@@ -12210,7 +12460,7 @@ outfit "Gunboat Core"
 	cost 1600000.0
 	"shields" 5800
 	"hull" 1400
-	"required crew" 7
+	"required crew" 6
 	"bunks" 12
 	"fuel capacity" 600
 
@@ -12224,6 +12474,7 @@ ship "Gunboat"
 		licenses
 			Navy
 		cost 1600000.0
+		"required crew" 1
 		"mass" 280
 		"drag" 4.0
 		"heat dissipation" .62
@@ -12237,6 +12488,7 @@ ship "Gunboat"
 			"hull damage" 360
 			"hit force" 1080
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Heavy Laser" 2
 		"Heavy Laser Turret"
@@ -12273,7 +12525,7 @@ outfit "Hauler Core"
 	cost 715000.0
 	"shields" 2500
 	"hull" 3700
-	"required crew" 3
+	"required crew" 2
 	"bunks" 12
 	"fuel capacity" 400
 
@@ -12285,6 +12537,7 @@ ship "Hauler"
 	attributes
 		category "Light Freighter"
 		cost 715000.0
+		"required crew" 1
 		"mass" 490
 		"drag" 9.8
 		"heat dissipation" .43
@@ -12298,6 +12551,7 @@ ship "Hauler"
 			"hull damage" 300
 			"hit force" 900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Meteor Missile Pod" 2
 		"Meteor Missile" 14
@@ -12338,7 +12592,7 @@ outfit "Hauler II Core"
 	cost 1170000.0
 	"shields" 2900
 	"hull" 5200
-	"required crew" 3
+	"required crew" 2
 	"bunks" 12
 	"fuel capacity" 400
 
@@ -12350,6 +12604,7 @@ ship "Hauler II"
 	attributes
 		category "Heavy Freighter"
 		cost 1170000.0
+		"required crew" 1
 		"mass" 640
 		"drag" 10.7
 		"heat dissipation" .43
@@ -12363,6 +12618,7 @@ ship "Hauler II"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Meteor Missile Pod" 2
 		"Meteor Missile" 59
@@ -12405,7 +12661,7 @@ outfit "Hauler III Core"
 	cost 1630000.0
 	"shields" 3300
 	"hull" 6700
-	"required crew" 3
+	"required crew" 2
 	"bunks" 12
 	"fuel capacity" 400
 
@@ -12417,6 +12673,7 @@ ship "Hauler III"
 	attributes
 		category "Heavy Freighter"
 		cost 1630000.0
+		"required crew" 1
 		"mass" 790
 		"drag" 11.6
 		"heat dissipation" .43
@@ -12430,6 +12687,7 @@ ship "Hauler III"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Meteor Missile Pod" 2
 		"Meteor Missile" 59
@@ -12472,7 +12730,6 @@ outfit "Hawk Core"
 	cost 335000.0
 	"shields" 2500
 	"hull" 500
-	"required crew" 1
 	"bunks" 4
 	"fuel capacity" 300
 
@@ -12497,6 +12754,7 @@ ship "Hawk"
 			"hull damage" 150
 			"hit force" 450
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Heavy Laser" 2
 		"nGVF-CC Fuel Cell"
@@ -12526,7 +12784,7 @@ outfit "Headhunter Core"
 	cost 925000.0
 	"shields" 3800
 	"hull" 700
-	"required crew" 2
+	"required crew" 1
 	"bunks" 4
 	"fuel capacity" 400
 
@@ -12538,6 +12796,7 @@ ship "Headhunter"
 	attributes
 		category "Light Warship"
 		cost 925000.0
+		"required crew" 1
 		"mass" 175
 		"drag" 3.0
 		"heat dissipation" .7
@@ -12551,6 +12810,7 @@ ship "Headhunter"
 			"hull damage" 220
 			"hit force" 660
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Heavy Laser" 2
 		"Heavy Anti-Missile Turret"
@@ -12585,7 +12845,6 @@ outfit "Heavy Shuttle Core"
 	cost 235000.0
 	"shields" 700
 	"hull" 700
-	"required crew" 1
 	"bunks" 10
 	"fuel capacity" 500
 
@@ -12610,6 +12869,7 @@ ship "Heavy Shuttle"
 			"hull damage" 60
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"nGVF-AA Fuel Cell"
 		"LP036a Battery Pack"
@@ -12635,7 +12895,7 @@ outfit "Hogshead Core"
 	cost 1575000.0
 	"shields" 3200
 	"hull" 1900
-	"required crew" 18
+	"required crew" 17
 	"bunks" 84
 	"fuel capacity" 600
 
@@ -12647,6 +12907,7 @@ ship "Hogshead"
 	attributes
 		category "Space Liner"
 		cost 1575000.0
+		"required crew" 1
 		"mass" 450
 		"drag" 6.2
 		"heat dissipation" .38
@@ -12660,6 +12921,7 @@ ship "Hogshead"
 			"hull damage" 255
 			"hit force" 765
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Heavy Anti-Missile Turret"
 		"Anti-Missile Turret"
@@ -12697,7 +12959,6 @@ outfit "Jackal Core"
 	cost 160000.0
 	"shields" 1600
 	"hull" 500
-	"required crew" 1
 	"bunks" 2
 	"fuel capacity" 500
 
@@ -12722,6 +12983,7 @@ ship "Jackal"
 			"hull damage" 105
 			"hit force" 315
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Modified Blaster" 4
 		"nGVF-BB Fuel Cell"
@@ -12752,7 +13014,6 @@ outfit "Lance Core"
 	cost 46500.0
 	"shields" 800
 	"hull" 400
-	"required crew" 1
 	"bunks" 1
 
 
@@ -12775,6 +13036,7 @@ ship "Lance"
 			"hull damage" 60
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Energy Blaster"
 		"Sidewinder Missile Pod" 2
@@ -12804,7 +13066,7 @@ outfit "Leviathan Core"
 	cost 4900000.0
 	"shields" 14400
 	"hull" 5000
-	"required crew" 43
+	"required crew" 42
 	"bunks" 64
 	"fuel capacity" 500
 
@@ -12816,6 +13078,7 @@ ship "Leviathan"
 	attributes
 		category "Heavy Warship"
 		cost 4900000.0
+		"required crew" 1
 		"mass" 1515
 		"drag" 14.2
 		"heat dissipation" .3
@@ -12829,6 +13092,7 @@ ship "Leviathan"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Particle Cannon" 4
 		"Quad Blaster Turret" 3
@@ -12870,7 +13134,7 @@ outfit "Mammoth Core"
 	cost 9400000.0
 	"shields" 6200
 	"hull" 7400
-	"required crew" 18
+	"required crew" 17
 	"bunks" 30
 	"fuel capacity" 1000
 	"scan interference" 2
@@ -12883,6 +13147,7 @@ ship "Mammoth"
 	attributes
 		category "Utility"
 		cost 9400000.0
+		"required crew" 1
 		"mass" 1361
 		"drag" 18.5
 		"heat dissipation" .21
@@ -12896,6 +13161,7 @@ ship "Mammoth"
 			"hull damage" 680
 			"hit force" 2040
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sidewinder Missile Launcher" 2
 		"Sidewinder Missile" 90
@@ -12949,7 +13215,7 @@ outfit "Manta Core"
 	cost 1700000.0
 	"shields" 5900
 	"hull" 1500
-	"required crew" 6
+	"required crew" 5
 	"bunks" 10
 	"fuel capacity" 400
 
@@ -12961,6 +13227,7 @@ ship "Manta"
 	attributes
 		category "Medium Warship"
 		cost 1700000.0
+		"required crew" 1
 		"mass" 352
 		"drag" 6.3
 		"heat dissipation" .6
@@ -12974,6 +13241,7 @@ ship "Manta"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Particle Cannon" 4
 		"Torpedo Storage Rack"
@@ -13032,6 +13300,7 @@ ship "Mining Drone"
 			"hull damage" 15
 			"hit force" 45
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Mining Laser"
 		"nGVF-AA Fuel Cell"
@@ -13053,7 +13322,7 @@ outfit "Modified Argosy Core"
 	cost 980000.0
 	"shields" 4800
 	"hull" 1900
-	"required crew" 5
+	"required crew" 4
 	"bunks" 12
 	"fuel capacity" 400
 
@@ -13066,6 +13335,7 @@ ship "Modified Argosy"
 	attributes
 		category "Light Warship"
 		cost 980000.0
+		"required crew" 1
 		"mass" 400
 		"drag" 7.8
 		"heat dissipation" .48
@@ -13079,6 +13349,7 @@ ship "Modified Argosy"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Heavy Laser" 2
 		"Meteor Missile Launcher" 2
@@ -13122,7 +13393,7 @@ outfit "Monitor Core"
 	cost 1450000.0
 	"shields" 4900
 	"hull" 2400
-	"required crew" 20
+	"required crew" 19
 	"bunks" 32
 	"fuel capacity" 500
 
@@ -13134,6 +13405,7 @@ ship "Monitor"
 	attributes
 		category "Medium Warship"
 		cost 1450000.0
+		"required crew" 1
 		"mass" 690
 		"drag" 8.4
 		"heat dissipation" .32
@@ -13147,6 +13419,7 @@ ship "Monitor"
 			"hull damage" 365
 			"hit force" 1095
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Heavy Blaster" 3
 		"Laser Turret" 2
@@ -13188,7 +13461,7 @@ outfit "Mule Core"
 	cost 2040000.0
 	"shields" 5400
 	"hull" 4400
-	"required crew" 14
+	"required crew" 13
 	"bunks" 43
 	"fuel capacity" 600
 
@@ -13200,6 +13473,7 @@ ship "Mule"
 	attributes
 		category "Utility"
 		cost 2040000.0
+		"required crew" 1
 		"mass" 780
 		"drag" 9.1
 		"heat dissipation" .32
@@ -13213,6 +13487,7 @@ ship "Mule"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sidewinder Missile Launcher" 2
 		"Sidewinder Missile" 136
@@ -13258,7 +13533,7 @@ outfit "Nest Core"
 	cost 1250000.0
 	"shields" 2500
 	"hull" 3700
-	"required crew" 5
+	"required crew" 4
 	"bunks" 14
 	"fuel capacity" 500
 
@@ -13270,6 +13545,7 @@ ship "Nest"
 	attributes
 		category "Utility"
 		cost 1250000.0
+		"required crew" 1
 		"mass" 510
 		"drag" 9.8
 		"heat dissipation" .48
@@ -13283,6 +13559,7 @@ ship "Nest"
 			"hull damage" 300
 			"hit force" 900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Meteor Missile Launcher" 2
 		"Meteor Missile" 60
@@ -13327,7 +13604,7 @@ outfit "Nighthawk Core"
 	cost 1315000.0
 	"shields" 4000
 	"hull" 1100
-	"required crew" 6
+	"required crew" 5
 	"bunks" 39
 	"fuel capacity" 700
 	"outfit scan opacity" 200
@@ -13340,6 +13617,7 @@ ship "Nighthawk"
 	attributes
 		category "Transport"
 		cost 1315000.0
+		"required crew" 1
 		"mass" 400
 		"drag" 6.5
 		"heat dissipation" .52
@@ -13353,6 +13631,7 @@ ship "Nighthawk"
 			"hull damage" 255
 			"hit force" 765
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Quad Blaster Turret"
 		"Anti-Missile Turret" 2
@@ -13392,7 +13671,7 @@ outfit "Osprey Core"
 	cost 2100000.0
 	"shields" 7200
 	"hull" 1600
-	"required crew" 9
+	"required crew" 8
 	"bunks" 24
 	"fuel capacity" 600
 
@@ -13404,6 +13683,7 @@ ship "Osprey"
 	attributes
 		category "Medium Warship"
 		cost 2100000.0
+		"required crew" 1
 		"mass" 630
 		"drag" 8.9
 		"heat dissipation" .54
@@ -13417,6 +13697,7 @@ ship "Osprey"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Plasma Cannon" 4
 		"Quad Blaster Turret"
@@ -13459,7 +13740,7 @@ outfit "Protector Core"
 	cost 2750000.0
 	"shields" 10000
 	"hull" 7800
-	"required crew" 30
+	"required crew" 29
 	"bunks" 69
 	"fuel capacity" 400
 
@@ -13471,6 +13752,7 @@ ship "Protector"
 	attributes
 		category "Heavy Warship"
 		cost 2750000.0
+		"required crew" 1
 		"mass" 1150
 		"drag" 16.5
 		"heat dissipation" .38
@@ -13484,6 +13766,7 @@ ship "Protector"
 			"hull damage" 800
 			"hit force" 2400
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Meteor Missile Launcher" 2
 		"Meteor Missile" 60
@@ -13529,7 +13812,7 @@ outfit "Quicksilver Core"
 	cost 418000.0
 	"shields" 3000
 	"hull" 800
-	"required crew" 3
+	"required crew" 2
 	"bunks" 6
 	"fuel capacity" 400
 
@@ -13541,6 +13824,7 @@ ship "Quicksilver"
 	attributes
 		category "Light Warship"
 		cost 418000.0
+		"required crew" 1
 		"mass" 170
 		"drag" 3.1
 		"heat dissipation" .7
@@ -13554,6 +13838,7 @@ ship "Quicksilver"
 			"hull damage" 200
 			"hit force" 600
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Particle Cannon" 2
 		"nGVF-DD Fuel Cell"
@@ -13581,7 +13866,7 @@ outfit "Rainmaker Core"
 	cost 790000.0
 	"shields" 3500
 	"hull" 1200
-	"required crew" 3
+	"required crew" 2
 	"bunks" 7
 	"fuel capacity" 500
 
@@ -13595,6 +13880,7 @@ ship "Rainmaker"
 		licenses
 			Navy
 		cost 790000.0
+		"required crew" 1
 		"mass" 260
 		"drag" 4.6
 		"heat dissipation" .5
@@ -13608,6 +13894,7 @@ ship "Rainmaker"
 			"hull damage" 200
 			"hit force" 600
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Energy Blaster" 2
 		"Meteor Missile Launcher" 4
@@ -13645,7 +13932,7 @@ outfit "Raven Core"
 	cost 1100000.0
 	"shields" 4700
 	"hull" 1400
-	"required crew" 6
+	"required crew" 5
 	"bunks" 13
 	"fuel capacity" 500
 
@@ -13657,6 +13944,7 @@ ship "Raven"
 	attributes
 		category "Light Warship"
 		cost 1100000.0
+		"required crew" 1
 		"mass" 250
 		"drag" 4.8
 		"heat dissipation" .62
@@ -13670,6 +13958,7 @@ ship "Raven"
 			"hull damage" 300
 			"hit force" 900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Heavy Laser" 2
 		"Torpedo Launcher"
@@ -13708,7 +13997,7 @@ outfit "Roost Core"
 	cost 1500000.0
 	"shields" 2900
 	"hull" 5200
-	"required crew" 7
+	"required crew" 6
 	"bunks" 16
 	"fuel capacity" 600
 
@@ -13720,6 +14009,7 @@ ship "Roost"
 	attributes
 		category "Utility"
 		cost 1500000.0
+		"required crew" 1
 		"mass" 680
 		"drag" 10.7
 		"heat dissipation" .48
@@ -13733,6 +14023,7 @@ ship "Roost"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Meteor Missile Launcher" 2
 		"Meteor Missile" 60
@@ -13782,7 +14073,7 @@ outfit "Saber Core"
 	cost 1100000.0
 	"shields" 4600
 	"hull" 2600
-	"required crew" 16
+	"required crew" 15
 	"bunks" 25
 	"fuel capacity" 600
 
@@ -13794,6 +14085,7 @@ ship "Saber"
 	attributes
 		category "Medium Warship"
 		cost 1100000.0
+		"required crew" 1
 		"mass" 660
 		"drag" 8.7
 		"heat dissipation" .35
@@ -13807,6 +14099,7 @@ ship "Saber"
 			"hull damage" 360
 			"hit force" 1080
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Beam Laser" 3
 		"Javelin Pod" 2
@@ -13845,7 +14138,6 @@ outfit "Scout Core"
 	cost 425000.0
 	"shields" 2000
 	"hull" 400
-	"required crew" 1
 	"bunks" 12
 	"fuel capacity" 800
 
@@ -13870,6 +14162,7 @@ ship "Scout"
 			"hull damage" 80
 			"hit force" 240
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Energy Blaster" 2
 		"Anti-Missile Turret"
@@ -13903,7 +14196,6 @@ outfit "Scrapper Core"
 	cost 30000.0
 	"shields" 450
 	"hull" 520
-	"required crew" 1
 	"bunks" 4
 	"fuel capacity" 300
 
@@ -13928,6 +14220,7 @@ ship "Scrapper"
 			"hull damage" 50
 			"hit force" 140
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Twin Blaster"
 		"KP-6 Photovoltaic Panel" 4
@@ -13952,7 +14245,6 @@ outfit "Shuttle Core"
 	cost 90000.0
 	"shields" 500
 	"hull" 600
-	"required crew" 1
 	"bunks" 6
 	"fuel capacity" 400
 
@@ -13980,6 +14272,7 @@ ship "Shuttle"
 			"hull damage" 60
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"nGVF-AA Fuel Cell"
 		"LP036a Battery Pack"
@@ -14005,7 +14298,7 @@ outfit "Skein Core"
 	cost 1750000.0
 	"shields" 3300
 	"hull" 6700
-	"required crew" 9
+	"required crew" 8
 	"bunks" 18
 	"fuel capacity" 700
 
@@ -14019,6 +14312,7 @@ ship "Skein"
 		licenses
 			"Militia"
 		cost 1750000.0
+		"required crew" 1
 		"mass" 850
 		"drag" 11.6
 		"heat dissipation" .51
@@ -14032,6 +14326,7 @@ ship "Skein"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Meteor Missile Pod" 2
 		"Meteor Missile" 29
@@ -14087,7 +14382,6 @@ outfit "Sparrow Core"
 	cost 112500.0
 	"shields" 1400
 	"hull" 300
-	"required crew" 1
 	"bunks" 3
 	"fuel capacity" 300
 
@@ -14112,6 +14406,7 @@ ship "Sparrow"
 			"hull damage" 80
 			"hit force" 240
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Beam Laser" 2
 		"nGVF-BB Fuel Cell"
@@ -14141,7 +14436,7 @@ outfit "Splinter Core"
 	cost 1550000.0
 	"shields" 5200
 	"hull" 1700
-	"required crew" 7
+	"required crew" 6
 	"bunks" 21
 	"fuel capacity" 600
 
@@ -14153,6 +14448,7 @@ ship "Splinter"
 	attributes
 		category "Medium Warship"
 		cost 1550000.0
+		"required crew" 1
 		"mass" 510
 		"drag" 5.6
 		"heat dissipation" .5
@@ -14166,6 +14462,7 @@ ship "Splinter"
 			"hull damage" 300
 			"hit force" 900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Proton Gun" 2
 		"Blaster Turret" 2
@@ -14205,7 +14502,6 @@ outfit "Star Barge Core"
 	cost 95000.0
 	"shields" 600
 	"hull" 1000
-	"required crew" 1
 	"bunks" 3
 	"fuel capacity" 300
 
@@ -14230,6 +14526,7 @@ ship "Star Barge"
 			"hull damage" 80
 			"hit force" 240
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Anti-Missile Turret"
 		"nGVF-BB Fuel Cell"
@@ -14256,7 +14553,7 @@ outfit "Star Queen Core"
 	cost 2100000.0
 	"shields" 4100
 	"hull" 2200
-	"required crew" 33
+	"required crew" 32
 	"bunks" 112
 	"fuel capacity" 700
 
@@ -14268,6 +14565,7 @@ ship "Star Queen"
 	attributes
 		category "Space Liner"
 		cost 2100000.0
+		"required crew" 1
 		"mass" 525
 		"drag" 6.7
 		"heat dissipation" .44
@@ -14281,6 +14579,7 @@ ship "Star Queen"
 			"hull damage" 300
 			"hit force" 900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sidewinder Missile Launcher"
 		"Sidewinder Missile" 45
@@ -14324,7 +14623,7 @@ outfit "Sunder Core"
 	cost 500000.0
 	"shields" 1200
 	"hull" 1600
-	"required crew" 3
+	"required crew" 2
 	"bunks" 5
 	"fuel capacity" 600
 
@@ -14336,6 +14635,7 @@ ship "Sunder"
 	attributes
 		category "Utility"
 		cost 500000.0
+		"required crew" 1
 		"mass" 260
 		"drag" 4.7
 		"heat dissipation" .56
@@ -14349,6 +14649,7 @@ ship "Sunder"
 			"hull damage" 140
 			"hit force" 420
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Mining Laser" 2
 		"Tractor Beam"
@@ -14411,6 +14712,7 @@ ship "Surveillance Drone"
 			"hull damage" 15
 			"hit force" 45
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"nGVF-AA Fuel Cell"
 		"Surveillance Pod"
@@ -14431,7 +14733,7 @@ outfit "Valkyrie Core"
 	cost 1950000.0
 	"shields" 4800
 	"hull" 2800
-	"required crew" 9
+	"required crew" 8
 	"bunks" 19
 	"fuel capacity" 500
 
@@ -14443,6 +14745,7 @@ ship "Valkyrie"
 	attributes
 		category "Medium Warship"
 		cost 1950000.0
+		"required crew" 1
 		"mass" 436
 		"drag" 7.4
 		"heat dissipation" .42
@@ -14456,6 +14759,7 @@ ship "Valkyrie"
 			"hull damage" 380
 			"hit force" 1140
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Quad Blaster Turret" 2
 		"Particle Cannon" 2
@@ -14500,7 +14804,7 @@ outfit "Vanguard Core"
 	cost 3600000.0
 	"shields" 9800
 	"hull" 6000
-	"required crew" 23
+	"required crew" 22
 	"bunks" 45
 	"fuel capacity" 400
 
@@ -14512,6 +14816,7 @@ ship "Vanguard"
 	attributes
 		category "Heavy Warship"
 		cost 3600000.0
+		"required crew" 1
 		"mass" 1030
 		"drag" 12
 		"heat dissipation" .4
@@ -14525,6 +14830,7 @@ ship "Vanguard"
 			"hull damage" 800
 			"hit force" 2400
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Proton Gun" 7
 		"Anti-Missile Turret"
@@ -14571,7 +14877,6 @@ outfit "Wasp Core"
 	cost 200000.0
 	"shields" 1500
 	"hull" 500
-	"required crew" 1
 	"bunks" 2
 	"fuel capacity" 400
 
@@ -14596,6 +14901,7 @@ ship "Wasp"
 			"hull damage" 100
 			"hit force" 300
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Energy Blaster" 2
 		"Sidewinder Missile Pod"
@@ -14626,7 +14932,7 @@ outfit "Jje Core"
 	"Core Slot" -1
 	cost 0.0
 	"hull" 4000
-	"required crew" 2
+	"required crew" 1
 	"bunks" 2
 	"hull repair rate" 1
 	"atmosphere scan" 10
@@ -14659,6 +14965,7 @@ ship "Jje"
 	attributes
 		category "Unclassified Minor"
 		cost 0.0
+		"required crew" 1
 		"mass" 150
 		"drag" 15
 		"heat dissipation" 14
@@ -14673,6 +14980,7 @@ ship "Jje"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	engine 0 0
 	"steering engine" 0 0
 	"final explode" "jje boom"
@@ -14687,7 +14995,7 @@ outfit "Ayym Core"
 	"Core Slot" -1
 	cost 0.0
 	"hull" 6000
-	"required crew" 4
+	"required crew" 3
 	"bunks" 4
 	"fuel capacity" 100
 	"hull repair rate" 2
@@ -14728,6 +15036,7 @@ ship "Ayym"
 	attributes
 		category "Unclassified"
 		cost 0.0
+		"required crew" 1
 		"mass" 300
 		"drag" 30
 		"heat dissipation" 14
@@ -14742,6 +15051,7 @@ ship "Ayym"
 			"hull damage" 1500
 			"hit force" 4500
 		"Core Slot" 1
+		"required crew" 1
 	engine 0 0
 	"steering engine" 0 0
 	bay "Unclassified Minor" -36 40
@@ -14784,7 +15094,7 @@ outfit "Venta Core"
 	cost 12500000.0
 	"hull" 9600
 	"shields" 12800
-	"required crew" 40
+	"required crew" 39
 	"bunks" 45
 	"gaslining" 1
 	"fuel capacity" 200
@@ -14801,6 +15111,7 @@ ship "Venta"
 		licenses
 			"Hicemus Conflict"
 		cost 12500000.0
+		"required crew" 1
 		"mass" 2400
 		"drag" 10.2
 		"heat dissipation" .42
@@ -14814,6 +15125,7 @@ ship "Venta"
 			"hull damage" 1120
 			"hit force" 3360
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Liquid-Class Shield"
 		"Liquid-Class Shield"
@@ -14850,7 +15162,7 @@ outfit "Nimbus Core"
 	cost 1625000.0
 	"hull" 4000
 	"shields" 6000
-	"required crew" 20
+	"required crew" 19
 	"bunks" 40
 	"gaslining" 1
 	"fuel capacity" 200
@@ -14867,6 +15179,7 @@ ship "Nimbus"
 		licenses
 			"Hicemus Conflict"
 		cost 1625000.0
+		"required crew" 1
 		"mass" 1640
 		"drag" 10.8
 		"heat dissipation" .46
@@ -14880,6 +15193,7 @@ ship "Nimbus"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Liquid-Class Shield"
 		"Metallic Hydrogen Cell"
@@ -14913,7 +15227,7 @@ outfit "Nimbo Stratus Core"
 	cost 230000.0
 	"hull" 500
 	"shields" 700
-	"required crew" 5
+	"required crew" 4
 	"bunks" 10
 	"gaslining" 1
 	"fuel capacity" 200
@@ -14928,6 +15242,7 @@ ship "Nimbo Stratus"
 	attributes
 		category "Utility"
 		cost 230000.0
+		"required crew" 1
 		"mass" 534
 		"drag" 8.4
 		"heat dissipation" .67
@@ -14941,6 +15256,7 @@ ship "Nimbo Stratus"
 			"hull damage" 60
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Gas-Class Shield"
 		"Metallic Hydrogen Cell"
@@ -14964,7 +15280,7 @@ outfit "Nimbo Cirrus Core"
 	cost 165000.0
 	"hull" 750
 	"shields" 1500
-	"required crew" 7
+	"required crew" 6
 	"bunks" 14
 	"gaslining" 1
 	"fuel capacity" 200
@@ -14979,6 +15295,7 @@ ship "Nimbo Cirrus"
 	attributes
 		category "Light Freighter"
 		cost 165000.0
+		"required crew" 1
 		"mass" 800
 		"drag" 8.7
 		"heat dissipation" .6
@@ -14991,6 +15308,7 @@ ship "Nimbo Cirrus"
 			"hull damage" 113
 			"hit force" 350
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Gas-Class Shield"
 		"Metallic Hydrogen Cell"
@@ -15013,7 +15331,7 @@ outfit "Gero Core"
 	cost 492500.0
 	"hull" 850
 	"shields" 1700
-	"required crew" 10
+	"required crew" 9
 	"bunks" 72
 	"gaslining" 1
 	"fuel capacity" 200
@@ -15027,6 +15345,7 @@ ship "Gero"
 	attributes
 		category "Transport"
 		cost 492500.0
+		"required crew" 1
 		"mass" 760
 		"drag" 8.4
 		"heat dissipation" .58
@@ -15039,6 +15358,7 @@ ship "Gero"
 			"hull damage" 133
 			"hit force" 400
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Gas-Class Shield"
 		"Metallic Hydrogen Cell"
@@ -15063,7 +15383,6 @@ outfit "Tace Mesa Core"
 	"fuel capacity" 200
 	"inscrutable" 1
 	"energy capacity" 1000
-	"required crew" 1
 	"bunks" 40
 
 
@@ -15083,6 +15402,7 @@ ship "Tace Mesa"
 		"heat dissipation" 0.47
 		"drag" 20
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Strange Ray"
 		"Internal Plasma Exhaust"
@@ -15103,7 +15423,6 @@ outfit "Aberrant Latte Core"
 	cost 2850000.0
 	"shields" 9600
 	"hull" 14400
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 300
 	"ramscoop" 0.2
@@ -15143,6 +15462,7 @@ ship "Aberrant Latte"
 			"hull damage" 4800
 			"hit force" 2800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Ravager Beam" 2
 		"Ka'het Primary Cooling"
@@ -15174,7 +15494,6 @@ outfit "Aberrant Chomper Core"
 	cost 2850000.0
 	"shields" 6400
 	"hull" 14400
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 300
 	"ramscoop" 0.2
@@ -15214,6 +15533,7 @@ ship "Aberrant Chomper"
 			"hull damage" 4800
 			"hit force" 2800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Ravager Beam" 6
 		"Nucleolysis Beam"
@@ -15252,7 +15572,6 @@ outfit "Aberrant Pileup Core"
 	cost 2850000.0
 	"shields" 13600
 	"hull" 18600
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 300
 	"ramscoop" 0.2
@@ -15292,6 +15611,7 @@ ship "Aberrant Pileup"
 			"hull damage" 4800
 			"hit force" 2800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Ravager Beam" 2
 		"Ka'het Primary Cooling"
@@ -15324,7 +15644,6 @@ outfit "Aberrant Hugger Core"
 	cost 2850000.0
 	"shields" 9600
 	"hull" 14400
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 300
 	"ramscoop" 0.2
@@ -15364,6 +15683,7 @@ ship "Aberrant Hugger"
 			"hull damage" 4800
 			"hit force" 2800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Ravager Beam" 4
 		"Ka'het Primary Cooling"
@@ -15398,7 +15718,6 @@ outfit "Aberrant Longfellow Core"
 	cost 2850000.0
 	"shields" 10800
 	"hull" 17200
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 300
 	"ramscoop" 0.2
@@ -15438,6 +15757,7 @@ ship "Aberrant Longfellow"
 			"hull damage" 4800
 			"hit force" 2800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Ravager Beam" 2
 		"Ka'het Primary Cooling"
@@ -15478,7 +15798,6 @@ outfit "Aberrant Dancer Core"
 	cost 2850000.0
 	"shields" 19200
 	"hull" 33800
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 300
 	"ramscoop" 0.2
@@ -15518,6 +15837,7 @@ ship "Aberrant Dancer"
 			"hull damage" 8800
 			"hit force" 3400
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Ravager Beam" 2
 		"Telescopic Antimissile" 4
@@ -15556,7 +15876,6 @@ outfit "Aberrant Junior Core"
 	cost 2850000.0
 	"shields" 6400
 	"hull" 18600
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 300
 	"ramscoop" 0.2
@@ -15596,6 +15915,7 @@ ship "Aberrant Junior"
 			"hull damage" 4800
 			"hit force" 2800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Ravager Beam" 2
 		"Aberrant Spiker" 2
@@ -15632,7 +15952,6 @@ outfit "Aberrant Icebreaker Core"
 	cost 2850000.0
 	"shields" 7600
 	"hull" 21600
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 300
 	"ramscoop" 0.2
@@ -15672,6 +15991,7 @@ ship "Aberrant Icebreaker"
 			"hull damage" 4800
 			"hit force" 2800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Ravager Beam" 2
 		"Aberrant Spiker" 2
@@ -15709,7 +16029,6 @@ outfit "Aberrant Pike Core"
 	cost 2850000.0
 	"shields" 6600
 	"hull" 17900
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 300
 	"ramscoop" 0.2
@@ -15749,6 +16068,7 @@ ship "Aberrant Pike"
 			"hull damage" 4800
 			"hit force" 2800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Ravager Beam" 2
 		"Aberrant Spiker" 2
@@ -15785,7 +16105,6 @@ outfit "Aberrant Mole Core"
 	cost 2850000.0
 	"shields" 6600
 	"hull" 15200
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 300
 	"ramscoop" 0.2
@@ -15825,6 +16144,7 @@ ship "Aberrant Mole"
 			"hull damage" 4800
 			"hit force" 2800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Ravager Beam" 4
 		"Aberrant Spiker" 2
@@ -15863,7 +16183,6 @@ outfit "Aberrant Whiskers Core"
 	cost 2850000.0
 	"shields" 6200
 	"hull" 17200
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 300
 	"ramscoop" 0.2
@@ -15903,6 +16222,7 @@ ship "Aberrant Whiskers"
 			"hull damage" 4800
 			"hit force" 2800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Ravager Beam" 2
 		"Ka'het Primary Cooling"
@@ -15934,7 +16254,6 @@ outfit "Aberrant Trip Core"
 	cost 2850000.0
 	"shields" 14200
 	"hull" 16600
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 600
 	"ramscoop" 0.2
@@ -15974,6 +16293,7 @@ ship "Aberrant Trip"
 			"hull damage" 9600
 			"hit force" 3800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Ravager Beam"
 		"Nucleolysis Beam" 2
@@ -16017,7 +16337,6 @@ outfit "Aberrant Triplet Core"
 	cost 2850000.0
 	"shields" 34600
 	"hull" 33800
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 900
 	"ramscoop" 0.2
@@ -16057,6 +16376,7 @@ ship "Aberrant Triplet"
 			"hull damage" 9600
 			"hit force" 3800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Ravager Beam" 4
 		"Nucleolysis Beam" 2
@@ -16104,7 +16424,6 @@ outfit "Asteroid Large 1 Core"
 	"inscrutable" 1
 	cost 14500000.0
 	"hull" 36561
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 1000
 	"energy capacity" 1
@@ -16143,6 +16462,7 @@ ship "Asteroid Large 1"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Asteroid Anti-Missile"
 		"Asteroid Weapon Large" 2
@@ -16167,7 +16487,6 @@ outfit "Asteroid Large 2 Core"
 	"inscrutable" 1
 	cost 11500000.0
 	"hull" 37151
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 1000
 	"energy capacity" 1
@@ -16207,6 +16526,7 @@ ship "Asteroid Large 2"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Asteroid Anti-Missile"
 		"Asteroid Weapon Large"
@@ -16232,7 +16552,6 @@ outfit "Asteroid Large 3 Core"
 	"inscrutable" 1
 	cost 9500000.0
 	"hull" 35172
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 1000
 	"energy capacity" 1
@@ -16271,6 +16590,7 @@ ship "Asteroid Large 3"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Asteroid Anti-Missile"
 		"Asteroid Weapon Large 4" 2
@@ -16295,7 +16615,6 @@ outfit "Asteroid Large 4 Core"
 	"inscrutable" 1
 	cost 8500000.0
 	"hull" 35172
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 1000
 	"energy capacity" 1
@@ -16334,6 +16653,7 @@ ship "Asteroid Large 4"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Asteroid Anti-Missile"
 		"Asteroid Weapon Large 3" 2
@@ -16358,7 +16678,6 @@ outfit "Asteroid Large 5 Core"
 	"inscrutable" 1
 	cost 15500000.0
 	"hull" 36716
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 1000
 	"energy capacity" 1
@@ -16397,6 +16716,7 @@ ship "Asteroid Large 5"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Asteroid Anti-Missile"
 		"Asteroid Weapon Large 2" 2
@@ -16421,7 +16741,6 @@ outfit "Asteroid Medium Core"
 	"inscrutable" 1
 	cost 6500000.0
 	"hull" 21248
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 1000
 	"energy capacity" 1
@@ -16460,6 +16779,7 @@ ship "Asteroid Medium"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Asteroid Anti-Missile 2"
 		"Asteroid Weapon Large 2"
@@ -16483,7 +16803,6 @@ outfit "Asteroid Young 1 Core"
 	"inscrutable" 1
 	cost 5500000.0
 	"hull" 16459
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 1000
 	"energy capacity" 1
@@ -16521,6 +16840,7 @@ ship "Asteroid Young 1"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Asteroid Anti-Missile 2"
 		"Asteroid Weapon Small"
@@ -16544,7 +16864,6 @@ outfit "Asteroid Young 2 Core"
 	"inscrutable" 1
 	cost 3500000.0
 	"hull" 15984
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 1000
 	"energy capacity" 1
@@ -16582,6 +16901,7 @@ ship "Asteroid Young 2"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Asteroid Anti-Missile 2"
 		"Asteroid Weapon Small"
@@ -16605,7 +16925,6 @@ outfit "Asteroid Young 3 Core"
 	"inscrutable" 1
 	cost 2500000.0
 	"hull" 17021
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 1000
 	"energy capacity" 1
@@ -16643,6 +16962,7 @@ ship "Asteroid Young 3"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Asteroid Anti-Missile 2"
 		"Asteroid Weapon Small"
@@ -16666,7 +16986,6 @@ outfit "Asteroid Young 4 Core"
 	"inscrutable" 1
 	cost 1500000.0
 	"hull" 16462
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 1000
 	"energy capacity" 1
@@ -16704,6 +17023,7 @@ ship "Asteroid Young 4"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Asteroid Anti-Missile 2"
 		"Asteroid Weapon Small"
@@ -16737,6 +17057,7 @@ ship "Cloak Check"
 		"mass" 100
 		"drag" 5
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Cloak Checker"
 		"Cloak Check Core"
@@ -16751,7 +17072,6 @@ outfit "Asteroid Planet Core"
 	"inscrutable" 1
 	cost 79000000.0
 	"hull" 86135672193
-	"required crew" 1
 	"bunks" 1
 	"energy capacity" 1
 	"fuel generation" 0.3
@@ -16783,6 +17103,7 @@ ship "Asteroid Planet"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Asteroid Weapon Super"
 		"Asteroid Planet Core"
@@ -16805,6 +17126,7 @@ ship "Remnant Satellite"
 		category "Drone"
 		"heat dissipation" 1
 		"Core Slot" 1
+		"required crew" 1
 	explode "tiny explosion" 5
 	explode "small explosion" 2
 	outfits
@@ -16828,6 +17150,7 @@ ship "Asteroid Blocker"
 		"mass" 100
 		"drag" 5
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Fuel Removal"
 		"Asteroid Blocker Core"
@@ -16850,6 +17173,7 @@ ship "Builder Satellite"
 		"drag" 2
 		"heat dissipation" 1
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Builder Satellite Core"
 
@@ -16861,7 +17185,6 @@ outfit "Maeri'het Core"
 	cost 6900000.0
 	"shields" 17600
 	"hull" 23100
-	"required crew" 1
 	"bunks" 1
 	"overheat damage threshold" 0.2
 	"overheat damage rate" 1.3
@@ -16899,6 +17222,7 @@ ship "Maeri'het"
 			"hull damage" 360
 			"hit force" 1080
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Annihilator Turret" 2
 		"Ka'het Ravager Turret" 2
@@ -16935,7 +17259,6 @@ outfit "Telis'het Core"
 	cost 16300000.0
 	"shields" 36000
 	"hull" 21300
-	"required crew" 1
 	"bunks" 1
 	"overheat damage threshold" 0.2
 	"overheat damage rate" 1.2
@@ -16971,6 +17294,7 @@ ship "Telis'het"
 			"hull damage" 600
 			"hit force" 1800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Annihilator Turret" 2
 		"Ka'het EMP Deployer" 2
@@ -17011,7 +17335,6 @@ outfit "Vareti'het Core"
 	cost 26900000.0
 	"shields" 42300
 	"hull" 25800
-	"required crew" 1
 	"bunks" 1
 	"overheat damage threshold" 0.2
 	"overheat damage rate" 1.4
@@ -17046,6 +17369,7 @@ ship "Vareti'het"
 			"hull damage" 800
 			"hit force" 2100
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Nullifier"
 		"Ka'het Annihilator" 4
@@ -17113,6 +17437,7 @@ ship "Selii'mar"
 			"hull damage" 160
 			"hit force" 480
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Ravager Beam"
 		"Ka'het MHD Generator"
@@ -17154,6 +17479,7 @@ ship "Faes'mar"
 			"hull damage" 180
 			"hit force" 520
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Shield Restorer"
 		"Ka'het Support Cooling"
@@ -17177,7 +17503,6 @@ outfit "Fetri'sei Core"
 	cost 2850000.0
 	"shields" 2400
 	"hull" 7200
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 100
 	"ramscoop" 0.13
@@ -17213,6 +17538,7 @@ ship "Fetri'sei"
 			"hull damage" 280
 			"hit force" 780
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ka'het Ravager Beam" 2
 		"Ka'het Primary Cooling"
@@ -17240,7 +17566,7 @@ outfit "Rano'erek Core"
 	cost 14685000.0
 	"shields" 32500
 	"hull" 16500
-	"required crew" 137
+	"required crew" 136
 	"bunks" 357
 	"fuel capacity" 900
 
@@ -17252,6 +17578,7 @@ ship "Rano'erek"
 	attributes
 		category "Utility"
 		cost 14685000.0
+		"required crew" 1
 		"mass" 3542
 		"drag" 32.5
 		"heat dissipation" .24
@@ -17265,6 +17592,7 @@ ship "Rano'erek"
 			"hull damage" 2300
 			"hit force" 5900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Grab-Strike Turret" 2
 		"Banisher Grav-Turret"
@@ -17329,7 +17657,7 @@ outfit "Palavret Core"
 	cost 8285000.0
 	"shields" 27000
 	"hull" 9000
-	"required crew" 145
+	"required crew" 144
 	"bunks" 250
 	"fuel capacity" 600
 
@@ -17341,6 +17669,7 @@ ship "Palavret"
 	attributes
 		category "Utility"
 		cost 8285000.0
+		"required crew" 1
 		"mass" 1770
 		"drag" 20.4
 		"heat dissipation" .3
@@ -17354,6 +17683,7 @@ ship "Palavret"
 			"hull damage" 1800
 			"hit force" 5400
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Grab-Strike Turret" 4
 		"Banisher Grav-Turret"
@@ -17410,7 +17740,7 @@ outfit "Tubfalet Core"
 	cost 11447500.0
 	"shields" 29500
 	"hull" 11000
-	"required crew" 157
+	"required crew" 156
 	"bunks" 250
 	"heat protection" 0.1
 	"hull protection" 0.1
@@ -17424,6 +17754,7 @@ ship "Tubfalet"
 	attributes
 		category "Utility"
 		cost 11447500.0
+		"required crew" 1
 		"mass" 2228
 		"drag" 25.5
 		"heat dissipation" .36
@@ -17437,6 +17768,7 @@ ship "Tubfalet"
 			"hull damage" 1900
 			"hit force" 5500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Grab-Strike Turret" 4
 		"Banisher Grav-Turret"
@@ -17531,7 +17863,7 @@ outfit "'nra'ret Core"
 	cost 12380000.0
 	"shields" 32700
 	"hull" 9850
-	"required crew" 193
+	"required crew" 192
 	"bunks" 221
 	"fuel capacity" 900
 
@@ -17543,6 +17875,7 @@ ship "'nra'ret"
 	attributes
 		category "Heavy Warship"
 		cost 12380000.0
+		"required crew" 1
 		"mass" 2228
 		"drag" 18.7
 		"heat dissipation" .39
@@ -17556,6 +17889,7 @@ ship "'nra'ret"
 			"hull damage" 2200
 			"hit force" 6600
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Langrage Hyper-Heaver" 2
 		"Warder Anti-Missile"
@@ -17611,7 +17945,6 @@ outfit "'olofez Core"
 	cost 335500.0
 	"shields" 2300
 	"hull" 900
-	"required crew" 1
 	"bunks" 1
 
 
@@ -17635,6 +17968,7 @@ ship "'olofez"
 			"hull damage" 160
 			"hit force" 480
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Fire-Lance"
 		"Generator (Furnace Class)"
@@ -17688,6 +18022,7 @@ ship "Kas'ik Tek 7"
 			"hull damage" 30
 			"hit force" 80
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Generator (Candle Class)"
 		"Small Heat Shunt"
@@ -17709,7 +18044,7 @@ outfit "Rai'alorej Core"
 	cost 15985000.0
 	shields 43000
 	hull 27000
-	"required crew" 523
+	"required crew" 522
 	"bunks" 1433
 	"fuel capacity" 700
 
@@ -17721,6 +18056,7 @@ ship "Rai'alorej"
 	attributes
 		category "Utility"
 		cost 15985000.0
+		"required crew" 1
 		"mass" 4050
 		"drag" 53.8
 		"heat dissipation" .19
@@ -17734,6 +18070,7 @@ ship "Rai'alorej"
 			"hull damage" 4800
 			"hit force" 20000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Banisher Grav-Turret"
 		"Warder Anti-Missile" 2
@@ -17796,7 +18133,7 @@ outfit "Ikatila'ej Core"
 	cost 54687500.0
 	"shields" 72700
 	"hull" 93000
-	"required crew" 957
+	"required crew" 956
 	"bunks" 1933
 	"fuel capacity" 800
 	"spinal mount" 1
@@ -17809,6 +18146,7 @@ ship "Ikatila'ej"
 	attributes
 		category "Superheavy"
 		cost 54687500.0
+		"required crew" 1
 		"mass" 14082
 		"drag" 133.4
 		"heat dissipation" .13
@@ -17822,6 +18160,7 @@ ship "Ikatila'ej"
 			"hull damage" 4800
 			"hit force" 20000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Microbot Grinder"
 		"Shunt-Strike Turret" 3
@@ -17879,7 +18218,7 @@ outfit "Lor'kas Ik 577 Core"
 	cost 14825000.0
 	shields 32700
 	hull 29600
-	"required crew" 234
+	"required crew" 233
 	"bunks" 453
 	"fuel capacity" 1000
 
@@ -17892,6 +18231,7 @@ ship "Lor'kas Ik 577"
 	attributes
 		category "Heavy Freighter"
 		cost 14825000.0
+		"required crew" 1
 		"mass" 4791
 		"drag" 39
 		"heat dissipation" .2
@@ -17905,6 +18245,7 @@ ship "Lor'kas Ik 577"
 			"hull damage" 4000
 			"hit force" 12000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Banisher Grav-Turret" 2
 		"Warder Anti-Missile" 4
@@ -17962,7 +18303,7 @@ outfit "Ra'gru Ik 618 Core"
 	cost 24820000.0
 	shields 51000
 	hull 39500
-	"required crew" 619
+	"required crew" 618
 	"bunks" 794
 	"fuel capacity" 1000
 
@@ -17975,6 +18316,7 @@ ship "Ra'gru Ik 618"
 	attributes
 		category "Heavy Warship"
 		cost 24820000.0
+		"required crew" 1
 		"mass" 5070
 		"drag" 44.1
 		"heat dissipation" .23
@@ -17988,6 +18330,7 @@ ship "Ra'gru Ik 618"
 			"hull damage" 4000
 			"hit force" 12000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Grab-Strike Turret" 2
 		"Banisher Grav-Turret" 2
@@ -18054,7 +18397,7 @@ outfit "Kas'lor Ik 582 Core"
 	cost 14095000.0
 	shields 39750
 	hull 26100
-	"required crew" 314
+	"required crew" 313
 	"bunks" 551
 	"solar collection" 3.8
 	"fuel capacity" 32700
@@ -18068,6 +18411,7 @@ ship "Kas'lor Ik 582"
 	attributes
 		category "Heavy Freighter"
 		cost 14095000.0
+		"required crew" 1
 		"mass" 4778
 		"drag" 34.9
 		"heat dissipation" .18
@@ -18081,6 +18425,7 @@ ship "Kas'lor Ik 582"
 			"hull damage" 4000
 			"hit force" 12000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Langrage Hyper-Heaver" 2
 		"Banisher Grav-Turret" 3
@@ -18134,7 +18479,7 @@ outfit "Lor'nag Ik 590 Core"
 	cost 16820000.0
 	shields 47000
 	hull 34800
-	"required crew" 538
+	"required crew" 537
 	"bunks" 1492
 	"solar collection" 5.6
 	"fuel capacity" 1000
@@ -18148,6 +18493,7 @@ ship "Lor'nag Ik 590"
 	attributes
 		category "Space Liner"
 		cost 16820000.0
+		"required crew" 1
 		"mass" 4853
 		"drag" 36.9
 		"heat dissipation" .19
@@ -18161,6 +18507,7 @@ ship "Lor'nag Ik 590"
 			"hull damage" 4000
 			"hit force" 12000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Grab-Strike Turret" 1
 		"Banisher Grav-Turret" 3
@@ -18217,7 +18564,7 @@ outfit "Ra'at Ik 621 Core"
 	cost 21795000.0
 	shields 48000
 	hull 31400
-	"required crew" 794
+	"required crew" 793
 	"bunks" 1037
 	"fuel capacity" 1000
 
@@ -18230,6 +18577,7 @@ ship "Ra'at Ik 621"
 	attributes
 		category "Heavy Warship"
 		cost 21795000.0
+		"required crew" 1
 		"mass" 4647
 		"drag" 55.4
 		"heat dissipation" .2
@@ -18243,6 +18591,7 @@ ship "Ra'at Ik 621"
 			"hull damage" 4000
 			"hit force" 12000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Grab-Strike Turret" 3
 		"Banisher Grav-Turret" 2
@@ -18312,7 +18661,7 @@ outfit "Kasichara A'awoj Core"
 	cost 21145000.0
 	shields 44000
 	hull 49600
-	"required crew" 543
+	"required crew" 542
 	"bunks" 1997
 	"solar collection" 12.7
 	"fuel capacity" 600
@@ -18325,6 +18674,7 @@ ship "Kasichara A'awoj"
 	attributes
 		category "Space Liner"
 		cost 21145000.0
+		"required crew" 1
 		"mass" 5562
 		"drag" 50.4
 		"heat dissipation" .21
@@ -18338,6 +18688,7 @@ ship "Kasichara A'awoj"
 			"hull damage" 4000
 			"hit force" 12000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Banisher Grav-Turret" 3
 		"Warder Anti-Missile" 3
@@ -18387,7 +18738,7 @@ outfit "Korsmanath A'awoj Core"
 	cost 138450000.0
 	shields 196420
 	hull 320690
-	"required crew" 1940
+	"required crew" 1939
 	"bunks" 31920
 	"solar collection" 4.2
 	"fuel capacity" 1000
@@ -18402,6 +18753,7 @@ ship "Korsmanath A'awoj"
 	attributes
 		category "Superheavy"
 		cost 138450000.0
+		"required crew" 1
 		"mass" 38565
 		"drag" 231
 		"heat dissipation" .08
@@ -18415,6 +18767,7 @@ ship "Korsmanath A'awoj"
 			"hull damage" 7500
 			"hit force" 22500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Banisher Grav-Turret" 7
 		"Langrage Hyper-Heaver" 3
@@ -18630,7 +18983,7 @@ outfit "Echo-Galleon Core"
 	cost 13845000.0
 	shields 39000
 	hull 27000
-	"required crew" 243
+	"required crew" 242
 	"bunks" 972
 	"fuel capacity" 600
 
@@ -18642,6 +18995,7 @@ ship "Echo-Galleon"
 	attributes
 		category "Utility"
 		cost 13845000.0
+		"required crew" 1
 		"mass" 3791
 		"drag" 42
 		"heat dissipation" .3
@@ -18655,6 +19009,7 @@ ship "Echo-Galleon"
 			"hull damage" 3600
 			"hit force" 10800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Digger Mining Beam" 4
 		"Grab-Strike Turret" 2
@@ -18699,7 +19054,7 @@ outfit "Arch-Carrack Core"
 	cost 7907500.0
 	"shields" 21800
 	"hull" 19300
-	"required crew" 54
+	"required crew" 53
 	"bunks" 97
 	"fuel capacity" 600
 	"disruption resistance" 0.24
@@ -18714,6 +19069,7 @@ ship "Arch-Carrack"
 	attributes
 		category "Heavy Freighter"
 		cost 7907500.0
+		"required crew" 1
 		"mass" 1906
 		"drag" 22.3
 		"heat dissipation" .34
@@ -18727,6 +19083,7 @@ ship "Arch-Carrack"
 			"hull damage" 2300
 			"hit force" 5900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Banisher Grav-Turret" 1
 		"Digger Mining Beam" 2
@@ -18769,7 +19126,7 @@ outfit "Charm-Shallop Core"
 	cost 7035000.0
 	"shields" 19700
 	"hull" 15200
-	"required crew" 65
+	"required crew" 64
 	"bunks" 203
 	"fuel capacity" 500
 	"disruption resistance" 0.2
@@ -18784,6 +19141,7 @@ ship "Charm-Shallop"
 	attributes
 		category "Utility"
 		cost 7035000.0
+		"required crew" 1
 		"mass" 882
 		"drag" 10.5
 		"heat dissipation" .5
@@ -18797,6 +19155,7 @@ ship "Charm-Shallop"
 			"hull damage" 1800
 			"hit force" 5400
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Digger Mining Beam" 3
 		"Warder Anti-Missile"
@@ -18861,6 +19220,7 @@ ship "Kar Ik Vot 349"
 			"hull damage" 3200
 			"hit force" 9600
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Korath Detainer" 2
 		"Piercer Missile Launcher" 2
@@ -18935,6 +19295,7 @@ ship "Tek Far 71 - Lek"
 			"hull damage" 2000
 			"hit force" 6000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Korath Detainer"
 		"Piercer Missile Launcher" 2
@@ -19022,6 +19383,7 @@ ship "Tek Far 78 - Osk"
 			"hull damage" 2200
 			"hit force" 6600
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Korath Detainer"
 		"Piercer Missile Launcher" 3
@@ -19109,6 +19471,7 @@ ship "Tek Far 109"
 			"hull damage" 1600
 			"hit force" 4800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Korath Detainer"
 		"Piercer Missile Launcher" 2
@@ -19204,6 +19567,7 @@ ship "Met Par Tek 53"
 			"hull damage" 1600
 			"hit force" 4800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Thermal Repeater" 3
 		"Thermal Repeater Turret" 6
@@ -19267,6 +19631,7 @@ ship "Far Lek 14"
 			"hull damage" 25
 			"hit force" 75
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Thermal Repeater"
 		"Generator (Candle Class)"
@@ -19314,6 +19679,7 @@ ship "Far Osk 27"
 			"hull damage" 60
 			"hit force" 180
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Thermal Repeater" 2
 		"Generator (Furnace Class)"
@@ -19365,6 +19731,7 @@ ship "Model 8"
 			"hull damage" 600
 			"hit force" 1800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Husk-Slice"
 		"Generator (Furnace Class)"
@@ -19419,6 +19786,7 @@ ship "Model 16"
 			"hull damage" 1100
 			"hit force" 3300
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Cluster Mine Layer"
 		"Cluster Mine" 41
@@ -19480,6 +19848,7 @@ ship "Model 32"
 			"hull damage" 1600
 			"hit force" 4800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Cluster Mine Layer"
 		"Cluster Mine" 41
@@ -19542,6 +19911,7 @@ ship "Model 64"
 			"hull damage" 2000
 			"hit force" 6000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Cluster Mine Layer"
 		"Cluster Mine" 81
@@ -19606,6 +19976,7 @@ ship "Model 128"
 			"hull damage" 2300
 			"hit force" 6900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Cluster Mine Layer" 2
 		"Cluster Mine" 82
@@ -19671,6 +20042,7 @@ ship "Model 256"
 			"hull damage" 2600
 			"hit force" 7800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Cluster Mine Layer" 2
 		"Cluster Mine" 142
@@ -19738,6 +20110,7 @@ ship "Model 512"
 			"hull damage" 2800
 			"hit force" 8400
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Cluster Mine Layer" 2
 		"Cluster Mine" 122
@@ -19797,6 +20170,7 @@ ship "Nanobot"
 		"outfit space" 5
 		"weapon capacity" 5
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Nano Strike"
 		"Nanobot Core"
@@ -19812,7 +20186,7 @@ outfit "Pug Zibruka Core"
 	cost 950000.0
 	"shields" 4000
 	"hull" 1000
-	"required crew" 4
+	"required crew" 3
 	"bunks" 6
 	"fuel capacity" 600
 	"energy capacity" 1000
@@ -19829,6 +20203,7 @@ ship "Pug Zibruka"
 	attributes
 		category "Light Warship"
 		cost 950000.0
+		"required crew" 1
 		"mass" 324
 		"drag" 3.7
 		"heat dissipation" .67
@@ -19842,6 +20217,7 @@ ship "Pug Zibruka"
 			"hull damage" 200
 			"hit force" 600
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Pug Zapper" 2
 		"Pug Biodefenses" 4
@@ -19869,7 +20245,7 @@ outfit "Pug Enfolta Core"
 	cost 3150000.0
 	"shields" 6800
 	"hull" 1700
-	"required crew" 19
+	"required crew" 18
 	"bunks" 27
 	"fuel capacity" 600
 	"energy capacity" 2000
@@ -19886,6 +20262,7 @@ ship "Pug Enfolta"
 	attributes
 		category "Medium Warship"
 		cost 3150000.0
+		"required crew" 1
 		"mass" 760
 		"drag" 7.1
 		"heat dissipation" .49
@@ -19899,6 +20276,7 @@ ship "Pug Enfolta"
 			"hull damage" 360
 			"hit force" 1080
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Pug Zapper" 2
 		"Pug Seeker" 2
@@ -19931,7 +20309,7 @@ outfit "Pug Maboro Core"
 	cost 4750000.0
 	"shields" 12600
 	"hull" 2700
-	"required crew" 54
+	"required crew" 53
 	"bunks" 87
 	"fuel capacity" 600
 	"energy capacity" 4000
@@ -19948,6 +20326,7 @@ ship "Pug Maboro"
 	attributes
 		category "Heavy Warship"
 		cost 4750000.0
+		"required crew" 1
 		"mass" 1990
 		"drag" 16.7
 		"heat dissipation" .36
@@ -19961,6 +20340,7 @@ ship "Pug Maboro"
 			"hull damage" 600
 			"hit force" 1800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Pug Seeker" 4
 		"Pug Zapper Turret" 2
@@ -19995,7 +20375,7 @@ outfit "Pug Arfecta Core"
 	cost 45000000.0
 	"shields" 98000
 	"hull" 80000
-	"required crew" 36
+	"required crew" 35
 	"bunks" 46
 	"fuel capacity" 1200
 	"energy capacity" 10000
@@ -20018,6 +20398,7 @@ ship "Pug Arfecta"
 	attributes
 		category "Medium Warship"
 		cost 45000000.0
+		"required crew" 1
 		"mass" 1325
 		"drag" 11.25
 		"heat dissipation" .54
@@ -20031,6 +20412,7 @@ ship "Pug Arfecta"
 			"hull damage" 4500
 			"hit force" 7000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Tier 3 Anti-Missile" 2
 		"Pug Gridfire Turret" 3
@@ -20062,7 +20444,7 @@ outfit "Quarg Lindwyrm Core"
 	cost 10000000.0
 	"shields" 95000
 	"hull" 55000
-	"required crew" 35
+	"required crew" 34
 	"bunks" 40
 	"fuel capacity" 1000
 
@@ -20074,6 +20456,7 @@ ship "Quarg Lindwyrm"
 	attributes
 		category "Heavy Freighter"
 		cost 10000000.0
+		"required crew" 1
 		"mass" 840
 		"drag" 11.5
 		"heat dissipation" .5
@@ -20087,6 +20470,7 @@ ship "Quarg Lindwyrm"
 			"hull damage" 7500
 			"hit force" 2250
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Skydagger" 2
 		"Stratospear" 2
@@ -20119,7 +20503,7 @@ outfit "Quarg Guivre Core"
 	cost 37500000.0
 	"shields" 185000
 	"hull" 115000
-	"required crew" 165
+	"required crew" 164
 	"bunks" 180
 	"fuel capacity" 2000
 
@@ -20131,6 +20515,7 @@ ship "Quarg Guivre"
 	attributes
 		category "Utility"
 		cost 37500000.0
+		"required crew" 1
 		"mass" 2800
 		"drag" 29
 		"heat dissipation" .3
@@ -20144,6 +20529,7 @@ ship "Quarg Guivre"
 			"hull damage" 15000
 			"hit force" 4500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Slipstream Projector"
 		"Stratospear" 2
@@ -20176,7 +20562,7 @@ outfit "Quarg Drake Core"
 	cost 6000000.0
 	"shields" 95000
 	"hull" 25000
-	"required crew" 20
+	"required crew" 19
 	"bunks" 30
 	"fuel capacity" 800
 
@@ -20188,6 +20574,7 @@ ship "Quarg Drake"
 	attributes
 		category "Light Warship"
 		cost 6000000.0
+		"required crew" 1
 		"mass" 440
 		"drag" 5.7
 		"heat dissipation" .65
@@ -20201,6 +20588,7 @@ ship "Quarg Drake"
 			"hull damage" 6000
 			"hit force" 1800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Skydagger" 2
 		"Skylance"
@@ -20235,7 +20623,7 @@ outfit "Quarg Wardragon Core"
 	cost 7500000.0
 	"shields" 105000
 	"hull" 30000
-	"required crew" 30
+	"required crew" 29
 	"bunks" 40
 	"fuel capacity" 800
 
@@ -20247,6 +20635,7 @@ ship "Quarg Wardragon"
 	attributes
 		category "Light Warship"
 		cost 7500000.0
+		"required crew" 1
 		"mass" 600
 		"drag" 8.5
 		"heat dissipation" .6
@@ -20260,6 +20649,7 @@ ship "Quarg Wardragon"
 			"hull damage" 6750
 			"hit force" 2025
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Skylance" 2
 		"Stratospear" 2
@@ -20293,7 +20683,7 @@ outfit "Quarg Wyvern Core"
 	cost 13500000.0
 	"shields" 155000
 	"hull" 45000
-	"required crew" 50
+	"required crew" 49
 	"bunks" 60
 	"fuel capacity" 1000
 
@@ -20305,6 +20695,7 @@ ship "Quarg Wyvern"
 	attributes
 		category "Medium Warship"
 		cost 13500000.0
+		"required crew" 1
 		"mass" 750
 		"drag" 9
 		"heat dissipation" .55
@@ -20318,6 +20709,7 @@ ship "Quarg Wyvern"
 			"hull damage" 10000
 			"hit force" 3000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Elysian Ranseur" 2
 		"Astral Ribault" 2
@@ -20352,7 +20744,7 @@ outfit "Quarg Hydra Core"
 	cost 32500000.0
 	"shields" 310000
 	"hull" 80000
-	"required crew" 120
+	"required crew" 119
 	"bunks" 140
 	"fuel capacity" 800
 
@@ -20364,6 +20756,7 @@ ship "Quarg Hydra"
 	attributes
 		category "Heavy Warship"
 		cost 32500000.0
+		"required crew" 1
 		"mass" 2600
 		"drag" 25
 		"heat dissipation" .4
@@ -20377,6 +20770,7 @@ ship "Quarg Hydra"
 			"hull damage" 19500
 			"hit force" 5850
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Elysian Ranseur" 2
 		"Celestial Culverin" 3
@@ -20431,6 +20825,7 @@ ship "_Ion Timer Ship"
 		"mass" 100
 		"drag" 5
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Timer Weapon"
 		"_Ion Storm Timer: Generator"
@@ -20458,6 +20853,7 @@ ship "Rescue Dummy"
 		"mass" 10
 		"drag" 1
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Suicide Gun"
 		"Rescue Dummy Core"
@@ -20471,7 +20867,7 @@ outfit "Albatross Core"
 	cost 10125000.0
 	"shields" 34200
 	"hull" 12600
-	"required crew" 44
+	"required crew" 43
 	"bunks" 75
 	"fuel capacity" 600
 	"ramscoop" 2.75
@@ -20494,6 +20890,7 @@ ship "Albatross"
 		licenses
 			"Remnant Capital"
 		cost 10125000.0
+		"required crew" 1
 		"cargo space" 124
 		"mass" 1443
 		"drag" 14.2
@@ -20507,6 +20904,7 @@ ship "Albatross"
 			"hull damage" 1800
 			"hit force" 5400
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Inhibitor Cannon" 6
 		"Thrasher Turret" 2
@@ -20552,7 +20950,7 @@ outfit "Modified Dromedary Core"
 	cost 28800000.0
 	"shields" 15100
 	"hull" 9600
-	"required crew" 95
+	"required crew" 94
 	"bunks" 300
 	"fuel capacity" 900
 	"solar collection" 1.1
@@ -20573,6 +20971,7 @@ ship "Modified Dromedary"
 			"Remnant Capital"
 		category "Utility"
 		cost 28800000.0
+		"required crew" 1
 		"mass" 2366
 		"drag" 28.7
 		"heat dissipation" .22
@@ -20586,6 +20985,7 @@ ship "Modified Dromedary"
 			"hull damage" 1300
 			"hit force" 3900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Thrasher Turret" 2
 		"Point Defense Turret" 2
@@ -20640,7 +21040,7 @@ outfit "Gull Core"
 	cost 4750000.0
 	"shields" 6500
 	"hull" 2500
-	"required crew" 3
+	"required crew" 2
 	"bunks" 20
 	"fuel capacity" 600
 	"ramscoop" 1.75
@@ -20667,6 +21067,7 @@ ship "Gull"
 		licenses
 			Remnant
 		cost 4750000.0
+		"required crew" 1
 		"mass" 416
 		"drag" 7.5
 		"heat dissipation" 0.56
@@ -20680,6 +21081,7 @@ ship "Gull"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Inhibitor Cannon" 1
 		"Point Defense Turret"
@@ -20719,7 +21121,7 @@ outfit "Heron Core"
 	cost 128187500.0
 	"shields" 250500
 	"hull" 250500
-	"required crew" 1000
+	"required crew" 999
 	"bunks" 3000
 	"fuel capacity" 2500
 	"ramscoop" 10.75
@@ -20754,6 +21156,7 @@ ship "Heron"
 		licenses
 			"Remnant Capital"
 		cost 128187500.0
+		"required crew" 1
 		"mass" 15725
 		"drag" 62.5
 		"heat dissipation" .32
@@ -20767,6 +21170,7 @@ ship "Heron"
 			"hull damage" 700
 			"hit force" 2100
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Ember Tear"
 		"Inhibitor Turret" 6
@@ -20892,7 +21296,7 @@ outfit "Ibis Core"
 	cost 5813500.0
 	"shields" 14400
 	"hull" 6200
-	"required crew" 16
+	"required crew" 15
 	"bunks" 36
 	"fuel capacity" 700
 	"ramscoop" 2.75
@@ -20915,6 +21319,7 @@ ship "Ibis"
 		licenses
 			Remnant
 		cost 5813500.0
+		"required crew" 1
 		"mass" 700
 		"drag" 7.4
 		"heat dissipation" 0.49
@@ -20928,6 +21333,7 @@ ship "Ibis"
 			"hull damage" 1200
 			"hit force" 3000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Inhibitor Cannon" 3
 		"Point Defense Turret"
@@ -20983,7 +21389,6 @@ outfit "Merganser Core"
 	cost 2415000.0
 	"shields" 3500
 	"hull" 3000
-	"required crew" 1
 	"bunks" 3
 	"fuel capacity" 600
 	"ramscoop" 1.75
@@ -21045,6 +21450,7 @@ ship "Merganser"
 			"hull damage" 150
 			"hit force" 250
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Inhibitor Cannon" 2
 		"Millennium Cell" 2
@@ -21076,7 +21482,7 @@ outfit "Pelican Core"
 	cost 4950000.0
 	"shields" 11300
 	"hull" 5700
-	"required crew" 14
+	"required crew" 13
 	"bunks" 35
 	"fuel capacity" 600
 	"ramscoop" 2.75
@@ -21098,6 +21504,7 @@ ship "Pelican"
 		licenses
 			"Remnant Capital"
 		cost 4950000.0
+		"required crew" 1
 		"cargo space" 302
 		"mass" 640
 		"drag" 10.1
@@ -21111,6 +21518,7 @@ ship "Pelican"
 			"hull damage" 800
 			"hit force" 2400
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Thrasher Turret"
 		"Point Defense Turret" 2
@@ -21149,7 +21557,6 @@ outfit "Penguin Core"
 	cost 1265000.0
 	"shields" 3000
 	"hull" 1500
-	"required crew" 1
 	"bunks" 3
 	"fuel capacity" 800
 	"energy capacity" 300
@@ -21219,6 +21626,7 @@ ship "Penguin"
 			"hull damage" 160
 			"hit force" 800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Millennium Cell"
 		"Emergency Ramscoop"
@@ -21272,7 +21680,7 @@ outfit "Peregrine Core"
 	cost 20813500.0
 	"shields" 15400
 	"hull" 8600
-	"required crew" 9
+	"required crew" 8
 	"bunks" 25
 	"fuel capacity" 900
 	"ramscoop" 3.25
@@ -21305,6 +21713,7 @@ ship "Peregrine"
 		licenses
 			"Remnant Capital"
 		cost 20813500.0
+		"required crew" 1
 		"mass" 801
 		"drag" 6.5
 		"heat dissipation" 0.57
@@ -21318,6 +21727,7 @@ ship "Peregrine"
 			"hull damage" 1200
 			"hit force" 3000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Thrasher Cannon" 4
 		"EMP Torpedo Bay" 1
@@ -21368,7 +21778,7 @@ outfit "Petrel Core"
 	"hull" 2500
 	"fuel capacity" 100
 	"ramscoop" 1.25
-	"required crew" 2
+	"required crew" 1
 	"bunks" 3
 	"shield generation" 0.36
 	"shield energy" 0.24
@@ -21391,6 +21801,7 @@ ship "Petrel"
 			Remnant
 		cost 570500.0
 		"cargo space" 15
+		"required crew" 1
 		"mass" 68
 		"drag" 1.7
 		"heat dissipation" .73
@@ -21403,6 +21814,7 @@ ship "Petrel"
 			"hull damage" 200
 			"hit force" 350
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Inhibitor Cannon" 2
 		"Millennium Cell" 2
@@ -21431,7 +21843,6 @@ outfit "Puffin Core"
 	cost 265000.0
 	"shields" 800
 	"hull" 1500
-	"required crew" 1
 	"bunks" 2
 	"fuel capacity" 700
 	"energy capacity" 150
@@ -21470,6 +21881,7 @@ ship "Puffin"
 		"outfit space" 80
 		"engine capacity" 26
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Millennium Cell"
 		"Emergency Ramscoop"
@@ -21491,7 +21903,6 @@ outfit "Smew Core"
 	cost 485500.0
 	"shields" 1200
 	"hull" 2800
-	"required crew" 1
 	"bunks" 8
 	"fuel capacity" 100
 	"energy capacity" 3000
@@ -21530,6 +21941,7 @@ ship "Smew"
 			"hull damage" 175
 			"hit force" 315
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Millennium Cell"
 		"Quantum Key Stone"
@@ -21553,7 +21965,7 @@ outfit "Starling Core"
 	cost 4400000.0
 	"shields" 8800
 	"hull" 4900
-	"required crew" 6
+	"required crew" 5
 	"bunks" 15
 	"fuel capacity" 900
 	"ramscoop" 1.75
@@ -21580,6 +21992,7 @@ ship "Starling"
 		licenses
 			Remnant
 		cost 4400000.0
+		"required crew" 1
 		"mass" 387
 		"drag" 4.6
 		"heat dissipation" 0.59
@@ -21593,6 +22006,7 @@ ship "Starling"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Inhibitor Cannon" 3
 		"Point Defense Turret"
@@ -21633,7 +22047,7 @@ outfit "Swan Core"
 	cost 14830000.0
 	"shields" 30700
 	"hull" 13100
-	"required crew" 38
+	"required crew" 37
 	"bunks" 68
 	"fuel capacity" 6400
 	"ramscoop" 6.5
@@ -21659,6 +22073,7 @@ ship "Swan"
 		licenses
 			"Remnant Capital"
 		cost 14830000.0
+		"required crew" 1
 		"cargo space" 106
 		"mass" 1813
 		"drag" 15.1
@@ -21672,6 +22087,7 @@ ship "Swan"
 			"hull damage" 2150
 			"hit force" 6450
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Inhibitor Cannon" 2
 		"Teciimach Bay"
@@ -21763,6 +22179,7 @@ ship "Tern"
 			"hull damage" 150
 			"hit force" 250
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Inhibitor Cannon"
 		"Millennium Cell"
@@ -21791,7 +22208,6 @@ outfit "vyu-Ir Core"
 	"hull" 49000
 	"hull repair rate" 1.9
 	"automaton" 1
-	"required crew" 1
 	"bunks" 100
 	"fuel capacity" 1000
 	"energy capacity" 60000
@@ -21841,6 +22257,7 @@ ship "vyu-Ir"
 			"hull damage" 10000
 			"hit force" 30000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Abyssal Composer"
 		"Fate Sealer" 2
@@ -21881,6 +22298,7 @@ ship "Timer Ship"
 		"mass" 100
 		"drag" 5
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Timer Weapon"
 		"Timer Ship Core"
@@ -21894,7 +22312,7 @@ outfit "Emerald Sword Core"
 	cost 50000000.0
 	"shields" 9500
 	"hull" 45000
-	"required crew" 86
+	"required crew" 85
 	"bunks" 302
 	"fuel capacity" 900
 	"spinal mount" 1
@@ -21908,6 +22326,7 @@ ship "Emerald Sword"
 	attributes
 		category "Superheavy"
 		cost 50000000.0
+		"required crew" 1
 		"mass" 4360
 		"drag" 41
 		"heat dissipation" 0.22
@@ -21921,6 +22340,7 @@ ship "Emerald Sword"
 			"hull damage" 11965
 			"hit force" 11495
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Dragonflame Cannon"
 		"Particle Waveform Turret" 6
@@ -22055,6 +22475,7 @@ ship "Black Diamond"
 			"hull damage" 120
 			"hit force" 360
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Heavy Ion Cyclotron"
 		"Shard Fabricator" 2
@@ -22103,7 +22524,7 @@ outfit "Aaulqra Core"
 	cost 13000000.0
 	"shields" 10000
 	"hull" 55000
-	"required crew" 18
+	"required crew" 17
 	"bunks" 25
 	"fuel capacity" 600
 	"multimodal armor" 1
@@ -22124,6 +22545,7 @@ ship "Aaulqra"
 			"High Houses"
 		category "Medium Warship"
 		cost 13000000.0
+		"required crew" 1
 		"mass" 650
 		"drag" 8.75
 		"heat dissipation" 0.49
@@ -22137,6 +22559,7 @@ ship "Aaulqra"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		`"Ojet" Bimodal Coilgun` 6
 		`"Nnesa" Fusion Core`
@@ -22198,7 +22621,7 @@ outfit "Ejniisde Core"
 	cost 2050000.0
 	"shields" 2000
 	"hull" 9500
-	"required crew" 12
+	"required crew" 11
 	"bunks" 64
 	"fuel capacity" 700
 
@@ -22213,6 +22636,7 @@ ship "Ejniisde"
 			"Successor"
 		category "Space Liner"
 		cost 2050000.0
+		"required crew" 1
 		"mass" 350
 		"drag" 4.6
 		"heat dissipation" 0.67
@@ -22226,6 +22650,7 @@ ship "Ejniisde"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		`6-"Ruuv" Betavoltaic Cell`
 		`"Ej" Shield Cortex`
@@ -22282,7 +22707,7 @@ outfit "Kaskhorade Core"
 	cost 22625000.0
 	"shields" 7000
 	"hull" 44500
-	"required crew" 34
+	"required crew" 33
 	"bunks" 130
 	"fuel capacity" 600
 	"multimodal armor" 1
@@ -22301,6 +22726,7 @@ ship "Kaskhorade"
 			"High Houses"
 		category "Utility"
 		cost 22625000.0
+		"required crew" 1
 		"mass" 990
 		"drag" 13.6
 		"heat dissipation" .5
@@ -22314,6 +22740,7 @@ ship "Kaskhorade"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		`"Ojet" Bimodal Coilgun` 2
 		`"Sjeja" Kinetic Lance` 2
@@ -22383,7 +22810,6 @@ outfit "Kvelqde Core"
 	cost 92500.0
 	"shields" 350
 	"hull" 2400
-	"required crew" 1
 	"bunks" 9
 	"fuel capacity" 500
 
@@ -22411,6 +22837,7 @@ ship "Kvelqde"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		`1-"Uurau" Betavoltaic Cell` 2
 		`"Ej" Shield Cortex`
@@ -22467,7 +22894,6 @@ outfit "Kvelqde-Khora Core"
 	cost 120000.0
 	"shields" 785
 	"hull" 4625
-	"required crew" 1
 	"bunks" 6
 	"fuel capacity" 500
 
@@ -22495,6 +22921,7 @@ ship "Kvelqde-Khora"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Overcharged Pulse Laser" 2
 		"Overcharged Laser Turret"
@@ -22554,7 +22981,7 @@ outfit "Myaede Core"
 	cost 1625000.0
 	"shields" 1500
 	"hull" 13000
-	"required crew" 6
+	"required crew" 5
 	"bunks" 20
 	"fuel capacity" 500
 
@@ -22569,6 +22996,7 @@ ship "Myaede"
 			"Successor"
 		category "Light Freighter"
 		cost 1625000.0
+		"required crew" 1
 		"mass" 500
 		"drag" 7.1
 		"heat dissipation" 0.62
@@ -22582,6 +23010,7 @@ ship "Myaede"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Pulse Laser Turret" 2
 		`3-"Kaska" Betavoltaic Cell` 2
@@ -22639,7 +23068,7 @@ outfit "Nnaatej Core"
 	cost 1912500.0
 	"shields" 3000
 	"hull" 15500
-	"required crew" 5
+	"required crew" 4
 	"bunks" 26
 	"fuel capacity" 500
 	"waterlining" 1
@@ -22660,6 +23089,7 @@ ship "Nnaatej"
 			"Successor"
 		category "Transport"
 		cost 1912500.0
+		"required crew" 1
 		"mass" 570
 		"drag" 5.6
 		"heat dissipation" 0.61
@@ -22673,6 +23103,7 @@ ship "Nnaatej"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		`6-"Ruuv" Betavoltaic Cell`
 		`"Ej" Shield Cortex`
@@ -22727,7 +23158,6 @@ outfit "Nnesaarau Core"
 	cost 612500.0
 	"shields" 1800
 	"hull" 2200
-	"required crew" 1
 	"bunks" 4
 	"fuel capacity" 600
 
@@ -22755,6 +23185,7 @@ ship "Nnesaarau"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		`3-"Kaska" Betavoltaic Cell`
 		`1-"Uurau" Betavoltaic Cell`
@@ -22802,7 +23233,7 @@ outfit "Ojde Core"
 	cost 4125000.0
 	"shields" 3000
 	"hull" 31500
-	"required crew" 8
+	"required crew" 7
 	"bunks" 24
 	"fuel capacity" 500
 
@@ -22817,6 +23248,7 @@ ship "Ojde"
 			"Successor"
 		category "Heavy Freighter"
 		cost 4125000.0
+		"required crew" 1
 		"mass" 1190
 		"drag" 15.5
 		"heat dissipation" 0.5
@@ -22830,6 +23262,7 @@ ship "Ojde"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Pulse Laser Turret" 2
 		`6-"Ruuv" Betavoltaic Cell`
@@ -22886,7 +23319,7 @@ outfit "Seiitej Core"
 	cost 4625000.0
 	"shields" 8000
 	"hull" 19000
-	"required crew" 8
+	"required crew" 7
 	"bunks" 36
 	"fuel capacity" 800
 	"multimodal armor" 1
@@ -22905,6 +23338,7 @@ ship "Seiitej"
 			"High Houses"
 		category "Utility"
 		cost 4625000.0
+		"required crew" 1
 		"mass" 320
 		"drag" 5.2
 		"heat dissipation" .60
@@ -22918,6 +23352,7 @@ ship "Seiitej"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		`"Ojet" Bimodal Coilgun` 4
 		`"Ryuit" Fusion Core`
@@ -22977,7 +23412,6 @@ outfit "Stolsaqra Core"
 	cost 225000.0
 	"shields" 850
 	"hull" 6100
-	"required crew" 1
 	"bunks" 2
 	"fuel capacity" 300
 	"multimodal armor" 1
@@ -23009,6 +23443,7 @@ ship "Stolsaqra"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Successor Pulse Laser" 3
 		`3-"Kaska" Betavoltaic Cell`
@@ -23069,7 +23504,7 @@ outfit "Veusade Core"
 	cost 8250000.0
 	"shields" 8000
 	"hull" 29000
-	"required crew" 5
+	"required crew" 4
 	"bunks" 10
 	"fuel capacity" 500
 	"multimodal armor" 1
@@ -23088,6 +23523,7 @@ ship "Veusade"
 			"High Houses"
 		category "Light Warship"
 		cost 8250000.0
+		"required crew" 1
 		"mass" 360
 		"drag" 5.45
 		"heat dissipation" .62
@@ -23101,6 +23537,7 @@ ship "Veusade"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Drag Cannon" 8
 		`"Ryuit" Fusion Core`
@@ -23165,7 +23602,7 @@ outfit "Vujlet Core"
 	cost 4100000.0
 	"shields" 3000
 	"hull" 17500
-	"required crew" 2
+	"required crew" 1
 	"bunks" 6
 	"fuel capacity" 600
 	"exclusive: Vujlet" 1
@@ -23185,6 +23622,7 @@ ship "Vujlet"
 			"High Houses"
 		category "Light Warship"
 		cost 4100000.0
+		"required crew" 1
 		"mass" 230
 		"drag" 3.8
 		"heat dissipation" .68
@@ -23198,6 +23636,7 @@ ship "Vujlet"
 			"hull damage" 500
 			"hit force" 1500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		`"Ojet" Bimodal Coilgun` 2
 		`"Nnesa" Fusion Core`
@@ -23265,7 +23704,6 @@ outfit "Vyrmeid Core"
 	cost 0.0
 	"shields" 0
 	"hull" 400
-	"required crew" 1
 	"bunks" 1
 	"fuel capacity" 0
 	"inscrutable" 1
@@ -23298,6 +23736,7 @@ ship "Vyrmeid"
 		"weapon capacity" 0
 		"engine capacity" 0
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Plankton Mouth"
 		"Vyrmeid Core"
@@ -23314,7 +23753,7 @@ outfit "Astral Cetacean Core"
 	cost 0.0
 	"shields" 0
 	"hull" 11000
-	"required crew" 9
+	"required crew" 8
 	"bunks" 9
 	"fuel capacity" 200
 	"inscrutable" 1
@@ -23349,6 +23788,7 @@ ship "Astral Cetacean"
 	attributes
 		category "Unclassified"
 		cost 0.0
+		"required crew" 1
 		"mass" 1800
 		"drag" 23.6
 		"heat dissipation" 0.46
@@ -23362,6 +23802,7 @@ ship "Astral Cetacean"
 			"hull damage" 1500
 			"hit force" 4500
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Astral Mouth"
 		"Astral Cetacean Core"
@@ -23406,6 +23847,7 @@ ship "Earth Shaper"
 			"hull damage" 150
 			"hit force" 250
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Small Biochemical Cell"
 		"Type 1 Radiant Thruster"
@@ -23449,6 +23891,7 @@ ship "Flycatcher"
 			"hull damage" 150
 			"hit force" 250
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Wanderer Anti-Missile"
 		"Small Biochemical Cell" 2
@@ -23471,7 +23914,7 @@ outfit "Summer Leaf Core"
 	cost 4750000.0
 	"shields" 14400
 	"hull" 6700
-	"required crew" 6
+	"required crew" 5
 	"bunks" 15
 	"fuel capacity" 800
 
@@ -23486,6 +23929,7 @@ ship "Summer Leaf"
 		licenses
 			Wanderer
 		cost 4750000.0
+		"required crew" 1
 		"mass" 174
 		"drag" 3.0
 		"heat dissipation" .7
@@ -23499,6 +23943,7 @@ ship "Summer Leaf"
 			"hull damage" 350
 			"hit force" 1050
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sunbeam" 2
 		"Yellow Sun Reactor"
@@ -23527,7 +23972,7 @@ outfit "Autumn Leaf Core"
 	cost 6250000.0
 	"shields" 18700
 	"hull" 7400
-	"required crew" 8
+	"required crew" 7
 	"bunks" 13
 	"fuel capacity" 800
 
@@ -23542,6 +23987,7 @@ ship "Autumn Leaf"
 		licenses
 			Wanderer
 		cost 6250000.0
+		"required crew" 1
 		"mass" 228
 		"drag" 3.5
 		"heat dissipation" .67
@@ -23555,6 +24001,7 @@ ship "Autumn Leaf"
 			"hull damage" 400
 			"hit force" 1200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sunbeam" 2
 		"Wanderer Anti-Missile"
@@ -23584,7 +24031,7 @@ outfit "Strong Wind Core"
 	cost 8050000.0
 	"shields" 28500
 	"hull" 19600
-	"required crew" 17
+	"required crew" 16
 	"bunks" 39
 	"fuel capacity" 600
 	"asteroid scan power" 100
@@ -23601,6 +24048,7 @@ ship "Strong Wind"
 		licenses
 			"Wanderer"
 		cost 8050000.0
+		"required crew" 1
 		"mass" 561
 		"drag" 6.6
 		"heat dissipation" .5
@@ -23614,6 +24062,7 @@ ship "Strong Wind"
 			"hull damage" 1000
 			"hit force" 3000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sunbeam" 4
 		"Thunderhead Launcher" 2
@@ -23648,7 +24097,7 @@ outfit "Heavy Gust Core"
 	cost 8800000.0
 	"shields" 35200
 	"hull" 21200
-	"required crew" 22
+	"required crew" 21
 	"bunks" 34
 	"fuel capacity" 600
 	"tactical scan power" 75
@@ -23663,6 +24112,7 @@ ship "Heavy Gust"
 		licenses
 			"Wanderer Military"
 		cost 8800000.0
+		"required crew" 1
 		"mass" 598
 		"drag" 7.4
 		"heat dissipation" .45
@@ -23676,6 +24126,7 @@ ship "Heavy Gust"
 			"hull damage" 1100
 			"hit force" 3300
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sunbeam" 4
 		"Thunderhead Launcher" 2
@@ -23712,7 +24163,7 @@ outfit "Tempest Core"
 	cost 9850000.0
 	"shields" 42100
 	"hull" 25900
-	"required crew" 38
+	"required crew" 37
 	"bunks" 53
 	"fuel capacity" 600
 
@@ -23726,6 +24177,7 @@ ship "Tempest"
 		licenses
 			"Wanderer Military"
 		cost 9850000.0
+		"required crew" 1
 		"mass" 830
 		"drag" 9.6
 		"heat dissipation" 0.42
@@ -23739,6 +24191,7 @@ ship "Tempest"
 			"hull damage" 1400
 			"hit force" 4200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sunbeam" 2
 		"Thunderhead Launcher" 2
@@ -23775,7 +24228,7 @@ outfit "Derecho Core"
 	cost 15250000.0
 	"shields" 53200
 	"hull" 32700
-	"required crew" 53
+	"required crew" 52
 	"bunks" 82
 	"fuel capacity" 500
 
@@ -23789,6 +24242,7 @@ ship "Derecho"
 		licenses
 			"Wanderer Military"
 		cost 15250000.0
+		"required crew" 1
 		"mass" 1475
 		"drag" 14.8
 		"heat dissipation" 0.36
@@ -23802,6 +24256,7 @@ ship "Derecho"
 			"hull damage" 1700
 			"hit force" 5100
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sunbeam" 2
 		"Thunderhead Launcher" 2
@@ -23845,7 +24300,7 @@ outfit "Hurricane Core"
 	cost 19550000.0
 	"shields" 72400
 	"hull" 46500
-	"required crew" 76
+	"required crew" 75
 	"bunks" 117
 	"fuel capacity" 500
 
@@ -23859,6 +24314,7 @@ ship "Hurricane"
 		licenses
 			"Wanderer Military"
 		cost 19550000.0
+		"required crew" 1
 		"mass" 2414
 		"drag" 23.2
 		"heat dissipation" 0.29
@@ -23872,6 +24328,7 @@ ship "Hurricane"
 			"hull damage" 2000
 			"hit force" 6000
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sunbeam" 6
 		"Dual Sunbeam Turret" 2
@@ -23914,7 +24371,6 @@ outfit "Cool Breeze Core"
 	cost 2265000.0
 	"shields" 7700
 	"hull" 3100
-	"required crew" 1
 	"bunks" 3
 	"fuel capacity" 400
 
@@ -23941,6 +24397,7 @@ ship "Cool Breeze"
 			"hull damage" 180
 			"hit force" 540
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Moonbeam" 2
 		"Red Sun Reactor"
@@ -23966,7 +24423,7 @@ outfit "Winter Gale Core"
 	cost 7050000.0
 	"shields" 22400
 	"hull" 14800
-	"required crew" 14
+	"required crew" 13
 	"bunks" 23
 	"fuel capacity" 600
 
@@ -23980,6 +24437,7 @@ ship "Winter Gale"
 		licenses
 			"Wanderer Military"
 		cost 7050000.0
+		"required crew" 1
 		"mass" 455
 		"drag" 7.3
 		"heat dissipation" .54
@@ -23993,6 +24451,7 @@ ship "Winter Gale"
 			"hull damage" 600
 			"hit force" 1800
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Moonbeam" 4
 		"Sunbeam" 2
@@ -24027,7 +24486,7 @@ outfit "Deep River Core"
 	cost 9150000.0
 	"shields" 17600
 	"hull" 47500
-	"required crew" 13
+	"required crew" 12
 	"bunks" 22
 	"fuel capacity" 500
 
@@ -24041,6 +24500,7 @@ ship "Deep River"
 		licenses
 			Wanderer
 		cost 9150000.0
+		"required crew" 1
 		"mass" 1362
 		"drag" 14.6
 		"heat dissipation" .4
@@ -24054,6 +24514,7 @@ ship "Deep River"
 			"hull damage" 1400
 			"hit force" 4200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Thunderhead Launcher" 6
 		"Thunderhead Missile" 568
@@ -24089,7 +24550,7 @@ outfit "Deep River Transport Core"
 	cost 9150000.0
 	"shields" 17600
 	"hull" 47500
-	"required crew" 13
+	"required crew" 12
 	"bunks" 166
 	"fuel capacity" 500
 
@@ -24103,6 +24564,7 @@ ship "Deep River Transport"
 		licenses
 			Wanderer
 		cost 9150000.0
+		"required crew" 1
 		"mass" 1339
 		"drag" 14.6
 		"heat dissipation" .39
@@ -24116,6 +24578,7 @@ ship "Deep River Transport"
 			"hull damage" 1400
 			"hit force" 4200
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Wanderer Anti-Missile" 4
 		"Yellow Sun Reactor"
@@ -24147,7 +24610,7 @@ outfit "Riptide Core"
 	cost 10560000.0
 	"shields" 38600
 	"hull" 22350
-	"required crew" 47
+	"required crew" 46
 	"bunks" 233
 	"fuel capacity" 800
 
@@ -24161,6 +24624,7 @@ ship "Riptide"
 		licenses
 			Wanderer
 		cost 10560000.0
+		"required crew" 1
 		"mass" 994
 		"drag" 11
 		"heat dissipation" .47
@@ -24174,6 +24638,7 @@ ship "Riptide"
 			"hull damage" 1300
 			"hit force" 3900
 		"Core Slot" 1
+		"required crew" 1
 	outfits
 		"Sunbeam Turret"
 		"Wanderer Anti-Missile" 2
