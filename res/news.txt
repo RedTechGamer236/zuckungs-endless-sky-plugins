@@ -1,3 +1,4 @@
+2026-07-06 | update: ship.cores
 2026-07-05 | update: ship.cores
 2026-06-30 | update: mission.helper
 2026-06-30 | update: heavy.traffic
