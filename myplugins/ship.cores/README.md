@@ -12,9 +12,14 @@ To maximize compatibility with plugins and existing savegames, several hull-spec
 <br>
 Changelog:<br>
 <br>
-2026-06-30<br>
-initial release<br>
+2026-07-06<br>
+added ship description to core (suggested by Kassandra Haruki)<br>
+fixed bug that prevents reading last line of txt file<br>
 <br>
 2026-07-05<br>
 fixed core remove problem because of required crew (reported by ulyssessword)<br>
+<br>
+2026-06-30<br>
+initial release<br>
+
 

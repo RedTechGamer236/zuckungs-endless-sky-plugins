@@ -35,7 +35,7 @@ def read_everything(data_folder):
 						continue
 					elif line == '\t\t\n':
 						continue
-					elif line[:1] != '\t' or index == len(lines):
+					elif line[:1] != '\t'  or line == '':
 						if started == True:
 							objs.append(txt.replace('<', '&#60;').replace('>', '&#62;'))
 							obj_paths.append(txt2)
@@ -75,7 +75,7 @@ def filter(objs, blacklist_attributes):
 	justone = False
 	for ship in ships:
 		attributes, outfits, relevantattributes = [], [], []
-		outfittxt, shiptxt, attributereplace, outfitsreplace, newattributes = '','', '', '', ''
+		outfittxt, shiptxt, attributereplace, outfitsreplace, newattributes, description = '','', '', '', '', ''
 		attributesstart = False
 		outfitsstart = False
 		splitted = ship.split('\n')
@@ -135,6 +135,8 @@ def filter(objs, blacklist_attributes):
 					outfitsstart = False
 					continue
 				outfits.append(line)
+			if line.startswith('	description '):
+				description += line + '\n'
 		# get shipname
 		pos = ship.find('\n')
 		shipname = ship[:pos].replace('ship ', '').replace('"', '')
@@ -144,6 +146,7 @@ def filter(objs, blacklist_attributes):
 		outfittxt += outfitname  + '	thumbnail "outfit/ship_core"\n	category "Ship Cores"\n	"Core Slot" -1\n'
 		for attribute in relevantattributes:
 			outfittxt += '	' + attribute.strip() + '\n'
+		outfittxt += '	description "Ship description:"\n' + description
 		# create outfitsreplace
 		for outfit in outfits:
 			outfitsreplace += outfit + '\n'

@@ -38,6 +38,7 @@ ship "Grasshopper" "Grasshopper (Hai Start)"
 		"Ion Cannon"
 		"Pebble Core"
 		"Pulse Rifle"
+		"Quantum Keystone" 2
 		"Grasshopper Core"
 
 
@@ -1060,6 +1061,7 @@ ship "Sonikis" "Sonikis (Tanker)"
 		"Concentrating Solar Array"
 		"Ultracapacitor Cell" 2
 		"Cryogenic Deuterium Tank" 2
+		"Magnetoplasma Drive"
 		"Sonikis Core"
 
 
@@ -2085,6 +2087,7 @@ ship "Saryd Visitor" "Saryd Visitor (Miner)"
 		"Large Steering Module"
 		"Small Thrust Module" 3
 		"Small Reverse Module" 3
+		"Hyperdrive"
 		"Saryd Visitor Core"
 
 
@@ -2260,6 +2263,7 @@ ship "Kyanite" "Kyanite (Acumen)"
 	gun
 	gun
 	gun "Acumen Bolt Cannon"
+	turret
 	turret
 	turret
 
@@ -3187,6 +3191,7 @@ ship "Water Bug" "Water Bug (Pulse)"
 		"Pulse Rifle" 3
 		`"Benga" Atomic Thruster`
 		`"Benga" Atomic Steering`
+		"Hyperdrive"
 		"Water Bug Core"
 
 
@@ -3648,6 +3653,7 @@ ship "Sunder" "Sunder (Derelict)"
 		"LP036a Battery Pack"
 		"Greyhound Plasma Thruster"
 		"Greyhound Plasma Steering"
+		"Hyperdrive"
 		"Sunder Core"
 
 
@@ -3792,6 +3798,7 @@ ship "Kestrel" "Kestrel (More Bays)"
 	bay "Fighter" -56 70
 		"launch effect" "human internal"
 	bay "Fighter" 56 70
+		"launch effect" "human internal"
 
 
 overwrite
@@ -4380,6 +4387,7 @@ ship "Marauder Splinter" "Marauder Splinter (Weapons)"
 	turret -13.5 42.5 "Quad Blaster Turret"
 	turret 0 9 "Heavy Anti-Missile Turret"
 	turret 13.5 42.5 "Quad Blaster Turret"
+	description "This Splinter has had extensive modification to its weapons space, with two new forward hard points on either side of the bridge. Large sections of the hull are covered with extra shield emitters and hull plating. Much of the stock cargo space has been converted to space for outfits, weapons, and engines; coupled with a streamlining of existing internal systems, it makes the prospect of meeting this flexible war machine in an uninhabited system seem pretty unappealing."
 
 
 overwrite
@@ -7964,6 +7972,7 @@ ship "Wasp" "Wasp (Proton)"
 		"D14-RN Shield Generator"
 		"X2700 Ion Thruster"
 		"X2200 Ion Steering"
+		"Hyperdrive"
 		"Wasp Core"
 
 
@@ -9847,6 +9856,7 @@ ship "Met Par Tek 53" "Met Par Tek 53 (Sniper)"
 	turret
 	turret
 	turret
+	turret
 
 
 overwrite
@@ -10838,6 +10848,7 @@ ship "Vujlet" "Vujlet (Surveillance)"
 		"Vujlet Core"
 	gun `"Ojet" Bimodal Coilgun`
 	gun `"Ojet" Bimodal Coilgun`
+	gun
 	gun
 
 

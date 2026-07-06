@@ -15,6 +15,8 @@ outfit "Wardragon Core"
 	"hull repair rate" 5
 	"hull energy" 5
 	"ramscoop" 10
+	description "Ship description:"
+	description "The origin of this Wardragon is shrouded in mystery. It was said that the Quarg once used this ship as a powerful light warship. Other sources suggest that it was used as a front-line heavy warship. One thing is for certain though, and that's its design is far different than any Quarg ship that exists today, and one can only question where it came from."
 
 
 overwrite
@@ -78,6 +80,8 @@ outfit "Marauder Fury Core"
 	"bunks" 3
 	"fuel capacity" 500
 	"ramscoop" 2
+	description "Ship description:"
+	description "You're sure there's a Southbound Shipyards Fury under all the extra modifications. This ship appears to be one man's insane quest to make the most powerful single-pilot warship ever; after close inspection, you're inclined to believe he may have succeeded."
 
 
 overwrite
@@ -146,6 +150,7 @@ outfit "Lampyrid-Class Transport Core"
 	"required crew" 4
 	"bunks" 23
 	"fuel capacity" 700
+	description "Ship description:"
 
 
 overwrite
@@ -217,6 +222,7 @@ outfit "Modified Osprey Core"
 	"afterburner fuel" -.678
 	"afterburner heat" -30
 	"ramscoop" 6
+	description "Ship description:"
 
 
 overwrite
@@ -321,6 +327,7 @@ outfit "Ursa Polaris Core"
 	"outfit scan efficiency" 15
 	"tactical scan power" 99
 	"asteroid scan power" 69
+	description "Ship description:"
 
 
 overwrite
@@ -411,6 +418,9 @@ outfit "Shooting Star Core"
 	"crystal projector" 1
 	"shooting star" 2
 	"core crystal" -2
+	description "Ship description:"
+	description "This ship appears to be a hollowed-out asteroid filled with strange equipment. It is unclear what is creating the rays of light, but they must have something to do with how it moves without obvious engines."
+	description "	Its advanced properties also allow it to reject the influence of enemy Command Centers, nullifying their effect."
 
 
 overwrite
@@ -466,6 +476,7 @@ outfit "Marauder Bactrian Core"
 	"required crew" 69
 	"bunks" 93
 	"fuel capacity" 800
+	description "Ship description:"
 
 
 overwrite
@@ -534,6 +545,9 @@ outfit "Modified Boxwing Core"
 	"hull" 8000
 	"bunks" 3
 	"fuel capacity" 500
+	description "Ship description:"
+	description `No matter how maligned, every ship has someone out there that loves it.`
+	description `Surprisingly, someone invested a lot of time, money, and effort into transforming this humble boxwing from a flying coffin into a palatial sarcophagus. It is still terribly cramped, but at least it is luxurious and shiny!`
 
 
 overwrite
@@ -628,6 +642,8 @@ outfit "Modified Battleship Core"
 	"bunks" 212
 	"fuel capacity" 1000
 	"spinal mount" 1
+	description "Ship description:"
+	description `Never underestimate how far an individual is willing to go to modify their favorite spacecraft - sometimes before it even exists.`
 
 
 overwrite
@@ -726,6 +742,8 @@ outfit "Modified Ladybug Core"
 	"tactical scan power" 25
 	"atmosphere scan" 100
 	"asteroid scan power" 30
+	description "Ship description:"
+	description `This is an old war-torn Hai Ladybug with numerous modifications done on the hull. Apart from the additional turret mounts, the main adjustments on the vessel are three huge engine cells - two in the back replacing the old engine pods, and one in the front replacing the gun mounts. These push the Modified Ladybug to speeds only an insane captain would enjoy.`
 
 
 overwrite
@@ -814,6 +832,9 @@ outfit "Waverider Core"
 	"hull" 7000
 	"bunks" 1
 	"fuel capacity" 1000
+	description "Ship description:"
+	description `The Waverider was a ship that was first requested and never used for five years, seven months and twenty-seven days.`
+	description `	Its disappointment was so immense, it willed itself into being.`
 
 
 overwrite
@@ -872,6 +893,8 @@ outfit "Modified Hauler VI Core"
 	"required crew" 2
 	"bunks" 12
 	"fuel capacity" 800
+	description "Ship description:"
+	description "The Hauler cargo ships are considered by many to be outdated, and it is unclear if upgrading the cargo space to six containers is sufficient to make this Hauler ship popular. It certainly doesn't help that the Hauler VI is more expensive than four Hauler IIIs."
 
 
 overwrite
@@ -934,6 +957,7 @@ ship "Modified Hauler VI"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
+	description "The Hauler cargo ships are considered by many to be outdated, and it is unclear if upgrading the cargo space to six containers is sufficient to make this Hauler ship popular. It certainly doesn't help that the Hauler VI is more expensive than four Hauler IIIs."
 
 
 outfit "Korath Dredger Core"
@@ -946,6 +970,8 @@ outfit "Korath Dredger Core"
 	"required crew" 136
 	"bunks" 357
 	"fuel capacity" 900
+	description "Ship description:"
+	description "After the Korath were exiled from their homelands, efficient resource collection became a priority. World-ships were too precious to risk on dangerous forays, and Raiders lacked the cargo capacity. The Dredger was born as an answer to this problem, featuring an abundance of cargo and passenger space, with formidable defensive armament. With such a complement, these bulky ships can also offer potent support for frontline Raiders."
 
 
 overwrite
@@ -1032,6 +1058,9 @@ outfit "Korath Raider Core"
 	"required crew" 144
 	"bunks" 250
 	"fuel capacity" 600
+	description "Ship description:"
+	description "Successive Raider designs have been the Korath warship of choice for plundering neighboring species for generations."
+	description "This model, like all Exile ships, has been adapted to house as many Korath as possible, as comfortably as possible, inflating its size beyond similarly classed warships. The spaceborne construction techniques employed allow for the ship's easy replacement, facilitating continued raids of nearby systems."
 
 
 overwrite
@@ -1111,6 +1140,9 @@ outfit "Korath Chaser Core"
 	"shields" 2300
 	"hull" 900
 	"bunks" 1
+	description "Ship description:"
+	description "The Korath Chaser is a fighter carried by most of their capital ships."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -1159,6 +1191,8 @@ outfit "Korath World-Ship Core"
 	"required crew" 793
 	"bunks" 1492
 	"fuel capacity" 1000
+	description "Ship description:"
+	description "Korath World-Ships are massive nomadic habitats that hold all that is left of their people."
 
 
 overwrite
@@ -1230,6 +1264,8 @@ outfit "Quarg Skylark Core"
 	"hull repair rate" 5
 	"hull energy" 5
 	"ramscoop" 10
+	description "Ship description:"
+	description "The Skylark is used by the Quarg as a freighter and warship."
 
 
 overwrite
@@ -1277,6 +1313,7 @@ ship "Quarg Skylark"
 	explode "large explosion" 40
 	explode "huge explosion" 20
 	"final explode" "final explosion medium"
+	description "The Skylark is used by the Quarg as a freighter and warship."
 
 
 outfit "Koryfi Core"
@@ -1292,6 +1329,10 @@ outfit "Koryfi Core"
 	"solar collection" 6
 	"solar heat" 2.4
 	"anchor point" 1
+	description "Ship description:"
+	description "The Koryfi is a light passenger transport whose basic design predates the invention of the hyperdrive. Originally restricted to intrasystem travel, its spin gravity system ensured a comfortable voyage for passengers long before the development of gravity plating. Today, it is a popular choice among independent captains for its high maintainability and ample living space, with many using them as permanent homes."
+	description "	Enterprising captains often exploit the commonality of the Koryfi and Avlaki designs, swapping out the modular centrifuge for a set of standard cargo containers."
+	description "	While its standard set of magnetoplasmadynamic thrusters give it an acceleration generously described as sluggish, the Koryfi's constant thrust flight profile allows it to reach an impressive cruising velocity given enough time."
 
 
 overwrite
@@ -1407,6 +1448,10 @@ outfit "Melodikos Core"
 	"solar collection" 15
 	"solar heat" 6.9
 	"anchor point" 1
+	description "Ship description:"
+	description "The Melodikos is a large passenger transport built around a similar propulsion and structural frame as the Koryfi and Avlaki, but with a vastly enlarged solar array, as well as a spacious centrifuge habitat. Once used as an interplanetary cycler, it is now used for mass transit between the stars."
+	description "	While not as modular as the Koryfi and Avlaki designs, the Melodikos shares the same solar array and structural frame as the Harmonikos. Refits to swap the centrifuge for a set of cargo pods are uncommon due to the work involved, but still possible."
+	description "	While its standard set of magnetoplasmadynamic thrusters give it an acceleration generously described as sluggish, the Melodikos' constant thrust flight profile allows it to reach an impressive cruising velocity given enough time."
 
 
 overwrite
@@ -1559,6 +1604,10 @@ outfit "Avlaki Core"
 	"solar collection" 6
 	"solar heat" 2.4
 	"anchor point" 1
+	description "Ship description:"
+	description "The Avlaki is a mid-sized freighter loosely descended from a pre-hyperdrive solar-electric tug design. Its low cost and renowned maintainability has enabled it to remain in service to this day, and is a popular choice among independent captains."
+	description "	Enterprising captains often exploit the commonality of the Koryfi and Avlaki designs, swapping out the standard cargo containers for a centrifuge habitat."
+	description "	While its standard set of magnetoplasmadynamic thrusters give it an acceleration generously described as sluggish, the Avlaki's constant thrust flight profile allows it to reach an impressive cruising velocity given enough time."
 
 
 overwrite
@@ -1673,6 +1722,10 @@ outfit "Harmonikos Core"
 	"solar collection" 15
 	"solar heat" 6.9
 	"anchor point" 1
+	description "Ship description:"
+	description "The Harmonikos is a large freighter built around a similar propulsion and structural frame as the Koryfi and Avlaki, but with a vastly enlarged solar array, as well as a huge assembly of cargo modules towed behind the main truss. Once used as an interplanetary bulk freighter, it is now used for shipping cargo between the stars."
+	description "	While not as modular as the Koryfi and Avlaki designs, the Harmonikos shares the same solar array and structural frame as the Melodikos. Its generous cargo space is occasionally seen filled with equipment and bunks to create an ad-hoc passenger transport, albeit one lacking the artificial gravity of the Melodikos."
+	description "	While its standard set of magnetoplasmadynamic thrusters give it an acceleration generously described as sluggish, the Harmonikos' constant thrust flight profile allows it to reach an impressive cruising velocity given enough time."
 
 
 overwrite
@@ -1820,6 +1873,9 @@ outfit "Phononos Core"
 	"automaton" 1
 	"fuel capacity" 300
 	"radar jamming" 6
+	description "Ship description:"
+	description "This retrofit of a decommissioned Photikon is little more than a set of cargo pods joined to the front of the former torpedo bomber, with container mounts taking the place of the hardpoints and pylons usually used to mount weapons. An expanded internal tank to fuel a hyperdrive has been barely crammed into the ship, at the expense of other internal systems and armor. Because of this, the Phononos is quite vulnerable to Dissonance piracy or even Aberrant incursions, and is thus always found as part of a larger fleet convoy. Even still, as an automated freighter it experiences much higher accident and loss rates in deep space, a fact that has kept crewed vessels like the Avlaki competitive."
+	description "	The Phononos can carry an impressive amount of cargo with the same standardized containers used by the Avlaki and Harmonikos, which can be quickly swapped out at the destination for a set of empty ones without needing to unload them."
 
 
 overwrite
@@ -1893,6 +1949,8 @@ outfit "Frequentia Core"
 	"solar heat" 2.7
 	"fuel capacity" 2400
 	"anchor point" 1
+	description "Ship description:"
+	description "The Frequentia-class Freighter is most commonly found serving as a fuel tender for ships in larger fleets, taking advantage of its large and ungainly cargo receptacle to store enough cryogenic deuterium to satisfy a small fleet's needs during long journeys. While its spherical fuel tank can be drained and used to transport dry goods and cargo, the cargo bay's notoriously small access door makes loading anything that can't be moved with a pump an exquisitely painful process."
 
 
 overwrite
@@ -1974,6 +2032,9 @@ outfit "Polari Core"
 	"asteroid scan power" 72
 	"tactical scan power" 72
 	"anchor point" 1
+	description "Ship description:"
+	description "The Polari-class Scout is a legacy design that has managed to remain relevant in the current era by virtue of fulfilling a role historically not requiring much in the way of combat power. A specialized science ship, it is fitted with a spacious laboratory for analyzing samples and processing data, as well as an extensive suite of sensor arrays for recording observations. A pair of bays can deploy Optikon sensor drones, while an external mount is designed to hold an Akoustiki Excursion Vehicle for piloted sample gathering operations."
+	description "	Despite this versatility, the contested battlespace of the post-Incursion Avgi cluster is one in which the Polari is simply not as capable in. As science crews are increasingly asked to lead risky scouting expeditions back to the Avgi homeworld, demands for a newer, more survivable science ship routinely make their way to the Twilight Guard."
 
 
 overwrite
@@ -2065,6 +2126,9 @@ outfit "Entasi Core"
 	"solar collection" 18
 	"solar heat" 7.2
 	"anchor point" 1
+	description "Ship description:"
+	description "The Entasi is a mid-sized mining vessel, immediately recognizable by its pair of huge solar thermal generators. With the power and weapons capacity needed to support laser mining weapons, the Entasi is able to quickly and efficiently cut through asteroids, whose mineral contents can then be collected by the swarm of Sonikis cargo drones it can carry into an asteroid field."
+	description "	While somewhat fragile, the energy and space available to the Entasi can make it a potent warship with the right modifications. Rumors abound that certain Entasi captains sympathetic to the Dissonance movement maintain a stockpile of weapons for this very eventuality."
 
 
 overwrite
@@ -2210,6 +2274,10 @@ outfit "Undsyni Core"
 	"fuel capacity" 2400
 	"spinal mount" 1
 	"anchor point" 1
+	description "Ship description:"
+	description "The Undsyni-class Auxiliary Freighter is not a flimsy bulk freighter, but rather one built to be large and strong enough to hold its own against attacks from smaller, more militarized vessels. While not quite as payload efficient as more spindly ships such as the Avlaki and Harmonikos, the Undsyni's resilience makes it much more survivable against attacks, with its fusion torch giving it the acceleration to both evade enemies and minimize travel times."
+	description "	Even before the Incursion, the Undsyni's strong hull and internal outfit capacity made it a popular option as a capital ship for renegade groups who could not gain access to specialized warships."
+	description "	A reinforced spine running the length of the ship allows it to fit a huge Plasmadyne Scoop, capable of bearing the extreme stresses the plasma magnet's field inflicts on its superconducting magnets. In this configuration, a tanker Undsyni can supply the fuel needs of an entire fleetgroup across dozens of systems."
 
 
 overwrite
@@ -2326,6 +2394,9 @@ outfit "Modified Tachytia Core"
 	"self destruct" 0.9
 	"spinal mount" 1
 	"anchor point" 3
+	description "Ship description:"
+	description "This was once an Avgi sublight starship, one of the last models built before the discovery of the hyperdrive. Most starships around this period used ram-augmented fusion drives to reach cruising speeds of up to 0.25c, but the Tachytia class was designed to reach a velocity of 0.4c with an antimatter fuel source to ignite propellant gathered with its huge ramscoop."
+	description "	This particular ship was never launched on its mission, commissioned just before the hyperdrive made it obsolete. Now, it has been extensively modified by removing many of its propellant tanks, replacing them with a hyperdrive, additional equipment spaces, and several docking bays. The cryosleep bay has also been substituted for spacious habitatation cylinders, making this a true city ship."
 
 
 overwrite
@@ -2462,6 +2533,9 @@ outfit "Tremoros Core"
 	"threshold percentage" 0.15
 	"fuel capacity" 900
 	"anchor point" 1
+	description "Ship description:"
+	description "The Tremoros-class Interceptor is a small autonomous ship designed to support patrol and interdiction missions. Derived from a transatmospheric hypersonic fighter, it is capable of dual operations in both space and planetary atmospheres. With an emphasis on raw acceleration, it can rocket past any adversary even as it brings its guns to bear, making it exceedingly difficult to hit."
+	description "	The Tremoros has also seen use as an escort for smaller merchant convoys, with the ability to intercept any enemies that might pose a threat before they can come within range of vulnerable civilian ships."
 
 
 overwrite
@@ -2541,6 +2615,8 @@ outfit "Prismaios Core"
 	"solar heat" 4.5
 	"fuel capacity" 1200
 	"anchor point" 1
+	description "Ship description:"
+	description "The Prismaios-class Frigate is a recent, streamlined design, praised by many Twilight Guard captains as a highly successful addition to Avgi strike fleets. New construction techniques allow for unprecedented gains in structural integrity for such a lightweight frame, allowing the frigate to serve on the front lines against the Aberrant as a fast, versatile, multi-role warship."
 
 
 overwrite
@@ -2637,6 +2713,8 @@ outfit "Interferos Core"
 	"solar heat" 2.7
 	"fuel capacity" 600
 	"anchor point" 1
+	description "Ship description:"
+	description "The Interferos-class Frigate is an autonomous support ship, designed to be easy to build and disposable enough for mass production. To free up frontline warships from having to escort merchant convoys in the Tangles, the Consonance commissioned this design with the intent of licensing its sale to independent merchant captains. It has since become popular due to its impressively large armament, though its attrition rates leave something to be desired."
 
 
 overwrite
@@ -2729,6 +2807,8 @@ outfit "Diaspersi Core"
 	"solar heat" 8.1
 	"fuel capacity" 2400
 	"anchor point" 1
+	description "Ship description:"
+	description "The Diaspersi-class Escort Carrier is a light carrier capable of providing carrier operations support to smaller fleets, while also being capable of independent strike missions with minimal support. Seen escorting large merchant convoys and small Guard fleets alike, the Diaspersi can support two wings of combat drones as well as a single wing of larger fighters."
 
 
 overwrite
@@ -2853,6 +2933,10 @@ outfit "Refraktos Core"
 	"solar heat" 8.1
 	"fuel capacity" 1800
 	"anchor point" 1
+	description "Ship description:"
+	description "The Refraktos-class Laserstar is a relatively recent, post-Diaspora destroyer design with a single focus: directed energy weapons. While its armor and shielding systems are light for its size, its expansive radiators can support the thermal loads of a staggering array of laser weapons, both offensive and defensive, allowing it to destroy both missiles and small ships from a vast distance."
+	description "	A long truss running the length of the ship is built to fit an impressively large mirror-cell fusion torch, giving the Refraktos the mobility needed to evade opponents until they are reduced to hot vapor."
+	description "	Due to the anemic damage output of Avgi laser weapons compared to their kinetic weapons and missiles, the Refraktos is most often seen in a support role, providing antimissile coverage to entire fleets."
 
 
 overwrite
@@ -2963,6 +3047,8 @@ outfit "Difraktos Core"
 	"solar heat" 1.2
 	"fuel capacity" 1800
 	"anchor point" 1
+	description "Ship description:"
+	description "The Difraktos-class Cruiser is a versatile platform capable of serving in configurations from a high-performance kinetic weapon battlecruiser to a guided missile cruiser, or anything in between. Its powerful torch drive is used to push a heavily armored hull, rather than relying on speed, giving the Difraktos good survivability even in close-range brawls."
 
 
 overwrite
@@ -3080,6 +3166,8 @@ outfit "Atenuatia Core"
 	"solar heat" 2.7
 	"fuel capacity" 2400
 	"anchor point" 1
+	description "Ship description:"
+	description "The Atenuatia is an Avgi fleet carrier, a capital ship that makes up the centerpiece of their battlefleets. With six wings of combat drones and two wings of bombers, an Atenuatia can bring forth an astounding amount of firepower. Carrying this arsenal of fighters has its cost, however, and the Atenuatia can carry relatively few heavy weapons for its size."
 
 
 overwrite
@@ -3259,6 +3347,9 @@ outfit "Akoustiki Core"
 	"hull" 1200
 	"bunks" 6
 	"fuel capacity" 120
+	description "Ship description:"
+	description "The Akoustiki Excursion Vehicle is a modern take on the utility pod, a small personal craft designed to aid in the maintenance and repair of a station, or a carrier vessel and its escorts. It is just as commonly seen flitting about the orbitals as it is servicing satellites or acting as a personal transport shuttle between stations and low gravity bodies. Recent advances in magnetoplasmadynamic engines have made it a capable mining craft as well, albeit one with little cargo space for ores."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -3336,6 +3427,10 @@ outfit "Photikon Core"
 	"threshold percentage" 0.15
 	"fuel capacity" 90
 	"radar jamming" 6
+	description "Ship description:"
+	description "The Photikon Torpedo Bomber is the cornerstone of Avgi anti-ship carrier doctrine. While it is possible for a swarm of Vibratia and similar interdiction drones to engage capital ships, it is the Photikon that is capable of delivering the nuclear anti-ship munitions necessary to bring down the largest warships. By bringing a nuclear torpedo within close range, the payload has a higher chance of surviving enemy point defense weapons compared with standard missiles."
+	description "	Photikons are also often used as gun platforms, mounting a Speckle Turret instead of their standard armament of two Ophrys Torpedoes."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -3416,6 +3511,9 @@ outfit "Vibratia Core"
 	"crew equivalent" 1
 	"threshold percentage" 0.12
 	"radar jamming" 3
+	description "Ship description:"
+	description "The Vibratia Interdictor is the primary Avgi strike fighter. While individually fragile, Vibratia are usually deployed in large swarms, and are agile enough to be surprisingly survivable even under heavy fire."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 
 overwrite
@@ -3486,6 +3584,10 @@ outfit "Undulon Core"
 	"automaton" 1
 	"crew equivalent" 1
 	"fuel capacity" 60
+	description "Ship description:"
+	description "The Undulon Orbital Silo was first envisioned as a cheap static defense satellite, little more than a tube capable of storing and launching nuclear-tipped missiles. Over time, this specialization was broadened, and the modern line of Undulons is capable of both mounting a large fixed gun and carrying the energy supply needed to support it. Their mostly hollow construction provides a great deal of internal space for their size, but also makes the drone quite fragile."
+	description "	Undulons are usually seen defending critical planets and stations, ready to unload their atomic payloads on any hostile ships that jump into the system."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 
 overwrite
@@ -3570,6 +3672,9 @@ outfit "Optikon Core"
 	"cargo scan efficiency" 12
 	"tactical scan power" 144
 	"asteroid scan power" 36
+	description "Ship description:"
+	description "The Optikon Sensor Platform is the latest iteration of a long line of exploration probes developed shortly after the discovery of the hyperdrive. Previously, surveying star systems involved launching thousands of laser-propelled starwisp probes, no larger than a few hundred grams each. The hyperdrive turned this paradigm on its head, allowing the Avgi to build sizable probes designed to quickly map out newly accessible star systems. Over the decades, these gradually shrank as the duty of carrying them between star systems was offloaded onto dedicated exploration vessels, the precursors to the Polari-class Scout. This left the modern Optikon as a highly capable and deployable sensor platform, used in both scientific and combat information roles."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 
 overwrite
@@ -3619,6 +3724,9 @@ outfit "Sonikis Core"
 	"automaton" 1
 	"crew equivalent" 1
 	"fuel capacity" 120
+	description "Ship description:"
+	description "The Sonikis Utility Drone was built as a cheap interorbital cargo drone, originally designed to carry modular cargo containers between stations and small moons. It is now commonly used by large freighters to assist in loading and unloading cargo, as well as to collect ores while asteroid mining."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 
 overwrite
@@ -3690,6 +3798,7 @@ outfit "Windjammer Core"
 	"heat protection" 0.9
 	"atmosphere scan" 1
 	"inscrutable" 1
+	description "Ship description:"
 
 
 overwrite
@@ -3853,6 +3962,7 @@ outfit "Bluejacket Core"
 	"heat protection" 0.9
 	"atmosphere scan" 1
 	"inscrutable" 1
+	description "Ship description:"
 
 
 overwrite
@@ -3975,6 +4085,8 @@ outfit "Pollen Core"
 	"solar collection" 3
 	"atmosphere scan" 1
 	"inscrutable" 1
+	description "Ship description:"
+	description "This allergenic menace is dreaded by captains across the galaxy. Only the most powerful civilizations could hope to contend with even a single granule."
 
 
 overwrite
@@ -4020,6 +4132,8 @@ outfit "Sprout Core"
 	"atmosphere scan" 1
 	"inscrutable" 1
 	"threshold percentage" 1
+	description "Ship description:"
+	description "Marginally tamer than a free floating pollen granule, this sprouting terror is still not to be underestimated."
 
 
 overwrite
@@ -4045,6 +4159,7 @@ ship "Sprout"
 		"Pollen" 5
 		"Sprout Core"
 	explode "pug tiny explosion" 2
+	description "Marginally tamer than a free floating pollen granule, this sprouting terror is still not to be underestimated."
 
 
 outfit "Kaiken Core"
@@ -4055,6 +4170,9 @@ outfit "Kaiken Core"
 	"shields" 3200
 	"hull" 800
 	"bunks" 1
+	description "Ship description:"
+	description "While not particularly fast by fighter standards, where the Kaiken lacks in speed it makes up for in durability and firepower; it boasts a significant amount of weapon space and ports for up to three guns, allowing for the use of a trio of Locust Blasters or the option of using a larger Mandible Cannon."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -4114,6 +4232,9 @@ outfit "Sasumata Core"
 	"cloaked repair multiplier" -1
 	"cloaking energy" 10
 	"cloaking fuel" .05
+	description "Ship description:"
+	description "The Sasumata is the chief scout ship of the Bunrodea. While not designed for combat, this stealth transport vessel is still capable of holding its own against some smaller warships; its four fighter bays turn the Sasumata into a force to be reckoned with when its fighters are deployed."
+	description "	The cloaking technology is built into the Sasumata's hull; it cannot be removed or transferred to another ship."
 
 
 overwrite
@@ -4185,6 +4306,8 @@ outfit "Tanto Core"
 	"required crew" 2
 	"bunks" 7
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The Tanto freighter was designed as a fast blockade runner. While being lightly armed and armored, the Tanto is incredibly swift for a ship of its size, allowing it to jump into and out of systems before any hostile force can bear its full might down on the small ship."
 
 
 overwrite
@@ -4246,6 +4369,8 @@ outfit "Ararebo Core"
 	"required crew" 14
 	"bunks" 43
 	"fuel capacity" 700
+	description "Ship description:"
+	description "The Ararebo is one of the Bunrodea's main methods for shipping large volumes of cargo across space, but anyone who would dare to think that this freighter is an easy target would be sorely mistaken. The Ararebo doubles as the Bunrodea's primary support carrier, carrying a squadron of eight fighters that can tear almost any ship to shreds."
 
 
 overwrite
@@ -4322,6 +4447,8 @@ outfit "Tekkan Core"
 	"required crew" 5
 	"bunks" 9
 	"fuel capacity" 700
+	description "Ship description:"
+	description "The Tekkan is the one ship in the Bunrodean arsenal that favors turrets over forward facing guns. This allows the small and fast vessel to act as the primary means of anti-missile defense for larger Bunrodean ships that are lacking in turret mounts compared to their guns. Tekkans are also able to take advantage of the rarely used but powerful Locust Turrets, packing a considerable amount of damage into a small ship."
 
 
 overwrite
@@ -4387,6 +4514,8 @@ outfit "Kunai Core"
 	"required crew" 14
 	"bunks" 37
 	"fuel capacity" 700
+	description "Ship description:"
+	description "The Kunai is the smallest of the Bunrodea's gunships, warships which focus heavily on the power of their forward-facing guns. Lacking any turret mounts and focusing more on turning quickly than traveling fast, the Kunai is highly susceptible to missile weaponry and must rely on other ships in the fleet to carry anti-missile turrets."
 
 
 overwrite
@@ -4454,6 +4583,8 @@ outfit "Kama Core"
 	"required crew" 38
 	"bunks" 43
 	"fuel capacity" 800
+	description "Ship description:"
+	description "The Kama gunship is a formidable warship, capable of carrying up to ten guns as well as having a single turret mount typically equipped with an anti-missile turret. This makes the Kama less susceptible to missile weaponry than its smaller sibling, the Kunai."
 
 
 overwrite
@@ -4530,6 +4661,8 @@ outfit "Chigiriki Core"
 	"required crew" 48
 	"bunks" 69
 	"fuel capacity" 900
+	description "Ship description:"
+	description "The Chigiriki is the largest of the Bunrodea's gunships, boasting an astonishing seventeen gun ports. One of these ports is equipped with the devastating Thorax Cannon, a massive cannon capable of dealing significant damage to any ship that dares get in the Chigiriki's way. Some Chigiriki also double as missile platforms, raining down walls of missiles so thick that they can blot out the nearest star."
 
 
 overwrite
@@ -4603,6 +4736,7 @@ ship "Chigiriki"
 	explode "large explosion" 20
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
+	description "The Chigiriki is the largest of the Bunrodea's gunships, boasting an astonishing seventeen gun ports. One of these ports is equipped with the devastating Thorax Cannon, a massive cannon capable of dealing significant damage to any ship that dares get in the Chigiriki's way. Some Chigiriki also double as missile platforms, raining down walls of missiles so thick that they can blot out the nearest star."
 
 
 outfit "Arach Courier Core"
@@ -4614,6 +4748,8 @@ outfit "Arach Courier Core"
 	"hull" 2000
 	"bunks" 1
 	"fuel capacity" 300
+	description "Ship description:"
+	description `These hardy little cargo ships are the perfect size for young Arachi just setting out into the sky with dreams of one day building their own merchant fleets. Of course, an Arach lucky enough to be born into one of the great Houses can probably find a patron to buy them a much larger ship instead.`
 
 
 overwrite
@@ -4670,6 +4806,8 @@ outfit "Arach Freighter Core"
 	"required crew" 2
 	"bunks" 10
 	"fuel capacity" 500
+	description "Ship description:"
+	description `Arach cargo ship hulls are legendary for their durability. It is not uncommon for a large Arach family to convert a freighter that is no longer space-worthy into a planet-side dwelling, and even in the harshest of conditions these converted houses can last for hundreds of years with little or no exterior maintenance.`
 
 
 overwrite
@@ -4733,6 +4871,8 @@ outfit "Arach Hulk Core"
 	"required crew" 7
 	"bunks" 14
 	"fuel capacity" 500
+	description "Ship description:"
+	description `The Arachi believe that efficient functionality is the highest form of beauty, and none of their ships demonstrate that principle more clearly than the ugly yet utilitarian Hulk, designed with detachable side pods that can be swapped out on a planet in a matter of minutes if the captain is in a hurry to reach the next destination.`
 
 
 overwrite
@@ -4800,6 +4940,8 @@ outfit "Arach Spindle Core"
 	"required crew" 3
 	"bunks" 14
 	"fuel capacity" 500
+	description "Ship description:"
+	description `The Arach Hulk is an ungainly, lumbering behemoth of a ship, but with its side pods removed it becomes the much more maneuverable Spindle. Because of its much lower cargo space, usually the only reason a fleet would include a Spindle is if they are planning on picking up new cargo pods at their destination.`
 
 
 overwrite
@@ -4865,6 +5007,8 @@ outfit "Arach Transport Core"
 	"required crew" 1
 	"bunks" 5
 	"fuel capacity" 400
+	description "Ship description:"
+	description `The Arach Transport is the oldest of their ship designs, dating back to the time when they first joined the Coalition in overthrowing the Quarg and capturing their ringworlds. Back then, Transports were occasionally used as warships, but now, thousands of years later, they are considered outdated compared to the latest Heliarch military ships.`
 
 
 overwrite
@@ -4928,6 +5072,8 @@ outfit "Heliarch Breacher Core"
 	"ion protection" .1
 	"scramble protection" .1
 	"fuel capacity" 800
+	description "Ship description:"
+	description `The Breacher isn't the most durable Heliarch vessel, but its impressive forward speed and high firepower for its size make this ship ideal for strafing runs.`
 
 
 overwrite
@@ -4998,6 +5144,8 @@ outfit "Heliarch Hunter Core"
 	"ion protection" .2
 	"scramble protection" .2
 	"fuel capacity" 1500
+	description "Ship description:"
+	description `Although they mostly serve as patrol vessels nowadays in peacetime, Hunters were originally designed to quickly track down dissidents and bring them to justice.`
 
 
 overwrite
@@ -5073,6 +5221,8 @@ outfit "Heliarch Interdictor Core"
 	"ion protection" .2
 	"scramble protection" .2
 	"fuel capacity" 800
+	description "Ship description:"
+	description `Anyone who incurs the wrath of the Heliarchs cannot count on making a fast getaway thanks to the Interdictors, which were primarily designed to carry a pair of attractor and repulsor beams that can hold a ship a safe distance away while pushing it around enough to prevent it from getting a hyperspace lock to jump out of the system.`
 
 
 overwrite
@@ -5147,6 +5297,9 @@ outfit "Heliarch Judicator Core"
 	"ion protection" .2
 	"scramble protection" .2
 	"fuel capacity" 900
+	description "Ship description:"
+	description `During their time battling the Quarg, the Coalition focused on producing the strongest, toughest warships they could, so fightercraft were out of the question. Now, however, the Heliarch's shield matrix and hull integrity technology is much more advanced, and they have recently experimented with such ships. The Judicator was made for transportation of these new fighters.`
+	description `	Alongside their six fighter bays, Judicators come with a large bunk count and higher cargo space than other Heliarch warships, thus doubling as a logistics vessel for transporting troops and equipment.`
 
 
 overwrite
@@ -5233,6 +5386,8 @@ outfit "Heliarch Neutralizer Core"
 	"ion protection" .1
 	"scramble protection" .1
 	"fuel capacity" 1000
+	description "Ship description:"
+	description `The most common Heliarch patrol ship, Neutralizers are designed to be just strong enough to keep an enemy vessel occupied until reinforcements can arrive.`
 
 
 overwrite
@@ -5302,6 +5457,8 @@ outfit "Heliarch Punisher Core"
 	"ion protection" .3
 	"scramble protection" .3
 	"fuel capacity" 600
+	description "Ship description:"
+	description `Although not quite as strong or powerful as the Quarg ships that they are designed to oppose, Heliarch Punishers are versatile and durable ships. Rumors say that the Heliarchs have a small stash of stolen Quarg Skylances that they can outfit the Punishers with in times of war.`
 
 
 overwrite
@@ -5377,6 +5534,10 @@ outfit "Heliarch Pursuer Core"
 	"shields" 2200
 	"hull" 1600
 	"bunks" 1
+	description "Ship description:"
+	description `Occasionally, when a Heliarch cadet shows promising results in dogfighting simulations, they are allowed to fly a ship of their own: the Pursuer.`
+	description `	Though certainly not as durable as the other fighters in Coalition space, this Kimek design is cheaper to produce and capable of outrunning any other Coalition ship.`
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -5430,6 +5591,9 @@ outfit "Heliarch Rover Core"
 	"shields" 3300
 	"hull" 3100
 	"bunks" 1
+	description "Ship description:"
+	description `The very first fighter they designed, Rovers are well-rounded ships that the Heliarchs employ regularly due to their reliability in any situation.`
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -5482,6 +5646,9 @@ outfit "Heliarch Stalker Core"
 	"shields" 5700
 	"hull" 5200
 	"bunks" 2
+	description "Ship description:"
+	description `Boasting incredible durability for a ship this size, the Stalker is a compact fortress that can take serious punishment and recover faster than some warships. Its speed and maneuverability, however, leave much to be desired.`
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -5534,6 +5701,8 @@ outfit "Kimek Briar Core"
 	"required crew" 2
 	"bunks" 38
 	"fuel capacity" 700
+	description "Ship description:"
+	description `With more than twice the population of the Saryds and Arachi combined, the Kimek are constantly in need of transport ships to carry individuals from one world to another.`
 
 
 overwrite
@@ -5592,6 +5761,8 @@ outfit "Kimek Spire Core"
 	"required crew" 18
 	"bunks" 296
 	"fuel capacity" 800
+	description "Ship description:"
+	description `The Spire is the largest passenger transport in Coalition space, able to carry nearly three hundred individuals... as long as they're comfortable staying in the tiny bunk rooms that are primarily designed to meet the needs of a Kimek. Most of the ceilings are too short for a Saryd to stand up straight, and the beds are too small for an Arach to stretch their legs out comfortably.`
 
 
 overwrite
@@ -5658,6 +5829,8 @@ outfit "Kimek Thistle Core"
 	"required crew" 6
 	"bunks" 78
 	"fuel capacity" 700
+	description "Ship description:"
+	description `The Kimek love traveling so much that some of them will happily spend months at a time in a transport this size, and the passengers often grow into a tight-knit community by the end of their journeys together.`
 
 
 overwrite
@@ -5719,6 +5892,8 @@ outfit "Kimek Thorn Core"
 	"hull" 800
 	"bunks" 10
 	"fuel capacity" 600
+	description "Ship description:"
+	description `The Thorn is the Kimek equivalent of a shuttle, and thanks to their speed and maneuverability they are used throughout Coalition space for transferring passengers from one ship to another or from a planet into orbit.`
 
 
 overwrite
@@ -5774,6 +5949,8 @@ outfit "Saryd Runabout Core"
 	"required crew" 1
 	"bunks" 14
 	"fuel capacity" 400
+	description "Ship description:"
+	description `Saryds place high value both on solitude, but also on community and collaboration. So, it is not surprising that their smallest spacefaring vessel requires a team of at least two individuals to operate it. It is quite common for a lone Saryd to take on a Kimek or Arach copilot as a way of building cross-species friendships.`
 
 
 overwrite
@@ -5829,6 +6006,8 @@ outfit "Saryd Sojourner Core"
 	"required crew" 16
 	"bunks" 101
 	"fuel capacity" 800
+	description "Ship description:"
+	description `When the first wars were fought against the Quarg, the Saryds had been spacefaring for more than ten thousand Earth years, and their starship technology was considerably more advanced than the Kimek or the Arachi. At that time, ships similar to the modern Sojourner were the most powerful capital ships in the Coalition fleet.`
 
 
 overwrite
@@ -5899,6 +6078,8 @@ outfit "Saryd Traveler Core"
 	"fuel capacity" 600
 	"asteroid scan power" 36
 	"atmosphere scan" 100
+	description "Ship description:"
+	description `Travelers were originally designed as science vessels, thousands of years ago before the Saryds had catalogued all the life forms and physical phenomena of every world in Coalition space. Today, many Saryd communities still choose to live in a Traveler and journey together from system to system rather than putting down roots on a planet.`
 
 
 overwrite
@@ -5965,6 +6146,8 @@ outfit "Saryd Visitor Core"
 	"required crew" 4
 	"bunks" 32
 	"fuel capacity" 400
+	description "Ship description:"
+	description `Rather than specializing in carrying passengers or carrying cargo, Saryds seek to make their ships as well-balanced and versatile as possible. As a result, the crew of a typical Visitor can count on performing a different sort of job every week.`
 
 
 overwrite
@@ -6042,6 +6225,8 @@ outfit "Archon Core"
 	"turn" 2400
 	"turning energy" 10
 	"turning heat" 5
+	description "Ship description:"
+	description `The Archon's presence is chilling. The "ship" has an almost organic appearance, but your ship's scanners give you no discernible information on its construction. What exactly it is you do not know, but you can feel that it is powerful.`
 
 
 overwrite
@@ -6128,6 +6313,9 @@ outfit "Subsidurial Core"
 	"gaslining" 1
 	"hyperdrive" 1
 	"jump speed" .2
+	description "Ship description:"
+	description "It is unclear what these creatures are, where they come from, or how they evolved. Scientists have dissected several, but so far the results have simply been that these creatures contain no materials or resources of value; are not even slightly edible, and are too big to be kept as pets."
+	description "	To date, none have demonstrated any sign of sapience, and the few captains who have seen them basically consider them to be the bison of space."
 
 
 overwrite
@@ -6177,6 +6365,8 @@ outfit "Void Sprite Core"
 	"fuel capacity" 1
 	"inscrutable" 1
 	"gaslining" 1
+	description "Ship description:"
+	description "The void sprites are an enigmatic species under the watchful gaze of the Archon originally discovered in the Nenia system. The species' connection is unknown, but the Archon seem particularly protective of them."
 
 
 overwrite
@@ -6242,6 +6432,9 @@ outfit "Ember Waste Node Core"
 	"jump speed" .3
 	"jump fuel" 10
 	"jump drive" 1
+	description "Ship description:"
+	description "This unusual creature, first spotted in Postverta, seems to have an affinity for void sprites and is usually found close to them. This 'Ember Waste Node,' as it is being called, bears a superficial resemblance to void sprites but is clearly a different species. The Node demonstrates an ability to manipulate energy fields to create shield-like structures around itself. Most remarkably, it has been seen appearing and disappearing with an energy signature reminiscent of jump drives."
+	description "Although the Node's cloaking power is believed to be connected to its other energy manipulation abilities, the exact method is unknown."
 
 
 overwrite
@@ -6298,6 +6491,8 @@ outfit "Embershade Core"
 	"gaslining" 1
 	"inscrutable" 1
 	"atmosphere scan" 1000
+	description "Ship description:"
+	description "Long regarded as mere ghost stories, the ray-like Embershades have finally been proven to exist thanks to recent generations of ion storm resistant sensor suites. Shy by nature, these creatures generate a natural cloaking field and prefer to move unseen."
 
 
 overwrite
@@ -6349,6 +6544,8 @@ outfit "Embersylph Core"
 	"inscrutable" 1
 	"atmospheric scan" 1000
 	"ion resistance" 1
+	description "Ship description:"
+	description "Embersylphs are notably strange creatures, even compared to other known space fauna. Glowing in various hues while gracefully swinging several long appendages in a strangely methodical motion, the only consistent behavior these creatures are known to display is curiosity for other life."
 
 
 overwrite
@@ -6385,6 +6582,8 @@ outfit "Shale Core"
 	"hull" 800
 	"bunks" 7
 	"fuel capacity" 400
+	description "Ship description:"
+	description `After the Gegno discovered hyperspace lanes and began to use them, their enormous (and expensive) generation ships became too cumbersome to use for the purpose of interstellar commerce, leading to the need for a smaller and more manageable ship such as this. The Shale is the Gegno's equivalent of a Shuttle: a small and compact transport. Whether it be cargo, trade goods, travelers, or recruits, Shales are the foundation of Gegno interstellar civilization.`
 
 
 overwrite
@@ -6434,6 +6633,8 @@ outfit "Dolomite Core"
 	"required crew" 8
 	"bunks" 79
 	"fuel capacity" 500
+	description "Ship description:"
+	description `Almost as large as a human cruiser, Dolomites are the Gegno's most common cargo vessel in service, its original design dating back to the early days of space colonization. They are used as both passenger liners and cargo vessels. Due to their popularity and continuous usage, both the Vi and Scin factions have developed on the original design for their own purposes.`
 
 
 overwrite
@@ -6489,6 +6690,8 @@ outfit "Conglomerate Core"
 	"required crew" 12
 	"bunks" 50
 	"fuel capacity" 500
+	description "Ship description:"
+	description `Over time, the Gegno needed larger vessels to carry materials to and from new worlds - ones that would be easier to build and operate than their older, outdated generation ships, but larger than their shuttlecraft. The Conglomerate was designed to fill that exact role.`
 
 
 overwrite
@@ -6549,6 +6752,8 @@ outfit "Granofel Core"
 	"required crew" 9
 	"bunks" 15
 	"fuel capacity" 500
+	description "Ship description:"
+	description `Unlike many Gegno ships that are capable in a variety of roles, Granofels were designed for the sole purpose of hauling huge loads of cargo; they lack bunks for anything beyond a proper crew, and are most often found freighting massive shipments of both raw and refined ore to and from mining industries. They can also be seen paired with a mining vessel to extend the duration of a mining run due to the higher cargo capacity. Apart from mining, Granofels are also used in transporting heavy materials needed to construct other large ships.`
 
 
 overwrite
@@ -6610,6 +6815,9 @@ outfit "Gypsum Core"
 	"fuel capacity" 600
 	"drill port" 1
 	"drill lock" -1
+	description "Ship description:"
+	description `To fuel their increasing need for materials, the Gegno designed a new ship class for the sole purpose of mining. The resulting platform, the Gypsum, is not much more than a flying drill with cargo containers, engines, and a bridge attached behind it, making it cost-efficient and easy to manufacture.`
+	description `	Because Gegno engines are not very powerful, the Gypsum has difficulty chasing faster-moving asteroids. In order to alleviate this problem without needing to massively increase the engine space on the ship, the Gegno have instead developed the powerful Excavator Drill, which can shred asteroids in a matter of seconds, meaning the Gypsum only needs to be near an asteroid for a mere moment in order to mine it.`
 
 
 overwrite
@@ -6670,6 +6878,9 @@ outfit "Corundum Core"
 	"bunks" 9
 	"fuel capacity" 600
 	"drill spar" 2
+	description "Ship description:"
+	description `While the Gypsum has remained the most reliable mining platform for generations, the Corundum was designed for the purpose of modularity on account of the ever-growing technological potential of the Gegno. Using a similar principle to the Gypusm's design, the Corundum's structure is mostly built around not one but two adjustable drill systems that are capable of mounting more advanced mining tools.`
+	description `	Although not able to mount the powerful Excavator Drill, the Corundum's engine capacity is twice that of the Gypsum, and the modularity of the two new mounting systems grants it the ability to adapt to future technologies that the Gegno may develop.`
 
 
 overwrite
@@ -6739,6 +6950,8 @@ outfit "Protolith Core"
 	"required crew" 401
 	"bunks" 4040
 	"fuel capacity" 2100
+	description "Ship description:"
+	description `A relic from another age, Protoliths are the last of the Generation ships constructed by the Gegno to colonize the stars. Now that other more easily constructed and hyperdrive-capable transport ships are commonplace, Protoliths are no longer found in service, and the very few that are still functioning are either preserved as artifacts or seldom used as hauling vessels between planets of the Gegno home system of Heutesl.`
 
 
 overwrite
@@ -6807,6 +7020,9 @@ outfit "Dunite Core"
 	"bunks" 1
 	"fuel capacity" 1
 	"cargo capacity" 1
+	description "Ship description:"
+	description `Dunites are unique vessels designed by the Gegno Vi entirely for the purpose of dueling. It is a hodgepodge of parts, simply being an engine, power system, cockpit, and Irate Cannon mashed together without any regard to structural integrity. The most notable feature is a long mace-like protrusion next to the Irate Cannon which is used for jousting and ramming other duelists.`
+	description `	Being a mangled mess of machinery designed for only a single purpose, Dunites do not come equipped with nor have room for hyperdrives, and are purely intrastellar craft.`
 
 
 overwrite
@@ -6860,6 +7076,9 @@ outfit "Augen Core"
 	"required crew" 279
 	"bunks" 360
 	"fuel capacity" 500
+	description "Ship description:"
+	description `The Augen-Class is an ancient battleship proposed by the Vi as a large weapons platform for their Ballistic Cannons. It was built in secret over many years in Enbi's canyon shipyard, and for many periods of time its construction was put on hold. The recent civil war with the Scin gave reason to complete the warship, although it is still somewhat of a relic compared to current vessels in the service of the Vi fleet.`
+	description `	This project was meant to result in two sister-ship behemoths, but the blueprints for the other design went missing early in the process, and are currently nowhere to be found.`
 
 
 overwrite
@@ -7005,6 +7224,8 @@ outfit "Slate Core"
 	"hull" 1000
 	"bunks" 4
 	"fuel capacity" 400
+	description "Ship description:"
+	description `Designed by the Gegno Vi, the Slate is a modified Shale with a stronger hull and more space, a prime characteristic of Vi vessels. Slightly larger than other shuttle ships to suit the Vi's stature, it is able to carry a few Gegno cadets, along with a decently increased cargo capacity.`
 
 
 overwrite
@@ -7055,6 +7276,9 @@ outfit "Schist Core"
 	"required crew" 22
 	"bunks" 73
 	"fuel capacity" 500
+	description "Ship description:"
+	description `Based on the Gegno's old Dolomite, the Schist is a mid-range ship used by the Vi. It can carry a decent amount of cargo, and has enough bunks to carry a whole platoon of warriors. It is the primary vessel used to transport recruits to the front lines, and veterans back to home territories.`
+	description `	Although is it lightly armed compared to other Vi ships, Schists still are mounted with a pair of forward facing cannons and a turret so they can bring some type of weaponry to any possible engagement, as well as a set of angled guns for deterring any smaller, faster ships from attempting to flank the vessel.`
 
 
 overwrite
@@ -7129,6 +7353,8 @@ outfit "Rhyolite Core"
 	"required crew" 4
 	"bunks" 9
 	"fuel capacity" 400
+	description "Ship description:"
+	description `The Rhyolite is a prototype Vi interceptor design constructed by the same shipyard that manufactures the Eclogite and Diorite. Only a few have been produced, and those that exist are currently piloted by a handful of Vi warriors either testing the vessel or owning one privately.`
 
 
 overwrite
@@ -7189,6 +7415,8 @@ outfit "Eclogite Core"
 	"required crew" 8
 	"bunks" 12
 	"fuel capacity" 400
+	description "Ship description:"
+	description `While the style of longer battleship-esque vessels is a Gegno Vi staple, another shipyard rose to the competition for Vi warship designs. The Eclogite is one of the newest designs in the Vi fleet - a gunboat armed to the teeth with cannons, and maneuverability that the Vi's larger ships lack. It plays the role of a hit-and-run vessel, unloading volleys of shells against a target's armor in a rapid maneuver before adjusting its position for another run.`
 
 
 overwrite
@@ -7250,6 +7478,8 @@ outfit "Diorite Core"
 	"required crew" 13
 	"bunks" 29
 	"fuel capacity" 500
+	description "Ship description:"
+	description `Continuing on with the design concept of the Vi's Eclogite, the Diorite is made by a separate shipyard from other larger Vi vessels. It is much more maneuverable than other Vi ships in its class, allowing it to easily keep a bead on other ships its size, and sometimes smaller ones as well.`
 
 
 overwrite
@@ -7316,6 +7546,8 @@ outfit "Hornfel Core"
 	"required crew" 31
 	"bunks" 48
 	"fuel capacity" 600
+	description "Ship description:"
+	description `Hornfels are the workhorse of the Gegno Vi's military - decently sized, decently fast, and more than decently armed warships designed for the frontline of operations. Hornfels are also the most configurable ship in the Vi's fleet, lined with many mounting points to support cargo pods, allowing them to provide a secondary transport role for when the Vi require replacement supplies in war. Other variants of Hornfels are instead occasionally found with adjustments to carry a larger armament. This multi-role function is extremely valued and is the reason why the Hornfel is one of the Vi's most popular ships.`
 
 
 overwrite
@@ -7399,6 +7631,9 @@ outfit "Gneiss Core"
 	"required crew" 111
 	"bunks" 162
 	"fuel capacity" 500
+	description "Ship description:"
+	description `Gneiss battleships are the Gegno Vi's true sword and shield in war. They are slightly older than the Hornfels and Schists, but carry the heaviest armament, bearing three huge mounts dedicated to holding enormous Ballistic Cannons. Gneiss also have extremely strong armor plating, and can take a hefty beating while firing threatening broadsides at the opposing force.`
+	description `	Unfortunately, in exchange for huge firepower and defensive armor, they lack speed and maneuverability, even when fitted with the largest engine systems the Vi have to offer.`
 
 
 overwrite
@@ -7491,6 +7726,8 @@ outfit "Granulite Core"
 	"required crew" 52
 	"bunks" 237
 	"fuel capacity" 900
+	description "Ship description:"
+	description `Granulites are descendants of the Gegno's early generation ships used to colonize nearby systems before the invention of the hyperdrive. They now carry hundreds of Vi both in and out of war, and huge cargo loads to supply depots. They are not typically used as warships, but can support enough weaponry to threaten most smaller vessels, or fend off larger ships long enough for reinforcements to arrive.`
 
 
 overwrite
@@ -7586,6 +7823,10 @@ outfit "Halite Core"
 	"shields" 300
 	"hull" 500
 	"bunks" 1
+	description "Ship description:"
+	description `Halites are a successful experimental test platform designed by the Gegno Scin. They are the Gegno's first fighter-based craft, and the first to equip both early-stage pulse weapon and shield technology; almost half the hull is dedicated to these new developments.`
+	description `	Able to bring a swarm of instant damage to slow-moving Vi warships while under protective shielding, a large number of these ships are seen aboard Scin carrier craft.`
+	description `	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay.`
 
 
 overwrite
@@ -7638,6 +7879,8 @@ outfit "Mica Core"
 	"hull" 700
 	"bunks" 10
 	"fuel capacity" 400
+	description "Ship description:"
+	description `The Mica is the Gegno Scin's take on a shuttlecraft, and is based on the Shale and the Vi's Slate. It is ever so slightly smaller, since the Scin aren't as large, but carries newer engine systems so it is almost twice as fast as the Shale and the Slate.`
 
 
 overwrite
@@ -7688,6 +7931,8 @@ outfit "Coesite Core"
 	"required crew" 7
 	"bunks" 14
 	"fuel capacity" 500
+	description "Ship description:"
+	description `Coesites are smaller warships that the Scin use as screening vessels during battles with the Vi. They are speedy and carry two turret mounts which allow them to always be orbiting and firing on the move. Being a smaller design, these ships are relatively easy to manufacture, and are often fielded in groups so they may overtake vessels much larger than them.`
 
 
 overwrite
@@ -7756,6 +8001,8 @@ outfit "Tridymite Core"
 	"outfit scan efficiency" 8
 	"cargo scan power" 6
 	"cargo scan efficiency" 2
+	description "Ship description:"
+	description `Built upon a similar frame to the Coesite, the Tridymite serves as a small luxury transport vessel for the Gegno Scin. Tridymites are typically used as research vessels, transporting crews of scientists from one location to another, or as private vessels for top ranking Scin scientists. Additionally, Tridymites can occasionally be seen used as a scout craft by the military, equipped with an early prototype scanner system built into the frame.`
 
 
 overwrite
@@ -7816,6 +8063,8 @@ outfit "Felsic Core"
 	"required crew" 17
 	"bunks" 53
 	"fuel capacity" 500
+	description "Ship description:"
+	description `Felsics are based on Schists, but offer many upgrades in exchange for less durability. The Scin have opted for three turret mounts, as well as expanded capacity for outfits, weapons, and engines. All this allows these ships to perform logistical duties as well as doubling as a secondary combat vessel, making up for the lack of a dedicated Scin warship.`
 
 
 overwrite
@@ -7879,6 +8128,9 @@ outfit "Feldspar Core"
 	"required crew" 132
 	"bunks" 192
 	"fuel capacity" 600
+	description "Ship description:"
+	description `The mighty Feldspar is a Scin creation to behold. As a testbed for the new Halite fighters, Feldspars bring their own small fleets with them and overwhelm their enemy. They were also designed as a semi-experimental platform, built around a brand new multi-engine system and the latest in Gegno plasma technology.`
+	description `	Able to keep a decent stance away from a battle while putting down artillery fire, Feldspars are quite a dangerously well-rounded ship for their size. On the downside, they are more susceptible to hull damage like any other Scin warship, especially when alone. As such, they rely on their fighters to keep their enemies at a distance.`
 
 
 overwrite
@@ -7975,6 +8227,9 @@ outfit "Epidote Core"
 	"required crew" 101
 	"bunks" 170
 	"fuel capacity" 600
+	description "Ship description:"
+	description `Epidotes are large independent research platforms with adequately-sized cargo holds, allowing them to perform as a reliable heavy freighter for the Gegno Scin. A large number of bunks either help transport groups of Scin scientists to their project destinations, or allow for mobile on-board demonstrations and observations. Each Epidote is equipped with a rear fighter docking bay capable of carrying two Halites, typically used to ship Halite fighters around Scin space to resupply carriers. Thanks to these fighters and the Epidotes' three dorsal turrets, they can also be used as a secondary warship when needed.`
+	description `	Like other Gegno Scin ships, Epidotes themselves are an experimental test bed; they are built around the same large engine system tested on Feldspars, making them notably fast for their size.`
 
 
 overwrite
@@ -8059,6 +8314,9 @@ outfit "Kyanite Core"
 	"outfit scan efficiency" 8
 	"cargo scan power" 6
 	"cargo scan efficiency" 2
+	description "Ship description:"
+	description `Kyanites are intricately-built test platforms for Gegno Scin technology, equipped with an extensive built-in power system and energy reserve able to support many types of outfits. Weapon experimentation, the most common practice of Kyanites, is recorded by various scanner instruments littering the two long structures on the front of the hull. Despite being weapon research vessels, Kyanites are not combat-capable due to how exposed their systems are and how little hull covers them. These systems are also very expensive and difficult to produce, so only a small amount of Kyanites are found in service.`
+	description `	The scanner system found on the Tridymite was originally developed and tested on Kyanite platforms, eventually becoming integrated into the hull as well.`
 
 
 overwrite
@@ -8130,6 +8388,8 @@ outfit "Anomalocaris Core"
 	"required crew" 19
 	"bunks" 26
 	"fuel capacity" 400
+	description "Ship description:"
+	description "First created during the Hai's initial conflicts with the Sheragi, the Anomalocaris was supposedly one of the most versatile Hai warships of its time. Its high cargo capacity and low engine space suggest the original purpose of the ship was for mining or hauling, though it could also have found use in looting enemy ships and carrying ammunition. Vessels from the time were manufactured out of more expensive materials, making the Anomalocaris more sturdy and able to take larger amounts of damage."
 
 
 overwrite
@@ -8204,6 +8464,8 @@ outfit "Aphid Core"
 	"hull" 1400
 	"bunks" 5
 	"fuel capacity" 400
+	description "Ship description:"
+	description "The Aphid is the lightest freighter used by the Hai and was for many millennia the backbone of the Hai interplanetary economy. Because of how peaceful Hai space has been for much of its history, Aphids only come with basic defenses as stock, and rely on larger Hai ships for more serious protection."
 
 
 overwrite
@@ -8256,6 +8518,8 @@ outfit "Centipede Core"
 	"required crew" 34
 	"bunks" 131
 	"fuel capacity" 600
+	description "Ship description:"
+	description `The introduction of humans to the Hai civilization has led to a substantial amount of cultural exchange. While some may argue that pickled acorns have been the greatest product of this relationship, many more will point to this luxury transport ship. The product of human-Hai cooperation from the project's inception, the Centipede was released around the turn of the 31st century, but has already become quite popular among Hai fleets.`
 
 
 overwrite
@@ -8324,6 +8588,8 @@ outfit "Cicada Core"
 	"required crew" 7
 	"bunks" 51
 	"fuel capacity" 500
+	description "Ship description:"
+	description `A design nearly as old as the Aphid, practically no new Cicadas have been built in recent memory; it is so reliable that the second-hand market is saturated with Cicadas that have outlived not just one pilot, but in many cases whole lineages of Hai that have owned one and passed it down through the generations. This feature is likely the main factor which has kept the popularity of the Scarab in check as well as defining the Yeer e Ki shipyard's motto: "Service for Life."`
 
 
 overwrite
@@ -8389,6 +8655,9 @@ outfit "Flea Core"
 	"shields" 200
 	"hull" 700
 	"automaton" 1
+	description "Ship description:"
+	description `This combat drone is built to amplify the strength of any combat force for as few credits as possible. It was designed in conjunction with the tactical recoil of the Skipper Railgun to allow it to kite its targets, prolonging its combat efficacy while it supports its allies with debilitating ion damage.`
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 
 overwrite
@@ -8438,6 +8707,8 @@ outfit "Geocoris Core"
 	"required crew" 14
 	"bunks" 56
 	"fuel capacity" 800
+	description "Ship description:"
+	description "After large human freighters began to out-compete traditionally smaller Hai ships, the Hai responded by developing the Geocoris: a heavy freighter that surpassed anything humanity had to offer at the time."
 
 
 overwrite
@@ -8507,6 +8778,8 @@ outfit "Grasshopper Core"
 	"hull" 600
 	"bunks" 5
 	"fuel capacity" 300
+	description "Ship description:"
+	description "Designed by the Hai to serve as a fast reconnaissance craft, the Grasshopper has been adopted by thrill-seekers and miners alike. At the same time, it is often used by Hai captains who are looking for effective protection at a low cost."
 
 
 overwrite
@@ -8563,6 +8836,8 @@ outfit "Lightning Bug Core"
 	"required crew" 3
 	"bunks" 10
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The Lightning Bug is a small defensive ship, mostly used by the Hai as a convoy escort. The Lightning Bug, as with many insects, works best in a swarm: even a small number of Lightning Bugs can manage to leave the largest of ships helpless with their stock-fitted Ion Cannons."
 
 
 overwrite
@@ -8635,6 +8910,9 @@ outfit "Ladybug Core"
 	"tactical scan power" 25
 	"atmosphere scan" 100
 	"asteroid scan power" 30
+	description "Ship description:"
+	description "These sensor-laden exploration vessels hail back to a more peaceful era of the Hai. Though they have no true ramscoop, a technology the Hai never developed, their built-in collection gills magnify the natural ramscoop present in all ships. These expensive features are the reason the ship has been replaced with the Lightning Bug."
+	description "However, this ship has seen combat in recent years against human pirates. With room for plentiful shield regeneration, good maneuverability, and the range to strike deep in pirate territory, their long sleep has ended."
 
 
 overwrite
@@ -8704,6 +8982,8 @@ outfit "Pond Strider Core"
 	"bunks" 18
 	"hull repair rate" 1
 	"fuel capacity" 300
+	description "Ship description:"
+	description "The Hai upgraded their original Pond Strider after acquiring hull repair technology through alien diplomacy. These improvements have greatly reduced casualties in their conflict with the Unfettered, since the light Pond Striders become vulnerable as they collect damaged drones. Besides enabling the ship to repair damaged drones, the Hai have cleverly innovated the Skipper Railgun to make the Pond Strider and Fleas into very efficient combat support for their fleets."
 
 
 overwrite
@@ -8791,6 +9071,8 @@ outfit "Sea Scorpion Core"
 	"required crew" 13
 	"bunks" 36
 	"fuel capacity" 500
+	description "Ship description:"
+	description "The Sea Scorpion was designed several decades ago to serve as a mobile platform to launch Trackers. However, it is only recently that the Unfettered have been able to mass-produce them. While individually vulnerable, the reduced cost of manufacturing compared to Shield Beetles allow the materially inferior Unfettered to gain a numerical advantage against their brethren."
 
 
 overwrite
@@ -8862,6 +9144,8 @@ outfit "Scarab Core"
 	"required crew" 3
 	"bunks" 27
 	"fuel capacity" 400
+	description "Ship description:"
+	description `The hard-working cousin to the Lightning Bug, the Scarab has only ever grown in popularity, never declined. That this statistic is occasionally measured in thousandths of a percentage point for years at a time is immaterial to the title. This lightweight transport is commonly the pick for Grasshopper pilots looking to make money while continuing to feed their free spirit. It is also large enough to transport a large Hai family, making it perfect for nearly any odd job in Hai space.`
 
 
 overwrite
@@ -8923,6 +9207,8 @@ outfit "Shield Beetle Core"
 	"required crew" 46
 	"bunks" 95
 	"fuel capacity" 500
+	description "Ship description:"
+	description "This ship was first built millennia ago, near the end of a more violent time in Hai history. Since then, it has served as the only heavy warship at the disposal of the Hai. The Shield Beetle is a versatile warship used by the Hai to guard their merchant convoys, or by the Unfettered to attack those very same convoys."
 
 
 overwrite
@@ -9004,6 +9290,10 @@ outfit "Emperor Beetle Core"
 	"tactical scan power" 30
 	"ramscoop" .5
 	"fuel capacity" 600
+	description "Ship description:"
+	description "Before the Shield Beetle, the Hai used the Titan Beetle, a weaker but more capable ship of a similar design. The Emperor Beetle is a Titan coated with many layers of modern armor, making it a more powerful warship than anything else the Hai have built in modern times. Unfortunately, the advanced features are quite expensive, so these ships are used sparingly as flagships and trophy ships."
+	description "	As it is not meant to plunder but to lead in glorious battle, many of the cargo bays were removed and converted to space for weapons and defensive improvements. This change came at the cost of increased mass and lowered agility, but that is a sacrifice the Unfettered are more than willing to make."
+	description "	More than just a ship, the Emperor Beetle was built to inspire fear in its enemies, making it known that they face no simple Hai, but the military leaders of the Unfettered leading at the front of those they command. Some believe it to be foolish to show their leaders' ships in such a manner, but that is not how the Unfettered think. This ship was built to withstand far more punishment than any normal Shield Beetle, while still being able to dish out damage of its own."
 
 
 overwrite
@@ -9119,6 +9409,8 @@ outfit "Solifuge Core"
 	"required crew" 61
 	"bunks" 118
 	"fuel capacity" 600
+	description "Ship description:"
+	description `Impressed by the Alphas' "Giftbringer," the Unfettered endeavored to build their own fighter carrier to take more advantage of their supply of jump drives.`
 
 
 overwrite
@@ -9209,6 +9501,9 @@ outfit "Violin Spider Core"
 	"shields" 1400
 	"hull" 600
 	"bunks" 1
+	description "Ship description:"
+	description `The Hai fighter is equipped with what most humans would consider the greatest technology available, but all of that high tech comes at a cost.`
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -9262,6 +9557,8 @@ outfit "Water Bug Core"
 	"required crew" 4
 	"bunks" 29
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The design of the Water Bug is almost as old as the Aphid, but until recently it never saw much use. A spike in aggression from the Unfettered Hai has led the tougher and more well-defended Water Bug to see an increase in popularity over its little brother, the Aphid. The Water Bug is now the most widely used Hai freighter, comprising the bulk of all Hai merchant fleets."
 
 
 overwrite
@@ -9333,6 +9630,7 @@ outfit "Hallucination Core"
 	"thrust" 30
 	"turn" 500
 	"energy generation" 1
+	description "Ship description:"
 
 
 overwrite
@@ -9369,6 +9667,7 @@ outfit "Asteroid Core"
 	"turning energy" 1
 	"energy generation" 3
 	"inscrutable" 1
+	description "Ship description:"
 
 
 overwrite
@@ -9398,6 +9697,7 @@ outfit "Science Drone Core"
 	hull 200
 	mass 30
 	drag 2
+	description "Ship description:"
 
 
 overwrite
@@ -9424,6 +9724,9 @@ outfit "Racing Flivver Core"
 	"hull" 150
 	"bunks" 2
 	"fuel capacity" 600
+	description "Ship description:"
+	description "One of champion racer Artemis Renard's many beloved racing crafts, this Lionheart Flivver has been so heavily modified you're not sure if it can even be considered one. Its sleek, elegant lines belie its underlying power: the oversized engines hum with energy and roar to life with spine-bending force at the gentlest touch of the controls, propelling the craft and its pilot to the stars like butterflies on a moonbeam."
+	description "	A gift to you for saving Artemis' life after it was pulled from the sand where she crashed post-race, the Renard family has spared no expense in restoring the craft to gleaming perfection."
 
 
 overwrite
@@ -9488,6 +9791,8 @@ outfit "Emergency Shuttle Core"
 	"hull" 600
 	"bunks" 10
 	"fuel capacity" 100
+	description "Ship description:"
+	description "This Emergency Shuttle is custom-built, designed to be attached to a larger ship and to serve as a lifeboat if the need arises. It is intentionally designed to maximize the number of people it can carry to safety, but has very little space for outfits."
 
 
 overwrite
@@ -9535,6 +9840,7 @@ outfit "Unknown Ship Type Core"
 	"required crew" 63
 	"bunks" 128
 	"fuel capacity" 500
+	description "Ship description:"
 
 
 overwrite
@@ -9602,6 +9908,8 @@ outfit "Kestrel Core"
 	"required crew" 63
 	"bunks" 128
 	"fuel capacity" 500
+	description "Ship description:"
+	description "Several years ago, while visiting a sweat lodge in search of spiritual renewal, Tarazed's chief ship designer fell into a trance and journeyed to a reality separate from our own. There he saw visions of a strange and elegant starship. Returning to his work with renewed purpose, he spent the next seven years making the Kestrel a reality."
 
 
 overwrite
@@ -9675,6 +9983,8 @@ outfit "Marauder Arrow Core"
 	"bunks" 5
 	"fuel capacity" 600
 	"self destruct" .25
+	description "Ship description:"
+	description "This Arrow has had numerous modifications to its hull and internal systems to make more room for outfits - mostly with combat in mind. More shields, weapons, engines, outfit space, and a turret mount nearly push this ship into classification as a light warship, and definitely make it one of the heaviest interceptors you're likely to find."
 
 
 overwrite
@@ -9734,6 +10044,8 @@ outfit "Marauder Bounder Core"
 	"bunks" 18
 	"fuel capacity" 800
 	"self destruct" .25
+	description "Ship description:"
+	description "This Megaparsec Bounder has been modified from a courier-scout into a heavy escort interceptor - currently the largest in the class. A little extra outfit space, reinforced turret mounts, a new gun port in front of the pilot, and additional shield emitters grant this former transport both fearsome speed and armament."
 
 
 overwrite
@@ -9796,6 +10108,8 @@ outfit "Marauder Falcon Core"
 	"bunks" 96
 	"fuel capacity" 600
 	"self destruct" .15
+	description "Ship description:"
+	description "This Tarazed Falcon has been heavily modified by some very dedicated craftsmen. The hull is riddled with extra shield emitters and expanded equipment bays, adding bulk and definitely voiding the warranty."
 
 
 overwrite
@@ -9868,6 +10182,8 @@ outfit "Marauder Firebird Core"
 	"bunks" 25
 	"fuel capacity" 400
 	"self destruct" .25
+	description "Ship description:"
+	description "By the looks of the modification that have taken place, you suspect that this ship contains no original parts. With extra shield emitters, hull plating, and outfit space, this half-millennium-old design is finding new life with its heavy modification."
 
 
 overwrite
@@ -9934,6 +10250,8 @@ outfit "Marauder Leviathan Core"
 	"bunks" 69
 	"fuel capacity" 500
 	"self destruct" .15
+	description "Ship description:"
+	description "The Betelgeuse Shipyards Leviathan has been in service for a long time, and captains have had some very interesting ideas about how to modify them for optimum performance. This one has had the hull surface completely stripped and replaced, with the new layout containing more shield projectors per square meter."
 
 
 overwrite
@@ -10005,6 +10323,8 @@ outfit "Marauder Manta Core"
 	"bunks" 11
 	"fuel capacity" 400
 	"self destruct" .25
+	description "Ship description:"
+	description `After the Syndicate released their Vanguard Heavy Warship, the Manta fell somewhat out of favor due to its lack of ability to mount any anti-missile turrets. The owner of this Manta rectified that, added some extra armor plating and shield emitters, and rearranged some of the internals to yield a little more outfit space. Dry tonnage alone keeps it from being classified as a heavy warship.`
 
 
 overwrite
@@ -10072,6 +10392,8 @@ outfit "Marauder Quicksilver Core"
 	"bunks" 7
 	"fuel capacity" 400
 	"self destruct" .25
+	description "Ship description:"
+	description "This Megaparsec Quicksilver is a bit of a hotrod, being a little faster, with extra shield projectors, hull plating, and an extra bunk. This aftermarket model also features a turret mount, perhaps in an answer to Lionheart's Headhunter. The shop that built this ship is sure to see more customers."
 
 
 overwrite
@@ -10131,6 +10453,8 @@ outfit "Marauder Raven Core"
 	"bunks" 14
 	"fuel capacity" 500
 	"self destruct" .25
+	description "Ship description:"
+	description "Whoever modified this Raven has given more heft to an agile and elegant vessel. They've added a turret and some apparently-flimsy bulkheads over extra shield emitters and outfit space. If it weren't for the wings, the central hull would barely be recognizable as Lionheart's original under the patchwork that you expect has made an already deadly warship even more so."
 
 
 overwrite
@@ -10196,6 +10520,8 @@ outfit "Marauder Splinter Core"
 	"bunks" 22
 	"fuel capacity" 600
 	"self destruct" .25
+	description "Ship description:"
+	description "The Splinter is the largest warship produced by Megaparsec. Apparently someone wanted a bit more out of it, and has covered large sections of the hull with extra shield emitters and hull plating. Much of the stock cargo space has been converted to outfit, weapons, and engines space; coupled with a streamlining of existing internal systems, it makes this warship an agile and flexible war machine."
 
 
 overwrite
@@ -10259,6 +10585,8 @@ outfit "Aerie Core"
 	"required crew" 9
 	"bunks" 28
 	"fuel capacity" 500
+	description "Ship description:"
+	description "The Lionheart Aerie is a light carrier, designed to be just big enough for four fighter bays plus a decent armament of its own. Variations on this same ship design have been in use in the Deep for almost half a millennium, but this model comes with the very latest in generator and weapon technology."
 
 
 overwrite
@@ -10334,6 +10662,9 @@ outfit "Argosy Core"
 	"required crew" 3
 	"bunks" 14
 	"fuel capacity" 400
+	description "Ship description:"
+	description "The Argosy from Southbound Shipyards is very popular with merchants not because of its capacity, which is actually slightly smaller than the Syndicate Freighter, but because it can hold its own in combat even against a small pirate fleet."
+	description "	The Argosy is also a very easy ship to upgrade with faster engines or more powerful weapons as needed, so many privately owned Argosies have very different capabilities than the stock model."
 
 
 overwrite
@@ -10403,6 +10734,8 @@ outfit "Arrow Core"
 	"hull" 400
 	"bunks" 5
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The Arrow is a light transport, designed for bringing a small number of very rich passengers - Syndicate CEOs, for example - from one planet to another with speed and style. It makes up for its light armament by being able to outrun nearly every other ship in the sky."
 
 
 overwrite
@@ -10462,6 +10795,9 @@ outfit "Auxiliary Core"
 	"required crew" 86
 	"bunks" 250
 	"fuel capacity" 900
+	description "Ship description:"
+	description "The Auxiliary is the Republic Navy's logistical backbone. The size and durability of a capital ship but more cargo and passenger space than any other Navy ship, the Auxiliary is used whenever the Navy needs large amounts of troops or cargo transported with a guarantee that they'll reach the destination."
+	description "The Auxiliary was built with modularity in mind, allowing the ship to be fitted for more cargo or bunk space depending on the mission. This modularity makes the ship rather expensive to build, however, and therefore a rare sight to see."
 
 
 overwrite
@@ -10545,6 +10881,9 @@ outfit "Bactrian Core"
 	"required crew" 69
 	"bunks" 245
 	"fuel capacity" 700
+	description "Ship description:"
+	description "The Lionheart Bactrian is the last of the great city-ships, a design hearkening back to the early days of space colonization when a long-distance vessel needed to be a self-contained world, able to survive for weeks at a time without encountering an inhabited planet. It is not only a freighter, but a carrier, and a capable warship either at short range or at a distance."
+	description "	Naturally, this versatility also makes it extremely expensive, and the Bactrian is normally only for sale to citizens who have been vetted by the local government of the Deep."
 
 
 overwrite
@@ -10626,6 +10965,10 @@ outfit "Barb Core"
 	"shields" 800
 	"hull" 200
 	"bunks" 2
+	description "Ship description:"
+	description `Though the Syndicate doesn't build fighter carriers, it is testing the waters with the Barb, a cheap and flexible carrier-launched craft featuring newly-developed miniaturized ion engines. The design philosophy of the Barb seems to have been "uglier than the Protector," and as you look at the cockpit nestled between the massive gun port and turret mount, you wonder where the power systems are supposed to go. Though an awkward-looking ship, it seems flexible enough to become a dangerous addition to any fleet with carriers.`
+	description "	In order to be capable of fitting a Proton Gun while still maintaining a turret mount, Syndicated Systems had to remove various life support systems, requiring that the pilot wear a pressurized suit rather than having the cabin be fully pressurized. Although it makes piloting a Barb an uncomfortable experience, the result is a level of short-range firepower that is unheard of for a craft its size."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -10678,6 +11021,8 @@ outfit "Bastion Core"
 	"required crew" 16
 	"bunks" 40
 	"fuel capacity" 500
+	description "Ship description:"
+	description "The Southbound Shipyards Bastion is designed as a heavy defense platform to accompany freighter convoys, in addition to having enough cargo capacity to serve as a freighter in its own right. Because of its heavy armament, it is classified as a warship rather than a freighter."
 
 
 overwrite
@@ -10750,6 +11095,8 @@ outfit "Behemoth Core"
 	"required crew" 11
 	"bunks" 30
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The Behemoth is a recent ship design from Betelgeuse Shipyards, designed as an alternative to the Syndicate Bulk Freighter. Although its cargo capacity is somewhat lower, it is also more maneuverable, and packs a heavier armament by default."
 
 
 overwrite
@@ -10819,6 +11166,8 @@ outfit "Berserker Core"
 	"hull" 500
 	"bunks" 2
 	"fuel capacity" 400
+	description "Ship description:"
+	description "Once one of the most popular interceptor-class ships, the Berserker's popularity is now waning in favor of more modern and versatile ships like the Hawk. Although limited numbers are still produced by Betelgeuse Shipyards, most Berserkers that are in service today are more than half a century old."
 
 
 overwrite
@@ -10877,6 +11226,8 @@ outfit "Blackbird Core"
 	"required crew" 2
 	"bunks" 28
 	"fuel capacity" 700
+	description "Ship description:"
+	description "The Tarazed Blackbird is a high-class passenger transport, designed to move large numbers of people across the galaxy with speed and safety. Although not equipped with much weaponry, a Blackbird is well protected and fast enough to evade pirate attacks, and its cargo capacity is high enough to allow the captain to take courier missions on the side."
 
 
 overwrite
@@ -10937,6 +11288,8 @@ outfit "Bounder Core"
 	"hull" 700
 	"bunks" 17
 	"fuel capacity" 800
+	description "Ship description:"
+	description "The Megaparsec Bounder is a scout ship and courier, designed not for battle but for carrying passengers and small amounts of cargo across large distances quickly."
 
 
 overwrite
@@ -10990,6 +11343,9 @@ outfit "Boxwing Core"
 	"shields" 400
 	"hull" 800
 	"bunks" 1
+	description "Ship description:"
+	description `After introducing the "Type F" cargo pod for the Hauler, it became apparent to merchant captains that the new carriers could offer more flexibility within their fleet, if there were a cargo box they could attach to the fighter arms. Enter the "F6-C: Boxwing," the Fighter that doesn't fight, but carries cargo instead. Cargo preservation equipment gives the Boxwing much more mass and very poor heat dissipation characteristics compared to other fighters. That it cannot carry any weapons is only part of the reason jocks call it "Flying Coffin" amongst themselves; besides the ship resembling one and being very sluggish, the pilot "seat" doubles as a bunk, and is cramped beyond the comfort level of most. The interactive panoramic window H.U.D. is the only thing that keeps claustrophobic episodes from becoming a major problem.`
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -11038,6 +11394,9 @@ outfit "Bulk Freighter Core"
 	"required crew" 11
 	"bunks" 21
 	"fuel capacity" 900
+	description "Ship description:"
+	description "The Bulk Freighter is the ultimate cargo ship, able to carry as much cargo as four ordinary Syndicate Freighters. Its on-board gearing allows it to service even the most primitive colonies, though dock workers in busier spaceports often joke that it would be simpler to carry smaller freighters within its gigantic holds."
+	description "	It is also an incredibly slow and difficult to maneuver ship, especially when loaded down with cargo. Some freight caravans use ordinary freighters instead of Bulk Freighters just to avoid the hassle of constantly having to wait for the Bulk Freighter to properly align itself for hyperspace travel."
 
 
 overwrite
@@ -11108,6 +11467,8 @@ outfit "Bulwark Core"
 	"bunks" 31
 	"fuel capacity" 500
 	"threshold percentage" .08
+	description "Ship description:"
+	description `The Bulwark is basically what you get by welding a bunch of scrap metal on to a Bastion. It is a tough, slow brawler that is most often used by warlords to protect their properties, whether it'd be their ships or hideouts from raids by either the authorities or their rivals. Due to their lack of speed and cargo space these ships rarely participate in raiding merchant convoys outside their home system.`
 
 
 overwrite
@@ -11179,6 +11540,8 @@ outfit "Carrier Core"
 	"required crew" 110
 	"bunks" 184
 	"fuel capacity" 700
+	description "Ship description:"
+	description "The Carrier is more than just a warship: it is practically a mobile space station, with docking bays for an entire squadron of drones and fighters and enough crew to fill a small village. Although designed primarily for engaging enemies from a distance, a Carrier can also do significant damage in close combat."
 
 
 overwrite
@@ -11287,6 +11650,9 @@ outfit "Class C Freighter Core"
 	"required crew" 17
 	"bunks" 43
 	"fuel capacity" 900
+	description "Ship description:"
+	description `The Class C "Freighter" is a Q-ship, a stealth warship designed by the Syndicate for baiting pirates with the offer of what appears to be a helpless, ordinary Bulk Freighter.`
+	description `	Inside, a layer of Interference Plating hides its military-grade equipment and a dozen combat drones secreted away in its converted cargo holds, while its faux gearing conceals extra shield emitters.`
 
 
 overwrite
@@ -11386,6 +11752,8 @@ outfit "Clipper Core"
 	"required crew" 2
 	"bunks" 9
 	"fuel capacity" 500
+	description "Ship description:"
+	description "The Clipper is the smaller sister ship to the popular Southbound Shipyards Argosy. Although not able to carry as much cargo, Clippers are versatile ships that can be used as passenger transports, couriers, or even warships in a pinch, and they come with enough free space to be customized based on an individual captain's needs."
 
 
 overwrite
@@ -11443,6 +11811,9 @@ outfit "Combat Drone Core"
 	cost 31500.0
 	"hull" 700
 	"automaton" 1
+	description "Ship description:"
+	description "Combat drones are pilotless attack ships used primarily by the Republic Navy. Although very weak and easy to destroy, they can be very effective in large numbers. Because drones do not need a cockpit, they can be filled entirely with equipment and solid metal, which makes their hulls stronger than other small ships."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 
 overwrite
@@ -11492,6 +11863,9 @@ outfit "Container Transport Core"
 	"required crew" 5
 	"bunks" 18
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The Container Transport is a newer, more popular configuration of the Bulk Freighter that replaces the outboard loose cargo holds with intermodal containers for more efficient turnaround in larger, better-equipped ports."
+	description "	As with its geared cousin, however, it remains a slow and difficult to maneuver ship, especially when loaded down with cargo. Some freight caravans use ordinary freighters instead of Container Transports just to avoid the hassle of constantly having to wait for the Container Transport to properly align itself for hyperspace travel."
 
 
 overwrite
@@ -11561,6 +11935,8 @@ outfit "Corvette Core"
 	"required crew" 7
 	"bunks" 32
 	"fuel capacity" 500
+	description "Ship description:"
+	description "Incorporating new, experimental lightweight materials, the Lionheart Corvette combines the speed and agility of a fighter with the armament of a heavy warship. Its weak hull is more than compensated for by its advanced shielding matrix."
 
 
 overwrite
@@ -11631,6 +12007,8 @@ outfit "Cruiser Core"
 	"required crew" 80
 	"bunks" 136
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The Republic Cruiser is a relatively recent design, a much larger version of the Frigate designed to be able to take on an entire pirate fleet if necessary. In addition to a wide variety of weaponry, Cruisers have space to carry four attack drones: fast, pilotless fighters that can be controlled remotely."
 
 
 overwrite
@@ -11720,6 +12098,8 @@ outfit "Cutthroat Core"
 	"required crew" 2
 	"bunks" 5
 	"fuel capacity" 800
+	description "Ship description:"
+	description `Pirates call this heavily modified Clipper the "Cutthroat." With an extra pair of engine pods bolted on for the sole purpose of maximizing speed, it can outrun all but the most fine-tuned ships in the sky, allowing its users to run almost any blockade.`
 
 
 overwrite
@@ -11781,6 +12161,9 @@ outfit "Dagger Core"
 	"shields" 1000
 	"hull" 300
 	"bunks" 1
+	description "Ship description:"
+	description "The Dagger is a fighter designed by Lionheart Industries, intended to be carried by their Aerie warship, although other ships have been known to carry them, as well. As with many Lionheart ships, its chassis is largely composed of lightweight composite materials, making it considerably faster than other fighters."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -11836,6 +12219,8 @@ outfit "Dreadnought Core"
 	"required crew" 83
 	"bunks" 147
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The Dreadnought is a new warship that was designed by Southbound Shipyards in order to provide a large capital ship for the Free Worlds fleets, something capable of standing up to a Navy Cruiser or even a Carrier."
 
 
 overwrite
@@ -11910,6 +12295,9 @@ outfit "Dropship Core"
 	"shields" 600
 	"hull" 200
 	"bunks" 9
+	description "Ship description:"
+	description "Dropships were designed with the Navy's Auxiliary in mind. Landed Auxiliaries often act as forward operating bases, so troops needing transport to another area often rely on their Dropships. This cramped and uncomfortable vessel is able to move a squad of Republic soldiers at great speed for its size."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -11965,6 +12353,9 @@ outfit "Enforcer Core"
 	"required crew" 2
 	"bunks" 5
 	"fuel capacity" 400
+	description "Ship description:"
+	description `Prior to the formation of the galactic Republic, many star systems were owned by "governing corporate entities," with the vast majority of space being inaccessible to private citizens. The only exception to this rule were the pirate bands, whose few ships were often stolen or rebellious corporate fleets of their own, yet who had an outsized impact on interstellar trade. The necessity for corporations to protect their operations meant that Enforcer was one of the most common vessels used for security and defense. The ship boasts an armament of four gun ports and a turreted mount, all packed on a small but defensible frame that was powerful for its time.`
+	description `	Although no longer on the market, the Enforcer finds itself in the possession of a small number of merchants and, ironically, various groups of pirates, as an aging combat ship easily outperformed by other light warships or even interceptors of a similar size.`
 
 
 overwrite
@@ -12024,6 +12415,8 @@ outfit "Falcon Core"
 	"required crew" 51
 	"bunks" 91
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The Tarazed Falcon is one of the most powerful warships that civilians can buy, a sleeker and more maneuverable alternative to the venerable and somewhat outdated Leviathan."
 
 
 overwrite
@@ -12095,6 +12488,9 @@ outfit "Finch Core"
 	"shields" 1100
 	"hull" 200
 	"bunks" 1
+	description "Ship description:"
+	description "When the Free Worlds started requesting a Carrier solution from its local shipyards, Tarazed Shipyards quickly saw that a few modifications could make their entry level interceptor into a top tier fighter. Over 85% of the parts that make up the Finch are shared with the Sparrow assembly line, so it's no surprise that even trimmed down to (barely) fit into a fighter bay, the blindingly fast Finch bears strong resemblance to its hyperspace-faring cousin."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -12151,6 +12547,8 @@ outfit "Firebird Core"
 	"required crew" 6
 	"bunks" 22
 	"fuel capacity" 400
+	description "Ship description:"
+	description "The Betelgeuse Shipyards Firebird is a warship with a long and storied past; Firebirds fought on both sides of the Alpha Wars over half a millennium ago, and although the equipment and systems have been upgraded continuously since then, the basic design remains almost the same. The Firebird is also a very rugged ship and easy to repair; supposedly a few of the Firebirds that fought in those wars are still in service today."
 
 
 overwrite
@@ -12217,6 +12615,8 @@ outfit "Flivver Core"
 	"hull" 200
 	"bunks" 3
 	"fuel capacity" 500
+	description "Ship description:"
+	description "With space for neither cargo nor passengers nor heavy weaponry, the Flivver's only selling point is speed. Flivvers are sold mostly to wealthy individuals who want to be able to travel the stars without needing to share a bunk room on a merchant transport with common people."
 
 
 overwrite
@@ -12270,6 +12670,9 @@ outfit "Freighter Core"
 	"required crew" 1
 	"bunks" 7
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The Freighter is designed by the Syndicate to be an efficient means of carrying cargo from system to system, but is so slow and difficult to land that most pilots hate flying them."
+	description "	Freighters are an obvious target for pirates, but turn much too slowly to be able to bring any forward-facing guns to bear on an approaching enemy. As a result, the latest model of freighter is equipped only with turrets, including an anti-missile turret to prevent attackers from simply bombarding them into submission from a safe distance."
 
 
 overwrite
@@ -12330,6 +12733,8 @@ outfit "Frigate Core"
 	"required crew" 20
 	"bunks" 44
 	"fuel capacity" 500
+	description "Ship description:"
+	description "For centuries, the Frigate was the largest warship produced by the Republic Navy Yard, but now they seem quite small compared to a Cruiser or a Carrier. Armed with a variety of weapons, the Frigate is equally capable at fending off small fighters or bombarding larger ships. In its time it possessed relatively good maneuverability for a ship of its size, but now it sees continued use mostly due to the sheer number of them already built for service."
 
 
 overwrite
@@ -12403,6 +12808,8 @@ outfit "Fury Core"
 	"hull" 400
 	"bunks" 3
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The Fury is Southbound Shipyards' most popular design of escort ship. They have greater firepower than any other interceptor-class vessel, meaning that any pirate flying solo will think twice before attacking a convoy that is accompanied by a Fury. However, Furies are also much less maneuverable than other small ships."
 
 
 overwrite
@@ -12463,6 +12870,8 @@ outfit "Gunboat Core"
 	"required crew" 6
 	"bunks" 12
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The Navy Gunboat is designed for engaging targets at short range, and also serves as the Navy's mobile sensor platform, scanning ships for illegal equipment or cargo."
 
 
 overwrite
@@ -12528,6 +12937,8 @@ outfit "Hauler Core"
 	"required crew" 2
 	"bunks" 12
 	"fuel capacity" 400
+	description "Ship description:"
+	description "Several centuries ago, in the early days of the Republic, the sudden increase in commerce and space travel led to high demand for cargo ships. Haulers were first created simply by bolting a cockpit and engine block onto a cargo container, and the basic design has not changed much since then."
 
 
 overwrite
@@ -12595,6 +13006,8 @@ outfit "Hauler II Core"
 	"required crew" 2
 	"bunks" 12
 	"fuel capacity" 400
+	description "Ship description:"
+	description "This is a mid-sized freighter, designed for a balance between cargo capacity and defensive capability. Centuries ago, various Hauler models made up nearly half of the merchant vessels in service, but today the design is considered somewhat outdated."
 
 
 overwrite
@@ -12664,6 +13077,8 @@ outfit "Hauler III Core"
 	"required crew" 2
 	"bunks" 12
 	"fuel capacity" 400
+	description "Ship description:"
+	description "Considered by many to be outdated, there are nonetheless many Haulers still in service due to their combination of comparatively low price and simple construction. This large version of the Hauler provides the best tradeoff between price and cargo space."
 
 
 overwrite
@@ -12732,6 +13147,8 @@ outfit "Hawk Core"
 	"hull" 500
 	"bunks" 4
 	"fuel capacity" 300
+	description "Ship description:"
+	description "The Tarazed Hawk is an interceptor-class warship often used as an escort for freighters or in a planetary militia's patrol squadron. Hawks are fast enough to chase down most smaller ships, but are capable of mounting much more powerful weapons. They are also, of course, a favorite ship of pirate captains who have earned enough money to afford one."
 
 
 overwrite
@@ -12787,6 +13204,8 @@ outfit "Headhunter Core"
 	"required crew" 1
 	"bunks" 4
 	"fuel capacity" 400
+	description "Ship description:"
+	description "The Headhunter is one of the newest ships designed by Lionheart: a versatile ship that can serve equally well for carrying cargo or for bounty hunting. As with many of Lionheart's designs, the hull is mostly composite fiber rather than metal, sacrificing armor strength for the sake of lighter weight and faster movement."
 
 
 overwrite
@@ -12847,6 +13266,8 @@ outfit "Heavy Shuttle Core"
 	"hull" 700
 	"bunks" 10
 	"fuel capacity" 500
+	description "Ship description:"
+	description "The Heavy Shuttle is an updated shuttle model from Betelgeuse Shipyards, attempting to improve on their perennial classic by offering slightly better cargo and passenger capacity, at the expense of some speed and maneuverability."
 
 
 overwrite
@@ -12898,6 +13319,9 @@ outfit "Hogshead Core"
 	"required crew" 17
 	"bunks" 84
 	"fuel capacity" 600
+	description "Ship description:"
+	description `First manufactured by a forgotten shipyard many centuries ago, the Hogshead got its iconic name from the keg-like shape of its engine pods; its design was a hot topic of discussion for captains everywhere. The ship quickly became popular after first being released for consumer purchase and was commonly seen around various systems as the go-to "space bus" in human space.`
+	description `	Unfortunately, only a few decades after introducing the ship, the shipyard went bankrupt and was never heard from again, leaving the Hogshead to history as their one-hit-wonder. In the current era, Hogsheads are much less common; they are considered "unsightly" compared to modern vessels such as the Star Queen, though a few places in human space still sell them.`
 
 
 overwrite
@@ -12961,6 +13385,8 @@ outfit "Jackal Core"
 	"hull" 500
 	"bunks" 2
 	"fuel capacity" 500
+	description "Ship description:"
+	description `The Jackal is notable for being one of the earliest warships that was designed with "freelancer" pilots in mind, rather than for corporate or law enforcement use. In its heyday, the Jackal contended with the Berserker for the title of the most popular Interceptor-class ship in human space. However, the Jackal's age and inflexibility regarding new developments in weaponry led to a decline in sales that eventually saw its manufacturer absorbed by the shipyard of its age-old rival, the Betelgeuse Shipyards Berserker.`
 
 
 overwrite
@@ -13015,6 +13441,9 @@ outfit "Lance Core"
 	"shields" 800
 	"hull" 400
 	"bunks" 1
+	description "Ship description:"
+	description "The Lance is the primary fighter used by the Republic Navy. As with all fighters, it is weak by itself but very effective as part of a larger squadron."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -13069,6 +13498,8 @@ outfit "Leviathan Core"
 	"required crew" 42
 	"bunks" 64
 	"fuel capacity" 500
+	description "Ship description:"
+	description "The Betelgeuse Shipyards Leviathan has been in service since long before the Republic existed. Although considered today to be an outdated and clunky model, it is still a force to be reckoned with."
 
 
 overwrite
@@ -13138,6 +13569,8 @@ outfit "Mammoth Core"
 	"bunks" 30
 	"fuel capacity" 1000
 	"scan interference" 2
+	description "Ship description:"
+	description "This is a rare, extensively modified Behemoth used by some pirates and smugglers to transport large amounts of goods to systems both near and far. It is armed well enough to handle even a Navy Frigate if caught and fast enough to dash away from anything bigger."
 
 
 overwrite
@@ -13218,6 +13651,8 @@ outfit "Manta Core"
 	"required crew" 5
 	"bunks" 10
 	"fuel capacity" 400
+	description "Ship description:"
+	description "After their Quicksilver light warship with its armament of Particle Cannons became a large success with convoy escorts and planetary defense forces, Megaparsec decided to develop a larger ship with similar maneuverability but heavier firepower. The Manta is the result: a ship with enough long-range firepower that fleeing from a battle with it is almost impossible."
 
 
 overwrite
@@ -13279,6 +13714,9 @@ outfit "Mining Drone Core"
 	cost 29000.0
 	"hull" 300
 	"automaton" 1
+	description "Ship description:"
+	description "The semi-autonomous Mining Drone is used by the Syndicate alongside the Sunder mining vessel in a supportive role. Not being much more than a Mining Laser with an engine stuck to the rear of it, these drones do not last long in combat with other ships due to how fragile they are."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 
 overwrite
@@ -13325,6 +13763,8 @@ outfit "Modified Argosy Core"
 	"required crew" 4
 	"bunks" 12
 	"fuel capacity" 400
+	description "Ship description:"
+	description "The Argosy has long been a favorite ship for pirates, who have come up with many tricks for modifying them to be more suitable as warships."
 
 
 overwrite
@@ -13396,6 +13836,9 @@ outfit "Monitor Core"
 	"required crew" 19
 	"bunks" 32
 	"fuel capacity" 500
+	description "Ship description:"
+	description `When the Republic first formed, planetary governments and corporations often fielded their own fleets; only the Deep had any form of a combined navy. Earth often found itself inefficiently directing those fleets to fight against pirates or defiant worlds. With a need to bring "peace among the stars," per the Republic motto, the newly formed Republic Navy commissioned the shipyards on Luna to design a robust warship that would be able to project the power of a united Republic. The resulting ship, the Monitor, served as the mainstay of the Navy fleets until the introduction of the more advanced Frigate.`
+	description `The few Monitors that still fly today are remnants of those sold by the Navy to the government of Betelgeuse, before they joined the Republic. Of the Monitors that made it into private hands, some eventually found themselves passing through the black markets of the Far North.`
 
 
 overwrite
@@ -13464,6 +13907,8 @@ outfit "Mule Core"
 	"required crew" 13
 	"bunks" 43
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The Mule is as much of a hodgepodge as its looks suggest. The Lionheart ship designers combined a good deal of cargo space with a decent amount of weaponry and even a fighter bay, and ended up with a ship that is mostly used as a freighter but can also be used as a warship because of its heavy armament and shields. This hodgepodge nature has its downside, though, namely its high crew requirement and the fact that any dedicated ship of the same cost will do better in a specialized role than the Mule will."
 
 
 overwrite
@@ -13536,6 +13981,8 @@ outfit "Nest Core"
 	"required crew" 4
 	"bunks" 14
 	"fuel capacity" 500
+	description "Ship description:"
+	description `Southbound Shipyards quickly answered the Free Worlds' call for a carrier by building modified cargo containers for Haulers - adding a pair of Fighter docking arms, some additional outfit space, and even a couple of bunks. Access to the fighters from within the ship is so inconvenient that most pilots opt to just stay aboard their fighters when in flight. While the technical name for this ship is "Hauler I: Type F," Southbound assembly workers started calling the single container variant the "Nest" due to its complement of Finch Fighters, and the name stuck.`
 
 
 overwrite
@@ -13608,6 +14055,8 @@ outfit "Nighthawk Core"
 	"bunks" 39
 	"fuel capacity" 700
 	"outfit scan opacity" 200
+	description "Ship description:"
+	description "The Nighthawk is the result of modifications to increase a Blackbird's passenger capacity for transportation of both lawless individuals and slavery, sacrificing much of the original cargo space. Additionally, at the cost of some shield strength, hull conversions have given the ship a bit more armor plating, along with another turret mount. This gives Nighthawks a bit more defense for combat situations that a Blackbird would not want to find itself in."
 
 
 overwrite
@@ -13674,6 +14123,8 @@ outfit "Osprey Core"
 	"required crew" 8
 	"bunks" 24
 	"fuel capacity" 600
+	description "Ship description:"
+	description "After the Blackbird gained surprising popularity as an agile light warship despite its original design as a transport, Tarazed decided to produce a new design specifically intended as a warship. The Osprey was the result. Although it is considered overpriced by most savvy pilots, it is nevertheless a perennial favorite among those who have the extra cash to spend on it."
 
 
 overwrite
@@ -13743,6 +14194,8 @@ outfit "Protector Core"
 	"required crew" 29
 	"bunks" 69
 	"fuel capacity" 400
+	description "Ship description:"
+	description `Voted the "ugliest ship in the sky" by Stars and Starships Magazine, the Protector is a typical example of brutally efficient Syndicate engineering. It is basically nothing more than eight turrets attached to a set of engines and crew's quarters, designed as a defense platform that can accompany merchant convoys.`
 
 
 overwrite
@@ -13815,6 +14268,8 @@ outfit "Quicksilver Core"
 	"required crew" 2
 	"bunks" 6
 	"fuel capacity" 400
+	description "Ship description:"
+	description "The Megaparsec Quicksilver is a warship built around a single concept: to design the smallest and fastest ship capable of carrying two Particle Cannons. Because of its speed, reverse thrusters, and long weapons range, the Quicksilver can keep a safe distance from most targets and bombard them with particle bursts until they are destroyed. The focus on its weaponry left the Quicksilver with no room for even the most basic shield generator. Unfortunately the Headhunter eventually surpassed the original design intent, but the Quicksilver's better durability to cost ratio, and the existence of long-term contracts, has kept it in use with Syndicate security forces."
 
 
 overwrite
@@ -13869,6 +14324,8 @@ outfit "Rainmaker Core"
 	"required crew" 2
 	"bunks" 7
 	"fuel capacity" 500
+	description "Ship description:"
+	description "The Rainmaker is a missile boat built in the Republic Navy Yard. It comes equipped with four missile launchers and enough ammunition to destroy even ships many times its size. Because of their lack of maneuverability and relatively light shielding, Rainmakers serve best as long-range attack ships, and once their missile supply is spent, they are relatively useless in combat."
 
 
 overwrite
@@ -13935,6 +14392,8 @@ outfit "Raven Core"
 	"required crew" 5
 	"bunks" 13
 	"fuel capacity" 500
+	description "Ship description:"
+	description "The Lionheart Raven is their most popular warship, an agile and elegant vessel that can nevertheless deal out and absorb considerable damage. Ravens are a favorite ship for bounty hunters, because they are more than a match for pirate interceptors and can be used by a skilled pilot to take down much larger ships as well."
 
 
 overwrite
@@ -14000,6 +14459,8 @@ outfit "Roost Core"
 	"required crew" 6
 	"bunks" 16
 	"fuel capacity" 600
+	description "Ship description:"
+	description `Southbound Shipyards' new fighter-carrying containers have created a new use for what many considered an outdated design. Four external fighter bays make this the biggest civilian carrier on the market, if a little awkward as a warship. After Southbound assembly workers successfully named the "Nest," "Hauler II: Type F" was quickly dubbed the "Roost" to continue the theme.`
 
 
 overwrite
@@ -14076,6 +14537,8 @@ outfit "Saber Core"
 	"required crew" 15
 	"bunks" 25
 	"fuel capacity" 600
+	description "Ship description:"
+	description "During the caravan era, a boom of economic development spread along the paths of more heavily armed and technologically advanced merchant fleets originating from the Deep, which resulted in ships such as the Saber being developed. This medium warship was one of the powerhouses of military might in its time, armed to the teeth with five gun ports in the nose and a dorsal turret mount to fire at anything not in front of it. As pirates began to join together in larger war bands in response to the more heavily defended merchants, the Saber became popular amongst them as well. Unlike other ships such as the Firebird, it slowly faded out as competition rose, but it is nevertheless cherished by those who still own one."
 
 
 overwrite
@@ -14140,6 +14603,8 @@ outfit "Scout Core"
 	"hull" 400
 	"bunks" 12
 	"fuel capacity" 800
+	description "Ship description:"
+	description "The Lionheart Scoutship was designed back in the days when the galaxy was more sparsely populated, and ships prospecting for habitable worlds or worlds rich in resources would often travel far away from any habitable ports where they would be able to refuel. Although the galaxy has now been much more thoroughly explored, the Scout remains a popular ship for long-distance travel."
 
 
 overwrite
@@ -14198,6 +14663,8 @@ outfit "Scrapper Core"
 	"hull" 520
 	"bunks" 4
 	"fuel capacity" 300
+	description "Ship description:"
+	description "Rather than being a specific model of ship, the Scrappers are instead a family of vessels cobbled together from the remains of broken shuttles. On the rare occasion that Republic authorities bother to recognize their existence, Scrappers are treated as almost-illegal, patent-infringing death traps. Despite this, these ships are where many captains (and pirates) from poorer backgrounds get their start."
 
 
 overwrite
@@ -14247,6 +14714,9 @@ outfit "Shuttle Core"
 	"hull" 600
 	"bunks" 6
 	"fuel capacity" 400
+	description "Ship description:"
+	description "Although Betelgeuse Shipyards produces other ship models as well, the majority of their profits come from sales of the Shuttle. This versatile ship serves equally well as a passenger transport or a cargo courier. It also happens to be the cheapest ship you can buy which is capable of hyperspace travel."
+	description `	Shuttles are not designed to withstand combat of any sort, but they are fast and maneuverable enough to get out of harm's way if attacked by a larger, slower ship. Although they are typically unarmed, they have enough space for one weapon, which is the origin of the popular phrase, "as useless as a blaster cannon on a shuttlecraft."`
 
 
 overwrite
@@ -14301,6 +14771,8 @@ outfit "Skein Core"
 	"required crew" 8
 	"bunks" 18
 	"fuel capacity" 700
+	description "Ship description:"
+	description `This particular cockpit and engine set has found itself attached to three of Southbound Shipyards' new "Type F" Fighter-carrier pods. When the Free Worlds asked for a carrier, they did not expect one that would be able to carry almost as many fighters as the heaviest Navy warships. Given this fact, the Free Worlds have asked Southbound and Tarazed to restrict sale of the "Hauler III: Type F," "Skein" to its Militia only.`
 
 
 overwrite
@@ -14384,6 +14856,9 @@ outfit "Sparrow Core"
 	"hull" 300
 	"bunks" 3
 	"fuel capacity" 300
+	description "Ship description:"
+	description "Classified as an interceptor rather than a fighter because it has its own hyperdrive instead of needing to be carried inside a larger ship, the Tarazed Sparrow is the smallest and cheapest combat ship available. Because of its limited cargo and passenger space, the primary way for a Sparrow pilot to pay the bills is to upgrade the weapons and hunt pirates... or become one. In either case, it is a perilous way to earn a living."
+	description "	Government reports indicate that as many as two out of every three first-time ship buyers who choose to pilot a Sparrow lose their ship (and often, their life as well) within the first month of owning it. Pilots who have survived longer than that tend to swear by replacing the stock weapons with missile launchers."
 
 
 overwrite
@@ -14439,6 +14914,8 @@ outfit "Splinter Core"
 	"required crew" 6
 	"bunks" 21
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The Splinter is the largest warship produced by the Megaparsec shipyard. It is designed to be faster and more maneuverable than other ships of a similar size, in order to serve as a heavy escort ship or as part of a planetary defense and patrol fleet. Because of its intended use in merchant convoys, it also has a fair amount of cargo space."
 
 
 overwrite
@@ -14504,6 +14981,9 @@ outfit "Star Barge Core"
 	"hull" 1000
 	"bunks" 3
 	"fuel capacity" 300
+	description "Ship description:"
+	description "The Syndicate CT-50 Star Barge is little more than a cluster of cargo containers with an engine at one end and a cockpit on the other. It is a slow and ugly ship, but it can carry enough cargo to earn its captain a steady income even in parts of the galaxy where it is hard to find passengers to carry or courier missions."
+	description "	Because they often carry valuable cargo, and because they are too slow to evade any attackers, Star Barges are a common target of pirates."
 
 
 overwrite
@@ -14556,6 +15036,9 @@ outfit "Star Queen Core"
 	"required crew" 32
 	"bunks" 112
 	"fuel capacity" 700
+	description "Ship description:"
+	description "The Star Queen is a relic of a more peaceful period of galactic history: a luxury liner for high-end tourists. Every cabin has its own mini-bar, and the bathrooms have marble tile and showers that use actual hot water instead of chemicals or sonic vibrations."
+	description "	In support of environmental movements across the galaxy, all Star Queens come standard with an array of solar panels as their only source of energy as opposed to more popular power generators such as fuel cells or nuclear reactors that produce some amount of waste. Although some argue that this is a pointless move given the prevalence of clean fusion reactors, others have applauded it and cited the prohibitive costs of fusion reactors as a reason for using solar panels."
 
 
 overwrite
@@ -14626,6 +15109,8 @@ outfit "Sunder Core"
 	"required crew" 2
 	"bunks" 5
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The Sunder is a versatile mining platform equipped with dedicated prospecting equipment, most notably an undercarriage that supports two Mining Drones. The lineage of this ship can be traced back to the old asteroid mining ships used in the Sol Main Belt centuries ago; however, because of recent Syndicate efforts to further exploit the Core's mineral wealth, the newest model of the Sunder is now manufactured by Syndicated Shipyards."
 
 
 overwrite
@@ -14689,6 +15174,9 @@ outfit "Surveillance Drone Core"
 	cost 25000.0
 	"hull" 300
 	"automaton" 1
+	description "Ship description:"
+	description "Surveillance drones are unarmed drones used by the Republic navy to scan ships and planets in a star system."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 
 overwrite
@@ -14736,6 +15224,8 @@ outfit "Valkyrie Core"
 	"required crew" 8
 	"bunks" 19
 	"fuel capacity" 500
+	description "Ship description:"
+	description "Valkyries are modified Aeries that convert two of their bays and bunk space into more cargo space for smuggling goods, as well as more room to boast two extra gun mounts and increased armor protection. This allows Valkyries to both take and put out noticeable amounts of damage, however, due to the extra weight, they are somewhat slower and lose a bit of shield efficiency."
 
 
 overwrite
@@ -14807,6 +15297,8 @@ outfit "Vanguard Core"
 	"required crew" 22
 	"bunks" 45
 	"fuel capacity" 400
+	description "Ship description:"
+	description `The Vanguard is Syndicated Systems' newest warship intended for the heavy anti-pirate defense market. Vanguards offer an unusual feature set, focusing on powerful fixed guns and featuring Syndicated Systems' latest automation technologies, resulting in an atypically low crew complement for a ship its size. Few capital ships will endure for long under the withering fusillade of gunfire that it can unleash against those in front of it.`
 
 
 overwrite
@@ -14879,6 +15371,8 @@ outfit "Wasp Core"
 	"hull" 500
 	"bunks" 2
 	"fuel capacity" 400
+	description "Ship description:"
+	description "The Wasp is a medium-strength interceptor, designed by Syndicated Shipyards to serve as an escort for cargo vessels. Like most Syndicate ships, it is not particularly pretty, but it at least serves the purpose it was made for."
 
 
 overwrite
@@ -14924,6 +15418,7 @@ ship "Wasp"
 	leak "leak" 60 50
 	explode "tiny explosion" 20
 	explode "small explosion" 10
+	description "The Wasp is a medium-strength interceptor, designed by Syndicated Shipyards to serve as an escort for cargo vessels. Like most Syndicate ships, it is not particularly pretty, but it at least serves the purpose it was made for."
 
 
 outfit "Jje Core"
@@ -14952,6 +15447,8 @@ outfit "Jje Core"
 	"ion resistance" 2
 	"scramble resistance" 2
 	"slowing protection" 2
+	description "Ship description:"
+	description "This is an adolescent form of the Iije, having recently consumed quantities of stellar dust, matter, and energy. They are attracted to light in the dim space of the Umbral Reach, and are occasionally seen flying in groups."
 
 
 overwrite
@@ -15023,6 +15520,8 @@ outfit "Ayym Core"
 	"ion resistance" 3
 	"scramble resistance" 3
 	"slowing protection" 3
+	description "Ship description:"
+	description "This is an adult form of the Iije, having grown enormous from consuming stellar matter over hundreds of thousands of years. They can be seen carrying the smaller Jje around the Umbral Reach, but the exact purpose of this activity is unknown."
 
 
 overwrite
@@ -15098,6 +15597,8 @@ outfit "Venta Core"
 	"bunks" 45
 	"gaslining" 1
 	"fuel capacity" 200
+	description "Ship description:"
+	description "When the Hicemus came to power they needed a ship to symbolize their strength. With six guns, the Venta is the most powerful ship in the Incipias' history. Thanks to its sleek and aerodynamic design it is as comfortable hunting down outlaws in space as in the clouds of a gas giant."
 
 
 overwrite
@@ -15166,6 +15667,9 @@ outfit "Nimbus Core"
 	"bunks" 40
 	"gaslining" 1
 	"fuel capacity" 200
+	description "Ship description:"
+	description "The Nimbus is the first spaceship that the Incipias built that was truly able to navigate through a system. Since it was first manufactured it has been cherished among wealthier captains and a dream of captains just starting out."
+	description "	Although the Nimbus is labeled as a medium warship, it is multipurpose; whether one uses it for mining, passenger transport or cargo, it will perform its job nicely. It is only occasionally used in combat because the Incipias are not currently fighting open wars."
 
 
 overwrite
@@ -15231,6 +15735,8 @@ outfit "Nimbo Stratus Core"
 	"bunks" 10
 	"gaslining" 1
 	"fuel capacity" 200
+	description "Ship description:"
+	description "Mining has always been a big business in Incipias society, which is why the Nimbo Stratus is the most common ship for beginning captains. Its cheap price tag and ability to bring money in quickly ensure its continuing popularity. While the Stratus could theoretically be used in combat, it stands no chance against the Nimbus and therefore has never been used by the Hicemus military forces."
 
 
 overwrite
@@ -15284,6 +15790,8 @@ outfit "Nimbo Cirrus Core"
 	"bunks" 14
 	"gaslining" 1
 	"fuel capacity" 200
+	description "Ship description:"
+	description "When Pon'tes was built, the need arose for a ship that could carry large amounts of material and supplies into orbit. When the Nimbus proved insufficient at this task, the Nimbo Cirrus, a specialized cargo ship, was built. The inhabitants of Pon'tes rely on its regular deliveries for basic goods and equipment."
 
 
 overwrite
@@ -15335,6 +15843,8 @@ outfit "Gero Core"
 	"bunks" 72
 	"gaslining" 1
 	"fuel capacity" 200
+	description "Ship description:"
+	description "The completion of Pon'tes caused a huge increase in travel between the station and Redias. Designers from Alto Shipyards quickly saw an opportunity and so the Incipias' first transport ship was built."
 
 
 overwrite
@@ -15371,6 +15881,7 @@ ship "Gero"
 	explode "medium explosion" 20
 	explode "large explosion" 30
 	"final explode" "final explosion medium"
+	description "The completion of Pon'tes caused a huge increase in travel between the station and Redias. Designers from Alto Shipyards quickly saw an opportunity and so the Incipias' first transport ship was built."
 
 
 outfit "Tace Mesa Core"
@@ -15384,6 +15895,8 @@ outfit "Tace Mesa Core"
 	"inscrutable" 1
 	"energy capacity" 1000
 	"bunks" 40
+	description "Ship description:"
+	description "The Tace Mesa are creatures whose origins and inner workings are yet to be understood. They have existed for millennia and will probably continue to exist for a long time. Rumors tell of even larger creatures further out in the rims of the system."
 
 
 overwrite
@@ -15437,6 +15950,9 @@ outfit "Aberrant Latte Core"
 	"ka'sei" 1
 	"overheat damage threshold" 0.7
 	"overheat damage rate" 0.7
+	description "Ship description:"
+	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
+	description "This variant in particular seems to be as close to the baseline as can be expected from such a strange creature."
 
 
 overwrite
@@ -15508,6 +16024,9 @@ outfit "Aberrant Chomper Core"
 	"ka'sei" 1
 	"overheat damage threshold" 0.7
 	"overheat damage rate" 0.7
+	description "Ship description:"
+	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
+	description "This variant in particular seems to be much more heavily armed than most others of its kind."
 
 
 overwrite
@@ -15586,6 +16105,9 @@ outfit "Aberrant Pileup Core"
 	"ka'sei" 1
 	"overheat damage threshold" 0.7
 	"overheat damage rate" 0.7
+	description "Ship description:"
+	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
+	description "This variant in particular seems to be somewhat larger and sturdier than others."
 
 
 overwrite
@@ -15658,6 +16180,9 @@ outfit "Aberrant Hugger Core"
 	"ka'sei" 1
 	"overheat damage threshold" 0.7
 	"overheat damage rate" 0.7
+	description "Ship description:"
+	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
+	description "This variant in particular seems to be lighter and capable of higher speeds than most other Aberrant ships, yet it still carries an enlarged armament."
 
 
 overwrite
@@ -15732,6 +16257,9 @@ outfit "Aberrant Longfellow Core"
 	"ka'sei" 1
 	"overheat damage threshold" 0.7
 	"overheat damage rate" 0.7
+	description "Ship description:"
+	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
+	description "This variant in particular seems to have grown extra thrusters around a lean, sleek fuselage."
 
 
 overwrite
@@ -15812,6 +16340,9 @@ outfit "Aberrant Dancer Core"
 	"ka'sei" 1
 	"overheat damage threshold" 0.7
 	"overheat damage rate" 0.7
+	description "Ship description:"
+	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
+	description "This variant in particular appears to have several hardpoints designed to mount turrets."
 
 
 overwrite
@@ -15890,6 +16421,9 @@ outfit "Aberrant Junior Core"
 	"ka'sei" 1
 	"overheat damage threshold" 0.7
 	"overheat damage rate" 0.7
+	description "Ship description:"
+	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
+	description "This variant in particular seems to be compact, smaller-than-average, and still in the process of growing."
 
 
 overwrite
@@ -15966,6 +16500,9 @@ outfit "Aberrant Icebreaker Core"
 	"ka'sei" 1
 	"overheat damage threshold" 0.7
 	"overheat damage rate" 0.7
+	description "Ship description:"
+	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
+	description "This variant in particular seems to be in the process of growing more elongated, and has a tougher hull than most other variants."
 
 
 overwrite
@@ -16043,6 +16580,9 @@ outfit "Aberrant Pike Core"
 	"ka'sei" 1
 	"overheat damage threshold" 0.7
 	"overheat damage rate" 0.7
+	description "Ship description:"
+	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
+	description "This variant in particular has grown into a sleek, elongated shape."
 
 
 overwrite
@@ -16119,6 +16659,9 @@ outfit "Aberrant Mole Core"
 	"ka'sei" 1
 	"overheat damage threshold" 0.7
 	"overheat damage rate" 0.7
+	description "Ship description:"
+	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
+	description "This variant has grown a sharp, bladed prow capable of fitting more forward weapons."
 
 
 overwrite
@@ -16197,6 +16740,9 @@ outfit "Aberrant Whiskers Core"
 	"ka'sei" 1
 	"overheat damage threshold" 0.7
 	"overheat damage rate" 0.7
+	description "Ship description:"
+	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
+	description "This variant in particular appears to be growing some sort of tail-like structure, increasing its agility."
 
 
 overwrite
@@ -16268,6 +16814,9 @@ outfit "Aberrant Trip Core"
 	"ka'sei" 1
 	"overheat damage threshold" 0.7
 	"overheat damage rate" 0.7
+	description "Ship description:"
+	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
+	description "Something appears to have gone terribly wrong in the germination of this variant. It is a lopsided, deformed mass of malformed material, which survives only through sheer luck."
 
 
 overwrite
@@ -16351,6 +16900,9 @@ outfit "Aberrant Triplet Core"
 	"ka'sei" 1
 	"overheat damage threshold" 0.7
 	"overheat damage rate" 0.7
+	description "Ship description:"
+	description "This appears to be some kind of organo-metallic entity, made from a strange mosaic of organic tissue, conventional material, and an exotic matter that defies conventional analysis."
+	description "This variant seems to be a composite of two or three individuals, fused together into a single mass."
 
 
 overwrite
@@ -16437,6 +16989,7 @@ outfit "Asteroid Large 1 Core"
 	"asteroid mount jd" 1
 	"asteroid mount am" 1
 	"asteroid mount" 1
+	description "Ship description:"
 
 
 overwrite
@@ -16501,6 +17054,7 @@ outfit "Asteroid Large 2 Core"
 	"asteroid mount am" 1
 	"asteroid mount" 1
 	"asteroid mount 4" 1
+	description "Ship description:"
 
 
 overwrite
@@ -16565,6 +17119,7 @@ outfit "Asteroid Large 3 Core"
 	"asteroid mount jd" 1
 	"asteroid mount am" 1
 	"asteroid mount 4" 2
+	description "Ship description:"
 
 
 overwrite
@@ -16628,6 +17183,7 @@ outfit "Asteroid Large 4 Core"
 	"asteroid mount jd" 1
 	"asteroid mount am" 1
 	"asteroid mount 3" 2
+	description "Ship description:"
 
 
 overwrite
@@ -16691,6 +17247,7 @@ outfit "Asteroid Large 5 Core"
 	"asteroid mount jd" 1
 	"asteroid mount am" 1
 	"asteroid mount 2" 2
+	description "Ship description:"
 
 
 overwrite
@@ -16754,6 +17311,7 @@ outfit "Asteroid Medium Core"
 	"asteroid mount jd" 1
 	"asteroid mount small" 1
 	"asteroid mount 2" 1
+	description "Ship description:"
 
 
 overwrite
@@ -16815,6 +17373,7 @@ outfit "Asteroid Young 1 Core"
 	"turn" 40191
 	"asteroid mount jd" 1
 	"asteroid mount small" 2
+	description "Ship description:"
 
 
 overwrite
@@ -16876,6 +17435,7 @@ outfit "Asteroid Young 2 Core"
 	"turn" 40191
 	"asteroid mount jd" 1
 	"asteroid mount small" 2
+	description "Ship description:"
 
 
 overwrite
@@ -16937,6 +17497,7 @@ outfit "Asteroid Young 3 Core"
 	"turn" 40191
 	"asteroid mount jd" 1
 	"asteroid mount small" 2
+	description "Ship description:"
 
 
 overwrite
@@ -16998,6 +17559,7 @@ outfit "Asteroid Young 4 Core"
 	"turn" 40191
 	"asteroid mount jd" 1
 	"asteroid mount small" 2
+	description "Ship description:"
 
 
 overwrite
@@ -17048,6 +17610,7 @@ outfit "Cloak Check Core"
 	"automaton" 1
 	"thrust" 100
 	"turn" 6000
+	description "Ship description:"
 
 
 overwrite
@@ -17083,6 +17646,7 @@ outfit "Asteroid Planet Core"
 	"asteroid mount jd" 1
 	"asteroid mount am" 1
 	"asteroid mount" 1
+	description "Ship description:"
 
 
 overwrite
@@ -17117,6 +17681,7 @@ outfit "Remnant Satellite Core"
 	hull 130
 	mass 10
 	drag 2
+	description "Ship description:"
 
 
 overwrite
@@ -17141,6 +17706,7 @@ outfit "Asteroid Blocker Core"
 	"automaton" 1
 	"thrust" 100
 	"turn" 6000
+	description "Ship description:"
 
 
 overwrite
@@ -17162,6 +17728,7 @@ outfit "Builder Satellite Core"
 	category "Ship Cores"
 	"Core Slot" -1
 	"hull" 1500
+	description "Ship description:"
 
 
 overwrite
@@ -17198,6 +17765,8 @@ outfit "Maeri'het Core"
 	"cloak" .023
 	"cloaking energy" 11.8
 	"cloaking fuel" .08
+	description "Ship description:"
+	description "The Maeri is the smallest Het ship created by the Builders' stations, a prime example of the genetic technology they once possessed. Its small size is compensated by the fact that it can hide its location from most types of sensors."
 
 
 overwrite
@@ -17270,6 +17839,8 @@ outfit "Telis'het Core"
 	"hull repair rate" 0.5
 	"shield energy" 0.3
 	"shield heat" 9.2
+	description "Ship description:"
+	description "When the Builders designed the exoskeleton of the Telis, they came to the conclusion that it would have been impossible to make it resilient enough without compromising its agility and integrity. Instead, they focused heavily on improving their shield technology, giving the Telis many of their regenerators."
 
 
 overwrite
@@ -17345,6 +17916,8 @@ outfit "Vareti'het Core"
 	"heat generation" 46
 	"hull repair rate" 0.55
 	"shield heat" 11.3
+	description "Ship description:"
+	description "The Vareti was the strongest Het the Builders were able to complete, starting its mass production only a year before the beginning of the invasion. It relies on shield matrixes even more than its little brothers, using larger and more effective restorers that were developed alongside this project."
 
 
 overwrite
@@ -17415,6 +17988,9 @@ outfit "Selii'mar Core"
 	"Core Slot" -1
 	cost 482500.0
 	"hull" 2800
+	description "Ship description:"
+	description "The Selii'mar was a common Builder mining drone, one of the few automated ships they ever produced. The Het stations still produce them, in order to harvest the materials they need to keep working."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 
 overwrite
@@ -17458,6 +18034,9 @@ outfit "Faes'mar Core"
 	cost 590000.0
 	"shields" 200
 	"hull" 1900
+	description "Ship description:"
+	description "The Mar were the last and most successful ships of the Builders in their attempts at creating automatic drones. Today only the Het stations are still aware of their blueprints, and keep producing the Faes'mar to transport the resources mined to the station's cargo bay."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 
 overwrite
@@ -17514,6 +18093,8 @@ outfit "Fetri'sei Core"
 	"ka'sei" 1
 	"overheat damage threshold" 0.2
 	"overheat damage rate" 1
+	description "Ship description:"
+	description "The Fetri is a self replicating probe, built to harvest iridium away from the Graveyard and transport it back to the Builders."
 
 
 overwrite
@@ -17569,6 +18150,9 @@ outfit "Rano'erek Core"
 	"required crew" 136
 	"bunks" 357
 	"fuel capacity" 900
+	description "Ship description:"
+	description "After the Korath were exiled from their homelands, efficient resource collection became a priority. World-ships were too precious to risk on dangerous forays, and raiders lacked the cargo capacity. The Rano'erek-class Asteroid Dredging Ship, named for a respected civilian politician and economist, was born as an answer to this problem."
+	description "	Featuring an abundance of cargo and passenger space in addition to their formidable defensive armament, these bulky ships can also offer potent support for frontline Palavrets."
 
 
 overwrite
@@ -17660,6 +18244,9 @@ outfit "Palavret Core"
 	"required crew" 144
 	"bunks" 250
 	"fuel capacity" 600
+	description "Ship description:"
+	description "Successive raider designs have been the Korath warship of choice for plundering neighboring species for generations. Named for a celebrated captain who gave her life to ensure her crippled vessel made it back to port with its desperately needed cargo of stolen fish, the Palavret-Class Raiding Ship continues that grim tradition."
+	description "	Like all Exile ships, the Palavret has been adapted to house as many Korath as possible, as comfortably as possible, inflating its size beyond similarly armed warships. The spaceborne construction techniques employed allow for the ship's easy replacement, facilitating continued raids of nearby systems."
 
 
 overwrite
@@ -17745,6 +18332,9 @@ outfit "Tubfalet Core"
 	"heat protection" 0.1
 	"hull protection" 0.1
 	"fuel capacity" 700
+	description "Ship description:"
+	description "The venerable Palavret has been a mainstay of the Korath raiding fleet, elements of its design dating back from before the era of shortages and desperation caused by a life in exile. Over forty generations of raiders have terrorized neighboring systems over the centuries."
+	description "	Constant warfare against surrounding aliens has been building pressure on Korath shipyards to recover some of their ancient prowess. Now, with a fresh industrial network to draw upon, the Korath have created a new raider to deal with modern targets, and the Tubfalet-Class Raiding Ship is named for an admiral who dealt with such enemies. Despite extensive injuries, he remained on his flag bridge during a Remnant attack, leading his squadron to victory."
 
 
 overwrite
@@ -17866,6 +18456,9 @@ outfit "'nra'ret Core"
 	"required crew" 192
 	"bunks" 221
 	"fuel capacity" 900
+	description "Ship description:"
+	description "While perhaps, at first, seeming like a super-sized 'olofez-Class Carried Chaser, the 'nra'ret-Class Chaser is not only the first truly unique warship design the Exiles have fielded since the Exodus, but also the first built solely for combat instead of needing to double as a habitat or supply ship. Its size and non-modular nature also means it must be constructed wholesale at the largest Korath facilities, something that, until recently, was generally reserved for the likes of the massive Ik'atilajej and the Korsmanath A'awoj."
+	description "	The 'nra'ret-Class Chaser, named in honor of a brilliant weapons engineer who took their own life to avoid having their secrets captured by a hostile alien force, provides the Exiles with a fast and powerful patrol striker both in support of large raiding fleets and as independent units. To this end, it is armed with numerous missile ports designed to rain fire on enemies from afar. It also carries a pair of langrage heavers for sustained operations, and two Fire-Lances for emergency use in close quarters."
 
 
 overwrite
@@ -17946,6 +18539,9 @@ outfit "'olofez Core"
 	"shields" 2300
 	"hull" 900
 	"bunks" 1
+	description "Ship description:"
+	description "The 'olofez-Class Carried Chaser, named for a renowned artist who painted their visions of ancient hunts, is a fighter carried by most Exile capital ships."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -18001,6 +18597,9 @@ outfit "Kas'ik Tek 7 Core"
 	"cargo scan efficiency" 10
 	"tactical scan power" 30
 	"asteroid scan power" 20
+	description "Ship description:"
+	description `These small probes are primarily deployed by larger Korath Exile ships to scan for intruders, evaluate foreign vessels, and analyze system bodies. Their secondary function is to retrieve small debris and deactivated microbots spread across Korath space which have fallen off their ships, been fired from Shunt-Strikes, or were even deliberately deployed. Although the data observed and logged by an individual microbot is extremely limited, processing them in bulk yields a valuable gestalt of information. More importantly, the microbots can be recycled for use afterwards.`
+	description `	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay.`
 
 
 overwrite
@@ -18047,6 +18646,9 @@ outfit "Rai'alorej Core"
 	"required crew" 522
 	"bunks" 1433
 	"fuel capacity" 700
+	description "Ship description:"
+	description "Although fierce in battle and highly adaptable, Korath do not easily recover from injury. Without the aid of a surgeon or more equipment than fits into a standard escape pod, a stranded, injured Korath faces poor odds of survival. Therefore, Korath who leave their home territory have placed great importance on the construction of hospital ships that can quickly locate, recover, and treat the survivors of wrecked ships."
+	description "	The Rai'alorej-Class Refuge, named for a pioneer in the field of microbot-assisted surgery, is thoroughly appointed with lifeform scanners, locator beacon receivers, ambulances, and search-and-rescue teams. Once onboard, crash victims are greeted with the finest hospital facilities, microbot treatments, and stores of medicine the Exiles have at hand. Even incubators and nurseries are available to treat the young who grow up aboard ship."
 
 
 overwrite
@@ -18137,6 +18739,9 @@ outfit "Ikatila'ej Core"
 	"bunks" 1933
 	"fuel capacity" 800
 	"spinal mount" 1
+	description "Ship description:"
+	description "For most of their manufacturing needs, the Korath rely, as even some terrestrial species do, upon their space station and asteroid infrastructure. Due to their spacebound existence, however, the acceptability for failure and downtime is slim to nonexistent. Should equipment aboard a station or a world-ship fail, the Ikatila'ej, named for an inventor famously proficient in a variety of fields, is called in to provide critical support. Its microbot-run factory produces basic living supplies, machine parts, and systems cores, and may assist in continuing stalled production."
+	description "	When not assisting with damaged ships and stations, or replenishing its own stores, the Ikatila'ej serves as an all-in-one recycling, mining, refining, and factory ship, using its microbot-powered grinder to rapidly turn asteroids and garbage into whatever products the civilian economic planning committees have determined to be in the most dire need."
 
 
 overwrite
@@ -18221,6 +18826,8 @@ outfit "Lor'kas Ik 577 Core"
 	"required crew" 233
 	"bunks" 453
 	"fuel capacity" 1000
+	description "Ship description:"
+	description "The largest of Korath production vessels are derived from a common and ancient chassis. The simplest are adapted to haul materials between refinery and factory stations. Fittingly, they're named after a productive colony of the Efreti, to honor their focus on peaceful industry."
 
 
 overwrite
@@ -18306,6 +18913,8 @@ outfit "Ra'gru Ik 618 Core"
 	"required crew" 618
 	"bunks" 794
 	"fuel capacity" 1000
+	description "Ship description:"
+	description "The largest of Korath production vessels are derived from a common and ancient chassis. This deceptively spindly ship bristles with weapon emplacements for heavy raiding or defending other vessels. It is named after the Mereti's capital planet, where they made powerful warships out of modular components."
 
 
 overwrite
@@ -18401,6 +19010,8 @@ outfit "Kas'lor Ik 582 Core"
 	"bunks" 551
 	"solar collection" 3.8
 	"fuel capacity" 32700
+	description "Ship description:"
+	description "The largest of Korath production vessels are derived from a common and ancient chassis. This relatively streamlined ship has been adapted to collect, refine, and transport hyperspace fuel. Its name refers to the delicious squids that lived in their gas giants, and especially Deka Dathnak."
 
 
 overwrite
@@ -18483,6 +19094,8 @@ outfit "Lor'nag Ik 590 Core"
 	"bunks" 1492
 	"solar collection" 5.6
 	"fuel capacity" 1000
+	description "Ship description:"
+	description "The largest of Korath production vessels are derived from a common and ancient chassis. This bulbous ship has been adapted to carry passengers between stations, or boarding parties into enemy strongholds. Its name is in memory of the Anatruskor, who invented the jump drive."
 
 
 overwrite
@@ -18567,6 +19180,8 @@ outfit "Ra'at Ik 621 Core"
 	"required crew" 793
 	"bunks" 1037
 	"fuel capacity" 1000
+	description "Ship description:"
+	description "The largest of Korath production vessels are derived from a common and ancient chassis. This many-lobed ship has been adapted to carry fighters into large-scale raids, or mining craft into asteroid belts. Its radial arrangements of hangars allows fighters a maximum variety of safe approach patterns in combat. Sestor exiles, who had a great affinity for carriers and fighters, bequeathed this variant its name after their capital world."
 
 
 overwrite
@@ -18665,6 +19280,9 @@ outfit "Kasichara A'awoj Core"
 	"bunks" 1997
 	"solar collection" 12.7
 	"fuel capacity" 600
+	description "Ship description:"
+	description `Originally designed as a luxury habitat for those wealthy enough to escape living on the polluted surface of Korath worlds, when the Korath were exiled, it was into these gargantuan "world-ships" they first crammed themselves into and fled to the core on. Nostalgically, the class was then renamed after the devastated and now forbidden Korath homeworld in honor of the Korsmanathi, ancestors of all Korath.`
+	description `	Since the introduction of purpose-built city ships, these ancient vessels have mostly been decommissioned, turned into stations, or reconfigured into smaller, specialized vessels. Yet a few still ply the starlanes, crewed by those too restless to live on stations yet not bold enough to go on raids.`
 
 
 overwrite
@@ -18743,6 +19361,9 @@ outfit "Korsmanath A'awoj Core"
 	"solar collection" 4.2
 	"fuel capacity" 1000
 	"atmosphere scan" 100
+	description "Ship description:"
+	description "Korsmanath A'awojs, named in memory of the Korath home system, are massive nomadic habitats that hold much of their remaining population. True flying cities, they could be self-contained miniature worlds were it not for their heavy defensive armament and reliance on unsustainable materials, methods, and sources of power."
+	description "	Commission of new Korsmanath A'awojs is a resource-demanding, labor-intensive, painstaking process fraught with political intrigue. Navarchs fight with the civilian government for resources and yard time they would rather devote to building raiding and defensive fleets, civilians vie with each other for a place on the next ship, and planning committees argue with engineers over what methods and technologies to use. This leads to construction delays, corner-cutting, and over-militarization of the design at best, and violent feuds at worst."
 
 
 overwrite
@@ -18986,6 +19607,8 @@ outfit "Echo-Galleon Core"
 	"required crew" 242
 	"bunks" 972
 	"fuel capacity" 600
+	description "Ship description:"
+	description `The largest of Korath production vessels are derived from a common and ancient chassis, including this large Efreti vessel. Facing very different challenges, and taking some inspiration from their Quarg protectors, the Efreti descendant of the "World-Ships" of old is lighter, faster, and more efficient, but less powerful than its Exile counterparts.`
 
 
 overwrite
@@ -19060,6 +19683,8 @@ outfit "Arch-Carrack Core"
 	"disruption resistance" 0.24
 	"disruption resistance energy" 2.4
 	"disruption resistance heat" 2.4
+	description "Ship description:"
+	description "Although they do not effectively provide for their own defense, the Efreti remain responsible for the day-to-day needs of civilian and cargo transportation. While not as bulky or powerful as other Korath designs, this freighter is much faster at making runs back and forth between the Efreti's handful of remaining planets, while still holding enough defensive loadout to ward off the odd Mereti drone that slips past the Quarg."
 
 
 overwrite
@@ -19132,6 +19757,8 @@ outfit "Charm-Shallop Core"
 	"disruption resistance" 0.2
 	"disruption resistance energy" 2
 	"disruption resistance heat" 2
+	description "Ship description:"
+	description "A recent design, this Efreti multi-role vessel is found taking up many jobs previously relegated to a now scrapped fleet of early-model raiders. While some are used primarily for passenger transport, others are used in local mining to satiate the Efreti's perpetual demand for ores. Incorporating Quarg-inspired structural elements, its light frame allows it to complete tasks more nimbly than any other independent Korath ship."
 
 
 overwrite
@@ -19198,6 +19825,8 @@ outfit "Kar Ik Vot 349 Core"
 	"fuel capacity" 400
 	"self destruct" .8
 	"ramscoop" 3
+	description "Ship description:"
+	description "The largest and deadliest of the Kor Sestor robotic warships, a single one of these battlecruisers can hold its own against an entire fleet of lesser ships."
 
 
 overwrite
@@ -19273,6 +19902,8 @@ outfit "Tek Far 71 - Lek Core"
 	"fuel capacity" 400
 	"self destruct" .7
 	"ramscoop" 3
+	description "Ship description:"
+	description "The Kor Sestor war fleets rely heavily on small, powerful fighters and drones. This ship can carry up to ten of their drones, clamped to the exterior of its hull."
 
 
 overwrite
@@ -19361,6 +19992,8 @@ outfit "Tek Far 78 - Osk Core"
 	"fuel capacity" 400
 	"self destruct" .7
 	"ramscoop" 3
+	description "Ship description:"
+	description "This carrier is equipped with docking clamps for up to nine fighters. When loaded with a full complement of the powerful Kor Sestor robotic fighters, it is a formidable opponent."
 
 
 overwrite
@@ -19449,6 +20082,8 @@ outfit "Tek Far 109 Core"
 	"fuel capacity" 400
 	"self destruct" .7
 	"ramscoop" 3
+	description "Ship description:"
+	description "The TF109 is designed almost solely for the purpose of carrying a fleet of Kor Sestor fighters and drones. Without them to serve as a protective screen, the ship itself is relatively helpless."
 
 
 overwrite
@@ -19545,6 +20180,8 @@ outfit "Met Par Tek 53 Core"
 	"fuel capacity" 400
 	"self destruct" .65
 	"ramscoop" 3
+	description "Ship description:"
+	description "Although this is the smallest Kor Sestor ship other than their fighters, it is larger than most human capital ships and considerably more powerful."
 
 
 overwrite
@@ -19610,6 +20247,9 @@ outfit "Far Lek 14 Core"
 	"automaton" 1
 	"crew equivalent" 1
 	"self destruct" .6
+	description "Ship description:"
+	description "At the peak of their recent civil war, the Kor Sestor faction developed these automated attack drones, easy to manufacture and encased in an ultra-dense hull that can absorb a significant amount of damage."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 
 overwrite
@@ -19658,6 +20298,9 @@ outfit "Far Osk 27 Core"
 	"automaton" 1
 	"crew equivalent" 2
 	"self destruct" .6
+	description "Ship description:"
+	description "Because it is piloted by a computer and has no need for a cockpit or life support systems, the FS27 fighter is able to support a thicker hull, more shields, and more powerful guns than any comparable human ship."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -19709,6 +20352,8 @@ outfit "Model 8 Core"
 	"fuel capacity" 200
 	"self destruct" .60
 	"ramscoop" 3
+	description "Ship description:"
+	description "The primary role of the smallest Kor Mereti drones is asteroid mining, but their lasers can also be employed as offensive weapons when necessary."
 
 
 overwrite
@@ -19764,6 +20409,8 @@ outfit "Model 16 Core"
 	"fuel capacity" 400
 	"self destruct" .65
 	"ramscoop" 3
+	description "Ship description:"
+	description "The Kor Mereti war drones are constructed in a modular fashion, which allows them to grow over time as more materials become available. This one is recently built, and relatively small."
 
 
 overwrite
@@ -19826,6 +20473,8 @@ outfit "Model 32 Core"
 	"fuel capacity" 400
 	"self destruct" .70
 	"ramscoop" 3
+	description "Ship description:"
+	description "The Kor Mereti built their drones to mimic life: capable of growth and development throughout their life cycles. Their automated factories can convert the drones from one configuration to another by adding or removing modules."
 
 
 overwrite
@@ -19889,6 +20538,8 @@ outfit "Model 64 Core"
 	"fuel capacity" 400
 	"self destruct" .74
 	"ramscoop" 3
+	description "Ship description:"
+	description "This medium-sized drone serves the Kor Mereti fleets in much the same way as a human Frigate, but in terms of total firepower it is far beyond anything humans have constructed."
 
 
 overwrite
@@ -19954,6 +20605,8 @@ outfit "Model 128 Core"
 	"fuel capacity" 400
 	"self destruct" .77
 	"ramscoop" 3
+	description "Ship description:"
+	description "As Kor Mereti drones continue to grow and develop into their final form, they split down the middle. At the same time, their shielding and weaponry continue to become stronger."
 
 
 overwrite
@@ -20020,6 +20673,8 @@ outfit "Model 256 Core"
 	"fuel capacity" 400
 	"self destruct" .79
 	"ramscoop" 3
+	description "Ship description:"
+	description "There is a saying among the Quarg that every species which insists on studying war will eventually construct a weapon that outlives its creators. For the Korath, their war drones have very nearly done so."
 
 
 overwrite
@@ -20088,6 +20743,8 @@ outfit "Model 512 Core"
 	"fuel capacity" 400
 	"self destruct" .80
 	"ramscoop" 3
+	description "Ship description:"
+	description "This is the final state in the evolution of a Kor Mereti war drone: a perfect ring, with incredibly powerful shields and turrets firing in every direction."
 
 
 overwrite
@@ -20144,6 +20801,7 @@ ship "Model 512"
 	explode "medium explosion" 80
 	explode "large explosion" 35
 	"final explode" "final explosion large"
+	description "This is the final state in the evolution of a Kor Mereti war drone: a perfect ring, with incredibly powerful shields and turrets firing in every direction."
 
 
 outfit "Nanobot Core"
@@ -20158,6 +20816,7 @@ outfit "Nanobot Core"
 	"turning energy" .2
 	"thrust" 10
 	"thrusting energy" .3
+	description "Ship description:"
 
 
 overwrite
@@ -20194,6 +20853,8 @@ outfit "Pug Zibruka Core"
 	"heat generation" 20
 	"shield generation" 6
 	"shield energy" 6
+	description "Ship description:"
+	description `The Zibruka is the smallest Pug warship that you know of. Despite having only two gun ports, its two advanced guns combined with its fast and efficient engine systems make it a fearsome ship to face off against, especially in swarms.`
 
 
 overwrite
@@ -20253,6 +20914,8 @@ outfit "Pug Enfolta Core"
 	"heat generation" 32
 	"shield generation" 8
 	"shield energy" 8
+	description "Ship description:"
+	description `The Enfolta is a medium-sized Pug warship. It has a formidable armament of advanced weaponry supported by powerful integrated energy generation. A single Enfolta can take on multiple smaller human ships.`
 
 
 overwrite
@@ -20317,6 +20980,8 @@ outfit "Pug Maboro Core"
 	"heat generation" 48
 	"shield generation" 10
 	"shield energy" 10
+	description "Ship description:"
+	description `The Maboro appears to be the Pug's capital warship. Its shield matrix and hull are much weaker than human capital ships; however, it is able to regenerate its shields quickly. Its fearsome ordnance and advanced anti-missile defenses make it a ship that only the strongest human capital ships are able to oppose.`
 
 
 overwrite
@@ -20389,6 +21054,8 @@ outfit "Pug Arfecta Core"
 	"reverse thrust" 99
 	"reverse thrusting energy" 4.9
 	"reverse thrusting heat" 6.9
+	description "Ship description:"
+	description `This is a Pug "tier 3" warship, intended for use in combat against either a species on par with the Quarg, or a lesser species that has decided to be particularly meddlesome.`
 
 
 overwrite
@@ -20435,6 +21102,7 @@ ship "Pug Arfecta"
 	explode "pug medium explosion" 30
 	explode "pug large explosion" 10
 	"final explode" "final explosion large"
+	description `This is a Pug "tier 3" warship, intended for use in combat against either a species on par with the Quarg, or a lesser species that has decided to be particularly meddlesome.`
 
 
 outfit "Quarg Lindwyrm Core"
@@ -20447,6 +21115,8 @@ outfit "Quarg Lindwyrm Core"
 	"required crew" 34
 	"bunks" 40
 	"fuel capacity" 1000
+	description "Ship description:"
+	description `The Quarg use the Lindwyrm as a heavy freighter, transporting in its ample cargo bays items both mundane and fantastical. In the days before the advent of modern cargo scanners revealed some measure of their contents, "the inside of a Quarg cargo hold" was slang used to describe any thing or place thought to be unknowable.`
 
 
 overwrite
@@ -20506,6 +21176,8 @@ outfit "Quarg Guivre Core"
 	"required crew" 164
 	"bunks" 180
 	"fuel capacity" 2000
+	description "Ship description:"
+	description "The Quarg employ these unusual craft as one of their primary tools for building and maintaining their ringworlds, each one operating continuously for hundreds or thousands of years on its planet-scale tasks. Each Guivre is equipped with a graviton slipstream projector, similar in usage to human-built tractor beams, but capable of shifting much, much larger objects with uncanny elegance and precision."
 
 
 overwrite
@@ -20565,6 +21237,8 @@ outfit "Quarg Drake Core"
 	"required crew" 19
 	"bunks" 30
 	"fuel capacity" 800
+	description "Ship description:"
+	description "The Drake is an older ship used by the Quarg for reconnaissance and initial contact with emerging spacefaring species. A popular legend states that a Drake surveyed Sol while humans began to discover spaceflight."
 
 
 overwrite
@@ -20626,6 +21300,8 @@ outfit "Quarg Wardragon Core"
 	"required crew" 29
 	"bunks" 40
 	"fuel capacity" 800
+	description "Ship description:"
+	description "The Wardragon is used by the Quarg as a light warship. It is an older design within the Quarg's fleets, supposedly less intimidating compared to their larger warships and thus more suitable for dealings with particularly nascent species."
 
 
 overwrite
@@ -20686,6 +21362,8 @@ outfit "Quarg Wyvern Core"
 	"required crew" 49
 	"bunks" 60
 	"fuel capacity" 1000
+	description "Ship description:"
+	description "When humans first encountered Quarg vessels, with their bizarre, scaly-looking hulls and alien forms, the comparisons to dragons of different sorts rapidly proliferated. The Wyvern is a midsize warship of the Quarg, though the distinction between the Quarg warship classes is insignificant to all but the most powerful forces in the galaxy."
 
 
 overwrite
@@ -20747,6 +21425,8 @@ outfit "Quarg Hydra Core"
 	"required crew" 119
 	"bunks" 140
 	"fuel capacity" 800
+	description "Ship description:"
+	description "The many-headed mythological Hydra was supposedly venomous enough to kill mortals with nothing but the scent of its breath or a single drop of its blood. Any captain foolish enough to arouse the fury of the Quarg's heavy warships will no doubt quickly come to understand the exact significance of this part of the Hydra's legend."
 
 
 overwrite
@@ -20801,6 +21481,7 @@ ship "Quarg Hydra"
 	explode "quarg large explosion" 20
 	explode "quarg huge explosion" 10
 	"final explode" "final explosion large"
+	description "The many-headed mythological Hydra was supposedly venomous enough to kill mortals with nothing but the scent of its breath or a single drop of its blood. Any captain foolish enough to arouse the fury of the Quarg's heavy warships will no doubt quickly come to understand the exact significance of this part of the Hydra's legend."
 
 
 outfit "_Ion Timer Ship Core"
@@ -20812,6 +21493,7 @@ outfit "_Ion Timer Ship Core"
 	"energy generation" 1
 	"thrust" 10
 	"turn" 600
+	description "Ship description:"
 
 
 overwrite
@@ -20842,6 +21524,7 @@ outfit "Rescue Dummy Core"
 	"energy generation" 1
 	"thrust" 30
 	"turn" 30
+	description "Ship description:"
 
 
 overwrite
@@ -20878,6 +21561,8 @@ outfit "Albatross Core"
 	"outfit scan power" 18
 	"outfit scan efficiency" 24
 	"tactical scan power" 39
+	description "Ship description:"
+	description "Once they left human space, it became apparent to the Remnant that they would need to build their own shipyards in order to defend themselves if they were discovered by the Alphas or any other unfriendly faction. Using new composite materials that they discovered, they built ships very different from anything seen in human space."
 
 
 overwrite
@@ -20959,6 +21644,10 @@ outfit "Modified Dromedary Core"
 	"tactical scan power" 39
 	"asteroid scan power" 42
 	"atmosphere scan" 100
+	description "Ship description:"
+	description `The Tycho Crater Cooperative's Dromedary was one of the foremost colonization ships during the early era before piracy became rampant and triggered the necessity for city-ships to be more combat-oriented. These ships incorporate extensive hydroponics, large construction equipment installations, and hundreds of densely packed "dream cells" built to transport people in bulk.`
+	description "	Since the Remnant do not have schematics for the Dromedary, just the highly-modified example of the Shattered Light, this ship is actually a commemorative replica of that specific ship. As such, it combines the original's odd mix of eclectic modifications with new Remnant systems."
+	description "	Unfortunately, since they lack the manufacturing facilities that would normally support a large construction project, it will cost massively more than it would have originally back on Luna."
 
 
 overwrite
@@ -21056,6 +21745,10 @@ outfit "Gull Core"
 	"outfit scan power" 12
 	"outfit scan efficiency" 20
 	"tactical scan power" 26
+	description "Ship description:"
+	description "While the Starling was the first successful ship to use technology derived from alien ruins, the Gull is the most recent. The current increase in Korath activities has caused foraging for resources to become a risky endeavor, forcing the Remnant to develop a specialized freighter for hauling cargo from remote sites without revealing their presence to hostile aliens."
+	description "	The Gull has quickly proven its worth, allowing the Starling fleets to return to riskier activities while the Gull takes over the hazardous convoy routes. It is now the primary element of the Remnant's extra-territorial resource operations."
+	description "	The cloaking technology is built into the Gull's hull; it cannot be removed or transferred to another ship."
 
 
 overwrite
@@ -21146,6 +21839,9 @@ outfit "Heron Core"
 	"slowing resistance" 3
 	"remnant node" 11
 	"spinal mount" 1
+	description "Ship description:"
+	description "The Heron is the Remnant's ultimate last resort: Flight. These mobile starports are built to serve as the core elements of evacuation fleets when the Remnant are ultimately pushed to the brink of destruction in their home systems. These massive ships are capable of lifting enormous amounts of resources and operate both in space and on land, and are continuously updated to make full use of the latest technological innovations."
+	description "	The few Herons in existence are carefully guarded secrets that embody the Remnant's core tactics of speed, stealth, and survival. Given the tiny number that exist, they are never available for discretionary use by Remnant captains and are always operated under the authority and direction of a prefect."
 
 
 overwrite
@@ -21307,6 +22003,9 @@ outfit "Ibis Core"
 	"outfit scan power" 18
 	"outfit scan efficiency" 20
 	"tactical scan power" 39
+	description "Ship description:"
+	description "The Ibis is a multipurpose carrier that serves as a mobile mining platform, an escort ship for Pelican fleets, and a combat platform using Terns for screening. It is capable of fielding a single wing of support craft, consisting of two Petrels and four Terns."
+	description "	The Ibis was designed shortly after the Albatross as a means of extending the range of resource collection efforts after the Remnant realized that an Alpha invasion might not be as imminent as originally believed."
 
 
 overwrite
@@ -21423,6 +22122,9 @@ outfit "Merganser Core"
 	"steering flare sound" "plasma tiny"
 	"reverse flare sprite" "effect/remnant flare/small"
 	"reverse flare sound" "plasma tiny"
+	description "Ship description:"
+	description "The Merganser is the first production ship the Remnant deem to be truly alive, and are considered to be equivalent to dolphins in reasoning tests. These interceptors, deemed for short range operations by Remnant standards, are designed to patrol the upper atmosphere of gas giants and use their decisive speed advantage to conduct hit-and-run attacks on threats in nearby systems."
+	description "	The cloaking technology is built into the Merganser's hull; it cannot be removed or transferred to another ship."
 
 
 overwrite
@@ -21493,6 +22195,8 @@ outfit "Pelican Core"
 	"outfit scan power" 12
 	"outfit scan efficiency" 12
 	"tactical scan power" 26
+	description "Ship description:"
+	description "The Pelican is closely based on the original semi-organic materials the Remnant found in the Ember Waste. While they are not technically alive, their internal mechanisms and method of construction bear such a close resemblance to living organisms that they are often considered as such. One key feature of this living resemblance is the innate sensory capabilities they possess, akin to sensor suites less advanced ships require for detailed scanning. These ships serve as the backbone of Remnant bulk salvage efforts, as well as their fast-logistics distribution network."
 
 
 overwrite
@@ -21598,6 +22302,9 @@ outfit "Penguin Core"
 	"reverse flare sprite" "effect/remnant flare/small"
 	"reverse flare sound" "plasma tiny"
 	"remnant node" 1
+	description "Ship description:"
+	description "Inspired by close contact with void sprites and the reinvigoration of xenobiology, the Penguin is a prototype designed to serve the dual roles of testing new starship technology while exploring hostile planets throughout the Ember Waste. One of this ship's distinguishing features is that it is truly alive and has a mind that approaches self-awareness."
+	description "	The cloaking technology is built into the Penguin's hull; it cannot be removed or transferred to another ship."
 
 
 overwrite
@@ -21700,6 +22407,10 @@ outfit "Peregrine Core"
 	"ion resistance" .15
 	"scrambling resistance" .15
 	"remnant node" 5
+	description "Ship description:"
+	description "The Peregrine is the first capital warship designed by Taely using fresh insights garnered from recent experimentation as well as renewed studies of the void sprites. Encompassing over a century of development since the last generation of warships was built, it is the forerunner of a new breed of Remnant ships."
+	description "	The Peregrine was designed along the lines of old-earth's fast-attack cruisers. Drawing on inspiration from its namesake, famed for being the fastest self-propelled lifeform on Earth, it is designed to strike hard and fast. It closes quickly with enemies to unleash devastating barrages in the opening seconds of combat."
+	description "	The cloaking technology is built into the Peregrine's hull; it cannot be removed or transferred to another ship."
 
 
 overwrite
@@ -21789,6 +22500,10 @@ outfit "Petrel Core"
 	"outfit scan efficiency" 14
 	"tactical scan power" 20
 	"asteroid scan power" 30
+	description "Ship description:"
+	description "The Petrel is a multi-role mining/wing leader fightercraft designed to provide support for flights of lighter Terns in high-risk environments. The ship's design originated as an urban mobile gun platform that flitted around structures and natural terrain, but proved easy to adapt into a spacecraft."
+	description "	The Remnant are loath to sacrifice pilots and crew from the comparatively small pool they are drawn from. As such, their fighters are equipped with medium-range weaponry designed to strike enemies from afar."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -21863,6 +22578,8 @@ outfit "Puffin Core"
 	"scramble protection" 0.25
 	"ion resistance" 0.05
 	"scramble resistance" 0.05
+	description "Ship description:"
+	description "Centuries ago, the Remnant built these ships in order to explore the upper atmosphere of nearby gas giants. The Archons took issue with the Remnant's research methods, and the studies were unable to be completed. The remaining Puffins have been gathering dust in storage for centuries while the Remnant wait to see if the anger of the Archons will subside."
 
 
 overwrite
@@ -21917,6 +22634,10 @@ outfit "Smew Core"
 	"outfit scan efficiency" 20
 	"tactical scan power" 28
 	"asteroid scan power" 50
+	description "Ship description:"
+	description "The Remnant have long favored turns of action that avoid putting crew directly at risk; though their Terns are a rather effective result of this ideology, the Remnant still had to face the fact that, eventually, one of their manned ships was going to end up too crippled to escape to safety. To that end, the Smew was developed; though quite lightly armed, Smews are capable of carrying a considerable quantity of cargo and passengers for a ship of their size, and are durable enough to absorb some fire from enemies while doing so."
+	description "	Though originally designed as lifeboats, the surprisingly mobile freighter-fighter hybrid has seen a remarkable amount of usage in mining fleets, as a way to supplement the otherwise poor cargo capacity of the Ibis. Because their purpose can vary from fleet to fleet, Smews are traditionally sold with a fair amount of free space: enough for a small weapon, upgraded engines, or additional support systems."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -21981,6 +22702,9 @@ outfit "Starling Core"
 	"outfit scan power" 12
 	"outfit scan efficiency" 20
 	"tactical scan power" 26
+	description "Ship description:"
+	description "One of the strangest and most useful things that the Remnant have discovered in the abandoned worlds of the Ember Waste is alien cloaking technology. They have designed their scout ships to cloak when needed in order to explore alien territory without being seen... or to escape in a hurry after stealing something particularly valuable from those aliens."
+	description "	The cloaking technology is built into the Starling's hull; it cannot be removed or transferred to another ship."
 
 
 overwrite
@@ -22060,6 +22784,9 @@ outfit "Swan Core"
 	"tactical scan power" 32
 	"ion resistance" .15
 	"scrambling resistance" .15
+	description "Ship description:"
+	description "With the advent of more powerful ramscoops, the need for extensive propellant logistics networks all but disappeared. The Swan had the misfortune of being born as a tanker; as such, it had to survive as nothing more than a set of detailed drawings inside some dusty folders. Eventually, decades after its conception, the need for such a vehicle became apparent and production could finally begin."
+	description "	On top of its fuel-storage capabilities, the Swan makes for an interesting warship in its own right. Four drone bays have been added below its fuel-bearing wings, each a fair bit larger than the Terns they tend to carry. On top of this, despite not being nearly as well-shielded, its weapons complement nears that of the Albatross: in essence, the largest support ship the Remnant have built."
 
 
 overwrite
@@ -22155,6 +22882,10 @@ outfit "Tern Core"
 	"tactical scan power" 20
 	"atmosphere scan" 100
 	"asteroid scan power" 30
+	description "Ship description:"
+	description "The Tern is a small, hardy drone developed to plunge into the atmosphere of nearby gas giants for collecting valuable resources. These thick-shelled craft are also surprisingly effective when pressed into service as screening ships when enemies intrude into Remnant space."
+	description "	Unlike most spacefaring nations, the Remnant do not have enough people to pilot fighter wings in waves likely to sustain significant casualties. As such, they frequently use these hardy drones to fulfill similar screening roles in their home systems, allowing manned craft to focus on more specialized tasks."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 
 overwrite
@@ -22195,6 +22926,7 @@ ship "Tern"
 	explode "small explosion" 20
 	description "The Tern is a small, hardy drone developed to plunge into the atmosphere of nearby gas giants for collecting valuable resources. These thick-shelled craft are also surprisingly effective when pressed into service as screening ships when enemies intrude into Remnant space."
 	description "	Unlike most spacefaring nations, the Remnant do not have enough people to pilot fighter wings in waves likely to sustain significant casualties. As such, they frequently use these hardy drones to fulfill similar screening roles in their home systems, allowing manned craft to focus on more specialized tasks."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 
 outfit "vyu-Ir Core"
@@ -22231,6 +22963,8 @@ outfit "vyu-Ir Core"
 	"ion protection" 2
 	"scramble protection" 2
 	"slowing protection" 1
+	description "Ship description:"
+	description `The vyu-Ir is an ancient ship of the Vyu, one of several chambers of the Rulei. It is not known whether or not this was their final ship-class, or one of many, but the technology found on it may represent the height of the Rulei's advancements, as well as the cause of their downfall.`
 
 
 overwrite
@@ -22277,6 +23011,7 @@ ship "vyu-Ir"
 	explode "small explosion" 60
 	explode "tiny explosion" 120
 	"final explode" "final explosion large"
+	description `The vyu-Ir is an ancient ship of the Vyu, one of several chambers of the Rulei. It is not known whether or not this was their final ship-class, or one of many, but the technology found on it may represent the height of the Rulei's advancements, as well as the cause of their downfall.`
 
 
 outfit "Timer Ship Core"
@@ -22288,6 +23023,7 @@ outfit "Timer Ship Core"
 	"automaton" 1
 	"thrust" 10
 	"turn" 600
+	description "Ship description:"
 
 
 overwrite
@@ -22316,6 +23052,9 @@ outfit "Emerald Sword Core"
 	"bunks" 302
 	"fuel capacity" 900
 	"spinal mount" 1
+	description "Ship description:"
+	description "An ancient Sheragi warship that was crewed by mutineers that fled from their civil war and escaped into interstellar space. Found orbiting a disconnected star, this is an impressively large ship, fit for the equally large Sheragi. The ship's main weapon is a fusion-pumped gamma-ray laser called the 'Dragonflame Cannon.' Despite the relatively primitive outfits, it's still a very capable war machine due to its size."
+	description "For its original Sheragi masters, this warship was home to around 100 individuals. For others, however, that number more than doubles, bringing it on par with the largest city ships."
 
 
 overwrite
@@ -22453,6 +23192,10 @@ outfit "Black Diamond Core"
 	"automaton" 1
 	"delayed hull repair rate" 1
 	"repair delay" 60
+	description "Ship description:"
+	description "The Sheragi, being too large to effectively pilot ships this small, invested heavily in the development of autonomous fighters. The hardware that controls this isn't much more complex than the combat drones in human space, but it is bigger, and the lack of life support systems and amenities for a pilot allows it to carry extra outfitting space."
+	description "	The fighter also comes equipped with a powerful hull repair system to aid in its survival. This system doesn't work while the fighter is under fire, though, requiring the fighter to have not taken damage for a short while before activating."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 overwrite
@@ -22515,6 +23258,7 @@ ship "Black Diamond"
 	"final explode" "final explosion small"
 	description "The Sheragi, being too large to effectively pilot ships this small, invested heavily in the development of autonomous fighters. The hardware that controls this isn't much more complex than the combat drones in human space, but it is bigger, and the lack of life support systems and amenities for a pilot allows it to carry extra outfitting space."
 	description "	The fighter also comes equipped with a powerful hull repair system to aid in its survival. This system doesn't work while the fighter is under fire, though, requiring the fighter to have not taken damage for a short while before activating."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 outfit "Aaulqra Core"
@@ -22533,6 +23277,8 @@ outfit "Aaulqra Core"
 	"hull energy" 3.025
 	# 1.1 * hull repair rate
 	"hull heat" 3.025
+	description "Ship description:"
+	description `The Aaulqra is the oldest warship design currently produced by the High Houses in Successor space, with a recognizable lineage continuing back several thousand years to early in the old empire. It is compact, fast, and durable for a ship of its class, but has relatively limited internal space and lacks any significant cargo or passenger facilities. The captains of these vessels are often up-and-coming Successor officers hoping to prove themselves to one of the High Houses by demonstrating their mastery of the vessel; while most, of course, do not, the ship's flexibility and ubiquitous presence make it an excellent starting point for those who do.`
 
 
 overwrite
@@ -22624,6 +23370,8 @@ outfit "Ejniisde Core"
 	"required crew" 11
 	"bunks" 64
 	"fuel capacity" 700
+	description "Ship description:"
+	description "The Successors have a relatively small population and therefore are not in great need of large transport vessels. However, transporting passengers entirely by shuttle lacks a degree of comfort and security, so for longer journeys, the Successors use this dedicated transport ship. While unarmed by default, it is fast enough to escape most ships that might mean it harm."
 
 
 overwrite
@@ -22714,6 +23462,8 @@ outfit "Kaskhorade Core"
 	"hull repair rate" 2.225
 	"hull energy" 2.4475
 	"hull heat" 2.4475
+	description "Ship description:"
+	description `Serving as the heavy multipurpose backbone of the fleets of the various High Houses, the Kaskhorade trades some of the maneuverability of its smaller siblings for greater flexibility; in addition to being a capable warship, it also offers a sizable amount of free cargo and bunk space that allow it to fulfill a wide variety of missions. Along with serving as convoy escorts and fleet warships, these vessels are often used to transport high-ranking members of the High Houses, as they can remain well-defended while outfitted for fast and luxurious travel.`
 
 
 overwrite
@@ -22812,6 +23562,9 @@ outfit "Kvelqde Core"
 	"hull" 2400
 	"bunks" 9
 	"fuel capacity" 500
+	description "Ship description:"
+	description "This tiny shuttle is the smallest vessel operating in Successor space, and the first ship that new Successor pilots are able to get their arms on. Despite their small size, they are capable multipurpose vessels, and are frequently used for transporting passengers and cargo, and for short-duration research expeditions."
+	description "	The design of the Kvelqde is, like most Successor vessels, based on originals from the time of the Predecessors. While the modern incarnation is nowhere near as advanced, successive iterations with more limited resources have promoted the cost-efficiency and user-friendliness of the design."
 
 
 overwrite
@@ -22896,6 +23649,8 @@ outfit "Kvelqde-Khora Core"
 	"hull" 4625
 	"bunks" 6
 	"fuel capacity" 500
+	description "Ship description:"
+	description `One of the more industrious members of the People's Houses has done their best to ruggedize this Kvelqde: additional armor plating has been laid over most of the exposed hull, a second gun port has been attached to the underside, and the shield grid has had its capacity substantially increased. While not quite capable of standing toe-to-toe with a production interceptor of the High Houses, it bares enough teeth for a bit of light piracy, and its greater durability is quite welcome for navigating the decaying stations and hostile worlds of southwestern Successor space.`
 
 
 overwrite
@@ -22984,6 +23739,8 @@ outfit "Myaede Core"
 	"required crew" 5
 	"bunks" 20
 	"fuel capacity" 500
+	description "Ship description:"
+	description `The Myaede is neither elegant nor fast, but it has remained the mainstay of Successor commerce since before the collapse of the old empire over a thousand years ago, boasting a spacious cargo hold, heavy armor, and a flexible enough weapons layout to let it fight back in a pinch. Much like the grand heirlooms of the High Houses, a familial Myaede is often passed down through the lineage of spacefaring low-born Successors, and many of the pilots flying these first took the helm as children under a grandparent's watchful gaze.`
 
 
 overwrite
@@ -23077,6 +23834,8 @@ outfit "Nnaatej Core"
 	"hull repair rate" 0.1
 	"hull heat" 0.11
 	"hull energy" 0.11
+	description "Ship description:"
+	description `Owing to their amphibious nature, a substantial portion of the Successor population lives underwater. Most of their ships are built with this in mind and are capable of some degree of underwater operation. However, the Nnaatej is a specialist vessel built specifically for this purpose, shuttling passengers from deep ocean to deep space and back again. It is designed with a denser, pressure-stable hull, built-in maintenance systems, and increased resistance to corrosion and slowing effects. These features come at the cost of making it a heavy and expensive ship for its size, but are considered well worth it to ensure the safety and comfort of its passengers and cargo.`
 
 
 overwrite
@@ -23160,6 +23919,8 @@ outfit "Nnesaarau Core"
 	"hull" 2200
 	"bunks" 4
 	"fuel capacity" 600
+	description "Ship description:"
+	description "Quick and comfortable, the Nnesaarau is among the newest designs utilized in Successor space, having first emerged from House Chydiyi's shipyards no more than twenty years ago. For various reasons, it is also among the least popular; it was designed solely as a luxury passenger transport and sees very little use outside that role because of its high price and restrictive internals. Nonetheless, some hotshot pilots swear by these ships as racing or fast courier vessels."
 
 
 overwrite
@@ -23236,6 +23997,9 @@ outfit "Ojde Core"
 	"required crew" 7
 	"bunks" 24
 	"fuel capacity" 500
+	description "Ship description:"
+	description `Although it is the largest freighter employed by the Successors, the "Ojde" is still substantially smaller than large human freighters like the Bulk Freighter and Behemoth. While this limits the cargo capacity of any single ship, it also allows these vessels to be surprisingly fast and maneuverable and increases the number of facilities which can effectively tend to them.`
+	description `	Though somewhat less popular among more traditional merchants than the time-tested Myaede, the increased cargo capacity of the Ojde makes it a more or less mandatory choice for those hoping to assemble a large-scale transport operation.`
 
 
 overwrite
@@ -23326,6 +24090,9 @@ outfit "Seiitej Core"
 	"hull repair rate" 0.95
 	"hull energy" 1.045
 	"hull heat" 1.045
+	description "Ship description:"
+	description `The Seiitej is the High Houses' vessel of choice for transporting small amounts of cargo and passengers throughout Successor space. Though less spacious than a dedicated civilian freighter or transport vessel, it is much more durable while remaining fast and maneuverable. While these vessels support a relatively light armament (by the standards of the High Houses), their speed and flexible internals allow them to frequently serve as patrol craft as well.`
+	description "	Their lighter armor and smaller combat systems also make them significantly less expensive to manufacture than the High Houses' purpose-built warships, which contributes to their growing ubiquity."
 
 
 overwrite
@@ -23418,6 +24185,9 @@ outfit "Stolsaqra Core"
 	"hull repair rate" 0.3
 	"hull energy" 0.33
 	"hull heat" 0.33
+	description "Ship description:"
+	description "The Successors have limited experience in making warships this small, and while their attempt at an interceptor is durable and sports a surprising amount of firepower for a ship of its size, it is also plagued with power and propulsion issues, as most of their standard technology is either too large or not powerful enough to yield effective combat performance at this scale. The result is a ship that ambitious pilots call a challenge and prudent captains call a deathtrap, but that continues to see use as a patrol and escort vessel because of its speed and heavy armament."
+	description `	The Stolsaqra also has the distinction of being the only purpose-built warship manufactured by the High Houses that is made available to the general public, albeit with significantly downgraded systems compared to the military-exclusive model.`
 
 
 overwrite
@@ -23511,6 +24281,9 @@ outfit "Veusade Core"
 	"hull repair rate" 1.45
 	"hull energy" 1.595
 	"hull heat" 1.595
+	description "Ship description:"
+	description `Blessed with the honor of being named with the Successor word for swiftness, the Veusade is designed for only one purpose: to carry eight drag cannons as close to an enemy ship's hull as possible.`
+	description "	Vessels of this lineage earned renown in many of the conflicts between the Predecessors' High Houses, catching and killing ships many times their size and escaping before reinforcements could arrive. In the present, such a narrowly-focused design makes these vessels ill-suited for multipurpose use, but they are frequently seen as auxiliary or police craft, owing to their ability to rapidly intercept and immobilize fleeing ships."
 
 
 overwrite
@@ -23610,6 +24383,9 @@ outfit "Vujlet Core"
 	"hull repair rate" 0.875
 	"hull energy" 0.9625
 	"hull heat" 0.9625
+	description "Ship description:"
+	description `Navigating the stars with the grace of a flitting bird, the compact Vujlet is a mass-produced High Houses warship flexible enough to serve in a variety of light-duty roles. Large enough to operate as a self-sufficient unit, these vessels serve as a useful bridge between short-ranged and relatively vulnerable interceptors, and larger, more resource-intensive warships that can be much more expensive to build and operate.`
+	description `	The design was originally employed by House Kaatrij as a stealth reconnaissance vessel that made use of their then-recently-developed cloaking technology. As the alliance between the New Houses strengthened, the plans for the Vujlet were distributed among them, and the light warship rapidly became a mainstay of their fleets. Unfortunately, without the materials present in their Predecessors' domain, House Kaatrij has been unable to manufacture stealth equipment for the Vujlet in the modern era.`
 
 
 overwrite
@@ -23715,6 +24491,8 @@ outfit "Vyrmeid Core"
 	"atmosphere scan" 1
 	"energy protection" 1
 	"ion protection" 1
+	description "Ship description:"
+	description `These are tiny space creatures that feed on solar energy, storing it into two receptors found at the front of their bodies. They are extremely docile, and are found in large groups, almost never seen alone.`
 
 
 overwrite
@@ -23774,6 +24552,8 @@ outfit "Astral Cetacean Core"
 	"energy protection" 2
 	"heat protection" 2
 	"ion protection" 2
+	description "Ship description:"
+	description `Only a few captains have had the chance to observe this illustrious creature. Its natural attenuation to the depths of space allows it to travel beyond where most ships are able, and its appearance reflects both the beauty and mystery of the void itself.`
 
 
 overwrite
@@ -23824,6 +24604,8 @@ outfit "Earth Shaper Core"
 	"automaton" 1
 	"fuel capacity" 300
 	"atmosphere scan" 100
+	description "Ship description:"
+	description "The Earth Shaper is a robotic drone that the Wanderers use for mining, exploring, surveying, and terraforming."
 
 
 overwrite
@@ -23868,6 +24650,9 @@ outfit "Flycatcher Core"
 	cost 415000.0
 	"hull" 4700
 	"automaton" 1
+	description "Ship description:"
+	description "Flycatcher drones are used by the Wanderers to keep their star systems safe. Rather than carrying weapons of its own, a stock Flycatcher just carries an anti-missile turret for defending other ships."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 
 overwrite
@@ -23917,6 +24702,8 @@ outfit "Summer Leaf Core"
 	"required crew" 5
 	"bunks" 15
 	"fuel capacity" 800
+	description "Ship description:"
+	description "The Summer Leaf is mostly used by the Wanderers as a light transport, but it is also quite effective in combat."
 
 
 overwrite
@@ -23975,6 +24762,8 @@ outfit "Autumn Leaf Core"
 	"required crew" 7
 	"bunks" 13
 	"fuel capacity" 800
+	description "Ship description:"
+	description "The Autumn Leaf is based on the Wanderer Summer Leaf light warship, but slightly larger and better equipped for combat. Unlike Wanderer peacetime ships, it is equipped with a turret mount in addition to the ports for fixed guns."
 
 
 overwrite
@@ -24037,6 +24826,8 @@ outfit "Strong Wind Core"
 	"asteroid scan power" 100
 	"atmosphere scan" 100
 	"tactical scan power" 25
+	description "Ship description:"
+	description "The Strong Wind was originally designed for science and exploration, but recently the Wanderers have modified the design to allow it to be used as a warship."
 
 
 overwrite
@@ -24101,6 +24892,8 @@ outfit "Heavy Gust Core"
 	"bunks" 34
 	"fuel capacity" 600
 	"tactical scan power" 75
+	description "Ship description:"
+	description "The Heavy Gust is a further modification of the Strong Wind, adjusted even more heavily for combat purposes at the expense of much of its precursor's peacetime utility. With these modifications, the Heavy Gust becomes both faster and deadlier, pushing the original civilian frame to its limits."
 
 
 overwrite
@@ -24166,6 +24959,8 @@ outfit "Tempest Core"
 	"required crew" 37
 	"bunks" 53
 	"fuel capacity" 600
+	description "Ship description:"
+	description "In response to the Unfettered invasion, the Wanderers have begun digging up ancient warship designs from their archives and putting them back into production. The Tempest is the first purpose-built warship they have manufactured in tens of thousands of years."
 
 
 overwrite
@@ -24231,6 +25026,8 @@ outfit "Derecho Core"
 	"required crew" 52
 	"bunks" 82
 	"fuel capacity" 500
+	description "Ship description:"
+	description "Like a latent gene waiting to express itself, the knowledge of how to wage war in space has been passed down through hundreds of generations of Wanderers. Based on one of their ancient designs, the Derecho has a mixture of agility and raw firepower that is well-suited to their present, rapidly changing situation."
 
 
 overwrite
@@ -24303,6 +25100,8 @@ outfit "Hurricane Core"
 	"required crew" 75
 	"bunks" 117
 	"fuel capacity" 500
+	description "Ship description:"
+	description "The Hurricane is not built for speed, elegance, or versatility, but for one simple purpose: to be durable enough to serve as a rearguard, absorbing an enemy's attacks for long enough to allow the fleet it is guarding to escape."
 
 
 overwrite
@@ -24373,6 +25172,8 @@ outfit "Cool Breeze Core"
 	"hull" 3100
 	"bunks" 3
 	"fuel capacity" 400
+	description "Ship description:"
+	description "This is the first ship the Wanderers have built in millennia that is designed to be operated by a single pilot instead of a crew. They are flown mostly by young warriors eager to prove their mettle by winning individual glory in battle."
 
 
 overwrite
@@ -24426,6 +25227,8 @@ outfit "Winter Gale Core"
 	"required crew" 13
 	"bunks" 23
 	"fuel capacity" 600
+	description "Ship description:"
+	description "The Winter Gale was designed by the Wanderers as a hardier and better-armed alternative to their existing light patrol ships. The Gale's large number of weapon hardpoints makes it flexible enough to reconfigure for facing a wide variety of enemies."
 
 
 overwrite
@@ -24489,6 +25292,8 @@ outfit "Deep River Core"
 	"required crew" 12
 	"bunks" 22
 	"fuel capacity" 500
+	description "Ship description:"
+	description "The Deep River is a modular freighter, designed to carry cargo in detachable pods."
 
 
 overwrite
@@ -24553,6 +25358,8 @@ outfit "Deep River Transport Core"
 	"required crew" 12
 	"bunks" 166
 	"fuel capacity" 500
+	description "Ship description:"
+	description "This is a Deep River freighter that has been converted into a transport ship for refugees."
 
 
 overwrite
@@ -24613,6 +25420,8 @@ outfit "Riptide Core"
 	"required crew" 46
 	"bunks" 233
 	"fuel capacity" 800
+	description "Ship description:"
+	description "The Riptide is a dedicated transport ship meant to replace the temporary Deep River freighters that were converted into transport ships for refugee evacuation. Although not as durable as the Deep River, the Riptide is far more nimble of a ship while at the same time being able to carry more passengers."
 
 
 overwrite
@@ -24660,5 +25469,6 @@ ship "Riptide"
 	explode "medium explosion" 40
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
+	description "The Riptide is a dedicated transport ship meant to replace the temporary Deep River freighters that were converted into transport ships for refugee evacuation. Although not as durable as the Deep River, the Riptide is far more nimble of a ship while at the same time being able to carry more passengers."
 
 
