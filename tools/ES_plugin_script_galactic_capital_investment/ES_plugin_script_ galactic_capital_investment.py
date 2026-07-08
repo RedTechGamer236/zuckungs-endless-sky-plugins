@@ -56,7 +56,6 @@ def create_mission2(stocks):
 		'			branch "end"\n' +\
 		'				"passed days" == 0\n' +\
 		'			action\n' +\
-		'%tendencyroll%' +\
 		'%stocktemplates%' +\
 		'			action\n' +\
 		'				"passed days" -= 1\n' +\
@@ -125,27 +124,53 @@ def create_mission2(stocks):
 		'				decline\n'
 	stock_template = '\n' +\
 		'			label "stock loop %%"\n' +\
-		'			branch "notnull %%"\n' +\
-		'				"stock tendency %%" != 0\n' +\
+		'			branch "no streak is running %%"\n' +\
+		'				"stock streak %%" == 0\n' +\
+		'			label "a streak is running %%"\n' +\
 		'			action\n' +\
-		'				"stock tendency %%" = "roll: 3" - 1\n' +\
-		'			branch "stock loop %%"\n' +\
-		'			label "notnull %%"\n' +\
-		'			action\n' +\
+		'				"stock streak %%" -= 1\n' +\
 		'				"stock change %%" = "roll: 50" * "stock tendency %%"\n' +\
-		'			branch "positive %%"\n' +\
-		'				"stock value %%" + "stock change %%" >= 100\n' +\
+		'				"stock value %%" += "stock change %%"\n' +\
+		'				"stock value %%" >?= 100\n' +\
+		'			branch "check limits %%"\n' +\
+		'			label "no streak is running %%"\n' +\
+		'			branch "start streak %%"\n' +\
+		'				"roll: 5" == 1\n' +\
+		'			label "continue without streak %%"\n' +\
 		'			action\n' +\
-		'				"stock change %%" *= -1\n' +\
-		'			label "positive %%"\n' +\
+		'				"stock tendency %%" = 1 - 2 * "roll: 2"\n' +\
+		'				"stock change %%" = "roll: 50" * "stock tendency %%"\n' +\
+		'				"stock value %%" += "stock change %%"\n' +\
+		'				"stock value %%" >?= 100\n' +\
+		'			branch "check limits %%"\n' +\
+		'			label "start streak %%"\n' +\
 		'			action\n' +\
-		'				"stock value %%" += "stock change %%"\n'
+		'				"stock streak %%" = "roll: 7" + 1\n' +\
+		'				"stock tendency %%" = 1 - 2 * "roll: 2"\n' +\
+		'				"stock change %%" = "roll: 50" * "stock tendency %%"\n' +\
+		'				"stock value %%" += "stock change %%"\n' +\
+		'				"stock value %%" >?= 100\n' +\
+		'			label "check limits %%"\n' +\
+		'			branch "under 0 %%"\n' +\
+		'				"stock value %%" <= 0\n' +\
+		'			branch "over max %%"\n' +\
+		'				"stock value %%" >= 10000\n' +\
+		'			branch "end %%"\n' +\
+		'			label "under 0 %%"\n' +\
+		'			action\n' +\
+		'				"stock streak %%" = 5\n' +\
+		'				"stock tendency %%" = 1\n' +\
+		'			branch "end %%"\n' +\
+		'			label "over max %%"\n' +\
+		'			action\n' +\
+		'				"stock streak %%" = 5\n' +\
+		'				"stock tendency %%" = -1\n' +\
+		'			label "end %%"\n'
 	overview = '' +\
 		'			`You hold &[stock amount %%] "%%" stocks at &[stock value %%] credits each. Dividend(3%): &[dividend %%]`\n' +\
 		'				to display\n' +\
 		'					"stock amount %%" > 0\n'
 	tooffer = '		or\n'
-	tendencyroll = ''
 	stocktemplates = ''
 	dividends = ''
 	dividendsaddi = '				"stock dividends addi" = '
@@ -153,7 +178,6 @@ def create_mission2(stocks):
 	for i in range(0, len(stocks)):
 		splitted = stocks[i].split('|')
 		tooffer += '			"stock amount ' + splitted[0] + '" > 0\n'
-		tendencyroll += '				"stock tendency ' + splitted[0] + '" = "roll: 3" - 1\n'
 		stocktemplates += stock_template.replace('%%', splitted[0]).replace('%value%', splitted[1]) + '\n'
 		dividends += '				"dividend ' + splitted[0] + '" = "stock amount ' + splitted[0] + '" * "stock value ' + splitted[0] + '" / 100 * 3\n'
 		if i == len(stocks) -1:
@@ -162,7 +186,6 @@ def create_mission2(stocks):
 			dividendsaddi += '"dividend ' + splitted[0] + '" + '
 		setoverview += overview.replace('%%', splitted[0]).replace('%value%', splitted[1])
 	mission2 = mission2.replace('%tooffer%', tooffer)
-	mission2 = mission2.replace('%tendencyroll%', tendencyroll)
 	mission2 = mission2.replace('%stocktemplates%', stocktemplates)
 	mission2 = mission2.replace('%dividends%', dividends)
 	mission2 = mission2.replace('%dividendsaddi%', dividendsaddi)
@@ -178,7 +201,6 @@ def create_mission3(stocks, mission1, mission2, stuff):
 		'			branch "calculations end"\n' +\
 		'				"passed days" == 0\n' +\
 		'			action\n' +\
-		'%tendencyroll%' +\
 		'%stocktemplates%' +\
 		'			action\n' +\
 		'				"passed days" -= 1\n' +\
@@ -320,21 +342,48 @@ def create_mission3(stocks, mission1, mission2, stuff):
 		'					goto "line%%"\n'
 	stock_template = '\n' +\
 		'			label "stock loop %%"\n' +\
-		'			branch "notnull %%"\n' +\
-		'				"stock tendency %%" != 0\n' +\
+		'			branch "no streak is running %%"\n' +\
+		'				"stock streak %%" == 0\n' +\
+		'			label "a streak is running %%"\n' +\
 		'			action\n' +\
-		'				"stock tendency %%" = "roll: 3" - 1\n' +\
-		'			branch "stock loop %%"\n' +\
-		'			label "notnull %%"\n' +\
-		'			action\n' +\
+		'				"stock streak %%" -= 1\n' +\
 		'				"stock change %%" = "roll: 50" * "stock tendency %%"\n' +\
-		'			branch "positive %%"\n' +\
-		'				"stock value %%" + "stock change %%" >= 100\n' +\
+		'				"stock value %%" += "stock change %%"\n' +\
+		'				"stock value %%" >?= 100\n' +\
+		'			branch "check limits %%"\n' +\
+		'			label "no streak is running %%"\n' +\
+		'			branch "start streak %%"\n' +\
+		'				"roll: 5" == 1\n' +\
+		'			label "continue without streak %%"\n' +\
 		'			action\n' +\
-		'				"stock change %%" *= -1\n' +\
-		'			label "positive %%"\n' +\
+		'				"stock tendency %%" = 1 - 2 * "roll: 2"\n' +\
+		'				"stock change %%" = "roll: 50" * "stock tendency %%"\n' +\
+		'				"stock value %%" += "stock change %%"\n' +\
+		'				"stock value %%" >?= 100\n' +\
+		'			branch "check limits %%"\n' +\
+		'			label "start streak %%"\n' +\
 		'			action\n' +\
-		'				"stock value %%" += "stock change %%"\n'
+		'				"stock streak %%" = "roll: 7" + 1\n' +\
+		'				"stock tendency %%" = 1 - 2 * "roll: 2"\n' +\
+		'				"stock change %%" = "roll: 50" * "stock tendency %%"\n' +\
+		'				"stock value %%" += "stock change %%"\n' +\
+		'				"stock value %%" >?= 100\n' +\
+		'			label "check limits %%"\n' +\
+		'			branch "under 0 %%"\n' +\
+		'				"stock value %%" <= 0\n' +\
+		'			branch "over max %%"\n' +\
+		'				"stock value %%" >= 10000\n' +\
+		'			branch "end %%"\n' +\
+		'			label "under 0 %%"\n' +\
+		'			action\n' +\
+		'				"stock streak %%" = 5\n' +\
+		'				"stock tendency %%" = 1\n' +\
+		'			branch "end %%"\n' +\
+		'			label "over max %%"\n' +\
+		'			action\n' +\
+		'				"stock streak %%" = 5\n' +\
+		'				"stock tendency %%" = -1\n' +\
+		'			label "end %%"\n'
 	labelstocktemplate = '' +\
 		'			label "Buy 1000000 %%"\n' +\
 		'			action\n' +\
@@ -529,17 +578,14 @@ def create_mission3(stocks, mission1, mission2, stuff):
 		'\n' +\
 		'			label "sell stocks end %%"\n' +\
 		'			branch "Sell %%"\n'
-	showstocks = ''
 	choicestocks = ''
 	choicesinglestock = ''
 	labelstocks = ''
 	realselling = ''
-	tendencyroll = ''
 	stocktotalvalue = '				stocktotalvalue ='
 	stocktemplates = ''
 	for i in range(0, len(stocks)):
 		splitted = stocks[i].split('|')
-		tendencyroll += '				"stock tendency ' + splitted[0] + '" = "roll: 3" - 1\n'
 		stocktemplates += stock_template.replace('%%', splitted[0]).replace('%value%', splitted[1]) + '\n'
 		if i == len(stocks) - 1:
 			stocktotalvalue += ' "stock amount ' + splitted[0] + '" * "stock value ' + splitted[0] + '"\n'
@@ -550,7 +596,6 @@ def create_mission3(stocks, mission1, mission2, stuff):
 		choicesinglestock += choicesinglestocktemplate.replace('%%', splitted[0])
 		labelstocks += labelstocktemplate.replace('%%', splitted[0])
 		realselling += realsellingtemplate.replace('%%', splitted[0])
-	mission3calc = mission3calc.replace('%tendencyroll%', tendencyroll)
 	mission3calc = mission3calc.replace('%stocktemplates%', stocktemplates)
 	mission3stocks = mission3stocks.replace('%choicestocks%', choicestocks)
 	mission3stocks = mission3stocks.replace('%choicesinglestock%', choicesinglestock)
@@ -572,6 +617,7 @@ def create_mission3(stocks, mission1, mission2, stuff):
 
 
 if __name__ == "__main__":
+	# stockname, startvalue
 	stocks = ['Southbound Shipyards|1322',
 		'Lionheart Shipyards|976', 
 		'Megaparsec Shipyards|1110',
