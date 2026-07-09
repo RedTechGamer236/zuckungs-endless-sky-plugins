@@ -1,3 +1,4 @@
+2026-07-09 | update: ship.cores
 2026-07-08 | update: galactic.capital.investment
 2026-07-06 | update: ship.cores
 2026-07-05 | update: ship.cores

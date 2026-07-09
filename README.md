@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-07-09 | update: ship.cores<br>
 2026-07-08 | update: galactic.capital.investment<br>
 2026-07-06 | update: ship.cores<br>
 2026-07-05 | update: ship.cores<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-06-30 | update: ship.cores<br>
 2026-06-09 | update: combat.ai<br>
 2026-06-03 | update: paint.your.ships<br>
-2026-06-01 | update: boss.loot<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -5473,10 +5473,10 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/ship.cores.png" width="130" height="20">
 <img src="myplugins/ship.cores/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.2-ship.cores/ship.cores.zip) 
-<img src="https://img.shields.io/badge/v1.0.2-707070"> 
-<img src="https://img.shields.io/badge/445.77_kb-707070"> 
-<img src="https://img.shields.io/badge/2026--07--06-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.0.3-ship.cores/ship.cores.zip) 
+<img src="https://img.shields.io/badge/v1.0.3-707070"> 
+<img src="https://img.shields.io/badge/445.79_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--07--09-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=ship.cores-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/ship.cores/)
 [<img src="https://img.shields.io/badge/view_images_[4]-707070">](res/imagemd/ship.cores.md)<br>
@@ -5513,6 +5513,12 @@ To maximize compatibility with plugins and existing savegames, several hull-spec
 <br>
 
 Changelog:<br>
+
+<br>
+
+2026-07-09<br>
+
+fixed core remove problem because of negative attributes (reported by ulyssessword)<br>
 
 <br>
 
