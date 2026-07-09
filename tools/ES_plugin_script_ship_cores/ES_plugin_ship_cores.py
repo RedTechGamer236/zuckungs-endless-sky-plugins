@@ -120,7 +120,10 @@ def filter(objs, blacklist_attributes):
 					newattributes += '		"required crew" 1\n' # replace for hull
 				else:
 					attributes.append(line)
-					relevantattributes.append(line)
+					if ' -' in line:
+						newattributes += line + '\n'
+					else:
+						relevantattributes.append(line)
 			# get list with outfits
 			if line.startswith('	outfits'):
 				outfitsstart = True

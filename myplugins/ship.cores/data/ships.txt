@@ -219,8 +219,6 @@ outfit "Modified Osprey Core"
 	"required crew" 188
 	"bunks" 240
 	"fuel capacity" 625
-	"afterburner fuel" -.678
-	"afterburner heat" -30
 	"ramscoop" 6
 	description "Ship description:"
 
@@ -241,6 +239,8 @@ ship "Modified Osprey"
 		"outfit space" 2172
 		"weapon capacity" 851
 		"engine capacity" 499
+		"afterburner fuel" -.678
+		"afterburner heat" -30
 		weapon
 			"blast radius" 750
 			"shield damage" 7000
@@ -417,7 +417,6 @@ outfit "Shooting Star Core"
 	"spinal mount" 1
 	"crystal projector" 1
 	"shooting star" 2
-	"core crystal" -2
 	description "Ship description:"
 	description "This ship appears to be a hollowed-out asteroid filled with strange equipment. It is unclear what is creating the rays of light, but they must have something to do with how it moves without obvious engines."
 	description "	Its advanced properties also allow it to reject the influence of enemy Command Centers, nullifying their effect."
@@ -438,6 +437,7 @@ ship "Shooting Star"
 		"outfit space" 329
 		"weapon capacity" 156
 		"cargo space" 10
+		"core crystal" -2
 		weapon
 			"blast radius" 20000
 			"hull damage" 79999
@@ -3786,7 +3786,6 @@ outfit "Windjammer Core"
 	"bunks" 1
 	"cooling" 30
 	"overheat damage threshold" 0.66
-	"overheat damage rate" -0.06
 	"disabled recovery time" 720
 	"thrust" 44
 	"turn" 720
@@ -3815,6 +3814,7 @@ ship "Windjammer"
 		"cargo space" 150
 		"outfit space" 250
 		"weapon capacity" 30
+		"overheat damage rate" -0.06
 		weapon
 			"blast radius" 40
 			"shield damage" 400
@@ -3950,7 +3950,6 @@ outfit "Bluejacket Core"
 	"bunks" 1
 	"cooling" 30
 	"overheat damage threshold" 0.66
-	"overheat damage rate" -0.06
 	"disabled recovery time" 720
 	"thrust" 22
 	"turn" 1440
@@ -3980,6 +3979,7 @@ ship "Bluejacket"
 		"cargo space" 150
 		"outfit space" 250
 		"weapon capacity" 30
+		"overheat damage rate" -0.06
 		weapon
 			"blast radius" 100
 			"shield damage" 1000
@@ -4078,7 +4078,6 @@ outfit "Pollen Core"
 	"hull" 200
 	"bunks" 1
 	"cooling" 6
-	"overheat damage threshold" -0.33
 	"overheat damage rate" 0.3
 	"thrust" 3
 	"turn" 14
@@ -4102,6 +4101,7 @@ ship "Pollen"
 		"drag" .3
 		"heat dissipation" .99
 		"outfit space" 10
+		"overheat damage threshold" -0.33
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -4124,7 +4124,6 @@ outfit "Sprout Core"
 	"hull" 200
 	"bunks" 1
 	"cooling" 6
-	"overheat damage threshold" -0.33
 	"overheat damage rate" 0.3
 	"thrust" 3
 	"turn" 14
@@ -4148,6 +4147,7 @@ ship "Sprout"
 		"drag" .3
 		"heat dissipation" .99
 		"outfit space" 10
+		"overheat damage threshold" -0.33
 		weapon
 			"blast radius" 12
 			"shield damage" 120
@@ -4228,8 +4228,6 @@ outfit "Sasumata Core"
 	"bunks" 72
 	"fuel capacity" 700
 	"cloak" .05
-	"cloaked regen multiplier" -1
-	"cloaked repair multiplier" -1
 	"cloaking energy" 10
 	"cloaking fuel" .05
 	description "Ship description:"
@@ -4252,6 +4250,8 @@ ship "Sasumata"
 		"outfit space" 397
 		"weapon capacity" 122
 		"engine capacity" 126
+		"cloaked regen multiplier" -1
+		"cloaked repair multiplier" -1
 		weapon
 			"blast radius" 90
 			"shield damage" 900
@@ -6814,7 +6814,6 @@ outfit "Gypsum Core"
 	"bunks" 9
 	"fuel capacity" 600
 	"drill port" 1
-	"drill lock" -1
 	description "Ship description:"
 	description `To fuel their increasing need for materials, the Gegno designed a new ship class for the sole purpose of mining. The resulting platform, the Gypsum, is not much more than a flying drill with cargo containers, engines, and a bridge attached behind it, making it cost-efficient and easy to manufacture.`
 	description `	Because Gegno engines are not very powerful, the Gypsum has difficulty chasing faster-moving asteroids. In order to alleviate this problem without needing to massively increase the engine space on the ship, the Gegno have instead developed the powerful Excavator Drill, which can shred asteroids in a matter of seconds, meaning the Gypsum only needs to be near an asteroid for a mere moment in order to mine it.`
@@ -6838,6 +6837,7 @@ ship "Gypsum"
 		"outfit space" 240
 		"weapon capacity" 42
 		"engine capacity" 120
+		"drill lock" -1
 		weapon
 			"blast radius" 72
 			"shield damage" 320
@@ -21050,7 +21050,6 @@ outfit "Pug Arfecta Core"
 	"shield energy" 24
 	"hull repair rate" 5
 	"hull energy" 5
-	"cloaking fuel" -.15
 	"reverse thrust" 99
 	"reverse thrusting energy" 4.9
 	"reverse thrusting heat" 6.9
@@ -21073,6 +21072,7 @@ ship "Pug Arfecta"
 		"outfit space" 640
 		"weapon capacity" 390
 		"engine capacity" 220
+		"cloaking fuel" -.15
 		weapon
 			"blast radius" 320
 			"shield damage" 9000
