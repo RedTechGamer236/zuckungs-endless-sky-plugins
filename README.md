@@ -16,6 +16,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2026-07-10 | update: disable.spaceport.repeatables<br>
 2026-07-09 | update: ship.cores<br>
 2026-07-08 | update: galactic.capital.investment<br>
 2026-07-06 | update: ship.cores<br>
@@ -25,7 +26,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2026-06-30 | update: fleet.mercy<br>
 2026-06-30 | update: ship.cores<br>
 2026-06-09 | update: combat.ai<br>
-2026-06-03 | update: paint.your.ships<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -2192,10 +2192,10 @@ added icon.png<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/disable.spaceport.repeatables.png" width="130" height="20">
 <img src="myplugins/disable.spaceport.repeatables/icon.png" height="100">
 
-[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.1-disable.spaceport.repeatables/disable.spaceport.repeatables.zip) 
-<img src="https://img.shields.io/badge/v1.1.1-707070"> 
-<img src="https://img.shields.io/badge/20.57_kb-707070"> 
-<img src="https://img.shields.io/badge/2024--05--26-707070"> 
+[<img src="https://img.shields.io/badge/download_zip-707070">](https://github.com/zuckung/endless-sky-plugins/releases/download/v1.1.2-disable.spaceport.repeatables/disable.spaceport.repeatables.zip) 
+<img src="https://img.shields.io/badge/v1.1.2-707070"> 
+<img src="https://img.shields.io/badge/108.3_kb-707070"> 
+<img src="https://img.shields.io/badge/2026--07--10-707070"> 
 [<img src="https://img.shields.io/badge/older_versions-707070">](https://github.com/zuckung/endless-sky-plugins/releases?q=disable.spaceport.repeatables-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-707070">](https://github.com/zuckung/endless-sky-plugins/tree/main/myplugins/disable.spaceport.repeatables/)
 [<img src="https://img.shields.io/badge/view_images_[2]-707070">](res/imagemd/disable.spaceport.repeatables.md)<br>
@@ -2261,7 +2261,9 @@ Disables all spaceport repeatable missions. These missions annoy me. Removes the
 
 <li> "Republic Navy Advisory System [wildfire firefighters]" </li>
 
-<li> "Small Scale Delivery" (Kor Efret)<li>
+<li> "Small Scale Delivery" (Kor Efret) </li>
+
+<li> "Avgi: Aberrant Blockade" </li>
 
 </ul>
 
@@ -2273,9 +2275,9 @@ Changelog:<br>
 
 <br>
 
-unreleased<br>
+2026-07-11<br>
 
-disabled avgi on landinging defense missions<br>
+disabled avgi on landing defense mission<br>
 
 <br>
 
