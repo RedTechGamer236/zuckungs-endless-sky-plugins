@@ -14,7 +14,7 @@ Changelog:<br>
 2026-08-13<br>
 added 3 new label styles<br>
 undiscovered labels stay hidden now<br>
-active/deactive the human area borders<br>
+activate/deactivate the human area borders<br>
 better revert back to vanilla labels<br>
 instant labelchange while inside the job conversation<br>
 using a python script now, to easily add new style sets<br>

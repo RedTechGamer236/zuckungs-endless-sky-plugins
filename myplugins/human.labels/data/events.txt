@@ -1,13 +1,13 @@
 # 2 events for activating/deactivating human borders
 # 13 events for back to vanilla labels
-# 13 events for "Blue"
-# 13 events for "Darkgray"
-# 13 events for "Gray"
-# 13 events for "Green"
-# 13 events for "Orange"
-# 13 events for "Purple"
-# 13 events for "Red"
-# 13 events for "Yellow"
+# 13 events for "blue"
+# 13 events for "darkgray"
+# 13 events for "gray"
+# 13 events for "green"
+# 13 events for "orange"
+# 13 events for "purple"
+# 13 events for "red"
+# 13 events for "yellow"
 # 13 events for "AsteraWhite"
 # 13 events for "StarWars"
 # 13 events for "VerminRed"
@@ -153,708 +153,708 @@ event "change original successors"
 		sprite label/successors
 
 
-# color folder "Blue"
-event "change Blue"
+# color folder "blue"
+event "change blue"
 	galaxy "label deep"
 		pos -590 -260
-		sprite label/Blue/thedeep
+		sprite label/blue/thedeep
 	galaxy "label dirt belt"
 		pos -480 247
-		sprite "label/Blue/thedirtbelt"
+		sprite "label/blue/thedirtbelt"
 	galaxy "label rim"
 		pos -850 235
-		sprite label/Blue/therim
+		sprite label/blue/therim
 	galaxy "label south"
 		pos -600 470
-		sprite label/Blue/thesouth
+		sprite label/blue/thesouth
 	galaxy "label earth"
 		pos -350 70
-		sprite label/Blue/nearearth
+		sprite label/blue/nearearth
 	galaxy "label core"
 		pos -136 -10
-		sprite label/Blue/thecore
+		sprite label/blue/thecore
 	galaxy "label paradise"
 		pos -420 -110
-		sprite label/Blue/paradiseworlds
+		sprite label/blue/paradiseworlds
 	galaxy "label north"
 		pos -385 -460
-		sprite label/Blue/thenorth
-event "change Blue hai"
+		sprite label/blue/thenorth
+event "change blue hai"
 	galaxy "label hai"
 		pos 12 -538
-		sprite label/Blue/haispace
-event "change Blue waste"
+		sprite label/blue/haispace
+event "change blue waste"
 	galaxy "label waste"
 		pos 137 250
-		sprite label/Blue/theemberwaste
-event "change Blue graveyard"
+		sprite label/blue/theemberwaste
+event "change blue graveyard"
 	galaxy "label graveyard"
 		pos 132 589
-		sprite label/Blue/thegraveyard
-event "change Blue korath"
+		sprite label/blue/thegraveyard
+event "change blue korath"
 	galaxy "label korath"
 		pos 97 -370
-		sprite label/Blue/korathspace
-event "change Blue bunrodea"
+		sprite label/blue/korathspace
+event "change blue bunrodea"
 	galaxy "label bunrodea"
 		pos 328 -210
-		sprite label/Blue/bunrodeaspace
-event "change Blue gegno"
+		sprite label/blue/bunrodeaspace
+event "change blue gegno"
 	galaxy "label gegno"
 		pos 797 -492
-		sprite label/Blue/gegnospace
-event "change Blue umbral"
+		sprite label/blue/gegnospace
+event "change blue umbral"
 	galaxy "label umbral"
 		pos 1187 -564
-		sprite label/Blue/umbralreach
-event "change Blue wanderers"
+		sprite label/blue/umbralreach
+event "change blue wanderers"
 	galaxy "label wanderers"
 		pos -165 -738
-		sprite label/Blue/wandererspace
-event "change Blue incipias"
+		sprite label/blue/wandererspace
+event "change blue incipias"
 	galaxy "label incipias"
 		pos 342 -911
-		sprite label/Blue/incipiasspace
-event "change Blue coalition"
+		sprite label/blue/incipiasspace
+event "change blue coalition"
 	galaxy "label arachi"
 		pos -739 600
-		sprite label/Blue/arachi
+		sprite label/blue/arachi
 	galaxy "label kimek"
 		pos -1225 352
-		sprite label/Blue/kimek
+		sprite label/blue/kimek
 	galaxy "label saryds"
 		pos -976 625
-		sprite label/Blue/saryds
-event "change Blue avgi"
+		sprite label/blue/saryds
+event "change blue avgi"
 	galaxy "label outer limits"
 		pos -416 1283
-		sprite label/Blue/outerlimits
+		sprite label/blue/outerlimits
 	galaxy "label tangled shroud"
 		pos -203 1051
-		sprite label/Blue/tangledshroud
+		sprite label/blue/tangledshroud
 	galaxy "label twilight"
 		pos -521 850
-		sprite label/Blue/thetwilight
-event "change Blue successors"
+		sprite label/blue/thetwilight
+event "change blue successors"
 	galaxy "label successors"
 		pos -210 1404
-		sprite label/Blue/successorspace
+		sprite label/blue/successorspace
 
 
-# color folder "Darkgray"
-event "change Darkgray"
+# color folder "darkgray"
+event "change darkgray"
 	galaxy "label deep"
 		pos -590 -260
-		sprite label/Darkgray/thedeep
+		sprite label/darkgray/thedeep
 	galaxy "label dirt belt"
 		pos -480 247
-		sprite "label/Darkgray/thedirtbelt"
+		sprite "label/darkgray/thedirtbelt"
 	galaxy "label rim"
 		pos -850 235
-		sprite label/Darkgray/therim
+		sprite label/darkgray/therim
 	galaxy "label south"
 		pos -600 470
-		sprite label/Darkgray/thesouth
+		sprite label/darkgray/thesouth
 	galaxy "label earth"
 		pos -350 70
-		sprite label/Darkgray/nearearth
+		sprite label/darkgray/nearearth
 	galaxy "label core"
 		pos -136 -10
-		sprite label/Darkgray/thecore
+		sprite label/darkgray/thecore
 	galaxy "label paradise"
 		pos -420 -110
-		sprite label/Darkgray/paradiseworlds
+		sprite label/darkgray/paradiseworlds
 	galaxy "label north"
 		pos -385 -460
-		sprite label/Darkgray/thenorth
-event "change Darkgray hai"
+		sprite label/darkgray/thenorth
+event "change darkgray hai"
 	galaxy "label hai"
 		pos 12 -538
-		sprite label/Darkgray/haispace
-event "change Darkgray waste"
+		sprite label/darkgray/haispace
+event "change darkgray waste"
 	galaxy "label waste"
 		pos 137 250
-		sprite label/Darkgray/theemberwaste
-event "change Darkgray graveyard"
+		sprite label/darkgray/theemberwaste
+event "change darkgray graveyard"
 	galaxy "label graveyard"
 		pos 132 589
-		sprite label/Darkgray/thegraveyard
-event "change Darkgray korath"
+		sprite label/darkgray/thegraveyard
+event "change darkgray korath"
 	galaxy "label korath"
 		pos 97 -370
-		sprite label/Darkgray/korathspace
-event "change Darkgray bunrodea"
+		sprite label/darkgray/korathspace
+event "change darkgray bunrodea"
 	galaxy "label bunrodea"
 		pos 328 -210
-		sprite label/Darkgray/bunrodeaspace
-event "change Darkgray gegno"
+		sprite label/darkgray/bunrodeaspace
+event "change darkgray gegno"
 	galaxy "label gegno"
 		pos 797 -492
-		sprite label/Darkgray/gegnospace
-event "change Darkgray umbral"
+		sprite label/darkgray/gegnospace
+event "change darkgray umbral"
 	galaxy "label umbral"
 		pos 1187 -564
-		sprite label/Darkgray/umbralreach
-event "change Darkgray wanderers"
+		sprite label/darkgray/umbralreach
+event "change darkgray wanderers"
 	galaxy "label wanderers"
 		pos -165 -738
-		sprite label/Darkgray/wandererspace
-event "change Darkgray incipias"
+		sprite label/darkgray/wandererspace
+event "change darkgray incipias"
 	galaxy "label incipias"
 		pos 342 -911
-		sprite label/Darkgray/incipiasspace
-event "change Darkgray coalition"
+		sprite label/darkgray/incipiasspace
+event "change darkgray coalition"
 	galaxy "label arachi"
 		pos -739 600
-		sprite label/Darkgray/arachi
+		sprite label/darkgray/arachi
 	galaxy "label kimek"
 		pos -1225 352
-		sprite label/Darkgray/kimek
+		sprite label/darkgray/kimek
 	galaxy "label saryds"
 		pos -976 625
-		sprite label/Darkgray/saryds
-event "change Darkgray avgi"
+		sprite label/darkgray/saryds
+event "change darkgray avgi"
 	galaxy "label outer limits"
 		pos -416 1283
-		sprite label/Darkgray/outerlimits
+		sprite label/darkgray/outerlimits
 	galaxy "label tangled shroud"
 		pos -203 1051
-		sprite label/Darkgray/tangledshroud
+		sprite label/darkgray/tangledshroud
 	galaxy "label twilight"
 		pos -521 850
-		sprite label/Darkgray/thetwilight
-event "change Darkgray successors"
+		sprite label/darkgray/thetwilight
+event "change darkgray successors"
 	galaxy "label successors"
 		pos -210 1404
-		sprite label/Darkgray/successorspace
+		sprite label/darkgray/successorspace
 
 
-# color folder "Gray"
-event "change Gray"
+# color folder "gray"
+event "change gray"
 	galaxy "label deep"
 		pos -590 -260
-		sprite label/Gray/thedeep
+		sprite label/gray/thedeep
 	galaxy "label dirt belt"
 		pos -480 247
-		sprite "label/Gray/thedirtbelt"
+		sprite "label/gray/thedirtbelt"
 	galaxy "label rim"
 		pos -850 235
-		sprite label/Gray/therim
+		sprite label/gray/therim
 	galaxy "label south"
 		pos -600 470
-		sprite label/Gray/thesouth
+		sprite label/gray/thesouth
 	galaxy "label earth"
 		pos -350 70
-		sprite label/Gray/nearearth
+		sprite label/gray/nearearth
 	galaxy "label core"
 		pos -136 -10
-		sprite label/Gray/thecore
+		sprite label/gray/thecore
 	galaxy "label paradise"
 		pos -420 -110
-		sprite label/Gray/paradiseworlds
+		sprite label/gray/paradiseworlds
 	galaxy "label north"
 		pos -385 -460
-		sprite label/Gray/thenorth
-event "change Gray hai"
+		sprite label/gray/thenorth
+event "change gray hai"
 	galaxy "label hai"
 		pos 12 -538
-		sprite label/Gray/haispace
-event "change Gray waste"
+		sprite label/gray/haispace
+event "change gray waste"
 	galaxy "label waste"
 		pos 137 250
-		sprite label/Gray/theemberwaste
-event "change Gray graveyard"
+		sprite label/gray/theemberwaste
+event "change gray graveyard"
 	galaxy "label graveyard"
 		pos 132 589
-		sprite label/Gray/thegraveyard
-event "change Gray korath"
+		sprite label/gray/thegraveyard
+event "change gray korath"
 	galaxy "label korath"
 		pos 97 -370
-		sprite label/Gray/korathspace
-event "change Gray bunrodea"
+		sprite label/gray/korathspace
+event "change gray bunrodea"
 	galaxy "label bunrodea"
 		pos 328 -210
-		sprite label/Gray/bunrodeaspace
-event "change Gray gegno"
+		sprite label/gray/bunrodeaspace
+event "change gray gegno"
 	galaxy "label gegno"
 		pos 797 -492
-		sprite label/Gray/gegnospace
-event "change Gray umbral"
+		sprite label/gray/gegnospace
+event "change gray umbral"
 	galaxy "label umbral"
 		pos 1187 -564
-		sprite label/Gray/umbralreach
-event "change Gray wanderers"
+		sprite label/gray/umbralreach
+event "change gray wanderers"
 	galaxy "label wanderers"
 		pos -165 -738
-		sprite label/Gray/wandererspace
-event "change Gray incipias"
+		sprite label/gray/wandererspace
+event "change gray incipias"
 	galaxy "label incipias"
 		pos 342 -911
-		sprite label/Gray/incipiasspace
-event "change Gray coalition"
+		sprite label/gray/incipiasspace
+event "change gray coalition"
 	galaxy "label arachi"
 		pos -739 600
-		sprite label/Gray/arachi
+		sprite label/gray/arachi
 	galaxy "label kimek"
 		pos -1225 352
-		sprite label/Gray/kimek
+		sprite label/gray/kimek
 	galaxy "label saryds"
 		pos -976 625
-		sprite label/Gray/saryds
-event "change Gray avgi"
+		sprite label/gray/saryds
+event "change gray avgi"
 	galaxy "label outer limits"
 		pos -416 1283
-		sprite label/Gray/outerlimits
+		sprite label/gray/outerlimits
 	galaxy "label tangled shroud"
 		pos -203 1051
-		sprite label/Gray/tangledshroud
+		sprite label/gray/tangledshroud
 	galaxy "label twilight"
 		pos -521 850
-		sprite label/Gray/thetwilight
-event "change Gray successors"
+		sprite label/gray/thetwilight
+event "change gray successors"
 	galaxy "label successors"
 		pos -210 1404
-		sprite label/Gray/successorspace
+		sprite label/gray/successorspace
 
 
-# color folder "Green"
-event "change Green"
+# color folder "green"
+event "change green"
 	galaxy "label deep"
 		pos -590 -260
-		sprite label/Green/thedeep
+		sprite label/green/thedeep
 	galaxy "label dirt belt"
 		pos -480 247
-		sprite "label/Green/thedirtbelt"
+		sprite "label/green/thedirtbelt"
 	galaxy "label rim"
 		pos -850 235
-		sprite label/Green/therim
+		sprite label/green/therim
 	galaxy "label south"
 		pos -600 470
-		sprite label/Green/thesouth
+		sprite label/green/thesouth
 	galaxy "label earth"
 		pos -350 70
-		sprite label/Green/nearearth
+		sprite label/green/nearearth
 	galaxy "label core"
 		pos -136 -10
-		sprite label/Green/thecore
+		sprite label/green/thecore
 	galaxy "label paradise"
 		pos -420 -110
-		sprite label/Green/paradiseworlds
+		sprite label/green/paradiseworlds
 	galaxy "label north"
 		pos -385 -460
-		sprite label/Green/thenorth
-event "change Green hai"
+		sprite label/green/thenorth
+event "change green hai"
 	galaxy "label hai"
 		pos 12 -538
-		sprite label/Green/haispace
-event "change Green waste"
+		sprite label/green/haispace
+event "change green waste"
 	galaxy "label waste"
 		pos 137 250
-		sprite label/Green/theemberwaste
-event "change Green graveyard"
+		sprite label/green/theemberwaste
+event "change green graveyard"
 	galaxy "label graveyard"
 		pos 132 589
-		sprite label/Green/thegraveyard
-event "change Green korath"
+		sprite label/green/thegraveyard
+event "change green korath"
 	galaxy "label korath"
 		pos 97 -370
-		sprite label/Green/korathspace
-event "change Green bunrodea"
+		sprite label/green/korathspace
+event "change green bunrodea"
 	galaxy "label bunrodea"
 		pos 328 -210
-		sprite label/Green/bunrodeaspace
-event "change Green gegno"
+		sprite label/green/bunrodeaspace
+event "change green gegno"
 	galaxy "label gegno"
 		pos 797 -492
-		sprite label/Green/gegnospace
-event "change Green umbral"
+		sprite label/green/gegnospace
+event "change green umbral"
 	galaxy "label umbral"
 		pos 1187 -564
-		sprite label/Green/umbralreach
-event "change Green wanderers"
+		sprite label/green/umbralreach
+event "change green wanderers"
 	galaxy "label wanderers"
 		pos -165 -738
-		sprite label/Green/wandererspace
-event "change Green incipias"
+		sprite label/green/wandererspace
+event "change green incipias"
 	galaxy "label incipias"
 		pos 342 -911
-		sprite label/Green/incipiasspace
-event "change Green coalition"
+		sprite label/green/incipiasspace
+event "change green coalition"
 	galaxy "label arachi"
 		pos -739 600
-		sprite label/Green/arachi
+		sprite label/green/arachi
 	galaxy "label kimek"
 		pos -1225 352
-		sprite label/Green/kimek
+		sprite label/green/kimek
 	galaxy "label saryds"
 		pos -976 625
-		sprite label/Green/saryds
-event "change Green avgi"
+		sprite label/green/saryds
+event "change green avgi"
 	galaxy "label outer limits"
 		pos -416 1283
-		sprite label/Green/outerlimits
+		sprite label/green/outerlimits
 	galaxy "label tangled shroud"
 		pos -203 1051
-		sprite label/Green/tangledshroud
+		sprite label/green/tangledshroud
 	galaxy "label twilight"
 		pos -521 850
-		sprite label/Green/thetwilight
-event "change Green successors"
+		sprite label/green/thetwilight
+event "change green successors"
 	galaxy "label successors"
 		pos -210 1404
-		sprite label/Green/successorspace
+		sprite label/green/successorspace
 
 
-# color folder "Orange"
-event "change Orange"
+# color folder "orange"
+event "change orange"
 	galaxy "label deep"
 		pos -590 -260
-		sprite label/Orange/thedeep
+		sprite label/orange/thedeep
 	galaxy "label dirt belt"
 		pos -480 247
-		sprite "label/Orange/thedirtbelt"
+		sprite "label/orange/thedirtbelt"
 	galaxy "label rim"
 		pos -850 235
-		sprite label/Orange/therim
+		sprite label/orange/therim
 	galaxy "label south"
 		pos -600 470
-		sprite label/Orange/thesouth
+		sprite label/orange/thesouth
 	galaxy "label earth"
 		pos -350 70
-		sprite label/Orange/nearearth
+		sprite label/orange/nearearth
 	galaxy "label core"
 		pos -136 -10
-		sprite label/Orange/thecore
+		sprite label/orange/thecore
 	galaxy "label paradise"
 		pos -420 -110
-		sprite label/Orange/paradiseworlds
+		sprite label/orange/paradiseworlds
 	galaxy "label north"
 		pos -385 -460
-		sprite label/Orange/thenorth
-event "change Orange hai"
+		sprite label/orange/thenorth
+event "change orange hai"
 	galaxy "label hai"
 		pos 12 -538
-		sprite label/Orange/haispace
-event "change Orange waste"
+		sprite label/orange/haispace
+event "change orange waste"
 	galaxy "label waste"
 		pos 137 250
-		sprite label/Orange/theemberwaste
-event "change Orange graveyard"
+		sprite label/orange/theemberwaste
+event "change orange graveyard"
 	galaxy "label graveyard"
 		pos 132 589
-		sprite label/Orange/thegraveyard
-event "change Orange korath"
+		sprite label/orange/thegraveyard
+event "change orange korath"
 	galaxy "label korath"
 		pos 97 -370
-		sprite label/Orange/korathspace
-event "change Orange bunrodea"
+		sprite label/orange/korathspace
+event "change orange bunrodea"
 	galaxy "label bunrodea"
 		pos 328 -210
-		sprite label/Orange/bunrodeaspace
-event "change Orange gegno"
+		sprite label/orange/bunrodeaspace
+event "change orange gegno"
 	galaxy "label gegno"
 		pos 797 -492
-		sprite label/Orange/gegnospace
-event "change Orange umbral"
+		sprite label/orange/gegnospace
+event "change orange umbral"
 	galaxy "label umbral"
 		pos 1187 -564
-		sprite label/Orange/umbralreach
-event "change Orange wanderers"
+		sprite label/orange/umbralreach
+event "change orange wanderers"
 	galaxy "label wanderers"
 		pos -165 -738
-		sprite label/Orange/wandererspace
-event "change Orange incipias"
+		sprite label/orange/wandererspace
+event "change orange incipias"
 	galaxy "label incipias"
 		pos 342 -911
-		sprite label/Orange/incipiasspace
-event "change Orange coalition"
+		sprite label/orange/incipiasspace
+event "change orange coalition"
 	galaxy "label arachi"
 		pos -739 600
-		sprite label/Orange/arachi
+		sprite label/orange/arachi
 	galaxy "label kimek"
 		pos -1225 352
-		sprite label/Orange/kimek
+		sprite label/orange/kimek
 	galaxy "label saryds"
 		pos -976 625
-		sprite label/Orange/saryds
-event "change Orange avgi"
+		sprite label/orange/saryds
+event "change orange avgi"
 	galaxy "label outer limits"
 		pos -416 1283
-		sprite label/Orange/outerlimits
+		sprite label/orange/outerlimits
 	galaxy "label tangled shroud"
 		pos -203 1051
-		sprite label/Orange/tangledshroud
+		sprite label/orange/tangledshroud
 	galaxy "label twilight"
 		pos -521 850
-		sprite label/Orange/thetwilight
-event "change Orange successors"
+		sprite label/orange/thetwilight
+event "change orange successors"
 	galaxy "label successors"
 		pos -210 1404
-		sprite label/Orange/successorspace
+		sprite label/orange/successorspace
 
 
-# color folder "Purple"
-event "change Purple"
+# color folder "purple"
+event "change purple"
 	galaxy "label deep"
 		pos -590 -260
-		sprite label/Purple/thedeep
+		sprite label/purple/thedeep
 	galaxy "label dirt belt"
 		pos -480 247
-		sprite "label/Purple/thedirtbelt"
+		sprite "label/purple/thedirtbelt"
 	galaxy "label rim"
 		pos -850 235
-		sprite label/Purple/therim
+		sprite label/purple/therim
 	galaxy "label south"
 		pos -600 470
-		sprite label/Purple/thesouth
+		sprite label/purple/thesouth
 	galaxy "label earth"
 		pos -350 70
-		sprite label/Purple/nearearth
+		sprite label/purple/nearearth
 	galaxy "label core"
 		pos -136 -10
-		sprite label/Purple/thecore
+		sprite label/purple/thecore
 	galaxy "label paradise"
 		pos -420 -110
-		sprite label/Purple/paradiseworlds
+		sprite label/purple/paradiseworlds
 	galaxy "label north"
 		pos -385 -460
-		sprite label/Purple/thenorth
-event "change Purple hai"
+		sprite label/purple/thenorth
+event "change purple hai"
 	galaxy "label hai"
 		pos 12 -538
-		sprite label/Purple/haispace
-event "change Purple waste"
+		sprite label/purple/haispace
+event "change purple waste"
 	galaxy "label waste"
 		pos 137 250
-		sprite label/Purple/theemberwaste
-event "change Purple graveyard"
+		sprite label/purple/theemberwaste
+event "change purple graveyard"
 	galaxy "label graveyard"
 		pos 132 589
-		sprite label/Purple/thegraveyard
-event "change Purple korath"
+		sprite label/purple/thegraveyard
+event "change purple korath"
 	galaxy "label korath"
 		pos 97 -370
-		sprite label/Purple/korathspace
-event "change Purple bunrodea"
+		sprite label/purple/korathspace
+event "change purple bunrodea"
 	galaxy "label bunrodea"
 		pos 328 -210
-		sprite label/Purple/bunrodeaspace
-event "change Purple gegno"
+		sprite label/purple/bunrodeaspace
+event "change purple gegno"
 	galaxy "label gegno"
 		pos 797 -492
-		sprite label/Purple/gegnospace
-event "change Purple umbral"
+		sprite label/purple/gegnospace
+event "change purple umbral"
 	galaxy "label umbral"
 		pos 1187 -564
-		sprite label/Purple/umbralreach
-event "change Purple wanderers"
+		sprite label/purple/umbralreach
+event "change purple wanderers"
 	galaxy "label wanderers"
 		pos -165 -738
-		sprite label/Purple/wandererspace
-event "change Purple incipias"
+		sprite label/purple/wandererspace
+event "change purple incipias"
 	galaxy "label incipias"
 		pos 342 -911
-		sprite label/Purple/incipiasspace
-event "change Purple coalition"
+		sprite label/purple/incipiasspace
+event "change purple coalition"
 	galaxy "label arachi"
 		pos -739 600
-		sprite label/Purple/arachi
+		sprite label/purple/arachi
 	galaxy "label kimek"
 		pos -1225 352
-		sprite label/Purple/kimek
+		sprite label/purple/kimek
 	galaxy "label saryds"
 		pos -976 625
-		sprite label/Purple/saryds
-event "change Purple avgi"
+		sprite label/purple/saryds
+event "change purple avgi"
 	galaxy "label outer limits"
 		pos -416 1283
-		sprite label/Purple/outerlimits
+		sprite label/purple/outerlimits
 	galaxy "label tangled shroud"
 		pos -203 1051
-		sprite label/Purple/tangledshroud
+		sprite label/purple/tangledshroud
 	galaxy "label twilight"
 		pos -521 850
-		sprite label/Purple/thetwilight
-event "change Purple successors"
+		sprite label/purple/thetwilight
+event "change purple successors"
 	galaxy "label successors"
 		pos -210 1404
-		sprite label/Purple/successorspace
+		sprite label/purple/successorspace
 
 
-# color folder "Red"
-event "change Red"
+# color folder "red"
+event "change red"
 	galaxy "label deep"
 		pos -590 -260
-		sprite label/Red/thedeep
+		sprite label/red/thedeep
 	galaxy "label dirt belt"
 		pos -480 247
-		sprite "label/Red/thedirtbelt"
+		sprite "label/red/thedirtbelt"
 	galaxy "label rim"
 		pos -850 235
-		sprite label/Red/therim
+		sprite label/red/therim
 	galaxy "label south"
 		pos -600 470
-		sprite label/Red/thesouth
+		sprite label/red/thesouth
 	galaxy "label earth"
 		pos -350 70
-		sprite label/Red/nearearth
+		sprite label/red/nearearth
 	galaxy "label core"
 		pos -136 -10
-		sprite label/Red/thecore
+		sprite label/red/thecore
 	galaxy "label paradise"
 		pos -420 -110
-		sprite label/Red/paradiseworlds
+		sprite label/red/paradiseworlds
 	galaxy "label north"
 		pos -385 -460
-		sprite label/Red/thenorth
-event "change Red hai"
+		sprite label/red/thenorth
+event "change red hai"
 	galaxy "label hai"
 		pos 12 -538
-		sprite label/Red/haispace
-event "change Red waste"
+		sprite label/red/haispace
+event "change red waste"
 	galaxy "label waste"
 		pos 137 250
-		sprite label/Red/theemberwaste
-event "change Red graveyard"
+		sprite label/red/theemberwaste
+event "change red graveyard"
 	galaxy "label graveyard"
 		pos 132 589
-		sprite label/Red/thegraveyard
-event "change Red korath"
+		sprite label/red/thegraveyard
+event "change red korath"
 	galaxy "label korath"
 		pos 97 -370
-		sprite label/Red/korathspace
-event "change Red bunrodea"
+		sprite label/red/korathspace
+event "change red bunrodea"
 	galaxy "label bunrodea"
 		pos 328 -210
-		sprite label/Red/bunrodeaspace
-event "change Red gegno"
+		sprite label/red/bunrodeaspace
+event "change red gegno"
 	galaxy "label gegno"
 		pos 797 -492
-		sprite label/Red/gegnospace
-event "change Red umbral"
+		sprite label/red/gegnospace
+event "change red umbral"
 	galaxy "label umbral"
 		pos 1187 -564
-		sprite label/Red/umbralreach
-event "change Red wanderers"
+		sprite label/red/umbralreach
+event "change red wanderers"
 	galaxy "label wanderers"
 		pos -165 -738
-		sprite label/Red/wandererspace
-event "change Red incipias"
+		sprite label/red/wandererspace
+event "change red incipias"
 	galaxy "label incipias"
 		pos 342 -911
-		sprite label/Red/incipiasspace
-event "change Red coalition"
+		sprite label/red/incipiasspace
+event "change red coalition"
 	galaxy "label arachi"
 		pos -739 600
-		sprite label/Red/arachi
+		sprite label/red/arachi
 	galaxy "label kimek"
 		pos -1225 352
-		sprite label/Red/kimek
+		sprite label/red/kimek
 	galaxy "label saryds"
 		pos -976 625
-		sprite label/Red/saryds
-event "change Red avgi"
+		sprite label/red/saryds
+event "change red avgi"
 	galaxy "label outer limits"
 		pos -416 1283
-		sprite label/Red/outerlimits
+		sprite label/red/outerlimits
 	galaxy "label tangled shroud"
 		pos -203 1051
-		sprite label/Red/tangledshroud
+		sprite label/red/tangledshroud
 	galaxy "label twilight"
 		pos -521 850
-		sprite label/Red/thetwilight
-event "change Red successors"
+		sprite label/red/thetwilight
+event "change red successors"
 	galaxy "label successors"
 		pos -210 1404
-		sprite label/Red/successorspace
+		sprite label/red/successorspace
 
 
-# color folder "Yellow"
-event "change Yellow"
+# color folder "yellow"
+event "change yellow"
 	galaxy "label deep"
 		pos -590 -260
-		sprite label/Yellow/thedeep
+		sprite label/yellow/thedeep
 	galaxy "label dirt belt"
 		pos -480 247
-		sprite "label/Yellow/thedirtbelt"
+		sprite "label/yellow/thedirtbelt"
 	galaxy "label rim"
 		pos -850 235
-		sprite label/Yellow/therim
+		sprite label/yellow/therim
 	galaxy "label south"
 		pos -600 470
-		sprite label/Yellow/thesouth
+		sprite label/yellow/thesouth
 	galaxy "label earth"
 		pos -350 70
-		sprite label/Yellow/nearearth
+		sprite label/yellow/nearearth
 	galaxy "label core"
 		pos -136 -10
-		sprite label/Yellow/thecore
+		sprite label/yellow/thecore
 	galaxy "label paradise"
 		pos -420 -110
-		sprite label/Yellow/paradiseworlds
+		sprite label/yellow/paradiseworlds
 	galaxy "label north"
 		pos -385 -460
-		sprite label/Yellow/thenorth
-event "change Yellow hai"
+		sprite label/yellow/thenorth
+event "change yellow hai"
 	galaxy "label hai"
 		pos 12 -538
-		sprite label/Yellow/haispace
-event "change Yellow waste"
+		sprite label/yellow/haispace
+event "change yellow waste"
 	galaxy "label waste"
 		pos 137 250
-		sprite label/Yellow/theemberwaste
-event "change Yellow graveyard"
+		sprite label/yellow/theemberwaste
+event "change yellow graveyard"
 	galaxy "label graveyard"
 		pos 132 589
-		sprite label/Yellow/thegraveyard
-event "change Yellow korath"
+		sprite label/yellow/thegraveyard
+event "change yellow korath"
 	galaxy "label korath"
 		pos 97 -370
-		sprite label/Yellow/korathspace
-event "change Yellow bunrodea"
+		sprite label/yellow/korathspace
+event "change yellow bunrodea"
 	galaxy "label bunrodea"
 		pos 328 -210
-		sprite label/Yellow/bunrodeaspace
-event "change Yellow gegno"
+		sprite label/yellow/bunrodeaspace
+event "change yellow gegno"
 	galaxy "label gegno"
 		pos 797 -492
-		sprite label/Yellow/gegnospace
-event "change Yellow umbral"
+		sprite label/yellow/gegnospace
+event "change yellow umbral"
 	galaxy "label umbral"
 		pos 1187 -564
-		sprite label/Yellow/umbralreach
-event "change Yellow wanderers"
+		sprite label/yellow/umbralreach
+event "change yellow wanderers"
 	galaxy "label wanderers"
 		pos -165 -738
-		sprite label/Yellow/wandererspace
-event "change Yellow incipias"
+		sprite label/yellow/wandererspace
+event "change yellow incipias"
 	galaxy "label incipias"
 		pos 342 -911
-		sprite label/Yellow/incipiasspace
-event "change Yellow coalition"
+		sprite label/yellow/incipiasspace
+event "change yellow coalition"
 	galaxy "label arachi"
 		pos -739 600
-		sprite label/Yellow/arachi
+		sprite label/yellow/arachi
 	galaxy "label kimek"
 		pos -1225 352
-		sprite label/Yellow/kimek
+		sprite label/yellow/kimek
 	galaxy "label saryds"
 		pos -976 625
-		sprite label/Yellow/saryds
-event "change Yellow avgi"
+		sprite label/yellow/saryds
+event "change yellow avgi"
 	galaxy "label outer limits"
 		pos -416 1283
-		sprite label/Yellow/outerlimits
+		sprite label/yellow/outerlimits
 	galaxy "label tangled shroud"
 		pos -203 1051
-		sprite label/Yellow/tangledshroud
+		sprite label/yellow/tangledshroud
 	galaxy "label twilight"
 		pos -521 850
-		sprite label/Yellow/thetwilight
-event "change Yellow successors"
+		sprite label/yellow/thetwilight
+event "change yellow successors"
 	galaxy "label successors"
 		pos -210 1404
-		sprite label/Yellow/successorspace
+		sprite label/yellow/successorspace
 
 
 # color folder "AsteraWhite"
