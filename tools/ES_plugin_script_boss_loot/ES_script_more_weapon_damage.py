@@ -7,8 +7,8 @@ def setup():
 	print('setting global variables')
 	global data_folder, image_folder
 	global damage_increase, price_increase, rarity, ranks, upgrades
-	data_folder = 'C:/Users/woot/AppData/Local/ESLauncher2/instances/release/data/' # change to your folder
-	image_folder = 'C:/Users/woot/AppData/Local/ESLauncher2/instances/release/images/' # change to your folder
+	data_folder = 'D:/games/Endless Sky/data/' # change to your folder
+	image_folder = 'D:/games/Endless Sky/images/' # change to your folder
 	damage_increase = [1.33, 1.66, 2] # weapon damages * damage_increase
 	price_increase = [1.33, 1.66, 2]
 	rarity = ['(T1)', '(T2)', '(T3)'] # name changes
@@ -250,9 +250,9 @@ def create_mission():
 		target.writelines('\tsource "dun_station_01"\n')
 		target.writelines('\tto offer\n')
 		target.writelines('\t\tor\n')
-		target.writelines('\t\t\thas "outfit (flagship installed): Nanite Swarm Blue"\n')
-		target.writelines('\t\t\thas "outfit (flagship installed): Nanite Swarm Purple"\n')
-		target.writelines('\t\t\thas "outfit (flagship installed): Nanite Swarm Orange"\n')
+		target.writelines('\t\t\t"outfit (flagship installed): Nanite Swarm Blue" > 0\n')
+		target.writelines('\t\t\t"outfit (flagship installed): Nanite Swarm Purple" > 0\n')
+		target.writelines('\t\t\t"outfit (flagship installed): Nanite Swarm Orange" > 0\n')
 		target.writelines('\ton accept\n')
 		target.writelines('\t\tconversation\n')
 		target.writelines('\t\t\tlabel start\n')
@@ -276,7 +276,7 @@ def create_mission():
 				target.writelines('\t\t\t\t\t\thas `' + weapon.replace('outfit', 'outfit (flagship installed):').replace('`', '') + '`\n')
 			else:
 				target.writelines('\t\t\t\t\t\thas "' + weapon.replace('outfit', 'outfit (flagship installed):').replace('"','') + '"\n')
-				target.writelines('\t\t\t\t\t\thas "' + upgrades[0].replace('outfit', 'outfit (flagship installed):').replace('"', '') + '"\n')
+				target.writelines('\t\t\t\t\t\t"' + upgrades[0].replace('outfit', 'outfit (flagship installed):').replace('"', '') + '" > 0\n')
 			target.writelines('\t\t\t\t\tgoto ' + weapon.replace('outfit ', '') + '\n')
 		# first upgrade weapons
 		for weapon in weapons1:
@@ -287,7 +287,7 @@ def create_mission():
 				target.writelines('\t\t\t\t\t\thas `' + weapon.replace('outfit', 'outfit (flagship installed):').replace('`', '') + '`\n')
 			else:
 				target.writelines('\t\t\t\t\t\thas "' + weapon.replace('outfit', 'outfit (flagship installed):').replace('"','') + '"\n')
-				target.writelines('\t\t\t\t\t\thas "' + upgrades[1].replace('outfit', 'outfit (flagship installed):').replace('"', '') + '"\n')
+				target.writelines('\t\t\t\t\t\t"' + upgrades[1].replace('outfit', 'outfit (flagship installed):').replace('"', '') + '" > 0\n')
 			target.writelines('\t\t\t\t\tgoto ' + weapon.replace('outfit ', '') + '\n')
 		# second upgrade weapons
 		for weapon in weapons2:
@@ -298,7 +298,7 @@ def create_mission():
 				target.writelines('\t\t\t\t\t\thas `' + weapon.replace('outfit', 'outfit (flagship installed):').replace('`', '') + '`\n')
 			else:
 				target.writelines('\t\t\t\t\t\thas "' + weapon.replace('outfit', 'outfit (flagship installed):').replace('"','') + '"\n')
-				target.writelines('\t\t\t\t\t\thas "' + upgrades[2].replace('outfit', 'outfit (flagship installed):').replace('"', '') + '"\n')
+				target.writelines('\t\t\t\t\t\t"' + upgrades[2].replace('outfit', 'outfit (flagship installed):').replace('"', '') + '" > 0\n')
 			target.writelines('\t\t\t\t\tgoto ' + weapon.replace('outfit ', '') + '\n')
 		# end choice
 		target.writelines('\t\t\t\t`\tcancel`\n')

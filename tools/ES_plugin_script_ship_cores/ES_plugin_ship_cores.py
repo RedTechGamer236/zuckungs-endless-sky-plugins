@@ -118,6 +118,16 @@ def filter(objs, blacklist_attributes):
 						continue
 					relevantattributes.append(line) # for outfit
 					newattributes += '		"required crew" 1\n' # replace for hull
+				elif line.startswith('		"bunks"'):
+					attributes.append(line) # original attribute
+					bunks = int(line.strip().replace('"bunks" ', ''))
+					if bunks > 1:
+						reqbunks = '		"bunks" ' + str(int(line.strip().replace('"bunks" ', ''))-1) # string, bunks -1
+						line = reqbunks
+					else:
+						continue
+					relevantattributes.append(line) # for outfit
+					newattributes += '		"bunks" 1\n' # replace for hull
 				else:
 					attributes.append(line)
 					if ' -' in line:
@@ -255,7 +265,7 @@ def create_outfitters(cores, objs):
 def run():
 	data_folder = 'd:/games/endless sky/data/'
 	objs, obj_paths, obj_names = read_everything(data_folder)
-	blacklist_attributes = ['		category ', '		licenses', '			', '		weapon', '		"drag"', '		"outfit space"', '		"weapon capacity"', '		"engine capacity"', '		"cargo space"', '		"heat dissipation"', '		"mass"']
+	blacklist_attributes = ['		category ', '		licenses', '			', '		weapon', '		"drag"', '		"outfit space"', '		"weapon capacity"', '		"engine capacity"', '		"cargo space"', '		"heat dissipation"', '		"mass"', '		"hull"']
 	cores = filter(objs, blacklist_attributes)
 	create_outfitters(cores, objs)
 
