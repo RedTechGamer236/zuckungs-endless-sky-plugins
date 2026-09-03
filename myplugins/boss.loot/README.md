@@ -15,8 +15,8 @@ This plugin is intended to be experienced like a typical RPG dungeon. You face t
 <br>
 Changelog:<br>
 <br>
-unreleased<br>
-fixxed unlimited upgrades when swarm amount is negative(reported by Mernom)<br>
+2026-09-03<br>
+fixed unlimited upgrades when swarm amount is negative(reported by Mernom)<br>
 <br>
 2026-06-01<br>
 removed lone pixels in images<br>
